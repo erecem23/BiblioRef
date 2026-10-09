@@ -18,6 +18,8 @@ from typing import Any, Iterator
 import pypdfium2 as pdfium
 from pypdfium2 import raw
 
+from biblioref.ingestion.pdfium_lock import PDFIUM_LOCK
+
 
 @dataclass(frozen=True)
 class PdfiumMatrix:
@@ -74,23 +76,25 @@ class _PdfiumPixmap:
     def tobytes(self, output: str = "png") -> bytes:
         if str(output).lower() != "png":
             raise ValueError("The PDFium compatibility renderer only emits PNG")
-        bitmap = self._page.render(
-            scale=self._scale,
-            force_bitmap_format=raw.FPDFBitmap_BGR,
-            rev_byteorder=True,
-        )
-        try:
-            return _rgb_bitmap_png(bitmap)
-        finally:
-            bitmap.close()
+        with PDFIUM_LOCK:
+            bitmap = self._page.render(
+                scale=self._scale,
+                force_bitmap_format=raw.FPDFBitmap_BGR,
+                rev_byteorder=True,
+            )
+            try:
+                return _rgb_bitmap_png(bitmap)
+            finally:
+                bitmap.close()
 
 
 class PdfiumPage:
     def __init__(self, document: "PdfiumDocument", index: int):
         self._document = document
         self._index = int(index)
-        self._page = document._pdf[self._index]
-        width, height = self._page.get_size()
+        with PDFIUM_LOCK:
+            self._page = document._pdf[self._index]
+            width, height = self._page.get_size()
         self.rect = _Rect(float(width), float(height))
         self._text_cache: str | None = None
         self._dict_cache: dict[str, Any] | None = None
@@ -100,11 +104,12 @@ class PdfiumPage:
         normalized = str(mode or "text").lower()
         if normalized == "text":
             if self._text_cache is None:
-                textpage = self._page.get_textpage()
-                try:
-                    self._text_cache = str(textpage.get_text_range() or "")
-                finally:
-                    textpage.close()
+                with PDFIUM_LOCK:
+                    textpage = self._page.get_textpage()
+                    try:
+                        self._text_cache = str(textpage.get_text_range() or "")
+                    finally:
+                        textpage.close()
             return self._text_cache
         if normalized != "dict":
             raise ValueError(f"Unsupported PDFium text mode: {mode!r}")
@@ -112,13 +117,14 @@ class PdfiumPage:
             # Import lazily to avoid a module cycle during legacy-engine setup.
             from biblioref.ingestion.pdfium_backend import _page_fragments
 
-            textpage = self._page.get_textpage()
-            try:
-                fragments = _page_fragments(
-                    self._page, textpage, float(self.rect.height)
-                )
-            finally:
-                textpage.close()
+            with PDFIUM_LOCK:
+                textpage = self._page.get_textpage()
+                try:
+                    fragments = _page_fragments(
+                        self._page, textpage, float(self.rect.height)
+                    )
+                finally:
+                    textpage.close()
             fragments.sort(key=lambda item: (item["y0"], item["x0"]))
             blocks = []
             for item in fragments:
@@ -151,23 +157,27 @@ class PdfiumPage:
         if self._closed:
             return
         self._closed = True
-        self._page.close()
+        with PDFIUM_LOCK:
+            self._page.close()
 
 
 class PdfiumDocument:
     def __init__(self, path: str | Path):
-        self._pdf = pdfium.PdfDocument(str(path))
+        with PDFIUM_LOCK:
+            self._pdf = pdfium.PdfDocument(str(path))
         self._pages: list[PdfiumPage] = []
         self._closed = False
 
     @property
     def page_count(self) -> int:
-        return len(self._pdf)
+        with PDFIUM_LOCK:
+            return len(self._pdf)
 
     @property
     def metadata(self) -> dict[str, Any]:
         try:
-            raw_metadata = self._pdf.get_metadata_dict() or {}
+            with PDFIUM_LOCK:
+                raw_metadata = self._pdf.get_metadata_dict() or {}
         except Exception:
             raw_metadata = {}
         return {
@@ -205,7 +215,8 @@ class PdfiumDocument:
             except Exception:
                 pass
         self._pages.clear()
-        self._pdf.close()
+        with PDFIUM_LOCK:
+            self._pdf.close()
 
     def __enter__(self) -> "PdfiumDocument":
         return self

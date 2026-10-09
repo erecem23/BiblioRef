@@ -17,6 +17,7 @@ from typing import List, Tuple
 import pypdfium2 as pdfium
 from pypdfium2 import raw
 
+from biblioref.ingestion.pdfium_lock import PDFIUM_LOCK
 from biblioref.legacy.engine import LayoutLine
 
 
@@ -475,6 +476,16 @@ def _extract_layout_lines_pdfium_uncached(
     end_page: int | None,
     y_tolerance: float,
 ) -> tuple[LayoutLine, ...]:
+    with PDFIUM_LOCK:
+        return _extract_layout_lines_pdfium_unlocked(pdf_path, start_page, end_page, y_tolerance)
+
+
+def _extract_layout_lines_pdfium_unlocked(
+    pdf_path: str,
+    start_page: int,
+    end_page: int | None,
+    y_tolerance: float,
+) -> tuple[LayoutLine, ...]:
     pdf = pdfium.PdfDocument(str(pdf_path))
     try:
         page_count = len(pdf)
@@ -563,23 +574,25 @@ def clear_pdfium_layout_line_cache() -> None:
 
 
 def pdf_page_count_pdfium(pdf_path: str | Path) -> int:
-    pdf = pdfium.PdfDocument(str(pdf_path))
-    try:
-        return len(pdf)
-    finally:
-        pdf.close()
+    with PDFIUM_LOCK:
+        pdf = pdfium.PdfDocument(str(pdf_path))
+        try:
+            return len(pdf)
+        finally:
+            pdf.close()
 
 
 def page_dimensions_pdfium(pdf_path: str | Path, page_number: int) -> Tuple[float, float]:
-    pdf = pdfium.PdfDocument(str(pdf_path))
-    try:
-        if not 1 <= page_number <= len(pdf):
-            raise ValueError("Página fuera de rango.")
-        page = pdf[page_number - 1]
+    with PDFIUM_LOCK:
+        pdf = pdfium.PdfDocument(str(pdf_path))
         try:
-            width, height = page.get_size()
-            return float(width), float(height)
+            if not 1 <= page_number <= len(pdf):
+                raise ValueError("Página fuera de rango.")
+            page = pdf[page_number - 1]
+            try:
+                width, height = page.get_size()
+                return float(width), float(height)
+            finally:
+                page.close()
         finally:
-            page.close()
-    finally:
-        pdf.close()
+            pdf.close()
