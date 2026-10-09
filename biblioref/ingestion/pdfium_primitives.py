@@ -52,8 +52,12 @@ def _rgb_bitmap_png(bitmap) -> bytes:
         raise ValueError(
             f"Unexpected PDFium bitmap geometry: {width}x{height}, {channels} channels"
         )
-    source = bytes(bitmap.buffer)
-    row_bytes = width * channels
+    return _rgb_buffer_png(width, height, stride, bytes(bitmap.buffer))
+
+
+def _rgb_buffer_png(width: int, height: int, stride: int, source: bytes) -> bytes:
+    """Encode raw 8-bit RGB rows (``stride`` bytes apart) as PNG."""
+    row_bytes = width * 3
     scanlines = bytearray()
     for row in range(height):
         start = row * stride
@@ -231,9 +235,97 @@ def open_pdfium_document(path: str | Path, *args, **kwargs) -> PdfiumDocument:
     return PdfiumDocument(path)
 
 
+_MARK_RGB = (180, 83, 9)  # --warn #b45309, as in the PyMuPDF renderer
+_MARK_FILL_OPACITY = 0.08
+
+
+def _draw_mark(buffer: bytearray, width: int, height: int, stride: int,
+               left: int, top: int, right: int, bottom: int, line: int) -> None:
+    """Tint a box and outline it with a 3-on/2-off dashed border, in place."""
+    left, right = max(0, left), min(width - 1, right)
+    top, bottom = max(0, top), min(height - 1, bottom)
+    if right <= left or bottom <= top:
+        return
+    dash_on, dash_off = 3 * line, 2 * line
+    keep = 1 - _MARK_FILL_OPACITY
+    tint = [round(channel * _MARK_FILL_OPACITY) for channel in _MARK_RGB]
+    for y in range(top, bottom + 1):
+        row = y * stride
+        for x in range(left, right + 1):
+            i = row + x * 3
+            buffer[i] = round(buffer[i] * keep) + tint[0]
+            buffer[i + 1] = round(buffer[i + 1] * keep) + tint[1]
+            buffer[i + 2] = round(buffer[i + 2] * keep) + tint[2]
+    colour = bytes(_MARK_RGB)
+
+    def paint(x: int, y: int) -> None:
+        i = y * stride + x * 3
+        buffer[i:i + 3] = colour
+
+    for offset in range(line):
+        for x in range(left, right + 1):
+            if (x - left) % (dash_on + dash_off) < dash_on:
+                paint(x, min(bottom, top + offset))
+                paint(x, max(top, bottom - offset))
+        for y in range(top, bottom + 1):
+            if (y - top) % (dash_on + dash_off) < dash_on:
+                paint(min(right, left + offset), y)
+                paint(max(left, right - offset), y)
+
+
+def render_band_png_pdfium(
+    pdf_path: str | Path,
+    page_number: int,
+    top: float,
+    bottom: float,
+    zoom: float = 1.6,
+    mark: tuple[float, float] | None = None,
+) -> bytes:
+    """PDFium version of ``render_band_png``: a horizontal strip of the text column."""
+    scale = max(0.01, float(zoom))
+    with PDFIUM_LOCK:
+        with PdfiumDocument(pdf_path) as document:
+            if not 1 <= page_number <= document.page_count:
+                raise ValueError("Página fuera de rango.")
+            page = document[page_number - 1]
+            width, height = float(page.rect.width), float(page.rect.height)
+            top = max(0.0, min(float(top), height - 2))
+            bottom = max(top + 8.0, min(float(bottom), height))
+            blocks = page.get_text("dict")["blocks"]
+            x0 = max(0.0, min((block["bbox"][0] for block in blocks), default=width * 0.1) - 6)
+            x1 = min(width, max((block["bbox"][2] for block in blocks), default=width * 0.9) + 6)
+            if x1 - x0 < 40:
+                x0, x1 = 0.0, width
+            bitmap = page._page.render(
+                scale=scale,
+                crop=(x0, height - bottom, width - x1, top),
+                force_bitmap_format=raw.FPDFBitmap_BGR,
+                rev_byteorder=True,
+            )
+            try:
+                pixel_width, pixel_height = int(bitmap.width), int(bitmap.height)
+                stride, channels = int(bitmap.stride), int(bitmap.n_channels)
+                buffer = bytearray(bytes(bitmap.buffer))
+            finally:
+                bitmap.close()
+    if channels != 3:
+        raise ValueError(f"Unexpected PDFium bitmap channels: {channels}")
+    if mark:
+        m0, m1 = max(top, float(mark[0])), min(bottom, float(mark[1]))
+        if m1 > m0:
+            _draw_mark(
+                buffer, pixel_width, pixel_height, stride,
+                left=round(1.5 * scale), top=round((m0 - top) * scale),
+                right=round((x1 - x0 - 1.5) * scale), bottom=round((m1 - top) * scale),
+                line=max(1, round(1.1 * scale)),
+            )
+    return _rgb_buffer_png(pixel_width, pixel_height, stride, bytes(buffer))
+
+
 __all__ = [
     "PdfiumDocument",
     "PdfiumMatrix",
     "PdfiumPage",
     "open_pdfium_document",
+    "render_band_png_pdfium",
 ]

@@ -264,6 +264,10 @@ def render_band_png(
     clamping at the edges of a page would otherwise move the paragraph inside the
     strip without the browser knowing by how much.
     """
+    if active_pdf_backend() == "pdfium":
+        from biblioref.ingestion.pdfium_primitives import render_band_png_pdfium
+
+        return render_band_png_pdfium(pdf_path, page_number, top, bottom, zoom=zoom, mark=mark)
     with pymupdf.open(pdf_path) as doc:
         if not 1 <= page_number <= doc.page_count:
             raise ValueError("Página fuera de rango.")
