@@ -1,0 +1,104 @@
+{
+  "baseline": "BiblioRef v0.9.6 APP v2.6.8 parser v0.9",
+  "release": "BiblioRef v0.9.7 APP v2.6.8 parser v0.9",
+  "files": [
+    {
+      "file": "biblioref_v0_4.py",
+      "baseline_sha256": "6bde3c4eae6e358af6bb0d8d1279641fac4590f6cb822b7aabd8e6ad7549551a",
+      "release_sha256": "6bde3c4eae6e358af6bb0d8d1279641fac4590f6cb822b7aabd8e6ad7549551a",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_boundary.py",
+      "baseline_sha256": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+      "release_sha256": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_decorations.py",
+      "baseline_sha256": "a416a7ea7b944f3eb6b3d437ce03d2241aa702c0f71ff67b64fe23f4a0956f34",
+      "release_sha256": "a416a7ea7b944f3eb6b3d437ce03d2241aa702c0f71ff67b64fe23f4a0956f34",
+      "identical": true
+    },
+    {
+      "file": "biblioref_paragraph_flow.py",
+      "baseline_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "release_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "identical": true
+    },
+    {
+      "file": "biblioref/pipeline.py",
+      "baseline_sha256": "41b6862411a14f0247564ad59b6c2c0504e2102e8bb828a1aaa82dfbd2ccfa8b",
+      "release_sha256": "41b6862411a14f0247564ad59b6c2c0504e2102e8bb828a1aaa82dfbd2ccfa8b",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/fallback.py",
+      "baseline_sha256": "f313fd10ccbc9900e55c0ffc3d84999a8f097d93b697c83b2b17a8ff9ec5ef68",
+      "release_sha256": "f313fd10ccbc9900e55c0ffc3d84999a8f097d93b697c83b2b17a8ff9ec5ef68",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/repair.py",
+      "baseline_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "release_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/resegmentation.py",
+      "baseline_sha256": "0959f8a4562af064bbeda46f91fc5c3ad62e0b3f9e2dd436eb87c4a8a7faea34",
+      "release_sha256": "0959f8a4562af064bbeda46f91fc5c3ad62e0b3f9e2dd436eb87c4a8a7faea34",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/effective_repairs.py",
+      "baseline_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "release_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/numeric_rescue.py",
+      "baseline_sha256": "dbd5f9844957435674c05c4464d9765142e668e6a4a46add063dd453a704abaf",
+      "release_sha256": "dbd5f9844957435674c05c4464d9765142e668e6a4a46add063dd453a704abaf",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/structural_reconciliation.py",
+      "baseline_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "release_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "identical": true
+    },
+    {
+      "file": "biblioref/adaptive/discovery.py",
+      "baseline_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "release_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "identical": true
+    },
+    {
+      "file": "biblioref/adaptive/verification.py",
+      "baseline_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "release_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "identical": true
+    },
+    {
+      "file": "biblioref/audit/coverage.py",
+      "baseline_sha256": "3ee9fab5f2e3181f87bd9b15328062b3b32fca671fd83c6547ce34eb4cc3532e",
+      "release_sha256": "3ee9fab5f2e3181f87bd9b15328062b3b32fca671fd83c6547ce34eb4cc3532e",
+      "identical": true
+    }
+  ],
+  "all_identical": true,
+  "deliberately_changed": [
+    {
+      "file": "biblioref_v0_2.py",
+      "release_sha256": "8683e68c23773f113b27cb2453b48d7539c1ca9147d470baaf1de306d6d775fa",
+      "identical": false
+    },
+    {
+      "file": "biblioref/core/config.py",
+      "release_sha256": "082ba8432488f6a18f13cb362a1fd74ce00ddc8a0667e61d5beb392f50acb402",
+      "identical": false
+    }
+  ],
+  "note": "v0.9.7 changes two character classes in biblioref_v0_2.py (heading numbering separator and numeric marker terminator) plus the version constants. Every zone-detection, segmentation, boundary, rescue and audit module listed in \"files\" is byte-identical to the v0.9.6 release."
+}

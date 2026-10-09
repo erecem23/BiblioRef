@@ -1,0 +1,93 @@
+{
+  "parser_version": "biblioref-parser-v0.2",
+  "status": "development_candidate",
+  "full_development": {
+    "dataset": "development_29470_v2",
+    "n": 29470,
+    "runtime_seconds": 18.835,
+    "invariants_v01_to_v02": {
+      "year": {
+        "identical": 29470,
+        "n": 29470,
+        "pct": 100.0
+      },
+      "title": {
+        "identical": 29470,
+        "n": 29470,
+        "pct": 100.0
+      },
+      "doi": {
+        "identical": 29470,
+        "n": 29470,
+        "pct": 100.0
+      }
+    },
+    "author_strict_norm_pct": {
+      "v0.1": 71.33,
+      "v0.2": 72.1,
+      "note": "development corpus canonical author is known to contain normalization noise"
+    },
+    "journal": {
+      "v0.1": {
+        "n_gold": 16686,
+        "coverage_pct": 44.23,
+        "exact_pct": 36.96,
+        "fuzzy90_pct": 39.26
+      },
+      "v0.2": {
+        "n_gold": 16686,
+        "coverage_pct": 82.63,
+        "exact_pct": 75.19,
+        "fuzzy90_pct": 76.79
+      }
+    },
+    "type_high_accuracy_pct": {
+      "v0.1": 68.71,
+      "v0.2": 82.93
+    },
+    "type_detailed_v02_accuracy_pct": 76.75,
+    "publisher": {
+      "accepted_v2_target_n": 7814,
+      "v0.1_gold_name_contained_in_source_pct": 88.35,
+      "v0.2_isolated_exact_pct": 93.59,
+      "v0.2_coverage_on_target_pct": 95.3,
+      "v0.2_coverage_all_v2_monographic_pct": 75.3,
+      "warning": "target is development pipeline v2, not external gold"
+    }
+  },
+  "seed_development": {
+    "dataset": "seed_120_unconfirmed",
+    "n": 120,
+    "warning": "confirmado_humano is not validated; development only",
+    "invariants": {
+      "year": 120,
+      "title": 120,
+      "doi": 120
+    },
+    "author_strict_norm_pct": {
+      "v0.1": 67.5,
+      "v0.2": 67.5
+    },
+    "journal": {
+      "v0.1": {
+        "coverage_pct": 46.67,
+        "fuzzy90_pct": 46.67
+      },
+      "v0.2": {
+        "coverage_pct": 83.33,
+        "fuzzy90_pct": 80.0
+      },
+      "n_gold": 30
+    },
+    "type_high_accuracy_pct": {
+      "v0.1": 70.83,
+      "v0.2": 80.0
+    },
+    "publisher": {
+      "n_gold": 23,
+      "v0.1_gold_contained_pct": 95.65,
+      "v0.2_isolated_exact_pct": 95.65,
+      "v0.2_coverage_pct": 95.65
+    }
+  }
+}

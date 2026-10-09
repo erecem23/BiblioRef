@@ -1,0 +1,602 @@
+[
+  {
+    "case": "helsinki_schiestl_aalto",
+    "institution": "University of Helsinki",
+    "country": "Finland",
+    "area": "Forest science",
+    "style": "author-year + DOI/URL",
+    "url": "https://helda.helsinki.fi/server/api/core/bitstreams/4e013cd4-10ac-4304-916c-ae38456cb1e8/content",
+    "source_ref": "turn178108view0",
+    "lines": [
+      [
+        34,
+        "Antonova G.F., Stasova V.V. 1993. Effects of environmental factors on wood formation in"
+      ],
+      [
+        34,
+        "Scots pine stems. Trees 7: 214-219. http://dx.doi.org/10.1007/BF00202076"
+      ],
+      [
+        34,
+        "Atkin OK., Tjoelker MG. 2003. Thermal acclimation and the dynamic response of plant"
+      ],
+      [
+        34,
+        "respiration to temperature. Trends in Plant Science 8: 343-351."
+      ],
+      [
+        34,
+        "http://dx.doi.org/10.1016/S1360-1385(03)00136-5"
+      ],
+      [
+        34,
+        "Babst F., Poulter, B., Trouet V., Tan K., Neuwirth B., Wilson R., Carrer M., Grabner M.,"
+      ],
+      [
+        34,
+        "Tegel W., Levanic T., Panayotov M., Urbinati C., Bouriaud O., Ciais P., Frank D. 2013."
+      ],
+      [
+        34,
+        "Site- and species-specific responses of forest growth to climate across the European"
+      ],
+      [
+        34,
+        "continent. Global Ecology and Biogeography 22: 706-717."
+      ],
+      [
+        34,
+        "http://dx.doi.org/10.1111/geb.12023"
+      ],
+      [
+        34,
+        "Babst, F., Bouriaud, O., Papale, D., Gielen, B., Janssens, I. A., Nikinmaa, E., Ibrom, A., Wu,"
+      ],
+      [
+        34,
+        "J., Bernhofer, C., Koestner, B., Gruenwald, T., Seufert, G., Ciais, P., Frank, D. 2014."
+      ],
+      [
+        34,
+        "Above-ground woody carbon sequestration measured from tree rings is coherent with net"
+      ],
+      [
+        34,
+        "ecosystem productivity at five eddycovariance sites. New Phytol 201: 1289–1303."
+      ],
+      [
+        34,
+        "https://doi.org/10.1111/nph.12589"
+      ],
+      [
+        34,
+        "Bagherzadeh A., Brumme R., Beese F. 2008. Temperature dependence of nitrogen"
+      ],
+      [
+        34,
+        "mineralization and microbial status in OH horizon of a temperate forest ecosystem."
+      ],
+      [
+        34,
+        "Journal of Forestry Research 19: 37-43. https://doi.org/10.1007/s11676-008-0006-7"
+      ],
+      [
+        34,
+        "Bergh J., Linder S., Lundmark T., Elfving B. 1999. The effect of water and nutrient"
+      ],
+      [
+        34,
+        "availability on the productivity of Norway spruce in northern and southern Sweden."
+      ],
+      [
+        34,
+        "Forest ecology and management 119: 51-62. http://dx.doi.org/10.1016/S0378-"
+      ],
+      [
+        34,
+        "1127(98)00509-X"
+      ],
+      [
+        34,
+        "Böttcher K., Aurela M., Kervinen M., Markkanen T., Mattila O.-P., Kolari P., Metsämäki S.,"
+      ],
+      [
+        34,
+        "Aalto T., Arslan A.N., Pulliainen J. 2014. MODIS time-series-derived indicators for the"
+      ],
+      [
+        34,
+        "beginning of the growing season in boreal coniferous forest- comparison with CO2 flux"
+      ],
+      [
+        34,
+        "measurements and phenological observations in Finland. Remote Sensing of"
+      ],
+      [
+        34,
+        "Environment 140: 625–638. http://dx.doi.org/10.1016/j.rse.2013.09.022"
+      ],
+      [
+        34,
+        "Bowen GD. 1970. Effects of soil temperature on root growth and on phosphate uptake along"
+      ],
+      [
+        34,
+        "Pinus radiata roots. Australian Journal of Soil Research 8: 31-42."
+      ],
+      [
+        34,
+        "http://dx.doi.org/10.1071/SR9700031"
+      ],
+      [
+        34,
+        "Caffarra A., Donnelly A. 2011. The ecological significance of phenology in four different"
+      ],
+      [
+        34,
+        "tree species: effects of light and temperature on bud burst. International Journal of"
+      ],
+      [
+        34,
+        "Biometeorology 55: 711-721. http://dx.doi.org/10.1007/s00484-010-0386-1"
+      ],
+      [
+        34,
+        "Cajander AK. 1926. The theory of forest types. Acta Forestalia Fennica 29: 1-108"
+      ],
+      [
+        35,
+        "Cannell, M.G.R., Smith R.I. 1983. Thermal time, chill days and prediction of budburst in"
+      ],
+      [
+        35,
+        "Picea sitchensis. Journal of Applied Ecology 20: 951–963."
+      ],
+      [
+        35,
+        "http://dx.doi.org/10.2307/2403139"
+      ],
+      [
+        35,
+        "Chuine I., Aitken SN., Ying CC. 2001. Temperature thresholds of shoot elongation in"
+      ],
+      [
+        35,
+        "provenances of Pinus contorta. Canadian Journal of Forest Research 31: 1444-1455"
+      ],
+      [
+        35,
+        "https://doi.org/10.1139/x01-072"
+      ]
+    ],
+    "gt": [
+      0,
+      2,
+      5,
+      10,
+      15,
+      18,
+      22,
+      27,
+      30,
+      33,
+      34,
+      37
+    ]
+  },
+  {
+    "case": "manchester_hoffman",
+    "institution": "University of Manchester",
+    "country": "United Kingdom",
+    "area": "Practical theology",
+    "style": "MLA-like + repeated author + URLs",
+    "url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/344859894/FULL_TEXT.PDF",
+    "source_ref": "turn178108view1",
+    "lines": [
+      [
+        178,
+        "Abu-Lughod, Janet L. New York, Chicago, Los Angeles: America’s Global Cities. U of"
+      ],
+      [
+        178,
+        "Minnesota P, 1999."
+      ],
+      [
+        178,
+        "Adams, J. Stuart. ‘Fairness for All in a Post-Obergefell World: The Utah Compromise"
+      ],
+      [
+        178,
+        "Model.’ The University of Illinois Law Review, vol. 2016, no. 4, 2016, 1651-1664."
+      ],
+      [
+        178,
+        "Alexander, Michelle. The New Jim Crow: Mass Incarceration in the Age of"
+      ],
+      [
+        178,
+        "Colorblindness. The New Press, 2012."
+      ],
+      [
+        178,
+        "Ampofo, Rose. ‘The Contribution of Women to Church Growth and Development in"
+      ],
+      [
+        178,
+        "Africa: The Case of the Presbyterian Church in Ghana.’ International Review of"
+      ],
+      [
+        178,
+        "Mission, vol. 87, no. 345, Apr. 1998, 233-239."
+      ],
+      [
+        178,
+        "Anderson, Allan. ‘Towards a Pentecostal Missiology for the Majority World.’ AJPS, vol."
+      ],
+      [
+        178,
+        "8, no. 1, 2005, 29-47."
+      ],
+      [
+        178,
+        "Archer, Kenneth J. A Pentecostal Hermeneutic: Spirit, Scripture and Community. CPT"
+      ],
+      [
+        178,
+        "Press, 2009."
+      ],
+      [
+        178,
+        "Arthur, Andrew. The Role of Biblical Theology in the Gospel-Centered, Expository"
+      ],
+      [
+        178,
+        "Preaching of Timothy Keller. 2011. New Orleans Baptist Theological Seminary,"
+      ],
+      [
+        178,
+        "PhD thesis."
+      ],
+      [
+        178,
+        "Bachelder, Kate. ‘God Isn’t Dead in Gotham.’ The Wall Street Journal, 20-21 Dec. 2014,"
+      ],
+      [
+        178,
+        "p. A13, online.wsj.com/public/resources/documents/print/WSJ_-A013-"
+      ],
+      [
+        178,
+        "20141220.pdf. Accessed 28 Mar. 2017."
+      ],
+      [
+        178,
+        "Baker, Christopher. The Hybrid Church in the City: Third Space Thinking. SCM Press,"
+      ],
+      [
+        178,
+        "2009."
+      ],
+      [
+        178,
+        "Bakke, Ray. A Theology as Big as the City. InterVarsity Press, 1997."
+      ],
+      [
+        178,
+        "---. The Urban Christian: Effective Ministry in Today’s Urban World. InterVarsity Press,"
+      ],
+      [
+        178,
+        "1987."
+      ],
+      [
+        178,
+        "Bakke, Ray, and Jon Sharpe. Street Signs: A New Direction in Urban Ministry. New Hope"
+      ],
+      [
+        178,
+        "Publishers, 2006."
+      ]
+    ],
+    "gt": [
+      0,
+      2,
+      4,
+      6,
+      9,
+      11,
+      13,
+      16,
+      19,
+      21,
+      22,
+      24
+    ]
+  },
+  {
+    "case": "warwick_cao",
+    "institution": "University of Warwick",
+    "country": "United Kingdom",
+    "area": "Higher education",
+    "style": "Harvard-like author-year",
+    "url": "https://wrap.warwick.ac.uk/id/eprint/145602/7/WRAP_Theses_Cao_2020.pdf",
+    "source_ref": "turn178108view2",
+    "lines": [
+      [
+        268,
+        "ACCI (Australian Chamber of Commerce & Industry) (2002) Employability skills – an"
+      ],
+      [
+        268,
+        "employer perspective: Getting what employers want out of the too hard"
+      ],
+      [
+        268,
+        "basket. Barton, ACT: Australian Chamber of Commerce & Industry."
+      ],
+      [
+        268,
+        "Alaszewski, A. (2006) Using diaries for social research. London: Sage."
+      ],
+      [
+        268,
+        "Aliaga, A. O. (2001) Human capital, HRD and the knowledge organization. In Aliaga,"
+      ],
+      [
+        268,
+        "O. A. ed. Academy of Human Resource Development 2001: Conference"
+      ],
+      [
+        268,
+        "Proceedings. Baton Rouge, LA: AHRD: 427-434."
+      ],
+      [
+        268,
+        "Alkire, S. (2002) Valuing freedoms: Sen’s capability approach and poverty reduction."
+      ],
+      [
+        268,
+        "Oxford: Oxford University Press."
+      ],
+      [
+        268,
+        "Altbach, P. G. (2004) Globalization and the university: Myths and realities in an"
+      ],
+      [
+        268,
+        "unequal world. Tertiary Education and Management, 10 (1): 3-25."
+      ],
+      [
+        268,
+        "Altheide, D. L. & Jognson, J. M. (2011) Reflections on interpretative adequacy in"
+      ],
+      [
+        268,
+        "qualitative research. In Denzin, N. & Lincoln, Y. eds. The Sage handbook for"
+      ],
+      [
+        268,
+        "qualitative research, 4th ed. London: Sage: 581-594."
+      ],
+      [
+        268,
+        "Arnett, J. J. (2014) Emerging adulthood: The winding road from the late teens"
+      ],
+      [
+        268,
+        "through the twenties. USA: Oxford University Press."
+      ],
+      [
+        268,
+        "Arthur, J. (2005) Introduction. In Arthur, J. & Bohlin, K. E. eds. Citizenship and higher"
+      ],
+      [
+        268,
+        "education: The role of universities in communities and societies. London and"
+      ],
+      [
+        268,
+        "New York: RoutledgeFalmer: 1-12."
+      ],
+      [
+        268,
+        "Ashley, D. & Jiang, Y. (2000) Mao’s children in the new China: Voices from the Red"
+      ],
+      [
+        268,
+        "Guard generation. Oxford: Routledge."
+      ],
+      [
+        268,
+        "Atkinson, D. (1997) A critical approach to critical thinking in TESOL. TESOL quarterly,"
+      ],
+      [
+        268,
+        "31 (1): 71-94."
+      ],
+      [
+        268,
+        "Badur, G. (2003) International students’ perspectives on their cross-cultural"
+      ],
+      [
+        268,
+        "adjustment to American higher education. PhD Thesis. Illinois State University."
+      ],
+      [
+        268,
+        "Bailey, C. (2005) “The UK lecturers don’t teach me anything”: Chinese students’"
+      ],
+      [
+        268,
+        "expectations of their teachers and implications for UK HE providers. In"
+      ],
+      [
+        268,
+        "Southampton Solent University (2005) Conference Proceedings: The Chinese"
+      ],
+      [
+        268,
+        "and South East Asian Learner: The Transition to UK Higher Education:"
+      ],
+      [
+        269,
+        "September 2005. Southampton: Southampton Solent University: 1-12."
+      ]
+    ],
+    "gt": [
+      0,
+      3,
+      4,
+      7,
+      9,
+      11,
+      14,
+      16,
+      19,
+      21,
+      23,
+      25
+    ]
+  },
+  {
+    "case": "bath_scheben",
+    "institution": "University of Bath",
+    "country": "United Kingdom",
+    "area": "Mathematics / neutron transport",
+    "style": "numbered bracket bibliography",
+    "url": "https://purehost.bath.ac.uk/ws/portalfiles/portal/187959299/UnivBath_PhD_2011_F.Scheben.pdf",
+    "source_ref": "turn178108view3",
+    "lines": [
+      [
+        164,
+        "[1] M. Abramowitz and I. A. Stegun, Handbook of Mathematical Functions with"
+      ],
+      [
+        164,
+        "Formulas, Graphs, and Mathematical Tables, Dover, New York, 1970."
+      ],
+      [
+        164,
+        "[2] M. L. Adams, “I have an idea!” An appreciation of Edward W. Larsen’s contri-"
+      ],
+      [
+        164,
+        "butions to particle transport, Annals of Nuclear Energy, 31 (2004), pp. 1963–1986."
+      ],
+      [
+        164,
+        "[3] M. L. Adams and E. W. Larsen, Fast iterative methods for discrete-ordinates"
+      ],
+      [
+        164,
+        "particle transport calculations, Progress in Nuclear Energy, 40 (2002), pp. 3–159."
+      ],
+      [
+        164,
+        "[4] E. J. Allen and R. M. Berry, The inverse power method for calculation of"
+      ],
+      [
+        164,
+        "multiplication factors, Annals of Nuclear Energy, 29 (2002), pp. 929–935."
+      ],
+      [
+        164,
+        "[5] M. Asadzadeh, Analysis of a fully discrete scheme for neutron transport in two-"
+      ],
+      [
+        164,
+        "dimensional geometry, SIAM Journal on Numerical Analysis, 23 (1986), pp. 543–"
+      ],
+      [
+        164,
+        "561."
+      ],
+      [
+        164,
+        "[6] , Lp and eigenvalue error estimates for the discrete ordinates methods for"
+      ],
+      [
+        164,
+        "two-dimensional neutron transport, SIAM Journal on Numerical Analysis., 26"
+      ],
+      [
+        164,
+        "(1989), pp. 66–87."
+      ],
+      [
+        164,
+        "[7] S. F. Ashby, P. N. Brown, M. R. Dorr, and A. C. Hindmarsh, A linear"
+      ],
+      [
+        164,
+        "algebraic analysis of diffusion synthetic acceleration for the Boltzmann transport"
+      ],
+      [
+        164,
+        "equation, SIAM Journal on Numerical Analysis, 32 (1995), pp. 128–178."
+      ],
+      [
+        164,
+        "[8] J. R. Askew, A characteristics formulation to the neutron transport equation in"
+      ],
+      [
+        164,
+        "complicated geometries, tech. report, UKAEA, Winfrith, 1972."
+      ],
+      [
+        164,
+        "[9] Z. Bai, J. Demmel, J. Dongarra, A. Ruhe, and H. A. van der Vorst,"
+      ],
+      [
+        164,
+        "Templates for the Solution of Algebraic Eigenvalue Problems: A Practical Guide,"
+      ],
+      [
+        164,
+        "2000."
+      ],
+      [
+        165,
+        "[10] D. J. Baker, K. A. Cliffe, P. Houston, and P. N. Smith, Development and"
+      ],
+      [
+        165,
+        "convergence of the long characteristic method for the two-dimensional neutron"
+      ],
+      [
+        165,
+        "transport equation. in preparation."
+      ],
+      [
+        165,
+        "[11] C. L. Barrett and E. W. Larsen, A variationally-based variance reduction"
+      ],
+      [
+        165,
+        "method for Monte Carlo neutron transport calculations, Annals of Nuclear Energy,"
+      ],
+      [
+        165,
+        "28 (2001), pp. 457–475."
+      ],
+      [
+        165,
+        "[12] G. I. Bell and S. Glasstone, Nuclear Reactor Theory, Reinhold, 1970."
+      ]
+    ],
+    "gt": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      11,
+      14,
+      17,
+      19,
+      22,
+      25,
+      28
+    ]
+  }
+]

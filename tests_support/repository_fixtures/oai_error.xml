@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:06Z</responseDate>
+  <request verb="ListRecords">https://example.org/oai/request</request>
+  <error code="noRecordsMatch">No matching records in this range.</error>
+</OAI-PMH>

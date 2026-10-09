@@ -1,0 +1,48 @@
+{
+  "parser": "biblioref-parser-v0.11",
+  "schema": 11,
+  "development_corpus": "Palma, Doctorado en Sociología, Universidad de Belgrano",
+  "n_references": 322,
+  "v10_field_nonnull": {
+    "author": 66,
+    "year": 321,
+    "title": 322,
+    "journal": 0,
+    "publisher": 60
+  },
+  "v11_field_nonnull": {
+    "author": 309,
+    "year": 292,
+    "title": 322,
+    "journal": 69,
+    "publisher": 132
+  },
+  "v10_types": {
+    "libro": 150,
+    "sin_clasificar": 103,
+    "material_web": 43,
+    "conference_paper": 13,
+    "documento_guia_manual": 5,
+    "tesis": 4,
+    "informe_documento": 4
+  },
+  "v11_types": {
+    "libro": 179,
+    "articulo_revista": 69,
+    "material_web": 38,
+    "conference_paper": 14,
+    "capitulo_libro": 10,
+    "documento_guia_manual": 6,
+    "sin_clasificar": 3,
+    "informe_documento": 2,
+    "tesis": 1
+  },
+  "historical_v10_development_rows": 190,
+  "historical_substantive_changes": 0,
+  "historical_changes": [],
+  "limitations": [
+    "Palma is development evidence, not independent validation for v0.11.",
+    "Type labels in Palma have not been exhaustively hand-annotated; counts are parser outputs, not ground truth accuracy.",
+    "Some complex corporate/multi-author and comma-rich titles remain candidates for manual review."
+  ]
+}

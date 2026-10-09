@@ -1,0 +1,86 @@
+[
+  {
+    "file": "biblioref_v0_4.py",
+    "expected_v02": "6bde3c4eae6e358af6bb0d8d1279641fac4590f6cb822b7aabd8e6ad7549551a",
+    "v03_release": "6bde3c4eae6e358af6bb0d8d1279641fac4590f6cb822b7aabd8e6ad7549551a",
+    "identical": true
+  },
+  {
+    "file": "biblioref_page_boundary.py",
+    "expected_v02": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+    "v03_release": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+    "identical": true
+  },
+  {
+    "file": "biblioref_page_decorations.py",
+    "expected_v02": "a416a7ea7b944f3eb6b3d437ce03d2241aa702c0f71ff67b64fe23f4a0956f34",
+    "v03_release": "a416a7ea7b944f3eb6b3d437ce03d2241aa702c0f71ff67b64fe23f4a0956f34",
+    "identical": true
+  },
+  {
+    "file": "biblioref_paragraph_flow.py",
+    "expected_v02": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+    "v03_release": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+    "identical": true
+  },
+  {
+    "file": "biblioref/pipeline.py",
+    "expected_v02": "41b6862411a14f0247564ad59b6c2c0504e2102e8bb828a1aaa82dfbd2ccfa8b",
+    "v03_release": "41b6862411a14f0247564ad59b6c2c0504e2102e8bb828a1aaa82dfbd2ccfa8b",
+    "identical": true
+  },
+  {
+    "file": "biblioref/detection/fallback.py",
+    "expected_v02": "f313fd10ccbc9900e55c0ffc3d84999a8f097d93b697c83b2b17a8ff9ec5ef68",
+    "v03_release": "f313fd10ccbc9900e55c0ffc3d84999a8f097d93b697c83b2b17a8ff9ec5ef68",
+    "identical": true
+  },
+  {
+    "file": "biblioref/detection/repair.py",
+    "expected_v02": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+    "v03_release": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+    "identical": true
+  },
+  {
+    "file": "biblioref/extraction/resegmentation.py",
+    "expected_v02": "0959f8a4562af064bbeda46f91fc5c3ad62e0b3f9e2dd436eb87c4a8a7faea34",
+    "v03_release": "0959f8a4562af064bbeda46f91fc5c3ad62e0b3f9e2dd436eb87c4a8a7faea34",
+    "identical": true
+  },
+  {
+    "file": "biblioref/extraction/effective_repairs.py",
+    "expected_v02": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+    "v03_release": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+    "identical": true
+  },
+  {
+    "file": "biblioref/extraction/numeric_rescue.py",
+    "expected_v02": "dbd5f9844957435674c05c4464d9765142e668e6a4a46add063dd453a704abaf",
+    "v03_release": "dbd5f9844957435674c05c4464d9765142e668e6a4a46add063dd453a704abaf",
+    "identical": true
+  },
+  {
+    "file": "biblioref/extraction/structural_reconciliation.py",
+    "expected_v02": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+    "v03_release": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+    "identical": true
+  },
+  {
+    "file": "biblioref/adaptive/discovery.py",
+    "expected_v02": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+    "v03_release": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+    "identical": true
+  },
+  {
+    "file": "biblioref/adaptive/verification.py",
+    "expected_v02": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+    "v03_release": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+    "identical": true
+  },
+  {
+    "file": "biblioref/audit/coverage.py",
+    "expected_v02": "3ee9fab5f2e3181f87bd9b15328062b3b32fca671fd83c6547ce34eb4cc3532e",
+    "v03_release": "3ee9fab5f2e3181f87bd9b15328062b3b32fca671fd83c6547ce34eb4cc3532e",
+    "identical": true
+  }
+]

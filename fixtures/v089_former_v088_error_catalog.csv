@@ -1,0 +1,24 @@
+case,institution,error,line_index,page,text,candidate_score,active_shadow_boundary,reasons,roles,style
+canterbury_phylogeography,University of Canterbury,FP,9,111,1993. Absolute chronology of the Pliocene-Quaternary sediment sequence of the,10.25,True,,,unnumbered author-year; long author lists; journal/book tails
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,1,59,"Blunt, J.W., et al., Marine natural products. Nat. Prod. Rep., 2010. 27(2): p. 165-",12.25,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,4,59,"Moen, F.E. and E. Svensen, Dyreliv i havet: nordeuropeisk marin fauna. 2004,",8.25,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,10,59,"Rinehart, K.L., et al., Ecteinascidins 729, 743, 745, 759A, 759B, and 770: potent",8.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,14,59,"Wright, A.E., et al., Antitumor tetrahydroisoquinoline alkaloids from the colonial",8.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,17,59,"Sakai, R., et al., Structure-Activity Relationships of the Didemnins. J. Med. Chem.,",12.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,20,59,"Urdiales, J.L., et al., Antiproliferative effect of dehydrodidemnin B (DDB), a",8.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,24,59,"Mayer, A.M.S. and V.K.B. Lehmann, Marine pharmacology in 1999: Antitumor",8.25,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,27,59,"Bugni, T.S., et al., Fractionated marine invertebrate extract libraries for drug",8.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,30,59,"Pavao, M.S.G., et al., Highly sulfated dermatan sulfates from ascidians. Structure",8.75,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,34,59,"Bhakuni, D.S. and D.S. Rawat, Bioactive Marine Natural Products. 2005,",8.25,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FP,37,59,"Madigan, M.T. and J.M. Martinko, Brock biology of microorganisms. 2006,",8.25,True,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,3,59,2.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,6,59,3.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,9,59,4.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,13,59,5.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,16,59,6.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,19,59,7.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,23,59,8.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,26,59,9.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,29,59,10.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,33,59,11.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like
+uit_marine_pharmacy,UiT The Arctic University of Norway (Munin),FN,36,59,12.,4.25,False,,,decimal-numbered; number on separate line; multiline Vancouver-like

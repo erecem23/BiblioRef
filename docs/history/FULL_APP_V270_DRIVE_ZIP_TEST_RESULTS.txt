@@ -1,0 +1,23 @@
+BiblioRef v0.9.8 + APP v2.7.0 + parser v0.11 candidate + StyleProfiler v0.1-shadow
+ZIP + Google Drive integration validation
+
+pytest -q
+536 passed, 3 skipped, 16 subtests passed in 3.77s
+
+Focused ingestion/integration tests:
+8 passed
+
+Real-PDF ZIP smoke test:
+- archive: 1 outer ZIP + 1 nested ZIP
+- PDFs imported: 2
+- pages per PDF: 47
+- provenance outer archive normalized to original filename
+- source: zip
+- nested archive chain preserved
+
+Google Drive:
+- client-secret validation tested
+- Drive item/shortcut semantics tested
+- folder listing/filtering tested against fake Drive service
+- runtime is read-only (drive.readonly)
+- live OAuth/download could not be executed in the isolated build container because Google client libraries/network are unavailable there; requirements and PyInstaller build scripts include the official Google Python client dependencies for the user build.

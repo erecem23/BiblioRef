@@ -1,0 +1,183 @@
+{
+  "evaluation": "parser_v0.3_strict_external_reserve",
+  "frozen_gold_sha256": "7ff4c1c6d8b9ad8b09925ab5b629ad6a61d45842d740e5af7252b0474fcd2d79",
+  "parser_v03_pre_reserve_sha256": "f0d62221105c4552c80ad1f6dff6014653070dcc22543fdf06c4239c2fde0b27",
+  "n_references": 20,
+  "n_theses": 2,
+  "theses": [
+    "UCL_BROWN_2024",
+    "UCL_PUGH_2024"
+  ],
+  "surrey_reserve_status": "unused_exact_thesis_text_unavailable",
+  "v0.2": {
+    "n": 20,
+    "author_exact": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "year_exact": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 20,
+      "correct": 18,
+      "pct": 90.0
+    },
+    "title_fuzzy90": {
+      "n": 20,
+      "correct": 18,
+      "pct": 90.0
+    },
+    "journal_exact": {
+      "n": 15,
+      "correct": 11,
+      "pct": 73.33
+    },
+    "journal_fuzzy90": {
+      "n": 15,
+      "correct": 11,
+      "pct": 73.33
+    },
+    "journal_coverage": {
+      "n": 15,
+      "covered": 14,
+      "pct": 93.33
+    },
+    "publication_type_exact": {
+      "n": 20,
+      "correct": 19,
+      "pct": 95.0
+    },
+    "publication_type_high": {
+      "n": 20,
+      "correct": 19,
+      "pct": 95.0
+    },
+    "publisher_exact": {
+      "n": 5,
+      "correct": 1,
+      "pct": 20.0
+    },
+    "publisher_coverage": {
+      "n": 5,
+      "covered": 3,
+      "pct": 60.0
+    },
+    "doi_exact": {
+      "n": 14,
+      "correct": 14,
+      "pct": 100.0
+    }
+  },
+  "v0.3": {
+    "n": 20,
+    "author_exact": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "year_exact": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 20,
+      "correct": 18,
+      "pct": 90.0
+    },
+    "title_fuzzy90": {
+      "n": 20,
+      "correct": 18,
+      "pct": 90.0
+    },
+    "journal_exact": {
+      "n": 15,
+      "correct": 14,
+      "pct": 93.33
+    },
+    "journal_fuzzy90": {
+      "n": 15,
+      "correct": 14,
+      "pct": 93.33
+    },
+    "journal_coverage": {
+      "n": 15,
+      "covered": 15,
+      "pct": 100.0
+    },
+    "publication_type_exact": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "publication_type_high": {
+      "n": 20,
+      "correct": 20,
+      "pct": 100.0
+    },
+    "publisher_exact": {
+      "n": 5,
+      "correct": 2,
+      "pct": 40.0
+    },
+    "publisher_coverage": {
+      "n": 5,
+      "covered": 4,
+      "pct": 80.0
+    },
+    "doi_exact": {
+      "n": 14,
+      "correct": 14,
+      "pct": 100.0
+    }
+  },
+  "paired": {
+    "author": {
+      "n": 20,
+      "improved_v02_wrong_v03_right": 0,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 20,
+      "both_wrong": 0
+    },
+    "title_fuzzy90": {
+      "n": 20,
+      "improved_v02_wrong_v03_right": 0,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 18,
+      "both_wrong": 2
+    },
+    "journal_fuzzy90": {
+      "n": 15,
+      "improved_v02_wrong_v03_right": 3,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 11,
+      "both_wrong": 1
+    },
+    "publication_type_exact": {
+      "n": 20,
+      "improved_v02_wrong_v03_right": 1,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 19,
+      "both_wrong": 0
+    },
+    "publisher_exact": {
+      "n": 5,
+      "improved_v02_wrong_v03_right": 1,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 1,
+      "both_wrong": 3
+    },
+    "doi": {
+      "n": 14,
+      "improved_v02_wrong_v03_right": 0,
+      "regressed_v02_right_v03_wrong": 0,
+      "both_right": 14,
+      "both_wrong": 0
+    }
+  },
+  "method_note": "Strict reserve gold frozen before parser execution. Parser v0.3 source hash was frozen and verified unchanged before evaluation."
+}

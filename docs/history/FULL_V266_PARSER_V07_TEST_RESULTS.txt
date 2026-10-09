@@ -1,0 +1,25 @@
+BiblioRef v0.9.6 + APP v2.6.6 + Parser v0.7
+Final verification
+Date: 2026-09-02
+
+pytest -q
+427 passed, 3 skipped, 16 subtests passed in 3.55s
+
+node --check static/app.js
+OK
+
+python -m py_compile app.py biblioref/interfaces/cli.py biblioref/parsing/v07.py
+OK
+
+Extraction core SHA-256 non-regression
+14/14 central extraction files byte-identical to BiblioRef v0.9.6 + APP v2.6.5 + Parser v0.6 baseline.
+See EXTRACTION_CORE_NONREGRESSION_SHA256.json.
+
+Parser v0.7 frozen SHA-256
+099f62a1346c6055b8c17720676d643027070d62a1a0ab2f5448ed94a36a91b3
+
+External holdout gold SHA-256
+863b1d3b03ff60ab9b4d9780d6d644fce52e665438d7e76c9a8f41bdf26099c8
+
+External holdout: 30 references from UFPE, UFSCar and UFC.
+No parser source changes after holdout evaluation.

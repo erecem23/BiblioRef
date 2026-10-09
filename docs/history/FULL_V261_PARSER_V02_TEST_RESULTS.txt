@@ -1,0 +1,25 @@
+BiblioRef v0.9.6 + APP v2.6.1 + parser v0.2
+Validation date: 2026-09-02
+
+Full automated suite:
+359 passed, 3 skipped, 16 subtests passed, 0 failed
+
+Static/runtime checks:
+node --check static/app.js: OK
+python -m py_compile app.py biblioref/parsing/v02.py biblioref/parsing/legacy.py biblioref/interfaces/cli.py: OK
+
+Extraction-core non-regression:
+14/14 registered core files have SHA-256 identical to the v0.9.6 baseline.
+
+Parser development evaluation (N=29,470; NOT external holdout):
+- year v0.1 -> v0.2 identical: 29,470/29,470 (100%)
+- title v0.1 -> v0.2 identical: 29,470/29,470 (100%)
+- DOI v0.1 -> v0.2 identical: 29,470/29,470 (100%)
+- first author strict normalized: 71.33% -> 72.10%
+- journal fuzzy >= .90: 39.26% -> 76.79%
+- journal coverage: 44.23% -> 82.63%
+- high-level document type: 68.71% -> 82.93%
+- publisher isolated exact on accepted v2 target: 93.59%
+- publisher coverage on accepted v2 target: 95.30%
+
+Seed 120 is development-only and remains unconfirmed human gold.

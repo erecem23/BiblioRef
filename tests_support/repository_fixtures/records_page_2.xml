@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:01Z</responseDate>
+  <request verb="ListRecords" resumptionToken="TOKEN-PAGE-2">https://example.org/oai/request</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:example.org:10915/1003</identifier>
+        <datestamp>2023-02-02T00:00:00Z</datestamp>
+        <setSpec>col_10915_25</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:title>Tesis sobre financiamiento científico</dc:title>
+          <dc:creator>Gómez, Ana</dc:creator>
+          <dc:date>2023</dc:date>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <resumptionToken completeListSize="3" cursor="2"></resumptionToken>
+  </ListRecords>
+</OAI-PMH>

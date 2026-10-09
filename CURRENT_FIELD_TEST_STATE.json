@@ -1,0 +1,25 @@
+{
+  "project": "BiblioRef",
+  "purpose": "real-world field testing with decoupled extraction, parsing and style profiling",
+  "software_version": "0.9.10-rc2",
+  "algorithm_version": "0.6.20",
+  "stable_engine_version": "0.4.5",
+  "app_version": "2.7.0",
+  "parser_version": "biblioref-parser-v0.12.8",
+  "parser_state": "development_candidate",
+  "styleprofiler_version": "biblioref-styleprofiler-v0.1-shadow",
+  "styleprofiler_state": "shadow",
+  "field_test_helper_schema": "biblioref-field-test-1",
+  "contracts": {
+    "parser_changes_boundaries": false,
+    "styleprofiler_mutates_extraction": false,
+    "styleprofiler_mutates_parser": false,
+    "field_test_helper_reparses": false,
+    "field_test_helper_reextracts": false
+  },
+  "ingestion": {
+    "zip": "zip-ingestion-0.1",
+    "google_drive": "google-drive-readonly-0.1",
+    "google_drive_scope": "drive.readonly"
+  }
+}

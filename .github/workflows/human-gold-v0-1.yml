@@ -1,0 +1,166 @@
+name: Human-gold v0.1 manual evaluation
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_sha:
+        description: Full 40-character candidate commit SHA to evaluate
+        required: true
+        type: string
+      pdf_artifact_run_id:
+        description: Workflow run containing the frozen source PDF artifact
+        required: true
+        default: "34917263890"
+        type: string
+      pdf_artifact_name:
+        description: Frozen source artifact name
+        required: true
+        default: human-gold-task7-frozen-sources
+        type: string
+      gold_path:
+        description: Path to completed human gold, relative to checkout or downloaded gold artifact
+        required: true
+        type: string
+      gold_artifact_run_id:
+        description: Optional workflow run containing completed human gold
+        required: false
+        default: ""
+        type: string
+      gold_artifact_name:
+        description: Optional completed-human-gold artifact name
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout frozen candidate
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.candidate_sha }}
+          fetch-depth: 0
+
+      - name: Verify exact candidate checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "${{ inputs.candidate_sha }}"
+          test -z "$(git status --porcelain --untracked-files=no)"
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-app.txt
+            requirements-pymupdf-compat.txt
+
+      - name: Install benchmark/runtime dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-pymupdf-compat.txt pytest pandas httpx2
+
+      - name: Download frozen source PDFs
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.pdf_artifact_name }}
+          run-id: ${{ inputs.pdf_artifact_run_id }}
+          github-token: ${{ github.token }}
+          path: _human_gold_source
+
+      - name: Download supplied human gold artifact
+        if: ${{ inputs.gold_artifact_run_id != '' && inputs.gold_artifact_name != '' }}
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.gold_artifact_name }}
+          run-id: ${{ inputs.gold_artifact_run_id }}
+          github-token: ${{ github.token }}
+          path: _human_gold_gold
+
+      - name: Verify frozen manifest and every selected PDF SHA
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+
+          checkout_manifest = Path('benchmarks/human_gold_v0_1/source_manifest.jsonl')
+          artifact_manifest = Path('_human_gold_source/benchmarks/human_gold_v0_1/source_manifest.jsonl')
+          pdf_cache = Path('_human_gold_source/task7_selected_pdf_cache')
+
+          def digest(path):
+              h = hashlib.sha256()
+              with path.open('rb') as stream:
+                  for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+                      h.update(chunk)
+              return h.hexdigest()
+
+          if not artifact_manifest.is_file():
+              raise SystemExit('frozen source artifact manifest missing')
+          if digest(checkout_manifest) != digest(artifact_manifest):
+              raise SystemExit('source artifact manifest SHA mismatch')
+          rows = [json.loads(line) for line in checkout_manifest.read_text(encoding='utf-8').splitlines() if line.strip()]
+          if len(rows) != 40:
+              raise SystemExit(f'expected 40 frozen non-pilot documents, found {len(rows)}')
+          expected_names = set()
+          for row in rows:
+              path = pdf_cache / f"{row['document_id']}.pdf"
+              if not path.is_file():
+                  raise SystemExit(f"cached PDF missing: {row['document_id']}")
+              actual = digest(path)
+              if actual.casefold() != row['sha256'].casefold():
+                  raise SystemExit(f"cached PDF SHA mismatch: {row['document_id']}")
+              expected_names.add(path.name)
+          actual_names = {path.name for path in pdf_cache.glob('*.pdf')}
+          if actual_names != expected_names:
+              raise SystemExit('frozen PDF cache membership mismatch')
+          print(f'verified {len(rows)} frozen PDFs')
+          PY
+
+      - name: Resolve supplied human gold path
+        id: gold
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "${{ inputs.gold_artifact_run_id }}" ]; then
+            GOLD_FILE="_human_gold_gold/${{ inputs.gold_path }}"
+          else
+            GOLD_FILE="${{ inputs.gold_path }}"
+          fi
+          case "$GOLD_FILE" in
+            /*|*".."*) echo "unsafe gold path" >&2; exit 1 ;;
+          esac
+          test -f "$GOLD_FILE"
+          echo "path=$GOLD_FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Validate completed human gold
+        run: >-
+          python -m tools.human_gold.validate_gold
+          --manifest benchmarks/human_gold_v0_1/source_manifest.jsonl
+          --gold "${{ steps.gold.outputs.path }}"
+          --exclusions benchmarks/human_gold_v0_1/exclusion_registry.jsonl
+
+      - name: Evaluate frozen candidate exactly once
+        run: >-
+          python -m tools.human_gold.evaluate
+          --manifest benchmarks/human_gold_v0_1/source_manifest.jsonl
+          --gold "${{ steps.gold.outputs.path }}"
+          --pdf-cache _human_gold_source/task7_selected_pdf_cache
+          --output-dir human_gold_results
+          --exclusions benchmarks/human_gold_v0_1/exclusion_registry.jsonl
+          --candidate-git-sha "${{ inputs.candidate_sha }}"
+
+      - name: Upload evaluation evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: human-gold-v0-1-${{ inputs.candidate_sha }}
+          if-no-files-found: error
+          retention-days: 90
+          path: human_gold_results/**

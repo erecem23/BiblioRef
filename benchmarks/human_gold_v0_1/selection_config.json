@@ -1,0 +1,16 @@
+{
+  "benchmark_version": "human_gold_v0_1",
+  "seed": 20260913,
+  "pilot_n": 6,
+  "primary_n": 32,
+  "stress_n": 8,
+  "max_primary_share_per_repository": 0.25,
+  "min_primary_repositories": 8,
+  "min_countries": 4,
+  "min_languages": 3,
+  "time_bands": [
+    {"name": "pre_2015", "max_year": 2014, "min_n": 8},
+    {"name": "2015_2020", "min_year": 2015, "max_year": 2020, "min_n": 8},
+    {"name": "2021_2026", "min_year": 2021, "max_year": 2026, "min_n": 8}
+  ]
+}

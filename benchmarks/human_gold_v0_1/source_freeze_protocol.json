@@ -1,0 +1,84 @@
+{
+  "schema_version": "human_gold_source_freeze_v0_1",
+  "benchmark_version": "human_gold_v0_1",
+  "selection_seed": 20260913,
+  "target_nonpilot": 40,
+  "pilot": {
+    "count": 6,
+    "manifest": "benchmarks/human_gold_v0_1/pilot/source_manifest.jsonl",
+    "manifest_sha256": "b6b88559155ec3388bec5b405a2e281deb4483319398359a37f7cfbd42a74f30",
+    "reserved_from_primary_and_stress": true
+  },
+  "partitions": {
+    "primary": 32,
+    "stress": 8
+  },
+  "initial_pool": {
+    "provider": "OpenAlex",
+    "metadata_seed": 20260913,
+    "query": "https://api.openalex.org/works?filter=from_publication_date:2000-01-01,open_access.is_oa:true,to_publication_date:2026-12-31,type:dissertation&sample=200&seed=20260913&per_page=200",
+    "snapshot": "benchmarks/human_gold_v0_1/pilot/openalex_snapshot.json",
+    "snapshot_sha256": "693dea4e110c8829c8ccae372accf76fa6735750593515979e4f74febc0c1b1d"
+  },
+  "expansions": [
+    {
+      "round": 1,
+      "provider": "OpenAlex",
+      "metadata_seed": 20260914,
+      "query": "https://api.openalex.org/works?filter=from_publication_date:2000-01-01,open_access.is_oa:true,to_publication_date:2026-12-31,type:dissertation&sample=200&seed=20260914&per_page=200",
+      "snapshot": "benchmarks/human_gold_v0_1/source_freeze/openalex_expansion_20260914.json",
+      "activate_only_if_accepted_pool_insufficient": true
+    }
+  ],
+  "eligibility": {
+    "full_thesis_only": true,
+    "allowed_evidence": ["repository_metadata", "filename", "declared_repository_relations"],
+    "fragment_without_declared_public_fulltext": "metadata_partial_bitstream",
+    "access_denied_statuses": [401, 403],
+    "access_denied_action": "reject_candidate_and_continue",
+    "server_error_after_retries": "http_server_error",
+    "html_as_pdf": "reject",
+    "development_overlap": "reject"
+  },
+  "acquisition": {
+    "independent_downloads_required": 2,
+    "identical_bytes_required": true,
+    "pdf_magic_required": "%PDF-",
+    "sha256_required": true,
+    "byte_size_required": true,
+    "pdfium_open_required": true,
+    "first_page_render_required": true,
+    "pdf_text_access_forbidden": true,
+    "biblioref_execution_forbidden": true,
+    "max_bytes": 262144000,
+    "retries": 3,
+    "timeout_seconds": 30,
+    "pdf_cache_git_ignored": true,
+    "candidate_order": "ascending_sha256(selection_seed|document_id)",
+    "expansion_activation": "activate only when accepted_so_far plus all unobserved initial candidates is below target_nonpilot, or when final composition remains infeasible after all initial candidates",
+    "post_expansion_order": "ascending_sha256(selection_seed|document_id) across the unobserved union of initial and expansion candidates"
+  },
+  "selection": {
+    "primary_max_per_repository": 8,
+    "primary_min_repositories": 8,
+    "primary_min_countries": 4,
+    "primary_min_languages": 3,
+    "primary_min_pre_2015": 8,
+    "primary_min_2015_2020": 8,
+    "primary_min_2021_2026": 8,
+    "unique_pdf_sha256": true,
+    "selected_before_biblioref_run": true,
+    "stress_selected_first": true,
+    "stress_evidence": "visual_pdf_properties_only",
+    "stress_profiler": "pdfium_raster_geometry_v1"
+  },
+  "retention": {
+    "retain_metadata_snapshots": true,
+    "retain_snapshot_hashes": true,
+    "retain_candidate_rows": true,
+    "retain_rejections": true,
+    "retain_acquisition_rounds": true,
+    "retain_provisional_rounds": true,
+    "retain_selection_history": true
+  }
+}

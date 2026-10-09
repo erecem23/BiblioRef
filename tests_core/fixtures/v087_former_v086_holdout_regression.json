@@ -1,0 +1,558 @@
+{
+  "protocol": "fresh v0.8.6 holdout; source selection and GT fixed before BiblioRef scoring",
+  "geometry": "authentic indexed PDF text and page breaks; neutral reconstructed coordinates because original bytes unavailable in runtime",
+  "cases": [
+    {
+      "case": "birmingham_boone",
+      "institution": "University of Birmingham",
+      "country": "United Kingdom",
+      "area": "Music / composition",
+      "style": "humanities author-title; dates/editorial metadata late",
+      "url": "https://etheses.bham.ac.uk/id/eprint/12491/7/Boone2022PhD.pdf",
+      "source_ref": "turn523224view1",
+      "window": "PDF p.94, first 12 consecutive bibliography entries",
+      "lines": [
+        [
+          94,
+          "Boulez, Pierre, Orientations, (London: Faber, 1986)"
+        ],
+        [
+          94,
+          "Deleuze, Gilles, Difference and Repetition (P. Patton, trans.), (New York: Columbia"
+        ],
+        [
+          94,
+          "University Press, 2004)"
+        ],
+        [
+          94,
+          "Dysers, Christine, ‘Re-writing History: Bernhard Lang’s Monadologie Series (2007-"
+        ],
+        [
+          94,
+          "present)’, Tempo, Vol.69, Issue 271 (2015)"
+        ],
+        [
+          94,
+          "Friedman, B.H. (ed.), Give my Regards to Eight Street: Collected Writings of Morton"
+        ],
+        [
+          94,
+          "Feldman, (Cambridge: Exact Change, 2000)."
+        ],
+        [
+          94,
+          "Götte, Ulli, Wiederholung – eine fundamentale (ästhetische) musikalische Kategorie,"
+        ],
+        [
+          94,
+          "(Unpublished manuscript: January 24, 2015), PDF file."
+        ],
+        [
+          94,
+          "Gottschalk, Jennie, Experimental Music Since 1970, (London and New York: Bloomsbury"
+        ],
+        [
+          94,
+          "Academic, 2016)."
+        ],
+        [
+          94,
+          "Hanninen, Dora A., ‘A Theory of Recontextualization in Music: Analyzing Phenomenal"
+        ],
+        [
+          94,
+          "Transformations of Repetition’, Music Theory Spectrum, Vol. 25, No. 1 (2003), 59-97"
+        ],
+        [
+          94,
+          "Harrison, Bryn, Cyclical Structures and the Organisations of Time, (PhD diss., University"
+        ],
+        [
+          94,
+          "of Huddersfield, 2007)"
+        ],
+        [
+          94,
+          "Hullot-Kentor, Robert (ed.), Philosophy of New Music by Theodore W. Adorno,"
+        ],
+        [
+          94,
+          "(Minneapolis: University of Minnesota Press, 2007)"
+        ],
+        [
+          94,
+          "Hulse, Brian, A Deleuzian Take on Repetition, Difference, and the ‘Minimal’ in"
+        ],
+        [
+          94,
+          "Minimalism, (no date),"
+        ],
+        [
+          94,
+          "https://www.scribd.com/document/211464802/Repetition-and-Minimalism,"
+        ],
+        [
+          94,
+          "accessed on 8 February 2019"
+        ],
+        [
+          94,
+          "Huron, David, and Margulis, Elisabeth H., ‘Musical expectancy and thrills‘, in P. N. Juslin"
+        ],
+        [
+          94,
+          "& J. A. Sloboda (eds.), Series in affective science Handbook of music and emotion:"
+        ],
+        [
+          94,
+          "Theory, research, applications, (New York: Oxford University Press, 2010), 575-604"
+        ],
+        [
+          94,
+          "’Interview with Laurence Crane’, Another Timbre,"
+        ],
+        [
+          94,
+          "http://www.anothertimbre.com/craneinterview.html, accessed on 30 January"
+        ],
+        [
+          94,
+          "2020"
+        ]
+      ],
+      "gt": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        21,
+        24
+      ],
+      "gt_count": 12
+    },
+    {
+      "case": "stellenbosch_auret",
+      "institution": "Stellenbosch University",
+      "country": "South Africa",
+      "area": "Aerospace engineering",
+      "style": "bracket-numbered technical bibliography",
+      "url": "https://scholar.sun.ac.za/bitstream/handle/10019.1/19956/auret_design_2012.pdf",
+      "source_ref": "turn523224view2",
+      "window": "PDF pp.102-103, entries [1]-[12]",
+      "lines": [
+        [
+          102,
+          "[1] R. Nugent, R. Munakata, A. Chin, R. Coelho, and D. J. Puig-Suari, “The CubeSat:"
+        ],
+        [
+          102,
+          "The picosatellite standard for research,” in AIAA(American Institute of Aeronautics"
+        ],
+        [
+          102,
+          "and Astronautics) Space 2008 Conference and Exhibition, 2008."
+        ],
+        [
+          102,
+          "[2] A. Scholz, W. Ley, B. Dachwald, and J. Juang, “Flight results of the compass-1"
+        ],
+        [
+          102,
+          "picosatellite mission,” Acta Astronautica, vol. 67, no. 9-10, Nov. 2010."
+        ],
+        [
+          102,
+          "[3] F. Baumann, K. Briess, and H. Kayal, “Beesat - a fault-tolerant picosatellite ap-"
+        ],
+        [
+          102,
+          "proach,” in 7th IAA Symposium on Small Satellites for Earth Observation, May 4–8,"
+        ],
+        [
+          102,
+          "2009, paper AIAA-RS3 2005-3001."
+        ],
+        [
+          102,
+          "[4] K. Sarda, C. Grant, S. Eagleson, D. D. Kekez, and R. E. Zee, “Canadian advanced"
+        ],
+        [
+          102,
+          "nanospace experiment 2: On-orbit experiences with a three-kilogram satellite,” in"
+        ],
+        [
+          102,
+          "22nd Annual Small Satellite Conference, Aug. 11–14, 2008, paper SSC08-II-5."
+        ],
+        [
+          102,
+          "[5] (2011, Nov.) QuakeSat Lessons Learned: Notes from the Development of a Triple"
+        ],
+        [
+          102,
+          "CubeSat. QuakeFinder. [Online]. Available: http://www.quakefinder.com/services/"
+        ],
+        [
+          102,
+          "spaceproducts.php"
+        ],
+        [
+          102,
+          "[6] H. J. Kramer. (2011, Nov.) CubeSat - Launch 2 . eoPortal. [Online]. Available:"
+        ],
+        [
+          102,
+          "http://events.eoportal.org"
+        ],
+        [
+          102,
+          "[7] M. L. Gargasz, “Optimal Spacecraft Attitude Control Using Aerodynamics Torques,”"
+        ],
+        [
+          102,
+          "Master’s thesis, Air Force Institute of Technology, 2007."
+        ],
+        [
+          102,
+          "[8] M. L. Psiaki, “Nanosatellite attitude stabilization using passive aerodynamic and"
+        ],
+        [
+          102,
+          "active magnetic torquing,” Journal of Guidance, Control and Dynamics, vol. 27,"
+        ],
+        [
+          102,
+          "no. 3, Jun. 2004."
+        ],
+        [
+          102,
+          "[9] S. Rawashdeh, D. Jones, D. Erb, A. Karam, and J. James E. Lumpp, “Spacecraft"
+        ],
+        [
+          102,
+          "attitude control using aerodynamic torques,” in 32nd AAS Guidance and Control"
+        ],
+        [
+          102,
+          "Conference, Jan. 2009, paper AAS 09-084."
+        ],
+        [
+          103,
+          "[10] J. R. Wertz, Ed., Spacecraft Attitude Determination and Control, 1st ed. Dordrecht,"
+        ],
+        [
+          103,
+          "The Netherlands: Kluwer Academic Publishers, Reprint 1991."
+        ],
+        [
+          103,
+          "[11] Honeywell. (2011, Sep.) 1, 2 and 3 Axis Magnetic Sensors HMC1053. [Online]."
+        ],
+        [
+          103,
+          "Available: http://www.magneticsensors.com/literature.php"
+        ],
+        [
+          103,
+          "[12] H. E. Loubser, “The development of sun and nadir sensors for a solar sail CubeSat,”"
+        ],
+        [
+          103,
+          "Master’s thesis, Stellenbosch University, 2011."
+        ]
+      ],
+      "gt": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        14,
+        16,
+        18,
+        21,
+        24,
+        26,
+        28
+      ],
+      "gt_count": 12
+    },
+    {
+      "case": "anu_continuous_variable",
+      "institution": "Australian National University",
+      "country": "Australia",
+      "area": "Quantum physics / communications",
+      "style": "unnumbered technical author-title; dates late; institutional/web entries",
+      "url": "https://openresearch-repository.anu.edu.au/bitstreams/aa921824-7e55-40b3-82d3-ce3377e39c6d/download",
+      "source_ref": "turn523224view3",
+      "window": "PDF p.63, first 12 consecutive references",
+      "lines": [
+        [
+          63,
+          "P.K. Lam, Applications of Quantum Electro-Optic Control and Squeezed Light, PhD"
+        ],
+        [
+          63,
+          "Thesis, ANU, (1998)."
+        ],
+        [
+          63,
+          "S.M. Assad, A security study of two non-tomographic quantum communication"
+        ],
+        [
+          63,
+          "protocols, PhD Thesis, ANU (2010)."
+        ],
+        [
+          63,
+          "O. Thearle, Protocols and Resources for New Generation Continuous Variable Quantum"
+        ],
+        [
+          63,
+          "Key Distribution, PhD Thesis, ANU (2017)."
+        ],
+        [
+          63,
+          "A. Serafini, Quantum Continuous Variables – A Primer of Theoretical Methods, CRC"
+        ],
+        [
+          63,
+          "Press (2017)."
+        ],
+        [
+          63,
+          "H.A. Bachor and T.C. Ralph, A guide to experiments in quantum optics (Third Edition),"
+        ],
+        [
+          63,
+          "Wiley and Sons (2019)."
+        ],
+        [
+          63,
+          "Y. Zhang, Y. Bian, Z. Li, et al., Continuous-variable quantum key distribution system:"
+        ],
+        [
+          63,
+          "Past, present, and future, Appl. Phys. Rev. 11, 011318 (2024)."
+        ],
+        [
+          63,
+          "National Cyber Security Centre (NCSC, UK), Preparing for Quantum-Safe Cryptography,"
+        ],
+        [
+          63,
+          "Whitepaper, https://www.ncsc.gov.uk/whitepaper/preparing-for-quantum-safe-"
+        ],
+        [
+          63,
+          "cryptography (2020)"
+        ],
+        [
+          63,
+          "National Security Agency (NSA), Quantum Key Distribution (QKD) and Quantum"
+        ],
+        [
+          63,
+          "Cryptography QC), Article, USA Government,"
+        ],
+        [
+          63,
+          "https://www.nsa.gov/Cybersecurity/Quantum-Key-Distribution-QKD-and-Quantum-"
+        ],
+        [
+          63,
+          "Cryptography-QC/ (2020)"
+        ],
+        [
+          63,
+          "R. Renner and R. Wolf, The debate over QKD: A rebuttal to the NSA’s objections, ArXiv"
+        ],
+        [
+          63,
+          "Letter, https://arxiv.org/pdf/2307.15116 (2023)"
+        ],
+        [
+          63,
+          "National Cyber Security Centre (NCSC, UK), Next Steps in Preparing for Quantum-Safe"
+        ],
+        [
+          63,
+          "Cryptography, Whitepaper, https://www.ncsc.gov.uk/whitepaper/next-steps-preparing-"
+        ],
+        [
+          63,
+          "for-post-quantum-cryptography (2024)"
+        ],
+        [
+          63,
+          "C. H. Bennett and G. Brassard, in Proceedings of the IEEE International Conference on"
+        ],
+        [
+          63,
+          "Computers, Systems and Signal Processing (IEEE Press, New York, 1984), pp.175–179."
+        ],
+        [
+          63,
+          "F. Grosshans and P. Grangier, Continuous Variable Quantum Cryptography Using"
+        ],
+        [
+          63,
+          "Coherent States, Phys. Rev. Lett. 88, 057902 (2002)."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15,
+        19,
+        21,
+        24,
+        26
+      ],
+      "gt_count": 12
+    },
+    {
+      "case": "uwa_zhang_books",
+      "institution": "University of Western Australia",
+      "country": "Australia",
+      "area": "History / sport studies",
+      "style": "humanities author-title; repeated-author em dash; cross-page continuation",
+      "url": "https://api.research-repository.uwa.edu.au/ws/portalfiles/portal/9890410/Zhang_Huijie_2015.pdf",
+      "source_ref": "turn479386view0",
+      "window": "PDF pp.338-339, first 12 entries under “Books and Chapters in Books”",
+      "lines": [
+        [
+          338,
+          "Abu-Lughod, Janet L., Before European Hegemony: The World-System A.D. 1250–1350,"
+        ],
+        [
+          338,
+          "New York, Oxford University Press, 1989."
+        ],
+        [
+          338,
+          "Alter, J. Kabaddi, 'Kabbadi, A National Sport of India: The Internationalism of"
+        ],
+        [
+          338,
+          "Nationalism and the Foreignness of Indianness', in N. Dyck (ed.), Games, Sports"
+        ],
+        [
+          338,
+          "and Cultures, Oxford, Berg, 2000, pp. 83-114."
+        ],
+        [
+          338,
+          "Alter, Peter, Nationalism, London, Edward Arnold, 1994."
+        ],
+        [
+          338,
+          "Alumini Association of Jinling University, Jinling daxue shi [The History of Jinling"
+        ],
+        [
+          338,
+          "University], Nanjing, Nanjing University Press, 2002."
+        ],
+        [
+          338,
+          "Another Year's Progress, Shanghai, National Committee of the YMCA of China, 1914."
+        ],
+        [
+          338,
+          "Bailey, P.J., Gender and Education in China: Gender Discourses and Women's"
+        ],
+        [
+          339,
+          "Schooling in the Early Twentieth Century, London & New York, Routledge,"
+        ],
+        [
+          339,
+          "2007."
+        ],
+        [
+          339,
+          "Bairner, A., 'Civic and Ethnic Nationalism in the Celtic Vision of Irish Sport', in G."
+        ],
+        [
+          339,
+          "Jarvie (ed.), Sport in the Making of Celtic Cultures, London, Leicester"
+        ],
+        [
+          339,
+          "University Press, 1999, pp. 12-25."
+        ],
+        [
+          339,
+          "———, Sport, Nationalism, and Globalization: European and North American"
+        ],
+        [
+          339,
+          "Perspectives, Albany, NY, State University of New York Press, 2001."
+        ],
+        [
+          339,
+          "Bangsbo, J., T. Reilly, and A.M. Williams, Science and Football III, Hoboken, Taylor &"
+        ],
+        [
+          339,
+          "Francis, 2014."
+        ],
+        [
+          339,
+          "Bangsbo, J., T. Reilly, and M. Hughes, Science and Football III: Proceedings of the"
+        ],
+        [
+          339,
+          "Third World Congress of Science and Football, Cardiff, Wales, 9-13 April, 1995,"
+        ],
+        [
+          339,
+          "London, E & FN Spon, 1997."
+        ],
+        [
+          339,
+          "Bays, D.H., A New History of Christianity in China, Malden, MA, Wiley-Blackwell,"
+        ],
+        [
+          339,
+          "2012."
+        ],
+        [
+          339,
+          "———, and E. Widmer, China’s Christian Colleges: Cross-Cultural Connections,"
+        ],
+        [
+          339,
+          "1900-1950, Stanford, CA, Stanford University Press, 2009."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        5,
+        6,
+        8,
+        9,
+        12,
+        15,
+        17,
+        19,
+        22,
+        24
+      ],
+      "gt_count": 12
+    }
+  ]
+}

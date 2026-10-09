@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:04Z</responseDate>
+  <request verb="GetRecord">https://example.org/oai/request</request>
+  <GetRecord>
+    <record>
+      <header status="deleted">
+        <identifier>oai:example.org:10915/1002</identifier>
+        <datestamp>2022-07-01T00:00:00Z</datestamp>
+      </header>
+    </record>
+  </GetRecord>
+</OAI-PMH>

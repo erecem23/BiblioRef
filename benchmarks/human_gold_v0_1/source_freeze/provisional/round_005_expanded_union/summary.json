@@ -1,0 +1,13 @@
+{
+  "accepted": 4,
+  "observations": 12,
+  "rejected": 8,
+  "rejection_reasons": {
+    "access_denied": 1,
+    "http_error": 1,
+    "metadata_partial_bitstream": 4,
+    "non_pdf_response": 1,
+    "transport_failure": 1
+  },
+  "round": "round_005_expanded_union"
+}

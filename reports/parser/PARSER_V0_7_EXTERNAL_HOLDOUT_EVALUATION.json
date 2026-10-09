@@ -1,0 +1,673 @@
+{
+  "evaluation": "parser_v0.7_external_holdout",
+  "n": 30,
+  "n_theses": 3,
+  "parser_v07_sha256": "099f62a1346c6055b8c17720676d643027070d62a1a0ab2f5448ed94a36a91b3",
+  "gold_sha256": "863b1d3b03ff60ab9b4d9780d6d644fce52e665438d7e76c9a8f41bdf26099c8",
+  "v06": {
+    "author": {
+      "n": 30,
+      "correct": 20,
+      "pct": 66.67
+    },
+    "authors": {
+      "n": 30,
+      "correct": 27,
+      "pct": 90.0
+    },
+    "year": {
+      "n": 30,
+      "correct": 30,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 30,
+      "correct": 18,
+      "pct": 60.0
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "correct": 19,
+      "pct": 63.33
+    },
+    "type": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "journal_exact": {
+      "n": 11,
+      "correct": 6,
+      "pct": 54.55
+    },
+    "journal_fuzzy90": {
+      "n": 11,
+      "correct": 6,
+      "pct": 54.55
+    },
+    "publisher": {
+      "n": 18,
+      "correct": 10,
+      "pct": 55.56
+    },
+    "publisher_observed": {
+      "n": 18,
+      "correct": 10,
+      "pct": 55.56
+    },
+    "doi": {
+      "n": 0,
+      "correct": 0,
+      "pct": null
+    },
+    "journal_coverage": {
+      "n": 11,
+      "covered": 10,
+      "pct": 90.91
+    },
+    "publisher_coverage": {
+      "n": 18,
+      "covered": 12,
+      "pct": 66.67
+    },
+    "publisher_observed_coverage": {
+      "n": 18,
+      "covered": 12,
+      "pct": 66.67
+    },
+    "v07_route_count": 0,
+    "any_abnt_route_count": 26
+  },
+  "v07": {
+    "author": {
+      "n": 30,
+      "correct": 29,
+      "pct": 96.67
+    },
+    "authors": {
+      "n": 30,
+      "correct": 27,
+      "pct": 90.0
+    },
+    "year": {
+      "n": 30,
+      "correct": 30,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "correct": 23,
+      "pct": 76.67
+    },
+    "type": {
+      "n": 30,
+      "correct": 26,
+      "pct": 86.67
+    },
+    "journal_exact": {
+      "n": 11,
+      "correct": 6,
+      "pct": 54.55
+    },
+    "journal_fuzzy90": {
+      "n": 11,
+      "correct": 6,
+      "pct": 54.55
+    },
+    "publisher": {
+      "n": 18,
+      "correct": 13,
+      "pct": 72.22
+    },
+    "publisher_observed": {
+      "n": 18,
+      "correct": 13,
+      "pct": 72.22
+    },
+    "doi": {
+      "n": 0,
+      "correct": 0,
+      "pct": null
+    },
+    "journal_coverage": {
+      "n": 11,
+      "covered": 10,
+      "pct": 90.91
+    },
+    "publisher_coverage": {
+      "n": 18,
+      "covered": 15,
+      "pct": 83.33
+    },
+    "publisher_observed_coverage": {
+      "n": 18,
+      "covered": 15,
+      "pct": 83.33
+    },
+    "v07_route_count": 27,
+    "any_abnt_route_count": 28
+  },
+  "paired": {
+    "author": {
+      "n": 30,
+      "improved": 9,
+      "regressed": 0,
+      "both_right": 20,
+      "both_wrong": 1
+    },
+    "authors": {
+      "n": 30,
+      "improved": 0,
+      "regressed": 0,
+      "both_right": 27,
+      "both_wrong": 3
+    },
+    "year": {
+      "n": 30,
+      "improved": 0,
+      "regressed": 0,
+      "both_right": 30,
+      "both_wrong": 0
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "improved": 6,
+      "regressed": 2,
+      "both_right": 17,
+      "both_wrong": 5
+    },
+    "journal_fuzzy90": {
+      "n": 11,
+      "improved": 0,
+      "regressed": 0,
+      "both_right": 6,
+      "both_wrong": 5
+    },
+    "type": {
+      "n": 30,
+      "improved": 4,
+      "regressed": 0,
+      "both_right": 22,
+      "both_wrong": 4
+    },
+    "publisher": {
+      "n": 18,
+      "improved": 3,
+      "regressed": 0,
+      "both_right": 10,
+      "both_wrong": 5
+    },
+    "publisher_observed": {
+      "n": 18,
+      "improved": 3,
+      "regressed": 0,
+      "both_right": 10,
+      "both_wrong": 5
+    },
+    "doi": {
+      "n": 0,
+      "improved": 0,
+      "regressed": 0,
+      "both_right": 0,
+      "both_wrong": 0
+    }
+  },
+  "by_thesis": {
+    "UFC_FOFANO_2023": {
+      "v06": {
+        "author": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "journal_exact": {
+          "n": 2,
+          "correct": 2,
+          "pct": 100.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 2,
+          "pct": 100.0
+        },
+        "publisher": {
+          "n": 8,
+          "correct": 7,
+          "pct": 87.5
+        },
+        "publisher_observed": {
+          "n": 8,
+          "correct": 7,
+          "pct": 87.5
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 2,
+          "covered": 2,
+          "pct": 100.0
+        },
+        "publisher_coverage": {
+          "n": 8,
+          "covered": 7,
+          "pct": 87.5
+        },
+        "publisher_observed_coverage": {
+          "n": 8,
+          "covered": 7,
+          "pct": 87.5
+        },
+        "v07_route_count": 0,
+        "any_abnt_route_count": 10
+      },
+      "v07": {
+        "author": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "journal_exact": {
+          "n": 2,
+          "correct": 2,
+          "pct": 100.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 2,
+          "pct": 100.0
+        },
+        "publisher": {
+          "n": 8,
+          "correct": 8,
+          "pct": 100.0
+        },
+        "publisher_observed": {
+          "n": 8,
+          "correct": 8,
+          "pct": 100.0
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 2,
+          "covered": 2,
+          "pct": 100.0
+        },
+        "publisher_coverage": {
+          "n": 8,
+          "covered": 8,
+          "pct": 100.0
+        },
+        "publisher_observed_coverage": {
+          "n": 8,
+          "covered": 8,
+          "pct": 100.0
+        },
+        "v07_route_count": 10,
+        "any_abnt_route_count": 10
+      }
+    },
+    "UFPE_CAETANO_2023": {
+      "v06": {
+        "author": {
+          "n": 10,
+          "correct": 6,
+          "pct": 60.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 6,
+          "pct": 60.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "journal_exact": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "journal_fuzzy90": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "publisher": {
+          "n": 3,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "publisher_observed": {
+          "n": 3,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 7,
+          "covered": 7,
+          "pct": 100.0
+        },
+        "publisher_coverage": {
+          "n": 3,
+          "covered": 0,
+          "pct": 0.0
+        },
+        "publisher_observed_coverage": {
+          "n": 3,
+          "covered": 0,
+          "pct": 0.0
+        },
+        "v07_route_count": 0,
+        "any_abnt_route_count": 9
+      },
+      "v07": {
+        "author": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "journal_exact": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "journal_fuzzy90": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "publisher": {
+          "n": 3,
+          "correct": 2,
+          "pct": 66.67
+        },
+        "publisher_observed": {
+          "n": 3,
+          "correct": 2,
+          "pct": 66.67
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 7,
+          "covered": 7,
+          "pct": 100.0
+        },
+        "publisher_coverage": {
+          "n": 3,
+          "covered": 2,
+          "pct": 66.67
+        },
+        "publisher_observed_coverage": {
+          "n": 3,
+          "covered": 2,
+          "pct": 66.67
+        },
+        "v07_route_count": 9,
+        "any_abnt_route_count": 10
+      }
+    },
+    "UFSCAR_CASANOVA_2022": {
+      "v06": {
+        "author": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 4,
+          "pct": 40.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 4,
+          "pct": 40.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 5,
+          "pct": 50.0
+        },
+        "journal_exact": {
+          "n": 2,
+          "correct": 1,
+          "pct": 50.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 1,
+          "pct": 50.0
+        },
+        "publisher": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "publisher_observed": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 2,
+          "covered": 1,
+          "pct": 50.0
+        },
+        "publisher_coverage": {
+          "n": 7,
+          "covered": 5,
+          "pct": 71.43
+        },
+        "publisher_observed_coverage": {
+          "n": 7,
+          "covered": 5,
+          "pct": 71.43
+        },
+        "v07_route_count": 0,
+        "any_abnt_route_count": 7
+      },
+      "v07": {
+        "author": {
+          "n": 10,
+          "correct": 9,
+          "pct": 90.0
+        },
+        "authors": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "year": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_exact": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "type": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "journal_exact": {
+          "n": 2,
+          "correct": 1,
+          "pct": 50.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 1,
+          "pct": 50.0
+        },
+        "publisher": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "publisher_observed": {
+          "n": 7,
+          "correct": 3,
+          "pct": 42.86
+        },
+        "doi": {
+          "n": 0,
+          "correct": 0,
+          "pct": null
+        },
+        "journal_coverage": {
+          "n": 2,
+          "covered": 1,
+          "pct": 50.0
+        },
+        "publisher_coverage": {
+          "n": 7,
+          "covered": 5,
+          "pct": 71.43
+        },
+        "publisher_observed_coverage": {
+          "n": 7,
+          "covered": 5,
+          "pct": 71.43
+        },
+        "v07_route_count": 8,
+        "any_abnt_route_count": 8
+      }
+    }
+  },
+  "method_note": "Gold frozen and hashed before importing/running parser v0.7 on these 30 references. Parser v0.7 source must remain unchanged after evaluation. This evaluates parser fields from new bibliography strings, not PDF section detection/segmentation."
+}

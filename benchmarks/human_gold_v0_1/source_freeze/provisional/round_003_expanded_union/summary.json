@@ -1,0 +1,11 @@
+{
+  "accepted": 5,
+  "observations": 12,
+  "rejected": 7,
+  "rejection_reasons": {
+    "http_error": 2,
+    "non_pdf_response": 4,
+    "unstable_repeated_download": 1
+  },
+  "round": "round_003_expanded_union"
+}

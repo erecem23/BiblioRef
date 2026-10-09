@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>BiblioRef</title>
+<!-- predecessor: APP v2.4.2 / APP v2.4.3 · visual world replaced 2026-09-03: "Panel de Control" (see DESIGN.md) -->
+<style>
+:root{--sidebar:#101a30;--sidebar2:#0b1322;--sidebar-line:#1f2c47;--sidebar-text:#aab3c8;--accent:#2f6feb;--accent-dark:#1f56c4;--accent-bg:#e9f0fe;--canvas:#f4f5f7;--surface:#ffffff;--line:#e2e4ea;--ink:#141824;--muted:#6b7280;--ok:#15803d;--okbg:#e7f6ec;--warn:#b45309;--warnbg:#fdf1e2;--danger:#c0293b;--dangerbg:#fbe9eb;--radius:10px;--radius-sm:7px;--shadow:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.06);--shadow-md:0 8px 24px rgba(16,24,40,.12)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;font-size:14px}
+a{color:var(--accent)}
+.app{display:flex;min-height:100vh}
+
+/* sidebar */
+.sidebar{width:236px;flex:0 0 236px;background:var(--sidebar);color:var(--sidebar-text);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;overflow:auto}
+.sidebar-brand{display:flex;align-items:center;gap:9px;padding:20px 18px 16px;color:#fff;font-weight:700;font-size:15px;letter-spacing:-.01em}
+.sidebar-brand svg{width:20px;height:20px;flex-shrink:0;color:var(--accent)}
+.sidebar-brand .v{font-weight:400;font-size:10.5px;color:var(--sidebar-text);margin-left:auto}
+.sidebar-collapse-btn{display:flex;align-items:center;gap:8px;margin:0 10px 8px;padding:7px 8px;border:1px solid transparent;border-radius:8px;background:none;color:var(--sidebar-text);font:600 11.5px inherit;cursor:pointer}
+.sidebar-collapse-btn:hover{background:var(--sidebar2);color:#fff}
+.sidebar-collapse-btn svg{width:14px;height:14px;flex-shrink:0;transition:transform .15s ease}
+.nav{display:flex;flex-direction:column;gap:2px;padding:6px 10px;flex:1}
+.nav button{display:flex;align-items:center;gap:10px;padding:9px 11px;border-radius:8px;background:none;border:1px solid transparent;color:var(--sidebar-text);font:500 13px inherit;text-align:left;cursor:pointer;white-space:nowrap}
+.nav button svg{width:16px;height:16px;flex-shrink:0;opacity:.85}
+.nav button:hover{background:var(--sidebar2);color:#fff}
+.nav button.active{background:var(--accent);color:#fff}
+.nav button.active svg{opacity:1}
+.sidebar-foot{padding:13px 18px 16px;border-top:1px solid var(--sidebar-line);font-size:11px;color:#7c869c;line-height:1.5}
+.sidebar-foot b{color:var(--sidebar-text);font-weight:600}
+@media(min-width:1181px){
+  .sidebar.collapsed{width:64px;flex:0 0 64px;min-width:64px}
+  .sidebar.collapsed .sidebar-brand{justify-content:center;padding:20px 0 16px}
+  .sidebar.collapsed .brand-label,.sidebar.collapsed .sidebar-brand .v{display:none}
+  .sidebar.collapsed .sidebar-collapse-btn{justify-content:center;margin:0 6px 8px}
+  .sidebar.collapsed .sidebar-collapse-btn svg{transform:rotate(180deg)}
+  .sidebar.collapsed .collapse-label{display:none}
+  .sidebar.collapsed .nav button{justify-content:center;padding:9px 0;gap:0}
+  .sidebar.collapsed .navlabel{width:0;opacity:0;overflow:hidden;white-space:nowrap}
+  .sidebar.collapsed .sidebar-foot{display:none}
+}
+
+/* main + topbar */
+.main{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{min-height:56px;background:var(--surface);border-bottom:1px solid var(--line);display:flex;align-items:center;flex-wrap:wrap;padding:10px 24px;gap:12px;position:sticky;top:0;z-index:20}
+.topbar .eyebrow{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.spacer{flex:1}
+.status{font-size:11.5px;color:var(--muted);max-width:46vw;text-align:right}
+.status a{font-weight:600}
+
+.screen{display:none}
+.screen.active{display:block}
+.content{padding:28px 32px 40px;max-width:1320px}
+.h1{font-size:24px;margin:2px 0 8px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+.lead{color:var(--muted);max-width:760px;line-height:1.6;font-size:13.5px}
+
+/* buttons */
+.btn{border:1px solid var(--line);background:var(--surface);padding:8px 14px;border-radius:8px;cursor:pointer;color:var(--ink);font:600 13px inherit;box-shadow:var(--shadow)}
+.btn:hover{background:#fafbfc;border-color:#d3d6de}
+.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn.primary:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+.btn.ok{border-color:var(--ok);color:var(--ok)}
+.btn.warn{border-color:var(--danger);color:var(--danger)}
+.btn.xs{padding:6px 10px;font-size:12px;border-radius:7px;min-height:30px;box-shadow:none}
+.btn:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}
+.btn.primary:disabled{opacity:1;background:#c7cad3;border-color:#c7cad3;color:#fff}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hidden{display:none!important}
+
+/* card + upload */
+.heroactions{display:flex;gap:10px;align-items:stretch;margin:22px 0 6px;flex-wrap:wrap}
+.btn.big{font-size:14px;padding:13px 20px;min-width:180px;border-radius:9px}
+.loadmenu{position:relative}
+.loadmenu>summary{list-style:none}
+.loadmenu>summary::-webkit-details-marker{display:none}
+.loadmenu-pop{position:absolute;left:0;top:52px;z-index:35;min-width:220px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:6px;display:grid;gap:3px}
+.loadmenu-pop .btn{text-align:left;width:100%;border-color:transparent;box-shadow:none}
+.loadmenu-pop .btn:hover{background:var(--canvas)}
+.drop{margin-top:18px;border:1.5px dashed var(--line);background:var(--surface);border-radius:var(--radius);padding:34px 22px;text-align:center;max-width:760px}
+.drop.drag{background:var(--accent-bg);border-color:var(--accent)}
+.drop h2{font-weight:600;font-size:15px;margin:0 0 6px}
+.cards{display:flex;flex-direction:column;gap:8px;margin-top:20px;max-width:880px;max-height:360px;overflow:auto}
+.card{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:13px 15px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;box-shadow:var(--shadow)}
+.card .cardtitle{font-size:13.5px;font-weight:600}
+.card .cardfile{font-size:11.5px;color:var(--muted);margin-top:3px;word-break:break-all}
+
+/* badges */
+.badge{display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:999px;font-size:10.5px;font-weight:700;letter-spacing:.01em}
+.badge.ok{background:var(--okbg);color:var(--ok)}
+.badge.warn{background:var(--warnbg);color:var(--warn)}
+.badge.danger{background:var(--dangerbg);color:var(--danger)}
+.badge.neutral{background:#eef0f3;color:var(--muted)}
+.pill{display:inline-block;padding:3px 8px;border-radius:999px;font-size:10px;font-weight:600;border:1px solid var(--line);margin-top:6px}
+.pill.warn{color:var(--warn);border-color:var(--warn);background:var(--warnbg)}
+.pill.ok{color:var(--ok);border-color:var(--ok);background:var(--okbg)}
+.pill.neutral{color:var(--muted);border-color:var(--line);background:#eef0f3}
+
+/* project stats + table */
+.projectbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:16px 0}
+.statsgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+.statbox{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+.statbox .value{font-size:24px;font-weight:700;color:var(--ink);line-height:1.1}
+.statbox .label{font-size:10.5px;color:var(--muted);margin-top:5px;text-transform:uppercase;letter-spacing:.03em;font-weight:600}
+.dashboard{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:auto;box-shadow:var(--shadow)}
+.dashtable{width:100%;border-collapse:collapse;min-width:850px}
+.dashtable th,.dashtable td{border-bottom:1px solid var(--line);padding:11px 14px;text-align:left;vertical-align:middle}
+.dashtable th{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);background:#fafbfc;position:sticky;top:0}
+.dashtable td.numcol{text-align:right;font-variant-numeric:tabular-nums}
+.dashtable tr:last-child td{border-bottom:none}
+.dashtable tr:hover td{background:#fafbfc}
+.dash-title{font-size:13px;font-weight:600}
+.dash-sub{font-size:11px;color:var(--muted);margin-top:2px}
+.bulkbox{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:14px;margin:8px 0}
+.bulkdocs{display:grid;grid-template-columns:1fr 1fr;gap:6px;max-height:220px;overflow:auto;margin:8px 0}
+.bulkdocs label{font-size:12px;border:1px solid var(--line);border-radius:var(--radius-sm);padding:7px 9px;background:var(--canvas)}
+
+/* view toggle (project grouped/table, ref cards/table) */
+.viewtoggle{display:inline-flex;gap:2px;background:var(--canvas);border:1px solid var(--line);border-radius:8px;padding:2px}
+.viewtoggle button{border:none;background:none;padding:6px 11px;border-radius:6px;font:600 12px inherit;color:var(--muted);cursor:pointer}
+.viewtoggle button.active{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.viewtoggle button:hover:not(.active){color:var(--ink)}
+
+/* project: grouped hierarchical view */
+.groupedlist{display:flex;flex-direction:column;gap:8px}
+.groupbox{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);overflow:hidden}
+.groupbox summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px}
+.groupbox summary::-webkit-details-marker{display:none}
+.groupbox summary::before{content:"›";display:inline-block;margin-right:8px;color:var(--muted);transition:transform .12s ease;font-size:15px}
+.groupbox[open] summary::before{transform:rotate(90deg)}
+.groupname{font-weight:700}
+.groupmeta{font-size:11px;color:var(--muted);font-weight:600}
+.groupdocs{border-top:1px solid var(--line)}
+.grouprow{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto auto;gap:10px;align-items:center;padding:9px 14px;border-bottom:1px solid var(--line)}
+.grouprow:last-child{border-bottom:none}
+.grouprow:hover{background:#fafbfc}
+.grouprow-title{font-size:12.5px;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* review: reference spreadsheet view */
+.reftablewrap{overflow:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.reftable{min-width:600px;width:100%}
+.reftable tbody tr{cursor:pointer}
+.reftable tbody tr.current{background:var(--accent-bg)}
+.reftable tbody tr:hover td{background:#fafbfc}
+.reftable tbody tr.current:hover td{background:var(--accent-bg)}
+.reftabletitle{max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* layers + editable reference workbench */
+.layerlist{padding:2px 1px;display:grid;gap:5px}
+.layerrow{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:8px;align-items:start;padding:6px 4px;border-bottom:1px dashed #eceef2}
+.layerrow:last-child{border-bottom:0}.layerdot{width:8px;height:8px;border-radius:50%;margin-top:5px;background:#c7cad3}.layerdot.on{background:var(--ok)}.layerdot.ready{background:var(--accent)}
+.layername{font-size:11.5px;font-weight:700}.layerdesc{font-size:10px;line-height:1.35;color:var(--muted);margin-top:1px}.layerstate{font-size:9.5px;font-weight:700;color:var(--muted);white-space:nowrap;text-transform:uppercase;letter-spacing:.02em}
+.layerlegend{font-size:10px;color:var(--muted);padding:0 4px 6px;line-height:1.4}
+.layerrow.selectable{grid-template-columns:20px minmax(0,1fr) auto}.layercheck{margin:3px 0 0}.layeractions{display:flex;gap:6px;flex-wrap:wrap;padding:7px 4px 2px;border-top:1px solid var(--line)}
+.chatpanel{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);margin-bottom:12px;overflow:hidden}.chatpanel>summary{cursor:pointer;list-style:none;padding:11px 12px;font-size:12.5px;font-weight:700;display:flex;justify-content:space-between;gap:8px}.chatpanel>summary::-webkit-details-marker{display:none}.chatbody{border-top:1px solid var(--line);padding:9px}.chatcontext{font-size:10px;color:var(--muted);margin-bottom:7px}.chatmessages{display:flex;flex-direction:column;gap:6px;max-height:220px;overflow:auto;margin-bottom:7px}.chatmsg{padding:7px 8px;border-radius:7px;font-size:11px;line-height:1.4;white-space:pre-wrap}.chatmsg.user{background:var(--accent-bg);margin-left:18px}.chatmsg.assistant{background:#f3f4f6;margin-right:18px}.chatinput{width:100%;min-height:62px;resize:vertical;border:1px solid var(--line);border-radius:7px;padding:7px;font:11px inherit}.chatbuttons{display:flex;gap:6px;margin-top:6px}.candidategrid{display:grid;gap:8px}.candidatecard{border:1px solid var(--line);border-radius:8px;padding:9px}.candidatecard.human{border-color:var(--ok);background:var(--okbg)}.candidate-title{font-weight:700;font-size:12px}.candidate-meta{font-size:10.5px;color:var(--muted);line-height:1.45;margin-top:4px}
+.sheetnote{font-size:10.5px;color:var(--muted);padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:#fafbfc;margin:7px 0}
+.reftablewrap.workbook{max-height:calc(100vh - 235px);border-radius:8px}
+.reftable.workbook{min-width:1940px;font-size:11px}
+.reftable.workbook th,.reftable.workbook td{padding:5px 6px;vertical-align:top}
+.reftable.workbook th{z-index:3;top:0}.reftable.workbook .sheet-index{position:sticky;left:0;z-index:2;background:#fafbfc;min-width:46px}.reftable.workbook .sheet-raw-cell{position:sticky;left:46px;z-index:2;background:#fff;min-width:330px;max-width:330px;border-right:2px solid var(--line)}
+.reftable.workbook tr.current .sheet-index,.reftable.workbook tr.current .sheet-raw-cell{background:var(--accent-bg)}
+.sheet-raw{width:318px;min-height:58px;border:0;background:transparent;resize:vertical;font:11px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--ink);padding:2px}
+.sheetcell{display:flex;align-items:flex-start;gap:3px;min-width:120px}.sheetcell.wide{min-width:230px}.sheetcell.medium{min-width:170px}.sheetinput{width:100%;min-width:0;border:1px solid transparent;border-radius:5px;background:transparent;padding:5px 6px;font:11px inherit;color:var(--ink)}
+.sheetinput:hover{border-color:var(--line);background:#fff}.sheetinput:focus{border-color:var(--accent);background:#fff;outline:2px solid var(--accent-bg)}.sheetinput.manual{background:#fff7e8;border-color:#edc279}.sheetundo{border:0;background:none;color:var(--warn);padding:4px 2px;cursor:pointer;font-size:13px;line-height:1}.sheetundo:hover{color:var(--danger)}
+.sheetstatus{display:inline-flex;max-width:120px;white-space:normal;line-height:1.25}.sheetstatus.empty{color:#9aa1ad;font-size:10px}.sheetparserhint{display:block;font-size:9px;color:var(--muted);margin-top:2px}
+
+/* review workspace */
+.review-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:9px 16px;background:var(--surface);border-bottom:1px solid var(--line)}
+.docselect.compact{width:auto;min-width:200px;max-width:300px;margin-bottom:0}
+/* la lista vive detrás de una solapa en el borde derecho; abierta, empuja el PDF */
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) 0 34px;grid-template-areas:'viewer refs tab';min-height:calc(100vh - 106px);transition:grid-template-columns .22s ease}
+.workspace.drawer-open{grid-template-columns:minmax(0,1fr) 360px 34px}
+.workspace .viewer{grid-area:viewer}
+.workspace .refs{grid-area:refs;min-width:0}
+.workspace .reftab{grid-area:tab}
+.workspace:not(.drawer-open) .refs{padding:0;border:0;overflow:hidden}
+.reftab{display:flex;flex-direction:column;align-items:center;gap:10px;padding:14px 0;border:0;border-left:1px solid var(--line);background:var(--surface);cursor:pointer;font:inherit;color:var(--ink)}
+.reftab:hover,.workspace.drawer-open .reftab{background:var(--accent-bg)}
+.reftab .tl{writing-mode:vertical-rl;transform:rotate(180deg);font-weight:600;font-size:12px;white-space:nowrap}
+.reftab .tc{font-size:10px;font-weight:700;color:var(--muted)}
+.reftab .tw{font-size:10px;font-weight:700;color:var(--warn);background:var(--warnbg);border-radius:99px;padding:2px 5px}
+.reftab .chev{font-size:14px;color:var(--muted);transition:transform .22s}
+.workspace.drawer-open .reftab .chev{transform:rotate(180deg)}
+@media(prefers-reduced-motion:reduce){.workspace,.reftab .chev{transition:none}}
+.viewer{position:relative;padding:14px;background:var(--canvas);display:flex;flex-direction:column;align-items:stretch;min-width:0}
+/* PDF anotado: todo lo extraído marcado y su número al margen (fuera del recorte, que oculta lo que se sale) */
+.sectionview.annotated{padding-left:78px;padding-right:20px}
+.refbadge,.gapbadge{position:absolute;z-index:3;transform:translateY(-2px);border:0;border-radius:99px;padding:2px 7px;font:600 9.5px inherit;letter-spacing:.02em;cursor:pointer;background:var(--accent-bg);color:var(--accent);white-space:nowrap}
+.gapbadge{background:var(--warnbg);color:var(--warn);border:1px dashed var(--warn)}
+.refbadge:hover{box-shadow:0 0 0 2px var(--accent-bg)}
+/* abrir debajo: la página se corta bajo el párrafo y una flecha baja hasta su versión digital */
+.pdfcrop.cut-top{border-radius:var(--radius-sm) var(--radius-sm) 0 0;margin-bottom:0}
+.pdfcrop.cut-bottom{border-radius:0 0 var(--radius-sm) var(--radius-sm)}
+.openslot{width:min(96%,900px);margin:6px auto;display:grid;grid-template-columns:52px minmax(0,1fr);align-items:start}
+.slotarrow{width:52px;height:46px;overflow:visible}
+.slotarrow path{fill:none;stroke:var(--accent);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.openslot.miss .slotarrow path{stroke:var(--warn)}
+.slotcard{background:var(--surface);border:1px solid var(--accent);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:12px 14px;display:flex;flex-direction:column;gap:9px}
+.openslot.miss .slotcard{border-style:dashed;border-color:var(--warn);background:var(--warnbg)}
+.slothead{display:flex;align-items:center;gap:8px;font:600 11.5px inherit;color:var(--accent)}
+.openslot.miss .slothead{color:var(--warn)}
+.slothead span{font-weight:400;font-size:10px;color:var(--muted)}
+.slotclose{margin-left:auto;border:0;background:none;font-size:17px;line-height:1;color:var(--muted);cursor:pointer;padding:0 2px}
+.slottext{font-size:13.5px;line-height:1.55;color:var(--ink)}
+.slotfields{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:6px 12px}
+.slotfield{display:flex;flex-direction:column;gap:2px}
+.slotfield span{font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.slotfield input{border:1px solid transparent;background:var(--canvas);border-radius:5px;padding:4px 7px;font:inherit;font-size:12.5px;color:var(--ink);width:100%}
+.slotfield input:focus{border-color:var(--accent);background:var(--surface);outline:none}
+.slotcard .btn.amber{border-color:var(--warn);color:var(--warn)}
+.slotcard .btn.amber.solid{background:var(--warn);color:#fff}
+.slotwarn{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:-12px -14px 0;padding:8px 14px;background:var(--warnbg);border-bottom:1px solid rgba(180,83,9,.28);color:var(--warn)}
+.slotwarn svg{width:15px;height:15px;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}
+.slotwarn b{flex:1 1 240px;min-width:0;font-size:12.5px;font-weight:600}
+.refs{background:var(--surface);border-left:1px solid var(--line);padding:14px;overflow:auto;max-height:calc(100vh - 106px)}
+.docselect{width:100%;padding:8px 9px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);font:inherit;font-size:13px;margin-bottom:9px}
+.toolmorepop.wide{min-width:300px;max-width:340px;max-height:70vh;overflow:auto}
+.toolmorepop.wide .accordion,.toolmorepop.wide .thesisdetails{border-top:1px solid var(--line);margin-top:5px;padding-top:5px}
+.toolmorepop.wide .accordion>summary,.toolmorepop.wide .thesisdetails>summary{cursor:pointer;list-style:none;padding:6px 8px;font:600 12px inherit;color:var(--ink)}
+.toolmorepop.wide .accordion>summary::-webkit-details-marker,.toolmorepop.wide .thesisdetails>summary::-webkit-details-marker{display:none}
+#reviewMoreMenu>summary{font-size:16px;line-height:1;padding:6px 10px}
+.auditdrawer{display:none}
+#analysisNotice{display:none}
+.thesisdata{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);padding:12px;margin-bottom:0}
+.thesisdata-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:9px}
+.thesisdata-head h4{font-size:13px;margin:0;font-weight:700}
+.thesisfield{margin-bottom:8px}
+.thesisfield label{display:block;font-size:10.5px;font-weight:600;color:var(--muted);margin-bottom:3px}
+.thesisfield input,.thesisfield textarea{width:100%;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);padding:7px 9px;font:inherit;font-size:12.5px;color:var(--ink);resize:vertical}
+.thesisfield textarea{min-height:54px}
+.thesisgrid{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.thesisfile{font-size:10.5px;color:var(--muted);word-break:break-all;border-top:1px dashed var(--line);padding-top:8px;margin-top:8px}
+.sectionselect{max-width:160px;padding:5px 7px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);font:inherit;font-size:12px}
+
+.viewerbar{width:100%;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:12px;color:var(--muted);gap:8px}
+.viewercontext{display:flex;align-items:center;gap:8px;min-width:0}
+.viewercontext #viewerTitle{font:700 13px inherit;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:480px;min-width:0;flex:1 1 auto}
+.toolbar{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+.toolbar-group{display:flex;gap:4px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:3px}
+.toolbar-sep{width:1px;align-self:stretch;background:var(--line);margin:0 1px}
+.toolmore{position:relative}
+.toolmore>summary{list-style:none}
+.toolmore>summary::-webkit-details-marker{display:none}
+.toolmorepop{position:absolute;right:0;top:36px;z-index:35;min-width:150px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:5px;display:grid;gap:3px}
+.toolmorepop .btn{width:100%;text-align:left;border-color:transparent;box-shadow:none}
+.toolmorepop .btn:hover{background:var(--canvas)}
+
+.sectionview{position:relative;width:100%;max-height:calc(100vh - 128px);overflow:auto;background:#e7e8ec;border:1px solid var(--line);border-radius:var(--radius);padding:12px;scroll-behavior:smooth}
+.pdfcrop{position:relative;width:min(96%,900px);margin:0 auto 12px;background:#fff;overflow:hidden;border-radius:var(--radius-sm);box-shadow:0 3px 12px rgba(16,24,40,.16)}
+.pdfcrop img{position:absolute;left:0;top:0;width:100%;height:auto;display:block;user-select:none;cursor:pointer}
+.pdfcrop.clickable img{cursor:crosshair}
+.pagebadge{position:absolute;right:6px;top:5px;z-index:3;background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:999px;padding:3px 8px;font-size:10px;color:var(--muted);pointer-events:none}
+.overlay{position:absolute;border:2px solid var(--accent);background:rgba(47,111,235,.14);border-radius:2px;pointer-events:none;z-index:4;transition:opacity .1s ease}
+/* toda referencia extraída queda marcada: el párrafo sin marco es el que falta */
+.refmark{position:absolute;z-index:2;border:1px solid rgba(47,111,235,.34);background:rgba(47,111,235,.05);border-radius:3px;cursor:pointer}
+.refmark:hover{border-color:var(--accent);background:rgba(47,111,235,.12)}
+.refmark.miss{border:1px dashed var(--warn);background:rgba(180,83,9,.08)}
+.refmark.current{opacity:0}
+.viewertoast{position:fixed;left:50%;top:74px;transform:translateX(-50%);z-index:60;background:var(--ink);color:#fff;border-radius:999px;box-shadow:var(--shadow-md);padding:9px 16px;font-size:12px;pointer-events:none;max-width:min(620px,80vw);text-align:center}
+.viewerempty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:26px;text-align:center;color:var(--muted)}
+
+.refhead{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:10px;gap:6px}
+.refhead h2{font-size:15px;margin:0;font-weight:700;flex-shrink:0;white-space:nowrap}
+.refquick{display:flex;gap:4px;align-items:center;flex-wrap:wrap;margin-top:0;max-height:0;opacity:0;overflow:hidden;transition:opacity .12s ease,max-height .12s ease}
+.refitem:hover .refquick,.refitem:focus-within .refquick,.refitem.current .refquick,.refitem.problem .refquick,.refhead .refquick{opacity:1;margin-top:8px;max-height:60px;overflow:visible}
+@media(hover:none){.refitem .refquick{opacity:1}}
+@media(hover:none){.refitem .refquick{margin-top:8px;max-height:60px;overflow:visible}}
+.search{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);margin-bottom:10px;font:inherit;font-size:12.5px}
+/* índice: una línea por referencia, completa la seleccionada */
+.refs.indice .refitem{padding:6px 9px}
+.refs.indice .refitem:not(.current) .reftext{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.refs.indice .refitem:not(.current) .refparsed,.refs.indice .refitem:not(.current) .refmeta{display:none}
+.refs.indice .refitem:not(.current) .num{float:left;margin:0 7px 0 0;line-height:1.5}
+.refs.indice .refitem:not(.current) .refcopy{display:none}
+.refs.indice .refitem.current{box-shadow:0 0 0 1px var(--accent)}
+/* mapa del documento: dónde puede haber bibliografía además de las secciones */
+.docmap{border:1px solid var(--line);border-radius:var(--radius);padding:10px;margin-bottom:10px;display:flex;flex-direction:column;gap:8px}
+.docmap:empty{display:none}
+.maphead{display:flex;align-items:baseline;gap:8px;font-size:12px}
+.maphead span{font-size:10.5px;color:var(--muted)}
+.mapstrip{display:flex;gap:1px;height:34px;align-items:stretch;margin-top:6px}
+.maptick{flex:1;min-width:1px;border:0;padding:0;background:#e3e6ec;border-radius:1px;cursor:pointer;position:relative}
+.maptick.sec{background:var(--accent)}
+.maptick.cand{background:var(--warn)}
+.maptick.toc::after{content:'';position:absolute;left:50%;top:-6px;transform:translateX(-50%);border:4px solid transparent;border-top-color:var(--ink)}
+.maptick:hover{outline:1px solid var(--ink)}
+.maplegend{display:flex;gap:10px;font-size:10px;color:var(--muted);flex-wrap:wrap}
+.maplegend i{display:inline-block;width:10px;height:8px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.maplegend i.sec{background:var(--accent)}
+.maplegend i.cand{background:var(--warn)}
+.maplegend i.toc{width:0;height:0;border:4px solid transparent;border-top-color:var(--ink);border-radius:0;vertical-align:0}
+.mapitems{display:flex;flex-direction:column;gap:3px}
+.mapitem{display:flex;align-items:center;gap:8px;flex-wrap:wrap;text-align:left;border:1px solid var(--line);border-radius:7px;padding:5px 8px;background:var(--surface);font:inherit;font-size:11.5px;color:var(--ink);cursor:pointer}
+.mapitem span{color:var(--muted);font-size:10.5px}
+.mapitem.cand{border-style:dashed;border-color:var(--warn);background:var(--warnbg);cursor:default}
+.mapitem.cand .btn{margin-left:auto}
+.mapnote{font-size:10.5px;color:var(--muted);margin:0;line-height:1.45}
+.mapblocks{position:relative;height:26px;margin-top:2px;overflow:hidden}
+.docmap{overflow:hidden}
+.mapblock.narrow span{display:none}
+.mapblock{position:absolute;top:0;height:24px;min-width:22px;box-sizing:border-box;border-radius:6px;padding:0 5px;font:600 10.5px/22px inherit;font-family:inherit;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:center}
+.mapblock span{overflow:hidden;text-overflow:ellipsis;display:block}
+.mapblock.sec{background:var(--accent-bg);color:var(--accent-dark,#1f56c4);border:1px solid #a9c3f7}
+.mapblock.off{background:repeating-linear-gradient(135deg,#f0f1f4 0 5px,#e2e4ea 5px 10px);color:#6b7280;border:1px dashed #9aa1ad}
+.mapblock.cand{background:var(--warnbg);color:var(--warn);border:1px dashed var(--warn)}
+.mapblock.open,.mapblock:hover{box-shadow:0 0 0 2px var(--accent);z-index:1}
+.mapblock:focus-visible{outline:2px solid var(--accent);outline-offset:1px;z-index:1}
+.maptick.off{background:repeating-linear-gradient(135deg,#9aa1ad 0 2px,#d6dae2 2px 4px)}
+.maplegend i.off{background:repeating-linear-gradient(135deg,#9aa1ad 0 2px,#d6dae2 2px 4px)}
+.mappop{border:1px solid var(--line);border-radius:8px;padding:9px 10px;display:flex;flex-direction:column;gap:6px;background:#fff;box-shadow:var(--shadow-md);font-size:12px}
+.mappop.off{background:#fafbfc}
+.mapmeta{color:var(--muted);font-size:11px}
+.maphint{display:inline-block;font-size:10.5px;font-weight:600;color:#374151;background:#eef0f3;border-radius:999px;padding:0 7px}
+.mapsample{display:flex;flex-direction:column;gap:2px;border-left:3px solid #d6dae2;padding-left:7px;color:#374151;font-size:11.5px}
+.mappop.off .mapsample{color:#8a909c;text-decoration:line-through;text-decoration-color:#c0c5cf}
+.mappopacts{display:flex;flex-wrap:wrap;gap:5px}
+.refitem{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:8px 10px;margin-bottom:6px;cursor:pointer;box-shadow:var(--shadow);transition:border-color .1s ease}
+.refitem:hover{border-color:var(--accent)}
+.refitem.current{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.refitem.problem{border-left:3px solid var(--danger)}
+.refcopy{border:0;background:none;color:var(--muted);padding:1px 3px;margin-left:4px;cursor:pointer;border-radius:4px;vertical-align:middle}
+.refcopy:hover{background:var(--canvas);color:var(--accent)}
+.refcopy.copied{color:var(--ok)}
+.refcopy svg{width:11px;height:11px;display:block}
+.missingcount{border:1px solid var(--warn);background:var(--warnbg);color:var(--warn);border-radius:var(--radius-sm);padding:6px 9px;margin-bottom:10px;font:600 11px inherit}
+.refitem .num{font-size:10.5px;color:var(--muted);margin-bottom:3px;font-weight:600}
+.reftext{font-size:12.5px;line-height:1.42;color:var(--ink);white-space:pre-wrap;letter-spacing:0;word-spacing:normal;font-kerning:normal;font-variant-ligatures:common-ligatures}
+.refparsed{margin-top:3px;font-size:10.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dash-title,.cardtitle,#viewerTitle,.etitle{letter-spacing:0;word-spacing:normal;font-kerning:normal}
+.visualpreview{font-size:12.5px;line-height:1.5}
+.refmeta{display:flex;gap:5px;flex-wrap:wrap;margin-top:4px}
+.tag{font-size:10px;font-weight:600;padding:2px 7px;border-radius:999px;background:#eef0f3;color:var(--muted)}
+.tag.warn{color:var(--warn);background:var(--warnbg)}
+.tag.ok{color:var(--ok);background:var(--okbg)}
+.refmore{position:relative}
+.refmore summary{list-style:none;border:1px solid var(--line);background:var(--surface);border-radius:7px;padding:3px 8px;cursor:pointer;font-size:14px;line-height:1.2}
+.refmore summary::-webkit-details-marker{display:none}
+.refmoremenu{position:absolute;right:0;top:28px;z-index:15;width:160px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-md);padding:5px;display:grid;gap:3px}
+.refmoremenu .btn{width:100%;text-align:left;border-color:transparent;box-shadow:none}
+.refmoremenu .btn:hover{background:var(--canvas)}
+.actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.notice{background:var(--accent-bg);border-radius:var(--radius);border-left:3px solid var(--accent);padding:10px 12px;font-size:12px;line-height:1.45;margin-bottom:10px}
+.notice.warn{background:var(--warnbg);border-left-color:var(--warn)}
+.mini{font-size:11px;color:var(--muted);line-height:1.45}
+
+.modalback{position:fixed;inset:0;background:rgba(15,20,32,.55);display:flex;align-items:center;justify-content:center;z-index:50}
+.modal{width:min(700px,92vw);max-height:86vh;overflow:auto;background:var(--surface);border-radius:16px;padding:24px;box-shadow:0 24px 60px rgba(15,20,32,.35)}
+.modal h2{margin-top:0;font-weight:700;font-size:17px}
+.modal textarea{width:100%;min-height:125px;padding:10px;border:1px solid var(--line);border-radius:var(--radius-sm);font:inherit;line-height:1.5}
+.modal .modal-inline-warn{font-size:12.5px}
+.candidateinfo{border:1px solid var(--line);background:var(--canvas);border-radius:var(--radius);padding:11px;margin:8px 0}
+.candidatewarn{background:var(--warnbg);border-left:3px solid var(--warn);border-radius:var(--radius-sm);padding:9px 11px;margin:8px 0;font-size:12px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.field label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:4px}
+.field input{width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:var(--radius-sm);font:inherit;font-size:12.5px}
+.exportpop{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+
+.exportselect{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:18px;margin-top:22px;max-width:980px;box-shadow:var(--shadow)}
+.exportselect-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}
+.exportsummary{font-size:11.5px;color:var(--muted)}
+.exportdocs{display:flex;flex-direction:column;gap:6px;max-height:280px;overflow:auto}
+.exportdoc{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:8px;align-items:center;background:var(--canvas);border:1px solid var(--line);border-radius:var(--radius-sm);padding:10px}
+.exportdoc .etitle{font-size:13px}
+.exportdoc .efile{font-size:11px;color:var(--muted);margin-top:3px}
+.exportgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:18px}
+.exportitem{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+.exportitem h3{margin:0 0 7px;font-size:15px}
+.exportitem p{color:var(--muted);font-size:12.5px;line-height:1.5}
+.future{opacity:.55}
+.loader{display:inline-block;width:13px;height:13px;border:2px solid #d9dce3;border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.auditheadline{font-size:12px;margin-bottom:9px;font-weight:600}
+.checkok{color:var(--ok)}
+.checkwarn{color:var(--warn)}
+.auditgroup{border-top:1px solid var(--line);padding-top:8px;margin-top:8px;font-size:11.5px}
+.auditdetails summary{cursor:pointer;font-size:12px;padding:4px 0;color:var(--ink);list-style:none}
+.auditdetails summary::-webkit-details-marker{display:none}
+.auditrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;padding:6px 0;border-bottom:1px dashed var(--line)}
+.auditpreview{font-size:10.5px;color:var(--muted);line-height:1.35;margin-top:3px;max-height:38px;overflow:hidden}
+.auditactions{display:flex;gap:3px}
+.auditico{color:var(--warn);font-weight:bold}
+.boundaryrow{width:100%;display:flex;justify-content:space-between;gap:8px;border:0;border-bottom:1px dashed var(--line);background:none;padding:6px 3px;cursor:pointer;font-size:11.5px;text-align:left;border-radius:6px}
+.boundaryrow:hover{background:var(--canvas)}
+.boundaryrow.warn{color:var(--warn)}
+.boundaryrow.ok{color:var(--ok)}
+.boundarycompare{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.boundaryimage{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);position:relative;min-width:0}
+.boundaryimage img{width:100%;height:auto;display:block;position:absolute;left:0;top:0;max-width:none}
+@media(max-width:780px){.boundarycompare{grid-template-columns:1fr}}
+
+@media(max-width:1180px){.app{flex-direction:column}.sidebar{width:100%;height:auto;position:sticky;flex-direction:row;align-items:center;padding:2px 8px}.sidebar-brand{padding:10px 10px}.sidebar-collapse-btn{display:none}.nav{flex-direction:row;padding:6px 4px;overflow-x:auto}.sidebar-foot{display:none}.workspace.drawer-open{grid-template-columns:minmax(0,1fr) 300px 34px}.sectionview{max-height:650px}}
+</style>
+<link rel="stylesheet" href="/static/projects.css?v=3">
+<link rel="stylesheet" href="/static/workspace-layout.css?v=1">
+<link rel="stylesheet" href="/static/analysis.css?v=2">
+</head>
+<body><div class="app">
+<aside class="sidebar" id="appSidebar">
+  <div class="sidebar-brand"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4.5c2-1 4.5-1 5.5.5v10c-1-1.5-3.5-1.5-5.5-.5v-10Z"/><path d="M17.5 4.5c-2-1-4.5-1-5.5.5v10c1-1.5 3.5-1.5 5.5-.5v-10Z"/></svg><span class="brand-label">BiblioRef</span><span class="v" id="version"></span></div>
+  <button type="button" class="sidebar-collapse-btn" id="toggleSidebar" aria-expanded="true" title="Minimizar menú"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4 7 10l5.5 6"/></svg><span class="collapse-label">Minimizar</span></button>
+  <div class="nav">
+    <button data-screen="new" class="active" title="Inicio"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2.5h6l4 4v10a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1Z"/><path d="M11 2.5V7h4"/><path d="M10 10.5v5M7.5 13h5"/></svg><span class="navlabel">Inicio</span></button>
+    <button data-screen="collection" title="Tesis del proyecto"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 5h6l2 3h8v9H2Z"/></svg><span class="navlabel">Tesis del proyecto</span></button>
+    <button data-screen="project" title="Resumen"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2 2.5 6 10 10l7.5-4L10 2Z"/><path d="M2.5 10 10 14l7.5-4"/><path d="M2.5 14 10 18l7.5-4"/></svg><span class="navlabel">Resumen</span></button>
+    <button data-screen="analysis" title="Análisis"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16.5V9M7.5 16.5V4M12 16.5v-5M16.5 16.5V7"/></svg><span class="navlabel">Análisis</span></button>
+    <button data-screen="missing" title="Faltantes"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5h14M3 15.5h14"/><path d="M3 10h3M8.5 10h3M14 10h3"/></svg><span class="navlabel">Faltantes</span><span class="navcount" id="navMissingCount"></span></button>
+    <button data-screen="review" title="Referencias por tesis"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 5h10M7 10h10M7 15h10"/><path d="m2.5 5 .8.8L4.8 4.3"/><path d="m2.5 10 .8.8 1.5-1.5"/><path d="m2.5 15 .8.8 1.5-1.5"/></svg><span class="navlabel">Referencias por tesis</span></button>
+    <button data-screen="export" title="Exportar"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3v9.5M6 9l4 4 4-4"/><path d="M3.5 15.5v1a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-1"/></svg><span class="navlabel">Exportar</span></button>
+  </div>
+  <div class="sidebar-foot"><b>Proyectos guardados</b><br>en este equipo · APP v2.7.0</div>
+</aside>
+<div class="main">
+<div class="topbar"><div class="eyebrow" id="topbarLabel">BiblioRef</div><div class="spacer"></div><div class="status" id="globalStatus" role="status" aria-live="polite">iniciando…</div></div>
+<section id="workProgress" class="work-progress hidden" aria-labelledby="workProgressTitle" aria-busy="false">
+  <div class="work-progress-top"><span id="workProgressIcon" class="work-progress-icon" aria-hidden="true"></span><div><strong id="workProgressTitle"></strong><p id="workProgressDetail"></p></div><b id="workProgressValue"></b></div>
+  <div id="workProgressBar" class="work-progress-track" role="progressbar" aria-labelledby="workProgressTitle" aria-valuemin="0" aria-valuemax="100"><div id="workProgressFill"></div></div>
+  <ul id="workProgressFiles" class="work-progress-files" aria-label="Archivos en lectura"></ul>
+  <div id="workProgressStatus" class="sr-only" role="status" aria-live="polite"></div>
+</section>
+<section id="screen-new" class="screen active">
+<div class="content project-home">
+  <div class="home-heading"><div><div class="eyebrow">ESPACIO DE TRABAJO</div><h1 class="h1">Tus proyectos de referencias</h1><p class="lead">Reuní las tesis de cada investigación, conservá su organización y retomá el trabajo donde lo dejaste.</p></div></div>
+  <div class="project-start"><div class="start-symbol" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 14a3 3 0 0 1 3-3h11l5 5h14a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3Z"/><path d="M24 23v11m-5.5-5.5h11"/></svg></div><div class="start-copy"><h2>Un proyecto para cada corpus</h2><p>Cargá tesis en PDF, un ZIP o carpetas completas.<br>Las tesis, sus referencias y tus correcciones quedan juntas.</p><button class="btn primary big" id="newProject">＋ Nuevo proyecto</button></div><div class="start-note"><b>Tu organización, desde el inicio</b><span>Las carpetas y subcarpetas se conservan en el explorador del proyecto.</span></div></div>
+  <div class="recent-heading"><div><h2>Proyectos recientes <span id="projectCount" class="count-badge">0</span></h2><p class="mini">Abrí un proyecto para continuar.</p></div><label class="project-search"><span class="sr-only">Buscar proyectos</span><input id="projectSearch" type="search" placeholder="Buscar un proyecto…"></label></div>
+  <div id="recentProjects" class="recent-projects" aria-live="polite"></div>
+</div></section>
+<section id="screen-collection" class="screen">
+<div class="content collection-content">
+  <div class="collection-heading"><div><button class="text-btn" data-screen="new">← Todos los proyectos</button><h1 class="h1" id="projectName">Proyecto</h1><p class="mini" id="projectDescription"></p></div><div class="collection-save"><span class="mini" id="projectSaved" role="status"></span><button class="btn" id="saveProject">Guardar proyecto</button><button class="btn xs" id="editProject" aria-label="Editar nombre y descripción del proyecto">Editar nombre</button></div></div>
+  <section class="import-panel import-toolbar" aria-labelledby="importHeading">
+    <div class="import-toolbar-row"><h2 id="importHeading">Agregar tesis</h2><div class="import-options"><button class="btn" id="chooseFiles">＋ PDF o ZIP</button><button class="btn" id="chooseFolder">Carpeta completa</button><button class="text-btn" id="chooseDrive" hidden>Google Drive</button></div><div class="drop" id="drop"><span>Arrastrá PDF, ZIP o carpetas aquí</span></div></div>
+    <div id="importFeedback" class="mini hidden" role="status" aria-live="polite"></div>
+  </section>
+  <div class="collection-workspace-tools"><button class="btn xs" id="showExplorer" aria-controls="projectExplorer" aria-expanded="true">Ocultar explorador</button><details class="layout-menu" id="layoutMenu"><summary class="btn xs">Disposición</summary><div class="layout-popover"><label for="explorerPosition">Ubicación del explorador</label><select id="explorerPosition"><option value="left">A la izquierda</option><option value="right">A la derecha</option><option value="top">Arriba, a todo el ancho</option></select><p>Arrastrá el título del explorador para moverlo y el separador para ajustar su tamaño.</p><button class="btn xs" id="resetLayout">Restablecer disposición</button></div></details><span class="workspace-hint">Paneles ajustables</span><span id="layoutStatus" class="sr-only" role="status"></span></div>
+  <div class="collection-grid" id="collectionWorkspace" data-explorer-side="left">
+    <aside class="project-explorer" id="projectExplorer" aria-label="Explorador de archivos del proyecto">
+      <div class="explorer-title"><button class="explorer-handle" id="explorerHandle" draggable="true" aria-label="Mover explorador; también disponible en Disposición" title="Arrastrá para mover el explorador"><span aria-hidden="true">⠿</span><span>Explorador del proyecto</span></button><button class="text-btn" id="hideExplorer" aria-label="Ocultar explorador" title="Ocultar explorador">×</button></div>
+      <div class="explorer-subhead"><span>Carpetas y tesis</span><button class="text-btn" id="toggleTree" aria-label="Contraer todas las carpetas">Contraer</button></div>
+      <div class="tree-root"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 6h6l2 3h10v11H3Z"/></svg><b id="treeRootName">Proyecto</b></div>
+      <div id="projectTree" class="project-tree" aria-label="Archivos y carpetas"></div>
+      <p class="explorer-help">Un clic ubica la tesis · doble clic abre la revisión.</p>
+      <details class="organization-option"><summary>Organizar por universidad <span class="experiment-badge">Experimental</span></summary><label><input type="checkbox" id="groupUniversity"><span>Agrupar archivos sueltos por universidad</span></label><p class="mini">Usa la universidad sugerida en la portada. Podés corregirla en los datos de la tesis. Las carpetas existentes se conservan.</p></details>
+    </aside>
+    <div class="workspace-splitter" id="explorerSplitter" role="separator" tabindex="0" aria-label="Tamaño del explorador" aria-controls="projectExplorer" aria-orientation="vertical" aria-valuemin="240" aria-valuemax="620" aria-valuenow="340" title="Arrastrá para ajustar el tamaño; también podés usar las flechas del teclado"></div>
+    <main class="collection-main"><section class="collection-documents"><div class="documents-heading"><div><h2>Tesis incorporadas <span class="count-badge" id="collectionCount">0</span></h2><p class="mini">Seleccioná una tesis o procesá las referencias del corpus.</p></div><button class="btn primary" id="analyzeAll" disabled>Procesar referencias</button></div><div class="collection-search"><label for="collectionSearch">Buscar en el proyecto</label><input id="collectionSearch" type="search" placeholder="Título, archivo, carpeta o universidad…"><span id="collectionSearchCount" role="status"></span></div><div class="cards" id="uploadCards"></div></section></main>
+    <div class="workspace-dock-targets" aria-hidden="true"><div data-dock-side="left">Explorador a la izquierda</div><div data-dock-side="top">Explorador arriba</div><div data-dock-side="right">Explorador a la derecha</div></div>
+  </div>
+</div></section>
+<input id="fileInput" type="file" accept="application/pdf,.pdf,application/zip,.zip" multiple class="hidden">
+<input id="folderInput" type="file" multiple webkitdirectory directory class="hidden">
+<input id="driveSecretInput" type="file" accept="application/json,.json" class="hidden">
+<section id="screen-project" class="screen"><div class="content"><div class="h1">Resumen de tesis y referencias</div><div class="lead">Este tablero refleja siempre el estado actual de cada tesis, incluidas correcciones, metadatos y reextracciones.</div><div class="statsgrid" id="projectStats"></div><div class="projectbar"><button class="btn" id="dashSelectAll">Seleccionar todas</button><button class="btn" id="dashSelectNone">Ninguna</button><button class="btn" id="bulkMetadata">Editar datos comunes</button><button class="btn primary" id="dashboardExport">Exportar</button><span class="mini" id="dashSelectionSummary"></span></div><div class="projectbar"><div class="viewtoggle" id="dashViewToggle"><button class="active" data-view="table">Tabla</button><button data-view="grouped">Agrupado</button></div><select id="dashGroupBy" class="sectionselect hidden"><option value="university">Universidad</option><option value="area">Área / disciplina</option><option value="status">Estado</option></select></div><div class="dashboard" id="dashboardTable"></div></div></section>
+<section id="screen-analysis" class="screen"><div class="content"><div class="h1">Análisis de la bibliografía</div><div class="lead">Cifras sobre lo que citan las tesis del proyecto: antigüedad, tipos documentales, obras y revistas más citadas, y qué bibliografía comparten entre sí. Cada número se muestra con la base sobre la que se calculó.</div><div class="anbar"><select id="anGroupBy" class="sectionselect" aria-label="Agrupar por"></select><button class="btn primary" id="anRun">Analizar bibliografía</button><button class="btn" id="anExport" disabled>Exportar JSON</button><span class="mini" id="anMeta"></span></div><div id="anBody"></div></div></section>
+<section id="screen-missing" class="screen"><div class="content"><div class="h1">Faltantes</div><div class="lead">Párrafos que están en el PDF y no quedaron como referencia, de todas las tesis del proyecto. Cada uno se ve en su recorte de página, con el párrafo marcado.</div><div id="missingStep"></div><div class="ms-bar"><input id="missingSearch" type="search" placeholder="Buscar en los faltantes…" aria-label="Buscar en los faltantes"><span class="ms-view" id="missingView" role="group" aria-label="Vista"><button type="button" data-ms-view="list" class="active">Lista</button><button type="button" data-ms-view="map">Mapa</button></span><select id="missingStage" aria-label="Etapa"></select><select id="missingDoc" aria-label="Tesis"></select><select id="missingOrder" aria-label="Orden"><option value="thesis">Por tesis y página</option><option value="likely">Más probables primero</option></select><span class="ms-sum" id="missingSummary"></span><button type="button" class="btn primary" id="revisionXlsx" title="Todas las referencias en orden, con las pegadas, las que tienen texto perdido y las faltantes marcadas en su lugar y la corrección propuesta como texto">Revisión completa (Excel)</button><button type="button" class="btn" id="revisionImport" title="Subí el Excel de revisión con la columna «Decisión» completa: «sí» aplica la corrección y «no» cierra el aviso">Importar revisión…</button><input type="file" id="revisionImportFile" accept=".xlsx" hidden><button type="button" class="btn" id="missingXlsx" title="Un Excel con dos hojas, Faltantes y Pegadas: tesis, página, texto del recuadro y referencia que lo contiene">Exportar avisos (Excel)</button><button type="button" class="btn" id="missingDataset" title="Un .zip con tesis, secciones, páginas, avisos y referencias en CSV, para afinar el extractor">Dataset completo (.zip)</button></div><div id="missingList"></div></div></section>
+<section id="screen-review" class="screen">
+<div class="review-toolbar">
+  <div class="toolbar-group" aria-label="Tesis"><select id="thesisSelect" class="docselect compact"><option value="">Elegí una tesis</option></select><button class="btn xs" id="prevThesis">← anterior</button><button class="btn xs" id="nextThesis">siguiente →</button></div>
+  <div class="spacer"></div>
+  <details class="toolmore" id="reviewMoreMenu">
+    <summary class="btn xs" title="Más opciones" aria-label="Más opciones">⋮</summary>
+    <div class="toolmorepop wide">
+      <button class="btn xs" id="bulkMetadataReview">Datos comunes</button>
+      <button class="btn xs" id="exportCurrent">Exportar tesis</button>
+      <details class="accordion" id="layersMenu"><summary>Capas de procesamiento</summary><div id="layerOptions" class="layerlist"><div class="layerlegend">Cargando capacidades…</div></div></details>
+      <details class="thesisdetails"><summary>Datos de la tesis</summary><div id="docSummary"></div></details>
+    </div>
+  </details>
+</div>
+<div class="workspace" id="reviewWorkspace">
+<main class="viewer"><div class="viewerbar"><span class="viewercontext"><span id="viewerTitle">Elegí una tesis</span><select id="sectionSelect" class="sectionselect" title="Sección bibliográfica"><option>Sin sección</option></select></span><span class="toolbar"><span class="toolbar-group" aria-label="Navegación de página"><button class="btn xs" id="prevPage">← pág.</button><input id="pageInput" type="number" min="1" value="1" style="width:56px;padding:4px 5px;border:1px solid var(--line);border-radius:6px;font:inherit"><button class="btn xs" id="goPage">Ir</button><button class="btn xs" id="nextPage">pág. →</button></span><span class="toolbar-sep"></span><span class="toolbar-group" aria-label="Límites de la sección"><button class="btn xs" id="visibleStart">Inicio</button><button class="btn xs" id="visibleEnd">Final</button><button class="btn primary xs" id="applySectionLimits">Aplicar</button><details class="toolmore"><summary class="btn xs" title="Más opciones de sección">⋯</summary><div class="toolmorepop"><button class="btn xs" id="editSection">Límites…</button><button class="btn xs" id="addSection">＋ sección</button></div></details></span><span class="toolbar-sep"></span><span class="toolbar-group" aria-label="Extracción e inserción"><button class="btn xs" id="reextract" title="Volver a extraer con el motor actual">↻ Actualizar</button><button class="btn primary xs" id="addFromPdf" title="Selección con margen automático ampliado">＋ desde PDF</button></span></span></div><div id="viewerToast" class="viewertoast hidden" role="status" aria-live="polite"></div><div class="sectionview annotated" id="pageWrap"><div class="viewerempty">Cargá y analizá una tesis para ver la sección de referencias.</div></div></main>
+<aside class="refs indice" id="refDrawer" aria-label="Lista de referencias"><div class="refhead"><h2 id="refCount">0 referencias</h2><div class="viewtoggle" id="refViewToggle"><button class="active" data-refview="cards">Lista</button><button data-refview="table">Planilla editable</button></div><div class="refquick"><button class="btn xs" id="toggleVisualText" title="Sólo cambia cómo se ve el OCR; no modifica la exportación">Aa · vista limpia</button><button class="btn xs" id="copyAll">Copiar</button><button class="btn xs" id="insertRef">＋ manual</button></div></div><div id="missingIndicator"></div><section class="docmap" id="docMap" aria-label="Mapa del documento"></section><input class="search" id="searchRefs" placeholder="Buscar en las referencias…"><div id="analysisNotice"></div><details class="auditdrawer" id="auditDrawer"><summary>Control de extracción</summary><div id="coverage" class="mini">Analizá una tesis para ver cobertura y bordes de página.</div></details><div id="refList"></div></aside>
+<button class="reftab" id="refTab" aria-controls="refDrawer" aria-expanded="false" aria-label="Abrir la lista de referencias"><span class="chev" aria-hidden="true">‹</span><span class="tl">Lista de referencias</span><span class="tc" id="tabCount">0</span><span class="tw" id="tabMissing" hidden></span></button>
+</div></section>
+</div></section>
+<section id="screen-export" class="screen"><div class="content"><div class="h1">Elegí qué tesis querés exportar.</div><div class="lead">Podés exportar una tesis, algunas o todas juntas. Los archivos combinados conservan el identificador de tesis, el título y el nombre del PDF en cada referencia.</div><div class="exportselect"><div class="exportselect-head"><div><b>Tesis incluidas</b><div class="exportsummary" id="exportSummary">0 tesis seleccionadas</div></div><div class="actions"><button class="btn" id="selectAllExport">Seleccionar todas</button><button class="btn" id="selectNoneExport">Ninguna</button></div></div><div class="exportdocs" id="exportDocs"></div></div><div class="exportgrid"><div class="exportitem"><h3>Excel</h3><p>Referencias crudas + campos parseados, tesis, secciones, revisión y resumen en un libro.</p><button class="btn primary" data-export="xlsx">Descargar Excel</button></div><div class="exportitem"><h3>CSV</h3><p>Una fila por referencia, con texto crudo y campos parseados (autor, año, tipo, título, revista/editorial y DOI).</p><button class="btn" data-export="csv">Descargar CSV</button></div><div class="exportitem"><h3>JSON</h3><p>Conserva referencias, secciones y decisiones humanas.</p><button class="btn" data-export="json">Descargar JSON</button></div><div class="exportitem"><h3>Correcciones del corpus</h3><p>Decisiones humanas registradas durante la revisión.</p><button class="btn" id="exportCorrections">Descargar correcciones</button></div><div class="exportitem future"><h3>Gestores bibliográficos</h3><p>RIS · BibTeX · CSL JSON quedan pendientes hasta una validación específica de formatos bibliográficos.</p><button class="btn" disabled>Próximamente</button></div></div></div></section>
+</div></div><div id="modalHost"></div><script src="/static/app.js?v=283"></script><script src="/static/projects.js?v=3"></script><script src="/static/workspace-layout.js?v=1"></script><script src="/static/review-layout.js?v=1"></script><script src="/static/sidebar-layout.js?v=1"></script><script src="/static/analysis.js?v=3"></script></body></html>

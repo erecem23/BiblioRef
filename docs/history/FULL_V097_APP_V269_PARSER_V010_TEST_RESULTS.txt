@@ -1,0 +1,23 @@
+...........................................................F............ [ 14%]
+........................................................................ [ 28%]
+.......................................................................s [ 42%]
+s.............s............................................... [ 54%]
+........................................................................ [ 68%]
+.................................................................. [ 81%]
+........................................................................ [ 95%]
+.........................                                                [100%]
+=================================== FAILURES ===================================
+_________ test_page_number_glued_at_the_end_does_not_block_the_imprint _________
+
+    def test_page_number_glued_at_the_end_does_not_block_the_imprint():
+        """The running page number that the extractor leaves attached must not hide
+        the imprint from the closing-country route."""
+        text = ("Arias, M. (2010). Radiografía del Chile Digital 2.0. "
+                "Santiago de Chile, Chile: Divergente. [273]")
+>       assert parse_reference(text)["publisher_observed"] == "Divergente"
+E       AssertionError: assert None == 'Divergente'
+
+test_parser_v0_10.py:109: AssertionError
+=========================== short test summary info ============================
+FAILED test_parser_v0_10.py::test_page_number_glued_at_the_end_does_not_block_the_imprint
+1 failed, 509 passed, 3 skipped, 16 subtests passed in 5.62s

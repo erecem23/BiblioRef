@@ -1,0 +1,1429 @@
+{
+  "source": "BiblioRef_v088_master_tesis_resultados_RECUPERADO.xlsx",
+  "selection_status": "DEVELOPMENT_AUDIT_SET_AFTER_V088_OUTPUT_INSPECTION_NOT_HOLDOUT",
+  "n_cases": 20,
+  "categories": {
+    "rescue_subsegmentation": 2,
+    "rescue_missing_bibliography": 2,
+    "rescue_missing_bibliography_risky": 1,
+    "shadow_fusion_regression": 5,
+    "zone_or_narrative_contamination": 4,
+    "blind_spot": 3,
+    "doi_or_tail_oversegmentation": 1,
+    "stable_control": 2
+  },
+  "cases": [
+    {
+      "tesis_orden": 11,
+      "category": "rescue_subsegmentation",
+      "note": "Stable contains giant fused records; shadow splits many plausible references.",
+      "tesis_archivo": "El vínculo afecto-lenguaje-invariabilidad en el autismo infantil precoz aporte para una redescripción y ajuste del fenómeno autístico.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNC/El vínculo afecto-lenguaje-invariabilidad en el autismo infantil precoz aporte para una redescripción y ajuste del fenómeno autístico.pdf",
+      "stable_n": 23,
+      "shadow_n": 157,
+      "delta": 134,
+      "shadow_status": "candidate_worth_reviewing",
+      "stable_max_words": 1287,
+      "shadow_max_words": 259,
+      "stable_ge500": 3,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 5,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 695,
+          "text": "Martínez-González, A. E. (2019). Candida spp. en la microbiota intestinal de las personas con autismo: revisión sistemática. Revista de Neurología N°68(01), pp. 1-6. Consultado el 12/01/2023 en: https://doi.org/10.33588/rn.6801.2018129 Aragón Jiménez, V. (2010). Etiología del autismo. Revista digital Innovación y Experiencias Educativas . Disponible en: http://www.csi-csif.es Argañaraz, J. (2004) La constitución del Psicoanálisis como 'programa de investigación’. Selección de trabajos de las XIV Jornadas de Epistemología e Historia de la Ciencia. CiFFyH, UNC. Volumen 10. Córdoba, Argentina. [303] ---------------- (2007). Psicopatología y Psicoanálisis: una perspectiva desde Lakatos . Córdoba: Brujas. ---------------- (2012). Ruptura y continuidad de Lacan con Freud (desde Lakatos) . Córdoba: Universidad Nacional de Córdoba. ---------------- (2014). Reconstrucción racional de las teorías psicológicas y psicopatológicas de Sigmund Freud utilizando la metodología de programas de investigación. Tesis de Doctorado en Psicología. Universidad Nacional de Córdoba. [Inédito]. ---------------- (2017). El Signo de Freud: diagnóstico diferencial entre patología orgánica y psíquica. PALAVRAS. R"
+        },
+        {
+          "order": 2,
+          "n_words": 1287,
+          "text": "[on-line] en: https://www.psicoterapiarelacional.es/Portals/0/eJournalCeIR/V3N1_2009/16_FBalbuena _Autismo-Psicoanalisis_CeIR_V3N1.pdf?ver=2009-03-09-062000-000 -------------------- (2007). Breve revisión histórica del autismo. Revista de la Asociación Española de Neuropsiquiatría. Vol.27 no.2. Consultado el 14 de diciembre de 2021. Disponible [on-line] en: https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S0211- 57352007000200006 Barnard, R. A., Pomaville, M. B., & O'Roak, B. J. (2015). Mutations and Modeling of the Chromatin Remodeler CHD8 Define an Emerging Autism Etiology. Frontiers in neuroscience. N° 9, 477. Consultado el 12/01/2023 en: https://doi.org/10.3389/fnins.2015.00477 Baron-Cohen, S. (1989). Joint attention deficits in autism: towards a cognitive analysis. Development and Psychopathology , 1, pp. 185-189. -------------------- (1991). Precursors to a theory of mind: understanding attention in others. En A. Whiten (Ed.), Natural theories of mind: Evolution, development and simulation of everyday mindreading . Oxford: Blackwell, pp. 233-250 -------------------- (1995) Mindblindness. An Essay on Autism and Theory of Mind . Cambridge: MIT Press. -----------------"
+        },
+        {
+          "order": 3,
+          "n_words": 557,
+          "text": "Abdallah, M. (2020). Estrógenos fetales y autismo. Revista Maremagnum Nº24, pp. 173- 190. Consultado el 12/01/2023. Disponible [on-line] en: https://www.autismogalicia.org/ Coleman, M., Blass, J.P. (1985). Autism and lactic acidosis. Journal of Autism Developmental Disorders. N° 15, 1–8. Consultado el 12/01/2023 en: https://doi.org/10.1007/BF01837894 Collina, B. (2016). Lakatos y Feyrabend. La ciencia entre método y anarquía. Bs. As.: EMSE Comin, D. (2012). Tóxicos y su relación con el autismo y otros trastornos. Autismo diario. Consultado el 12/01/2023. Disponible [on-line] en: https://autismodiario.com/2012/05/04/toxicos-y-su-relacion-con-el-autismo-y-otros- trastornos-parte-i/ [309] Confederación Asperger España (1999) Diagnóstico y la Detección Precoz de los Trastornos del Espectro Autista. Recuperado en www.asperger.es Conti, N. A.; Matusevich, D.; y Stagnaro, J. C. (2004). Historia y epistemología de la psiquiatría. En G. Berrios, F. Fuentebro de Diego, J. Garrabe, R. Huertas García, G. Lanteri-Laura, S. Zysman VERTEX Revista Argentina de Psiquiatría N°55, Vol. XV. Bs. As.: Polemos, pp. 21-22. Conti, N. A. y Stagnaro, C. (2007). Historia de la Ansiedad: Textos escogidos . Bue"
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 12,
+          "text": "Abbagnano, N. (1978). Historia de la filosofía . Barcelona: Montaner y Simón."
+        },
+        {
+          "order": 2,
+          "n_words": 15,
+          "text": "Abbagnano N. y Visalbergui, A. (1964). Historia de la Pedagogía. Madrid: Fondo de Cultura Económica."
+        },
+        {
+          "order": 3,
+          "n_words": 38,
+          "text": "Abelenda, A. J. & Rodríguez Armendariz, E. (2020). Evidencia científica de integración sensorial como abordaje de terapia ocupacional en autismo. Medicina (Buenos Aires), 80(Supl. 2), pp. 41-46. Recuperado el 24 de abril de 2023, de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S0025- 76802020000200010&lng=es&tlng=es ."
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 2,
+          "n_words": 1287,
+          "text": "[on-line] en: https://www.psicoterapiarelacional.es/Portals/0/eJournalCeIR/V3N1_2009/16_FBalbuena _Autismo-Psicoanalisis_CeIR_V3N1.pdf?ver=2009-03-09-062000-000 -------------------- (2007). Breve revisión histórica del autismo. Revista de la Asociación Española de Neuropsiquiatría. Vol.27 no.2. Consultado el 14 de diciembre de 2021. Disponible [on-line] en: https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S0211- 57352007000200006 Barnard, R. A., Pomaville, M. B., & O'Roak, B. J. (2015). Mutations and Modeling of the Chromatin Remodeler CHD8 Define an Emerging Autism Etiology. Frontiers in neuroscience. N° 9, 477. Consultado el 12/01/2023 en: https://doi.org/10.3389/fnins.2015.00477 Baron-Cohen, S. (1989). Joint attention deficits in autism: towards a cognitive analysis. Development and Psychopathology , 1, pp. 185-189. -------------------- (1991). Precursors to a theory of mind: understanding attention in others. En A. Whiten (Ed.), Natural theories of mind: Evolution, development and simulation of everyday mindreading . Oxford: Blackwell, pp. 233-250 -------------------- (1995) Mindblindness. An Essay on Autism and Theory of Mind . Cambridge: MIT Press. -----------------"
+        },
+        {
+          "order": 1,
+          "n_words": 695,
+          "text": "Martínez-González, A. E. (2019). Candida spp. en la microbiota intestinal de las personas con autismo: revisión sistemática. Revista de Neurología N°68(01), pp. 1-6. Consultado el 12/01/2023 en: https://doi.org/10.33588/rn.6801.2018129 Aragón Jiménez, V. (2010). Etiología del autismo. Revista digital Innovación y Experiencias Educativas . Disponible en: http://www.csi-csif.es Argañaraz, J. (2004) La constitución del Psicoanálisis como 'programa de investigación’. Selección de trabajos de las XIV Jornadas de Epistemología e Historia de la Ciencia. CiFFyH, UNC. Volumen 10. Córdoba, Argentina. [303] ---------------- (2007). Psicopatología y Psicoanálisis: una perspectiva desde Lakatos . Córdoba: Brujas. ---------------- (2012). Ruptura y continuidad de Lacan con Freud (desde Lakatos) . Córdoba: Universidad Nacional de Córdoba. ---------------- (2014). Reconstrucción racional de las teorías psicológicas y psicopatológicas de Sigmund Freud utilizando la metodología de programas de investigación. Tesis de Doctorado en Psicología. Universidad Nacional de Córdoba. [Inédito]. ---------------- (2017). El Signo de Freud: diagnóstico diferencial entre patología orgánica y psíquica. PALAVRAS. R"
+        },
+        {
+          "order": 3,
+          "n_words": 557,
+          "text": "Abdallah, M. (2020). Estrógenos fetales y autismo. Revista Maremagnum Nº24, pp. 173- 190. Consultado el 12/01/2023. Disponible [on-line] en: https://www.autismogalicia.org/ Coleman, M., Blass, J.P. (1985). Autism and lactic acidosis. Journal of Autism Developmental Disorders. N° 15, 1–8. Consultado el 12/01/2023 en: https://doi.org/10.1007/BF01837894 Collina, B. (2016). Lakatos y Feyrabend. La ciencia entre método y anarquía. Bs. As.: EMSE Comin, D. (2012). Tóxicos y su relación con el autismo y otros trastornos. Autismo diario. Consultado el 12/01/2023. Disponible [on-line] en: https://autismodiario.com/2012/05/04/toxicos-y-su-relacion-con-el-autismo-y-otros- trastornos-parte-i/ [309] Confederación Asperger España (1999) Diagnóstico y la Detección Precoz de los Trastornos del Espectro Autista. Recuperado en www.asperger.es Conti, N. A.; Matusevich, D.; y Stagnaro, J. C. (2004). Historia y epistemología de la psiquiatría. En G. Berrios, F. Fuentebro de Diego, J. Garrabe, R. Huertas García, G. Lanteri-Laura, S. Zysman VERTEX Revista Argentina de Psiquiatría N°55, Vol. XV. Bs. As.: Polemos, pp. 21-22. Conti, N. A. y Stagnaro, C. (2007). Historia de la Ansiedad: Textos escogidos . Bue"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 53,
+          "n_words": 259,
+          "text": "-------------------------- (2016) Lenguajes extraños y dificultades de contacto afectivo. En II Congreso Internacional de Psicología – V Congreso Nacional de Psicología “Ciencia y Profesión\": Desafíos para la Construcción de una Psicología Regional. Facultad de Psicología, UNC. -------------------------- (2017 ). ¿De qué autismo hablamos? El autismo ideal y el autismo de Kanner . Trabajo presentado en simposio titulado “Historia y Epistemología Crítica de la Clínica”. XXVIII Jornadas de Epistemología e Historia de la Ciencia. La falda, Córdoba (inédito). ------------------------- (2018) Autismo, bella indiferencia . Trabajo presentado en el III Congreso Internacional y VI Congreso Nacional de Psicología Ciencia y Profesión. Córdoba. (inédito). Resumen disponible [on-line] en: http://psicologiacyp.congresos.unc.edu.ar/trabajos-presentados/ ------------------------- (2020) En los márgenes del lenguaje. Lecturas psicoanalíticas sobre el autismo infantil . Tesis de maestría en Teoría Psicoanalítica Lacaniana. Facultad de Psicología, Universidad Nacional de Córdoba (inédito). -------------------------- (2021). Criterios diagnósticos del autismo infantil precoz, a 75 años de la descripci"
+        },
+        {
+          "order": 73,
+          "n_words": 76,
+          "text": "Canal Euskadii. (7 de abril de 2013). Paul Beatriz Preciado ¿La muerte de la clínica? [Archivo de video]. Disponible en: https://www.youtube.com/watch?v=4aRrZZbFmBs Canal ETAAPA (24 de agosto de 2015). Autismo – Teoría de la Mente. Dr. Ángel Rivière [Archivo de video]. Consultado el 12/01/2023 en YouTube: https://www.youtube.com/watch?v=yXa6usvXbkQ&ab_channel=ETAAPA Canal PANAACEA (19 de septiembre de 2017) ¿Qué características tienen las personas con CEA? - Alexia Rattazzi. [Archivo de video]. Consultado el 7 de mar. de 23 en YouTube: https://www.youtube.com/watch?v=IalgqnY_phg"
+        },
+        {
+          "order": 16,
+          "n_words": 69,
+          "text": "---------------- (2012). Ruptura y continuidad de Lacan con Freud (desde Lakatos) . Córdoba: Universidad Nacional de Córdoba. ---------------- (2014). Reconstrucción racional de las teorías psicológicas y psicopatológicas de Sigmund Freud utilizando la metodología de programas de investigación. Tesis de Doctorado en Psicología. Universidad Nacional de Córdoba. [Inédito]. ---------------- (2017). El Signo de Freud: diagnóstico diferencial entre patología orgánica y psíquica. PALAVRAS. Revista de Epistemología, Metodología y Ética del Psicoanálisis."
+        }
+      ]
+    },
+    {
+      "tesis_orden": 18,
+      "category": "rescue_missing_bibliography",
+      "note": "Stable finds zero; shadow recovers a substantial bibliography.",
+      "tesis_archivo": "Maternidad y producción de subjetividades femeninas. Un estudio sobre los sentidos, experiencias y prácticas de mujeres que participan en el colectivo Mujeres por un Parto Respetad.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNC/Maternidad y producción de subjetividades femeninas. Un estudio sobre los sentidos, experiencias y prácticas de mujeres que participan en el colectivo Mujeres por un Parto Respetad.pdf",
+      "stable_n": 0,
+      "shadow_n": 226,
+      "delta": 226,
+      "shadow_status": "candidate_worth_reviewing",
+      "stable_max_words": 0,
+      "shadow_max_words": 359,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 13,
+          "text": "AAVV. (2012). Sobre partos, mujeres y nacimientos . Buenos Aires: Edición colectiva ."
+        },
+        {
+          "order": 2,
+          "n_words": 57,
+          "text": "Aguiar, Jananina M., D’Oliveira, Ana F. P. L., & Diniz, Carmen S. G. (2020). El parto como “atropellamiento”: ideología médica, visión pesimista del parto normal y violencia obstétrica. En Patrizia Quattrocchi y Natalia Magnone (comps.). Violencia obstétrica en América Latina: conceptualización, experiencias, medición y estrategias (pp.131- 144) . Buenos Aires: EDUNLa – Universidad Nacional de Lanús. http://doi.org/10.18294/9789874937506"
+        },
+        {
+          "order": 3,
+          "n_words": 35,
+          "text": "Agurto, Gladys. (2012). Construcción subjetiva de madres adolescentes acerca de su maternidad y proyecto de vida, residentes en sectores vulnerables de la comuna de Cauquenes. [Tesis de Maestría. Universidad del Bio Bio, Concepción. Chile] http://cybertesis.ubiobio.cl/tesis/2012/agurto_g/html/index-frames.html"
+        }
+      ],
+      "stable_largest3": [],
+      "shadow_largest3": [
+        {
+          "order": 221,
+          "n_words": 359,
+          "text": "Mujeres por un parto respetado. (2018, 9 al 25 de mayo). Campaña Semana Mundial de Parto Respetado 2018 “Menos intervenciones, más cuidados” [Publicaciones, material gráfico]. Facebook. https://www.facebook.com/mujeresporunpartorespetado Mujeres por un parto respetado. ( 2018, 10 de mayo). Semana Mundial por el Parto Respetado \"Menos intervenciones, más cuidados\". [Documento, Publicación] Facebook de MxPRC. https://www.facebook.com/mujeresporunpartorespetado/posts/pfbid029UFvi4Txsj4S WtSBjCB1wwdKsCA9MvJ5e5YFkBxYRDC2raaKXdVF1nV8NEB8GSBel 305 Mujeres por un parto respetado. (2018, 12 de junio). Aborto Legal seguro y gratuito YA! [Publicación: texto y video]. Facebook de MxPRC. https://www.facebook.com/mujeresporunpartorespetado/videos/1851342248290953 Mujeres por un parto respetado. (2018, 25 de junio) Mujeres por un Parto Respetado Córdoba repudiamos la intención de ilegalizar la práctica de asistencia domiciliaria de los partos [Publicación]. Facebook de MxPRC. https://www.facebook.com/mujeresporunpartorespetado/posts/pfbid0g2JVZmhE2jf7ej 1SWMEDBRhqJwW7hihFuS1TPkrSaLPMmN2XdT3fAQxRrZX8E2Hal Mujeres por un parto respetado. (2018, 29 de junio). Campaña “No al proyecto de ley 20-70- D-"
+        },
+        {
+          "order": 214,
+          "n_words": 160,
+          "text": "Ley Nº 25.929. Derechos de padres e hijos durante el nacimiento. (2004, 25 de agosto). Argentina. http://servicios.infoleg.gob.ar/infolegInternet/anexos/95000-99999/98805/norma.htm Ley Nº 26.485. Ley de Protección Integral para Prevenir, Sancionar y Erradicar la Violencia Contra las Mujeres. (2009, 11 de marzo). Argentina. http://servicios.infoleg.gob.ar/infolegInternet/anexos/150000-154999/152155/norma.htm Ley Nº 26.529. Derechos del Paciente en su Relación con los Profesionales e Instituciones de la Salud. (2009, 21 de octubre). Argentina. http://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/160432/norma.htm Proyecto de ley Expediente 4298-D-2020 (2020, 20 de agosto). Marco regulatorio para el funcionamiento de Casas de partos y nacimientos en el territorio nacional. Implementación. Trámite Parlamentario N° 109, Cámara de Diputados de la Nación, Argentina. https://www.hcdn.gob.ar/proyectos/proyecto.jsp?exp=4298-D-2020 Proyecto de Ley 1240-D-2019 (2019, 28 de marzo) “Procedimientos Médicos Asistenciales para la Atención de la Persona Gestante frente a la Muerte Perinatal” (Ley Johana). Trámite Parlamentario N° 23, Cámara de Diputados de la Nación, Argentina. https:"
+        },
+        {
+          "order": 9,
+          "n_words": 141,
+          "text": "Amigot, Patricia, & Pujal i Llombart, Margot. (2015). Desmedicalización de la experiencia de dolor en mujeres: usos de plataformas virtuales y procesos de agenciamiento subjetivo. Universitas Psychologica , 14 (5), 1551-1568. http://dx.doi.or./10.11144/Javeriana.upsy14-5.dedm 151 La presentación de las referencias bibliográficas sigue el formato establecido en las normas APA, excepto que he incluido el primer nombre de lxs autorxs, compiladorxs o editorxs. La publicación del nombre completo en la autoría ya ha sido adoptada en diversas revistas científicas y eventos académicos, siguiendo recomendaciones internacionales para visibilizar los aportes de las autoras mujeres y contribuir a revertir la brecha de género en la producción científica. 286 Amigot, Patricia. (2005). Relaciones de poder, espacio subjetivo y prácticas de libertad: análisis de un proceso intersubjetivo de transformación de género . [Tesis Doctoral, Departamento de Psicología de la Salud y Psicología Social. Universidad Autónoma de Barcelona]. https://ddd.uab.cat/record/36833"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 20,
+      "category": "rescue_subsegmentation",
+      "note": "Stable has five giant/narrative records; shadow recovers many plausible entries.",
+      "tesis_archivo": "Problemas epistemológicos del acompañamiento terapéutico aportes desde la otredad.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNC/Problemas epistemológicos del acompañamiento terapéutico aportes desde la otredad.pdf",
+      "stable_n": 5,
+      "shadow_n": 272,
+      "delta": 267,
+      "shadow_status": "candidate_worth_reviewing",
+      "stable_max_words": 715,
+      "shadow_max_words": 245,
+      "stable_ge500": 3,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 715,
+          "text": "Entralgo (2015: 10) Agrega, en oposición, en relación al auge del galenismo intervencionista: “Bien distintas van a ser las cosas cuando la mentalidad «moderna» se configure e imponga: esto es, durante los siglos XIX y XX con la seguridad más o menos explícita de poder vencer en un momento o en otro -el «día de mañana», si no puede ser «el día de hoy»- el límite que la realidad del mundo exterior está oponiendo a su acción y su propósito.” (2015:12) “El médico actual realiza esta idea -o esta utopía- de la permanente provisionalidad del límite, en cuanto protagonista de dos procesos históricos complementarios entre sí: la progresiva penetración del diagnóstico en la realidad del enfermo y la creciente eficacia del gobierno terapéutico de esta realidad. Desde la doble hazaña de Auenbrugger y Laennec hasta la exploración metabólica, radiológica, eléctrica y psicológica de la actualidad, el diagnóstico médico ha sido una progresiva ruptura de los límites que en el cuerpo y en el alma del paciente parecían oponerse a la penetración de la mirada del explorador; y lo mismo puede decirse respecto de la eficacia del tratamiento examinando, a vista de pájaro, la historia de la terapéutica, "
+        },
+        {
+          "order": 2,
+          "n_words": 551,
+          "text": "Canguilhem (2004) respecto a la tensión entre la medicina galénica y la hipocrática: “Esta ambición puede llegar a ocultar la idea de que, frente al médico y para este, un organismo enfermo es sólo un objeto pasivo dócilmente sometido a manipulaciones e incitaciones externas. (…) A cuerpo inerte, medicina activa. (…) Si el organismo posee por sí mismo sus propios poderes de defensa, tenerle confianza, al menos de manera provisoria, es un imperativo hipotético tanto de prudencia como de habilidad. A cuerpo dinámico, medicina expectante. El genio médico estaría en la paciencia.” Canguilhem (2004:17,18) Pues bien, a cuerpo inerte medicina activa y a cuerpo dinámico, medicina expectante, no sólo hace referencia a la técnica, sino a una noción de otro y a una ética respecto a ese otro. En tiempos de premura por transferencia científica, la clínica es llevada a subsumirse casi exclusivamente en la terapéutica. Al respecto Cangilhem realiza una serie de advertencias para esta operatoria que serán consideradas respecto a dimensionar diferentes clínicas en el AT: “… es obligatorio recordarle a la conciencia médica que soñar con remedios absolutos significa a menudo soñar con remedios peores"
+        },
+        {
+          "order": 3,
+          "n_words": 67,
+          "text": "Bercherie (1983:24) La caída del galenismo ( Argañaraz, 2014:120) en tanto que pierde hegemonía, pero no sucumbe, tal como veremos más adelante, encontrará en el Siglo XX importantes revitalizaciones; sin embargo: “ A partir de la obra de Sydenham y su «retorno a Hipócrates» (1681) la medicina galénica se derrumba, entra en decadencia y en desprestigio, siendo suplantada durante el siglo XVIII por la «medicina clínica»” ."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 39,
+          "text": "A Casa. (Org.)(1991). A rua como espaço clínico. Acompanhamento terapêutico/Equipe de Acompanhantes Terapêuticos do Hospital-Dia. Escuta . São Paulo A Casa. (Org.)(1997). Crise e cidade : acompanhamento terapêutico. Equipo de acompanhantes Terapêuticos do Instituto A Casa. Educ. São Paulo."
+        },
+        {
+          "order": 2,
+          "n_words": 36,
+          "text": "Acebal, A., Fabiani L., y Martínez, M. (2016). Reflexiones teórico-epistemológicas sobre la construcción de políticas urbanas desde los organismos internacionales de financiamiento. En Núñez, A. (Comp.), Epistemologías del (des)orden territorial (86-108) . Mar del Plata. Eudem."
+        },
+        {
+          "order": 3,
+          "n_words": 25,
+          "text": "Agneray, F., Loget, M., Chaperot, C. (2016). Schizophrénie: quand habiter devient impossible. À propos d’une clinique de proximité. Evol Psychiatrique Elsevier Masson, 81, 589-603. http://dx.doi.org/10.1016/j.evopsy.2015.07.003"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 1,
+          "n_words": 715,
+          "text": "Entralgo (2015: 10) Agrega, en oposición, en relación al auge del galenismo intervencionista: “Bien distintas van a ser las cosas cuando la mentalidad «moderna» se configure e imponga: esto es, durante los siglos XIX y XX con la seguridad más o menos explícita de poder vencer en un momento o en otro -el «día de mañana», si no puede ser «el día de hoy»- el límite que la realidad del mundo exterior está oponiendo a su acción y su propósito.” (2015:12) “El médico actual realiza esta idea -o esta utopía- de la permanente provisionalidad del límite, en cuanto protagonista de dos procesos históricos complementarios entre sí: la progresiva penetración del diagnóstico en la realidad del enfermo y la creciente eficacia del gobierno terapéutico de esta realidad. Desde la doble hazaña de Auenbrugger y Laennec hasta la exploración metabólica, radiológica, eléctrica y psicológica de la actualidad, el diagnóstico médico ha sido una progresiva ruptura de los límites que en el cuerpo y en el alma del paciente parecían oponerse a la penetración de la mirada del explorador; y lo mismo puede decirse respecto de la eficacia del tratamiento examinando, a vista de pájaro, la historia de la terapéutica, "
+        },
+        {
+          "order": 4,
+          "n_words": 697,
+          "text": "Argañaraz (2014:121). Nos interesa destacar brevemente que dentro de la medicina clínica y de la clínica expectante particularmente, el clínico en la era de pre-institucionalización de la medicina occidental, es decir antes de la revolución francesa y a posteriori incluso, con pacientes que no requerían internación; se practicaba en los domicilios de los enfermos. Las visitas en el domicilio generaban una heurística diferente a aquella de reclusión, muy especialmente en lo que a patologías mentales o sufrimiento emocional se trate. El propio Sydenham establece en la visita de un paciente colérico en su domicilio, nuevos observables, que no serían posibles de recabar en el consultorio y permiten establecer un diagnóstico diferencial, un signo patognomónico e identificar factores predisponentes para el cuadro actual de su paciente (Conti y Stagnaro 2007:14-18). Este ejercicio de atención clínico cambiará aceleradamente en el Siglo XX con la proliferación de profesiones liberales y la apertura de consultorios privados, por un lado, y de grandes instituciones asistenciales públicas en los contextos urbanos por el otro; perdurarán sin embargo las visitas domiciliarias como prácticas mar"
+        },
+        {
+          "order": 2,
+          "n_words": 551,
+          "text": "Canguilhem (2004) respecto a la tensión entre la medicina galénica y la hipocrática: “Esta ambición puede llegar a ocultar la idea de que, frente al médico y para este, un organismo enfermo es sólo un objeto pasivo dócilmente sometido a manipulaciones e incitaciones externas. (…) A cuerpo inerte, medicina activa. (…) Si el organismo posee por sí mismo sus propios poderes de defensa, tenerle confianza, al menos de manera provisoria, es un imperativo hipotético tanto de prudencia como de habilidad. A cuerpo dinámico, medicina expectante. El genio médico estaría en la paciencia.” Canguilhem (2004:17,18) Pues bien, a cuerpo inerte medicina activa y a cuerpo dinámico, medicina expectante, no sólo hace referencia a la técnica, sino a una noción de otro y a una ética respecto a ese otro. En tiempos de premura por transferencia científica, la clínica es llevada a subsumirse casi exclusivamente en la terapéutica. Al respecto Cangilhem realiza una serie de advertencias para esta operatoria que serán consideradas respecto a dimensionar diferentes clínicas en el AT: “… es obligatorio recordarle a la conciencia médica que soñar con remedios absolutos significa a menudo soñar con remedios peores"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 78,
+          "n_words": 245,
+          "text": "De Sousa Santos, B. (1995). Toward a new common sense: law, science and politics in the paradigmatic transition . Nova Lorque. Routledge. ---. (1998). De la mano de Alicia: lo social y lo político en la posmodernidad . Santafé de Bogotá. Siglo del Hombre. 293 ---. (2000). Crítica de la razón indolente : contra el desperdicio de la experiencia. Vol. I: por un nuevo sentido común . Bilbao. Desclée. ---. (2002). A crítica da razão indolente: contra o desperdício da experiencia. Para um novo senso comun: a ciéncia, o dereito e a politica na transicao paradigmática. Volume 1. (4ta. ed.). ---. (2009). Una Epistemologia del sur: la reinvención del conocimiento y la emancipación social . México. Siglo XXI. ---. (2010). Descolonizar el saber, reinventar el poder. Uruguay. Trilce. ---. (2016). Desde la perspectiva de los condenados a la ciudad. En Borja, J., Carrión, F. y Corti, M. (Eds.) Ciudades para cambiar la vida. Una respuesta a Habitat III . Ecuador. FLACSO. ---. (2017). Justicia entre saberes : Epistemologías del sur contra el epistemicidio . Madrid. Morata. ---. (2018). Construyendo las Epistemologías del Sur: para un pensamiento alternativo de alternativas. (vol. I y II) . Buenos A"
+        },
+        {
+          "order": 85,
+          "n_words": 223,
+          "text": "Dragotto, P. y Frank, M.L. (2006). Ética y acompañamiento terapéutico. Actualidad psicológica XXXI N°346. Buenos Aires. ---. (Comp.) (2012). Acompañantes : conceptualizaciones y experiencias en A.T. Córdoba. Brujas. 295 Duarte Barretto, K. (1997). Acompanhamento Terapêutico: uma clínica do cotidiano. Insight Psicoterapia , 7 (73), 22-24. ---. (2001). Acompanhamento terapéutico: uma clínico do cotidiano . http://siteat.net/2001/06/26/Kleber ---. (2002). Vértice estético no acompanhamento terapeutico: repercussoes da clínica do self. En Rossi, G. C., Pulice, G. C., Leblebidjian, L. C., Manson, F. C., Frank, M. L. C., Alderete, S. C., y Dragotto, P. A. C., Eficacia clínica del acompañamiento terapéutico (1a.ed.). Buenos Aires. Polemos. ---. (2005). Ética y Técnica en el Acompañamiento Terapéutico. Andanzas con Don Quijote y Sancho Panza . São Paulo. Unimarco. ---. (2011). La tercera margen del río: reflexiones para una ética del acompañamiento terapéutico. En Acompañamiento terapéutico. Innovaciones de la clínica. Inscripción institucional . Buenos Aires. Dunken. Enredat. Número 1.Noviembre, 2010. FunDAT: Buenos Aires. Equipo de AT do Instituto A CASA (Orgs.) (1986). Acompañamiento te"
+        },
+        {
+          "order": 272,
+          "n_words": 201,
+          "text": "41. Cossi, E. (s/d) Manual Integral de AT. Parte general y especial. Desde un abordaje cognitivo comportamental y perspectiva de derechos. s/d. Encuentros y Congresos 1983 I Encuentro argentino de AT en Psiquiatría (Bs As) 1994 Primer encuentro argentino en Buenos Aires (local) 2000 Encuentro en Córdoba 2001 II Congreso Nacional en Córdoba 2003 III Congreso Nacional en Buenos Aires y I Congreso Internacional 2005 IV Congreso Nacional en Córdoba 2006 II Congreso Internacional en São Paulo 2007 V Congreso Nacional en Bahía Blanca 2008 III Congreso Internacional Porto Alegre 2009 VI Congreso Nacional en San Luis 2010 IV Congreso Internacional Querétaro 2010 VII Congreso Nacional Mar del Plata 2011 IX Congreso Nacional en Buenos Aires 2012 V Congreso Internacional España 2013 X Congreso Nacional en Rosario 2013 VI Congreso Internacional Mexico 2014 XI Congreso Nacional en San Juan 2014 VII Congreso Internacional Montevideo 318 2015 XIICongreso Nacional en Córdoba 2016 XIIICongreso Nacional en Mar del Plata 2016 XII Congreso Internacional São Paulo 2017 XIV Congreso Nacional en Catamarca 2018 XV Congreso Nacional en Bahia Blanca 2019 XVICongreso Nacional en Rosario 2020 XVII Congreso Na"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 78,
+      "category": "rescue_missing_bibliography_risky",
+      "note": "Stable zero; shadow finds bibliography but still has giant segments.",
+      "tesis_archivo": "2018_Romé_La enunciación en el niño Problemática e incidencias a partir de la enseñanza de Jacques Lacan.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2018_Romé_La enunciación en el niño Problemática e incidencias a partir de la enseñanza de Jacques Lacan.pdf",
+      "stable_n": 0,
+      "shadow_n": 35,
+      "delta": 35,
+      "shadow_status": "candidate_worth_reviewing",
+      "stable_max_words": 0,
+      "shadow_max_words": 1099,
+      "stable_ge500": 0,
+      "shadow_ge500": 3,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 5,
+          "text": "5. Referencias bibliográficas 138 ."
+        },
+        {
+          "order": 2,
+          "n_words": 131,
+          "text": "Abelhauser, A. (2004). L’Éthique de la Clinique selon Lacan. L’évolution psychyatrique , Nº69, 2004, 303-310. Agamben, G. (2008). El sacramento del lenguaje: Arqueología del juramento , Buenos Aires: Adriana Hidalgo Editora, 2010. Álvarez, P. (2008). Desencadenamientos tempranos o tardíos, Tendlarz (comp.) Una clínica posible del autismo infantil , Buenos Aires: Grama, 2012. Álvarez, J.M., Esteban, R. & Sauvagnat, F. (2004). Fundamentos de Psicopatología Psicoanalítica , Madrid : Editorial Síntesis. Arenas, G. (2017). Pasos hacia una economía de los goces , Buenos Aires: Grama Ediciones. Arrivé, M. (1989). Pichon et Lacan : quelques lieux de rencontré, Histoire Épistémologie Langage . Tome 11, fascicule 2, 1989, 121-140. Arrivé, M. (1994). Destin lacanien de ladiscordance et de la forclusion, Revue Linx [En ligne], 5, consultada el 23 de octubre de 2014. URL : http://linx.revues.org/1187"
+        },
+        {
+          "order": 3,
+          "n_words": 64,
+          "text": "Arrivé M. (1996). Ce que Lacan retient de Damourette et Pichon : l'exemple de la négation, Langages , 30e année, n°124, 113-124. Ascaini, I., Lucesole, N., Melotto, M.; Odorizzi, E.; Pérez, E. A. & Tomaino, S. (2014). La implementación de la nueva ley sobre los derechos de la infancia y sus prácticas cotidianas, en Pérez, E. (coord..). Psicología Institucional , La Plata: EdULP, 2014,149-163."
+        }
+      ],
+      "stable_largest3": [],
+      "shadow_largest3": [
+        {
+          "order": 13,
+          "n_words": 1099,
+          "text": "Eimas P., Siqueland E., Jusczyk P., Vigorito J. (1971). Speech Perception in Infants, Science, New Series, Vol. 171, Nº 3968, January 1971, 303-306. Esquirol, E. (1838) Des maladies mentales considérées sous les rapports médical, hygiénique et médico-legal , vol. 2, Paris: J.B.Baillière. Ferreira Júnior, J. (2009). A dêixis pessoal nas interações mãe-bebê: a constituição do sujeito no processo de enunciação. João Pessoa-PB. Dissertação (Mestrado em Linguística) – Universidade Federal da Paraíba. Ferreira Júnior, J., Flores V. & Calvacante M. (2015). A teoría de Benveniste sobre a pessoalidade e seus desdobramentos na enunciaçâo infantil, D.E.L.T.A., 31-2, 527-558. Fonagy, P. (2001). Développement de la psychopathologie de l'enfance à l'âge adulte : le mystérieux déploiement des troubles dans le temps, La psychiatrie de l'enfant , 2001/2 Vol. 44, 333-334. Freud, S. (1894). Las neuropsicosis de defensa (Ensayo de una teoría psicológica de la histeria adquirida, de muchas fobias y representaciones obsesivas, y de ciertas psicosis alucinatorias), Obras completas , Volumen III, Buenos Aires: Amorrortu, 2ª Edición, 2008, 41-68. Freud, S. (1894a). Obsesiones y fobias. Su mecanismo psíquic"
+        },
+        {
+          "order": 32,
+          "n_words": 688,
+          "text": "Sauvagnat F. (1999). L’écholalie : un phénomène cardinal de la psychose infantile, L’envers de Paris , Revue de l’Association Psychanalytique, N°21, 10-13. Sauvagnat, F. (1999-2000). Sur la difficulté du repérage des phénomènes élémentaires chez les enfants, Déclenchement et non déclenchement dans les psychoses , Section Clinique de Rennes, 1999-2000, ouvrage collectif, 33- 60. Sauvagnat, F. (2002). Situation actuelle de la question de lalangue par rapport aux théories récentes du langage précoce. Bulletin du groupe Petite enfance N°17 « L’émergence de la parole » , 36-42. Sauvagnat, F. (2003). Entretien sur les institutions, ou pourquoi les phénomènes élémentaires psychotiques sont analogues au fantasme fondamental du névrosé, Revue La Lettre Mensuelle Nº215, Paris. Sauvagnat, F (2003a). Les deux versants du surmoi féminin: de Hanns Sachs à Helene Deutsch, in Trames n°33, Actualités de la psychanalyse : Traversées du ravage entre mère et fille. Sauvagnat, F. (2005). Hallucinations psychotiques et énonciation, Revue Psychologie Clinique , n° 19: La voix, dans et hors la cure , Paris : L’Harmattan, 41-57. Sauvagnat, F. (2008). Psychanalyse et linguistique: le surmoi et la question d"
+        },
+        {
+          "order": 24,
+          "n_words": 680,
+          "text": "Miller J.-A. (2001). La última enseñanza de Lacan, El lugar y el lazo, Los cursos psicoanalíticos de Jacques Alain Miller, Buenos Aires : Paidós, 2013, 137-153. Miller, J.-A. (2002). El niño como respuesta de lo real, Revista Registros, Tomo rosa y celeste, año 7, Buenos Aires: Registros Editorial, 9-12. Miller, J.-A. (2006). Los signos del consentimiento, en Salman, S. (comp) Psicoanálisis con niños: los fundamentos de la práctica, Buenos Aires: Grama Ediciones, 11-27. Miller, J.-A. (2013). Interpréter l’enfant, Travaux récents de l’Institut psychanalytique de l’Enfant : Le Savoir de l’enfant , Paris : Navarin Éditeur, 16-26. Miller, J.-A. (2013a). Una reflexión sobre el Edipo y su más allá, Intervención en PIPOL 6, Pronunciado en Bruselas el 7 de julio de 2013. Texto establecido por Monique Kusnierek, no revisado por el autor. Traducido por Lorena Buchner. Disponible en http://www.psicoanalisisinedito.com/2014/06/jacques- alain-miller-una-reflexion.html , consultado del 15/01/2018. 291 Miller, J.-A. (2013b). Lacan, professeur de désir, Entrevista realizada por Christophe Labbé y Olivia Rescasens, aparecida en el diario Le Point el 6 de junio de 2013. Disponible en http://www.lepo"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 86,
+      "category": "rescue_missing_bibliography",
+      "note": "Stable zero; shadow recovers a compact plausible bibliography.",
+      "tesis_archivo": "2020_Ticac_Estrategias de adaptación de Veteranos de Guerra de Malvinas residentes en Río Negro y Neuquén.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2020_Ticac_Estrategias de adaptación de Veteranos de Guerra de Malvinas residentes en Río Negro y Neuquén.pdf",
+      "stable_n": 0,
+      "shadow_n": 95,
+      "delta": 95,
+      "shadow_status": "candidate_worth_reviewing",
+      "stable_max_words": 0,
+      "shadow_max_words": 54,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 1,
+      "stable_first3": [],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 23,
+          "text": "Aguiar, F., Cervo, F., Machinandiarena, F., Balza, M., y Dalton, E. (1985). Operaciones terrestres en las Islas Malvin as. Buenos Aires: Círculo Militar."
+        },
+        {
+          "order": 2,
+          "n_words": 18,
+          "text": "Albalustri, L. (2007). Estrés y nuevas perspectivas en Psicopatología y Salud . Buenos Aires: Editorial Científica Interamericana S.A.C.I."
+        },
+        {
+          "order": 3,
+          "n_words": 19,
+          "text": "Asociación Americana de Psiquiatría (2010). DSM-5. Manual diagnóstico y estadístico de los trastornos mentales . Washington: Editorial Médica Panamericana."
+        }
+      ],
+      "stable_largest3": [],
+      "shadow_largest3": [
+        {
+          "order": 9,
+          "n_words": 54,
+          "text": "Beltrán, M. C. y Bó de Besozzi, A. (2002c). Intervención institucional ante la catástrofe de Rio III. Una revisión crítica. Ética psicoanalítica y sufrimiento social. En D. Waisbrot, M. Wikinski, C. Rolfo, D. Slucki, y S. Toporosi Tesis Doctoral. Helga Ticac 181 (comp.), Clinica Psicoanalitica ante las catástrofes sociales (pp. 121-131). Buenos Aires: Paidós."
+        },
+        {
+          "order": 6,
+          "n_words": 52,
+          "text": "Beltrán, M. C. y Bó de Besozzi, A. (2002a). Desorden postraumático. Cuestiones sobre la especificidad de la asistencia en situaciones de catástrofes sociales. En E. Beker, M. C. Beltrán, y A. Bó de Besozzi (2002). Intervenciones en Situaciones críticas. Prácticas Interdisciplinarias, Volumen 1 , (Capitulo II, pp. 175-205). Buenos Aires: Editorial Catálogos."
+        },
+        {
+          "order": 30,
+          "n_words": 49,
+          "text": "DSM V (2014). APA American Psychiatric Association. Manual Diagnóstico y Estadístico de los Trastornos Mentales. Buenos Aires: Editorial Médica Panamericana. Buenos Aires. Dickson R. A., y Bertoldi A. M. (1986). Comunicación personal neurosis de guerra y TEPT . Proceedings, 8th Word Congress of Psychiatry Buenos Aires, World Psychiatric Association."
+        }
+      ]
+    },
+    {
+      "tesis_orden": 55,
+      "category": "shadow_fusion_regression",
+      "note": "Shadow collapses hundreds of stable references into a few giant blocks.",
+      "tesis_archivo": "2015_González Oddera_Violencia en la familia Conceptualizaciones, significaciones y modos de presentación.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2015_González Oddera_Violencia en la familia Conceptualizaciones, significaciones y modos de presentación.pdf",
+      "stable_n": 464,
+      "shadow_n": 27,
+      "delta": -437,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 58,
+      "shadow_max_words": 873,
+      "stable_ge500": 0,
+      "shadow_ge500": 4,
+      "stable_short_lt3": 1,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 21,
+          "text": " Abela, J. A. (2001). Las técnicas de análisis de contenido: una revisión actualizada. Andalucía: Fundación Centro de Estudios Andaluces. Recuperado"
+        },
+        {
+          "order": 2,
+          "n_words": 2,
+          "text": "de: http://public.centrodeestudiosandaluces.es/pdfs/S200103.pdf"
+        },
+        {
+          "order": 3,
+          "n_words": 28,
+          "text": " Abelin Sas, G. (1996). La leyenda de Scherezade en la vida cotidiana. En M. Burin & E. Dio Bleichmar (Comp.), Género, psicoanálisis, subjetividad (pp.31-60). Buenos Aires: Paidós."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 179,
+          "text": " Abela, J. A. (2001). Las técnicas de análisis de contenido: una revisión actualizada. Andalucía: Fundación Centro de Estudios Andaluces. Recuperado de: http://public.centrodeestudiosandaluces.es/pdfs/S200103.pdf  Abelin Sas, G. (1996). La leyenda de Scherezade en la vida cotidiana. En M. Burin & E. Dio Bleichmar (Comp.), Género, psicoanálisis, subjetividad (pp.31-60). Buenos Aires: Paidós.  Abelleira, H. & Delucca, N. (2004). Clínica forense en familias. Historización de una práctica. Buenos Aires: Lugar Editorial.  Abelleira, H. (2006). Divorcio y violencia en los vínculos familiares. Subjetividad y procesos cognitivos, 9, 6-33.  Alarcón Agurto, C. (2011). Violencia conyugal, la experiencia subjetiva de los perpetradores. De Familias y Terapias, 30, 45-52.  Albertí, B. & Méndez M. L. (1993). La familia en la crisis de la modernidad. Buenos Aires: Argentum.  Alder, C. (1992). La violencia, los sexos y el cambio social. Revista Internacional de Ciencias Sociales, 132, 257-266.  Alexander, S. & Taylor, B. (1984). En defensa del “patriarcado”. En S. Raphael (Ed), Historia popular y teoría socialista (pp. 257-261). Barcelona: Crítica.  Almendro-Marín, M.T. (2007). Perspectiva"
+        },
+        {
+          "order": 2,
+          "n_words": 359,
+          "text": "311 violencia contra las mujeres desde la Psicología: análisis bibliométrico. Información psicológica, 89, 10-28.  Alvarez, L. E. & Lanza Castelli, G. (1996). ¿Por qué se queda?¿Por qué no se va? Consideraciones metapsicológicas sobre un caso de violencia conyugal. Actualidad psicológica, 232, 2-5.  Álvarez, N. (2007). La Familia: una institución en cuestión. Los cambios de la razón doméstica. En N. Álvarez (Comp). Cuestiones de familia. Problemas y debates en torno a la familia contemporánea (pp.11-26). Mar del Plata: Eudem.  American Psychological Association (1996). Issues and dilemmas in family violence from the APA. Report of The American Psychological Association Presidential Task Force on Violence And The Family. Recuperado de http://web.archive.org/web/20050303175323/http://www.apa.org/pi/pii/familyvio/  American Psychological Association (2010). Manual de publicaciones de la American Psychological Association (3  Amorós, C (1985). Hacia una crítica a la razón patriarcal. Barcelona: Anthropos.  Amorós, C. (1994a). Espacio público y espacio privado y definiciones ideológicas de ‘lo femenino’ y ‘lo masculino’. En Feminismo, igualdad y diferencia (pp. 20-52). México D.F."
+        },
+        {
+          "order": 3,
+          "n_words": 286,
+          "text": "312 pasado y el futuro. Ocho ejercicios sobre la reflexión política (pp.101-154). Barcelona: Ediciones Península.  Arendt, H. (1969/2006). Sobre la violencia. España: Alianza Editorial.  Argoff, C.; Rajsbaum, A. & Herrera, C. (2006). Perspectiva de las mujeres maltratadas sobre la violencia de pareja en México. Salud Pública de México, 48(2), 307-314.  Ariès, Ph. & Duby, G. (1975) Historia de la vida privada. Madrid: Taurus.  Ariès, Ph. (1982/2010). El amor en el matrimonio. En Ph. Ariès & A. Néjin (dir.). Sexualidades occidentales (pp.133-142). Buenos Aires: Nueva Visión.  Ariza Sosa, G.R. (2011). La violencia en las relaciones de pareja en Medellín y sus representaciones sociales (Tesis doctoral). Recuperada de: www.bdigital.unal.edu.co/4187/1/gladysrocioarizasosa.2011.pdf  Ariza Sosa, G. (2013). Las representaciones sociales de la violencia en las relaciones de pareja en Medellín en el siglo XXI. Revista CES Psicología, 6(1), 134-158.  Aulagnier, P. (1975/2004). La violencia de la interpretación: del pictograma al enunciado. Buenos Aires: Amorrortu.  Aulagnier, P. (1979/2007). Los destinos del placer. Alienación, amor, pasión. Buenos Aires: Paidós.  Ávila Francés, M. (2"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 352,
+          "n_words": 58,
+          "text": " Nussbaum, S. (2000). Un chico golpeado, un chico golpeador. Una reflexión acerca del odio, el sadismo y la destrucción de sentido en los fenómenos transgeneracionales a propósito de la supervisión del análisis de un chico golpeado y una carta de su padre. Revista de la Asociación Psicoanalítica de Buenos Aires [Número especial: Violencia visible e invisible], 22(2),429-454."
+        },
+        {
+          "order": 142,
+          "n_words": 49,
+          "text": " Delucca, N; González Oddera, M; Vidal, I & Martinez, A. (2012). Investigaciones sobre parentalidad y sus operatorias. Revisiones conceptuales en torno a la diferencia y la diversidad. Memorias del IV Congreso Internacional de Investigación y Práctica Profesional en Psicología de la Facultad de Psicología, UBA [Tomo III], 27-31."
+        },
+        {
+          "order": 141,
+          "n_words": 47,
+          "text": " Delucca, N.; González Oddera, M.; Martínez, A. (2013). Modalidades de la diversidad, en el ejercicio de la parentalidad y la pareja. Hallazgos de investigación. Memorias del V Congreso Internacional de Investigación y Práctica Profesional en Psicología de la Facultad de Psicología, UBA [Psicología del Desarrollo], 32-34."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 8,
+          "n_words": 873,
+          "text": "317  Codoni, P. (1997). L 'agressivité, des pulsions au même titre que les pulsions sexuelles, ontogénétiques d 'origine phylogénétique. Micropsychanalyse, 2 [L’inconscient - L’agressivité], s/p. {Traducción al castellano de Mª Luisa Sánchez Rodríguez de Castro, recuperado de: http://www.micropsicoanalisis.com/pdf/agresividad.pdf}  Connell, R.W. (2003). Masculinidades. Méjico: UNAM.  Conroy, A.A. (2014). Marital infidelity and intimate partner violence in Rural Malawi: a dyadic investigation. Archives of Sexual Behavior, 43(7), 1303- 1314.  Coria, C. (1986/1997). El sexo oculto del dinero. Formas de la dependencia femenina. Buenos Aires: Paidós.  Coria, C. (1996). Las negociaciones nuestras de cada día. Buenos Aires: Paidós.  Corominas, J. (1987). Violencia. En J. Corominas, Breve diccionario etimológico de la lengua castellana (p. 608). Madrid: Gredos.  Corvo, K., & Johnson, P. J. (2003). Vilification of the \"batterer\": how blame shapes domestic violence policy and interventions. Aggression and Violent Behavior, 8(3), 259–281.  Cosse, I. (2009). La emergencia de un nuevo modelo de paternidad en Argentina (1950-1975). Estudios Demográficos y Urbanos, 24(2), 429-462.  Cremp"
+        },
+        {
+          "order": 20,
+          "n_words": 730,
+          "text": "330  Mizen, R. (2009). The so-called mindlessness of violence: violence as a pathological variant of aggression. Global Crime, 10(4), 416-431.  Moguillansky, R. & Nussbaum, S. (2014). Teoría y clínica vincular. Discusiones clínicas vinculares. Buenos Aires: Lugar Editorial.  Molina Rico, J. E, Moreno Méndez, J. H. & Vásquez Amézquita.H. (2010) Análisis referencial de las representaciones sociales sobre la violencia doméstica. Acta colombiana de Psicología, 13(2), 129-148.  Molyneux, M. (2003). Movimientos de mujeres en América Latina. Estudio teórico comparado. Madrid: Cátedra- Feminismos.  Money, J. (1982). Introducción a la edición española. En: J. Money & A. Ehrardt, Desarrollo de la sexualidad humana. (Diferenciación y dimorfismo de la identidad de género) (pp. 5-9). Madrid: Morata.  Morales Vasco, M.L. (2014). Interpretación del mundo de sentido en relación con la violencia cotidiana, en niños entre los 5 y 10 años de edad de la institución educativa Pedacito de Cielo- La Tebaida- Quindío- Colombia (Tesis doctoral). Recuperada de: http://sedici.unlp.edu.ar/bitstream/handle/10915/33935/Documento_completo.p df?sequence=3  Moreno, J. (2002). Ser humano. La inconsistencia, "
+        },
+        {
+          "order": 6,
+          "n_words": 727,
+          "text": "314  Berenstein, I. (2010). Conflictos en la pareja y/o conflictos de pareja. Actualidad Psicológica, 386, 7-10.  Berenstein, I. (2012). Vínculo as a relationship between others. The Psychoanalytic Quarterly, 81(3), 565-577.  Berlin, S. & Kravetz, D. (1981). Women as victims: a feminist social work perspective. Social Work, 26, 447-449.  Berns, N. (2001). Degendering the problem and gendering the blame: political discourse on women and violence. Gender & Society, 15, 262-281.  Blair Trujillo, E. (2009). Aproximación teórica al concepto de violencia: avatares de una definición. Política y cultura, 32, 9-33.  Bleichmar, S. (1979). Los hijos de la violencia. Psicoanálisis: ¿contemplar o transformar? Dialéctica, 6, 59-75.  Bleichmar, S. (1981). Las crueldades del amor. Revista de la Universidad de México, Nueva Época, 36(4), 38-39.  Bleichmar, S. (2009). Filiación, identidad y restitución. 15 años de lucha de las Abuelas de Plaza de Mayo. En: S. Bleichmar, El desmantelamiento de la subjetividad. Estallido del Yo (pp.17-25). Buenos Aires: Topía.  Bleichmar, S. (2009b). Tiempos dífíciles. La identificación en la adolescencia. En S. Bleichmar, La subjetividad en riesgo (pp. 57-64"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 56,
+      "category": "shadow_fusion_regression",
+      "note": "Shadow collapses hundreds of stable references into a few giant blocks.",
+      "tesis_archivo": "2015_Martínez_Identidad y cuerpo Auto-percepciones de sujetos no conformes al género.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2015_Martínez_Identidad y cuerpo Auto-percepciones de sujetos no conformes al género.pdf",
+      "stable_n": 845,
+      "shadow_n": 133,
+      "delta": -712,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 179,
+      "shadow_max_words": 761,
+      "stable_ge500": 0,
+      "shadow_ge500": 2,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 33,
+          "text": "-Abelin, E. (1971). The role of the father in the separation-individuation process. En J. McDevitt, C. Settlage (Eds.). Separation-individuation: Essays in honor of Margaret S. Mahler (pp. 229–252). New York: Int. Univ. Press."
+        },
+        {
+          "order": 2,
+          "n_words": 22,
+          "text": "-Abelin, E. (1975). Some further observations and comments on the earliest role of the father. International Journal of Psychoanalysis, 56 : 293-302."
+        },
+        {
+          "order": 3,
+          "n_words": 31,
+          "text": "-Abell, S. & Dauphin, B. (2009). The perpetuation of patriarchy: the hidden factor of gender bias in the diagnosis and treatment of children. Clinical Child Psychology and Psychiatry, 14(1) : 117-133."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 340,
+          "text": "-Abelin, E. (1971). The role of the father in the separation-individuation process. En J. McDevitt, C. Settlage (Eds.). Separation-individuation: Essays in honor of Margaret S. Mahler (pp. 229–252). New York: Int. Univ. Press. -Abelin, E. (1975). Some further observations and comments on the earliest role of the father. International Journal of Psychoanalysis, 56 : 293-302. -Abell, S. & Dauphin, B. (2009). The perpetuation of patriarchy: the hidden factor of gender bias in the diagnosis and treatment of children. Clinical Child Psychology and Psychiatry, 14(1) : 117-133. -Abelleira, H. & Delucca, N. (2011). Clínica Forense en Familias. Historización de una práctica. Buenos Aires: Lugar. -Abellón, P. (2013). “La estructura dilemática del pensamiento de Judith Butler, materialidad corporal y agencia política”. En M.L. Femenías, V. Cano & P. Torricella (Comps.). Judith Butler, su filosofía a debate (pp. 71-98). Buenos Aires: FFyL/UBA . -Adelman, M. & Ruggi, L. (2008). The beautiful and the abject: gender, identity and constructions of the body in contemporary Brazilian culture. Current Sociology, 503 56(4): 555–586. -Agacinski, S. (1998) . Política de sexos . Madrid: Taurus. -Ahlbäck,"
+        },
+        {
+          "order": 2,
+          "n_words": 224,
+          "text": "-Andersen, P., Inoue, K. & Walsh, K. (2013). An animated model for facilitating understanding of Grounded Theory and the processes used to generate substantive Theory. Journal of Research in Nursing, 18(8) : 734–743. -Anzieu, D. (1985/2007). El Yo-Piel . Madrid: Biblioteca Nueva. -Ariza, L. (2011). “Gestión poblacional del parentesco y normatividad: la producción de variabilidad biológica en el intercambio de gametas de la reproducción asistida”. En D. Jones, C. FIgari y S. Barrón López (Coords.). La producción de la sexualidad. Políticas y regulaciones sexuales en Argentina (pp. 127-146). Buenos Aires: Biblos. -Asencio, M. (2011). ‘Locas’, Respect, and Masculinity: Gender Conformity in Migrant Puerto Rican Gay Masculinities. Gender & Society, 25 (3): 335-354. -Attwood, F. (2002). Reading Porn: The Paradigm Shift in Pornography Research. Sexualities, 5(1) : 91-105. -Aulagnier, P. (1975/2004). La violencia de la interpretación . Buenos Aires: Amorrortu. -Aulagnier, P. (1979/2004). Los destinos del placer. Alienación, amor, pasión . Buenos Aires: Paidós. -Aulagnier, P. (1991a). “Los dos principios del funcionamiento identificatorio, permanencia y cambio”. En Hornstein y otros (Comps."
+        },
+        {
+          "order": 3,
+          "n_words": 332,
+          "text": "-Bach, A. M., Femenías, M. L., Gianella, A. Roulet, M. & Santa Cruz, M. I. (1994). “Para comprender el género: precisions epistemológicas”. En M. I. Santa Cruz, A. M. Bach. M. L. Femenías, A. Gianella & M. Roulet. Mujeres y Filosofía (I). Teoría filosófica de Género (pp. 59-66). Buenos Aires: Centro Editor de América Latina. -Badinter, É. (2003). Hombres/Mujeres. Cómo salir del camino equivocado . Buenos Aires: Fondo de Cultura Económica. -Baert, P. (1998). Social theory in the twentieth century . New York: New York University Press. -Ball, P. (2011). Contra natura. Sobre la idea de crear seres humanos. Madrid: Turner. -Balsam, R. (2001). Integrating male and female elements in a woman’s gender identity. Journal of the American Psychoanalytic Association, 49(4) : 1335-1360. -Balsamo, A. (1996). Technologies of the gendered body . Durham: Duke University Press. -Bantjes, J. & Nieuwoudt, J. (2014). Masculinity and mayhem: The performance of gender in a South African boys’ school. Men and Masculinities, 17(4) : 376-395. -Bargas, M. L. (2011). “Del descubrimiento a la creación histórico-social del dismorfismo sexual”. En M. A. Gutierrez (Comp.). Voces polifónicas. Itinerarios de los gé"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 842,
+          "n_words": 179,
+          "text": "-Zhou, J., Hofman, M., Gooren, L, & Swaab, D. (1995). A sex difference in the human brain and its relation to transsexuality. Nature, 378 : 68-70. -Žižek, S. (2001). El espinoso sujeto. El centro ausente de la ontología política (J. Piatigorsky trad.). Buenos Aires: Paidós. (Trabajo original publicado en 1999). -Žižek, S. (2006). The Parallax View . Cambridge, Massachusetts: The MIT Press. -Žižek, S. (2009). El sublime objeto de la ideología (I. Vericat Núñez trad.). Buenos Aires: SigloVeintiuno. (Trabajo original publicado en 1989). -Žižek, S. (2011a). “¿Lucha de clases o posmodernismo? ¡Sí, por favor!”. En J. Butler, E. Laclau & S. Žižek. Contingencia, hegemonía, universalidad. Diálogos contemporáneos en la izquierda (pp. 95-139). Buenos Aires: Fondo de Cultura Económica. -Žižek, S. (2011b). “Da capo zenza fine”. En J. Butler, E. Laclau & S. Žižek. Contingencia, hegemonía, universalidad. Diálogos contemporáneos en la izquierda (pp. 215-261). Buenos Aires: Fondo de Cultura Económica. -Žižek, S. (2011c). “Mantener el lugar”. En J. Butler, E. Laclau & S. Žižek. Contingencia, hegemonía, universalidad. Diálogos contemporáneos en la izquierda (pp. 307-327). Buenos Aires: Fondo de Cultu"
+        },
+        {
+          "order": 198,
+          "n_words": 83,
+          "text": "-Delucca, N.; González Oddera, M. & Martínez, A. (2013). Modalidades de la diversidad, en el ejercicio de la parentalidad y la pareja. Hallazgos de investigación. Actas del V Congreso Internacional de Investigación y Práctica Profesional en Psicología, XX Jornadas de Investigación de la Facultad de Psicología de la Universidad de Buenos Aires y Noveno Encuentro de Investigadores en Psicología del Mercosur. “El Cuerpo y la Psicología. Su dimensión virtual, biológica, como lazo social. Prácticas Contemporáneas” (pp. 32-34). Buenos Aires: Facultad de Psicología, UBA."
+        },
+        {
+          "order": 195,
+          "n_words": 81,
+          "text": "-Delucca, N.; González Oddera, M. & Martínez, A. (2010). Una investigación sobre las modalidades de la diversidad en las configuraciones vinculares. Presentación preliminar . Actas del II Congreso Internacional de Investigación y Práctica Profesional en Psicología, XVII Jornadas de Investigación de la Facultad de Psicología de la Universidad de Buenos Aires y Sexto Encuentro de Investigadores en Psicología del Mercosur. “Clínica e Investigación - Contribuciones a las Problemáticas Sociales”. Formato Papel (Tomo IV, pp. 262-265). Buenos Aires: Facultad de Psicología, UBA."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 34,
+          "n_words": 761,
+          "text": "Jóvenes en cuestión. Configuraciones de género y sexualidad en la cultura (pp. 119-142) . Buenos Aires: Biblos. -Elliot, A. (1992/1995). Teoría social y psicoanálisis en transición. Sujeto y sociedad de Freud a Kristeva . Buenos Aires: Amorrortu. -Elliot, A. (2005). The Constitution of the Subject: Primary Repression after Kristeva and Laplanche. European Journal of Social Theory, 8(1) : 25-42. -Evans, M. (1997). Introducción al pensamiento feminista contemporáneo . Madrid: Minerva Ediciones. -Eves, A. (2004). Queer theory, butch/femme identities and lesbian space. Sexualities, 7(4) : 480-496. - Eyre, S., de Guzman, R., Donovan, A. & Boissiere. C. (2004). ‘Hormones is not magic wands’: Ethnography of a transgender scene in Oakland, California. Ethnography, 5(2) : 147-172. -Fahs, B. (2011). Breaking body hair boundaries: Classroom exercises for challenging social constructions of the body and sexuality. Feminism & Psychology, 22(4) : 482- 506. -Fast, I. (1979). Developments in gender identity: Gender differentiation in girls. International Journal of Psycho-Analysis, 60 :443–453. -Fast, I. (1984). Gender Identity: A Differentiation Model . Hillsdale, NJ: Analytic Press. -Fast, I. (1"
+        },
+        {
+          "order": 43,
+          "n_words": 594,
+          "text": "-Galupo, P., Bauerband, A., Gonzalez, K., Hagen, B., Hether, S. & Krum, T. (2014). Transgender friendship experiences: Benefits and barriers of friendships across gender identity and sexual orientation. Feminism & Psychology, 24(2) : 193–215. -Gambaudo, S. (2007). French feminism vs Anglo-American feminism: a reconstruction. European Journal of Women's Studies, 14(2) : 93-108. -Garfinkel, H. (1967). Studies in Ethnomethodology . Cambridge, MA: Polity Press. -Garlick, S. (2003). What is a man? Heterosexuality and the technology of masculinity. Men and Masculinities, 6(2): 156-172. -Garlick, S. (2009). Organizing nature: Sex, philosophy and the biological. Philosophy & Social Criticism, 35(7) : 823-840. -Garlick, S. (2010). Taking control of sex? Hegemonic masculinity, technology, and internet pornography. Men & Masculinities, 12(5) : 597-614. -Gedalof, I. (2000). Identity in transit: nomads, cyborgs and women. European Journal of Women's Studies, 7(3) : 337-354. -Gediman, H. (2005). Premodern, modern, and postmodern perspectives on sex and gender mixes. Journal of the American Psychoanalytic Association, 53(4) : 1059- 1078. -Gergen, M. (1992). Undbundling Our Binaries – Genders, Sex"
+        },
+        {
+          "order": 27,
+          "n_words": 491,
+          "text": "Delamont, J. Lofland & L. H. Lofland (eds.). The handbook of ethnography (pp. 11-25). London: Sage. -Delucca, N. & Petriz, G. (1997). “Cuerpo y devenir: recorrido de su significación” . En J. Barrionuevo (Coord.). Acto y c uerpo en psicoanálisis con niños y adolescentes. Buenos Aires: JVE Psique. -Delucca, N.; González Oddera, M. & Martínez, A. (2010). Una investigación sobre las modalidades de la diversidad en las configuraciones vinculares. Presentación preliminar . Actas del II Congreso Internacional de Investigación y Práctica Profesional en Psicología, XVII Jornadas de Investigación de la Facultad de Psicología de la Universidad de Buenos Aires y Sexto Encuentro de Investigadores en Psicología del Mercosur. “Clínica e Investigación - Contribuciones a las Problemáticas Sociales”. Formato Papel (Tomo IV, pp. 262-265). Buenos Aires: Facultad de Psicología, UBA. -Delucca, N.; González Oddera, M. & Martínez, A. (2011a). Modalidades de la diversidad en los vínculos familiares. Revista de Psicología. Segunda Época, 11 :105-123. -Delucca, N.; González Oddera, M. & Martínez, A. (2011b). Presentaciones actuales de la maternidad. Actas del III Congreso Internacional de Investigación de l"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 74,
+      "category": "shadow_fusion_regression",
+      "note": "Large negative delta with giant shadow blocks.",
+      "tesis_archivo": "2018_Grassi_Arte abstracto y psicología de la Gestalt en la Argentina Una historia de la psicologización del estudio de la forma y .pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2018_Grassi_Arte abstracto y psicología de la Gestalt en la Argentina Una historia de la psicologización del estudio de la forma y .pdf",
+      "stable_n": 167,
+      "shadow_n": 23,
+      "delta": -144,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 71,
+      "shadow_max_words": 624,
+      "stable_ge500": 0,
+      "shadow_ge500": 1,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 11,
+          "text": "-AAVV (1986 [1969]). Estética y marxismo. Barcelona: Editorial Planeta De Agostini."
+        },
+        {
+          "order": 2,
+          "n_words": 11,
+          "text": "-Alcaide, C. (1997). El arte concreto en la Argentina. Invencionismo. Madí."
+        },
+        {
+          "order": 3,
+          "n_words": 11,
+          "text": "Perceptismo. Arte, individuo y sociedad . Vol. 9. Recuperado de: http://www.arteindividuoysociedad.es"
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 32,
+          "text": "-50 años. Bauhaus. (1970). Exposición alemana bajo el patrocinio de la República Federal de Alemania preparada por el Württembergischer Kunstverein , Sttugart juntamente con el Bauhaus-archiv. Darmstadt. Organizada por el Institut für"
+        },
+        {
+          "order": 2,
+          "n_words": 224,
+          "text": "Auslandsbeziehungen, Sttutgart. Museo de Bellas Artes, septiembre-octubre. -(1950). Perceptismo , 1, s/n. -(2010). Tomás Maldonado en conversación con María Amalia García. Nueva York: Fundación Cisneros. -AAVV (1986 [1969]). Estética y marxismo. Barcelona: Editorial Planeta De Agostini. -Alcaide, C. (1997). El arte concreto en la Argentina. Invencionismo. Madí. Perceptismo. Arte, individuo y sociedad . Vol. 9. Recuperado de: http://www.arteindividuoysociedad.es -Arantes, O.B.F. (1995). Prefácio: Mário Pedrosa, um capítulo brasileiro da teoria da abstração. En Forma e Percepção Estética. Textos Escolhidos II (pp. 13-38). San Pablo: Editora da Universidade de São Paulo. -Arnheim, R. (1943). Gestalt and art. The Journal of Aesthetics and Art Criticism . 2 (8), 71-75. Recuperado de http://www.jstor.org/stable/425947 -Arnheim, R. (1962 [1957]). Arte y percepción visual. Psicología de la visión creadora . Buenos Aires: Eudeba. -Arnheim, R. (1994). The Bauhaus in Dessau. En A. Kaes, Jay, E. y E. Dimendberg. (Eds.), The Weimar Republic Sourcebook (pp.450-451). Berkeley y Los Angeles: University of California Press. (Artículo original publicado en Die Weltbühne 23 (22), 920-921, 1927) -Ash,"
+        },
+        {
+          "order": 3,
+          "n_words": 79,
+          "text": "-Behrens, R. (1998). ”Art, Design and Gestalt Theory”. Recuperado de https://scholarworks.uni.edu/cgi/viewcontent.cgi?article=1001&context=art_facpub -Bertone, C. (2006a). “Había que borrarme que es lo que siempre hicieron. Lidy Prati conversa”. Ramona, 62 , 64-77. Disponible en: http://www.ramona.org.ar/files/R62.pdf . -Bertone, C. (2006b). “Las revistas madí se publicaron con la plata que recibimos como regalo de casamiento. Diyi Laañ tiene la palabra”. Ramona, 62 , 53-66. Disponible en: http://www.ramona.org.ar/files/R62.pdf -Bertúa, P. (2012). La cámara en el umbral de lo sensible. Grete Stern y la Revista"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 159,
+          "n_words": 71,
+          "text": "-Valsiner, J. (2012). A Guided Science. History of Psychology in the Mirror of Its Making. New Brunswick, New Jersey :Transaction Publishers. -van Campen, C. (1997). Early Abstract Art and Experimental Gestalt Psychology. En Leonardo , 30 (2), 133-136. -van Doesburg, T. (1917). Hamer enn zaag. Stillevenkomposite door V. Huszar (Bij Bijlage VII). De Stijl, 1 (3), 35-36. -van Doesburg, T. (1925). Grundbegriffe der neuen gestaltenden Kunst . München: Albert Langen Verlag."
+        },
+        {
+          "order": 23,
+          "n_words": 64,
+          "text": "-Callon, M. (1995). Algunos elementos para una sociología de la traducción: la domesticación de las vieiras y los pescadores de la bahía de St Brieuc. [Publicado originalmente como “Some Elements of a Sociology of Translation: Domestication of the Scallops and the Fishermen of St. Brieuc Bay”, en Law, J. (edit) (1986): Power, Action, and Belief: A New Sociology of Knowledge? London. R.K.P. Con autorización.]"
+        },
+        {
+          "order": 31,
+          "n_words": 57,
+          "text": "-Danziger, K. (1984). Towards a conceptual framework for a critical history of psychology. Revista de Historia de la Psicología , 5(1/2), 99-107. [Traducción al castellano de Laura María Fernández (1996): Hacia un marco conceptual para una historia crítica de la psicología. Cát. I de Historia de la Psicología, Buenos Aires: Facultad de Psicología, UBA. En: www.psicologia.historiapsi.com .]"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 17,
+          "n_words": 624,
+          "text": "Asociación Arte Concreta Invención. Aisthesis, (51), 57-77. Recuperado de http://dx.doi.org/10.4067/S0718-71812012000100004 -Lucena, D. (2015). Contaminación artística. Vanguardia concreta, comunismo y peronismo en los años ’40. Buenos Aires: Biblos. -Maldonado, T. (1997 [1946]). Lo abstracto y lo concreto en el arte moderno En T. Maldonado, Escritos preulmianos (41-47). Buenos Aires: Ediciones Infinito. -Maldonado, T. (1997 [1946]). Los Artistas Concretos, el “Realismo” y la Realidad. En T. Maldonado, Escritos preulmianos (49-50). Buenos Aires: Ediciones Infinito. -Maldonado, T. (1997 [1951]). Actualidad y Porvenir del Arte Concreto. En T. Maldonado, Escritos preulmianos (71-80). Buenos Aires: Ediciones Infinito. -Maldonado, T. (1997). Escritos preulmianos . Buenos Aires: Ediciones Infinito. -Maltas i Mercader, A. (2009). Wassily Kandinsky y la evolución de la forma. Fundamentos teóricos para presenciar el espacio y el tiempo (Tesis doctoral Programa de Doctorat Comunicació Visual en Arquitectura i Disseny Departament d'Expressió Gràfica Arquitectònica I Escola Tècnica Superior d'Arquitectura de Barcelona Universitat Politècnica de Catalunya). Recuperada de http://www.academia.edu"
+        },
+        {
+          "order": 11,
+          "n_words": 445,
+          "text": "Tesis de Doctorado. Facultad de Filosofía y Letras, Universidad de Buenos Aires, Buenos Aires. -García, L. N. (octubre-diciembre 2014). Henri Wallon en castellano: jalones argentinos de un itinerario transnacional (1935-1976) Universitas Psychologica , 13 (5), 1835-1845. Pontificia Universidad Javeriana Bogotá, Colombia. -García, M. A. (2009). Lidy Prati y su instancia diferencial en la unidad del arte concreto. En Yente-Prati (pp. 87-149). Buenos Aires: MALBA. -García, M. A. (25 de agosto de 2009). Prati, pionera de la abstracción argentina. Diario Página 12. Recuperado de: https://www.pagina12.com.ar/diario/suplementos/espectaculos/6-15051-2009-08- 25.html -García. M. A. (2011). El arte abstracto. Intercambios culturales entre Argentina y Brasil. Buenos Aires: Siglo XXI. -Gay, P. (2011). La cultura de Weimar . Madrid: Paidós. -Geiger, M. (1933). Introducción a la estética [en línea]. La Plata: UNLP. FaHCE. Centro de Estudiantes. En Memoria Académica. Disponible en: http://www.memoria.fahce.unlp.edu.ar/libros/pm.356/pm.356.pdf -Genette, J. (1989 [1962]). Palimpsestos. La literatura en segundo plano . Madrid: Saurus. -Giunta, A. (1997). El arte moderno desde las “sombras” del peron"
+        },
+        {
+          "order": 12,
+          "n_words": 344,
+          "text": "-Haber, A. (1950). Pintura y percepción . Perceptismo: Teórico y polémico, 1 (n.d.). Recuperado de http://revistasdeartelatinoamericano.org/collections/show/9 -Haber, A. (1953). Psicología de la forma y fenomenología. Crítica a través de un planteo estético. Perceptismo: Teórico y polémico, (7), 2-4. Recuperado de http://revistasdeartelatinoamericano.org/collections/show/9 -Haber, A. (Octubre 1950). \"Pintura y percepción.\" Perceptismo: Teórico y polémico, 1, s/n. Recuperado de http://icaadocs.mfah.org/icaadocs/ -Hackett, P. W. (2015). Psychology and Philosophy of Abstract Art . Basingstoke: Palgrave Macmillan -Hartmann, G. W. (1935). Gestalt Psychology. A Survey of facts and principles. New York: The Ronald Press Company -Hawking, S. y Mlodinow, L. (2016). Brevísima historia del tiempo. Barcelona: Crítica. -Herf, J. (2003 [1984]). Reactionary modernism. Tecnhology, culture and politics in Weimar and the Third Reich . Cambridge (U.K.): Cambridge University Press. -Hervas y Heras, J. (2015) Las mujeres de la Bauhaus. Buenos Aires: Diseño Editorial -Hlito, A. (1995). Alfredo Hlito: Escritos sobre arte. Buenos Aires: Academia Nacional de Bellas Artes. -Hlito, A. (2007). Dejen en paz a "
+        }
+      ]
+    },
+    {
+      "tesis_orden": 77,
+      "category": "shadow_fusion_regression",
+      "note": "Large negative delta with giant shadow blocks.",
+      "tesis_archivo": "2018_Passerini_El cuerpo en la experiencia virtual desde una perspectiva psicoanalítica.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2018_Passerini_El cuerpo en la experiencia virtual desde una perspectiva psicoanalítica.pdf",
+      "stable_n": 212,
+      "shadow_n": 12,
+      "delta": -200,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 59,
+      "shadow_max_words": 916,
+      "stable_ge500": 0,
+      "shadow_ge500": 3,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 23,
+          "text": "- Alvarez, P. (2005). Otaku a la entrada. En A. Glaze (Comp.), Una práctica de la época (pp. 121-126). Buenos Aires, Argentina: Grama."
+        },
+        {
+          "order": 2,
+          "n_words": 15,
+          "text": "- Amigo, S. (1999). Clínica de los fracasos del fantasma . Rosario, Argentina: Homo Sapiens."
+        },
+        {
+          "order": 3,
+          "n_words": 12,
+          "text": "- Amigo, S. (2013). Clínicas del cuerpo . Buenos Aires: Letra Viva."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 228,
+          "text": "A/B - Alonso, Jaime. (2010). Comunicación Virtual: Elementos y diná- micas . Madrid, España: Editorial Visión. - Alvarez, P. (2005). Otaku a la entrada. En A. Glaze (Comp.), Una práctica de la época (pp. 121-126). Buenos Aires, Argentina: Grama. - Amigo, S. (1999). Clínica de los fracasos del fantasma . Rosario, Argentina: Homo Sapiens. - Amigo, S. (2013). Clínicas del cuerpo . Buenos Aires: Letra Viva. - Ascott, R. (1995). Telenoia. Le Poissant: Esthétique des arts mé- diatiques, 1 , 363-384. Québec, Canadá: Presses de l´Université du Québec. - Accame, J., Araszi, S., Bajo, C., Bernatek, C. Berti, T., Birmajer, M. (…) y Siscar, C. (1998). Nuestros cuentos: una antología de la narrativa argentina . Buenos. Argentina: Editorial Gil Leiva Isi- doro. - Askman, Gloria (2016), La sexualidad virtual: Hombres y mu- jeres . Recuperado de http://oimperiodasimagens.com.br/es/ faq-items/la-sexualidad-virtual-hombres-y-mujeres-gloria-ask- man/ - Baños, S. y Steinberg, I. (2012). Dificultades de la práctica del psicoanálisis . Rosario, Argentina: Homo Sapiens. - Baudrillard, J. (1996). El crimen perfecto . Barcelona, España: Anagrama. - Batistta, G. (2016). Una vuelta al amor cortés. Revista Vi"
+        },
+        {
+          "order": 2,
+          "n_words": 21,
+          "text": "Psicoanálisis posible en la era virtual. Anuario de investiga- ciones de la Facultad de Psicología, 19 (2). Recuperado de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pi- d=S1851-16862012000200008"
+        },
+        {
+          "order": 3,
+          "n_words": 246,
+          "text": "B/E - Blanco, L. (2007). Del espacio euclidiano al ciberespacio ¿Una nueva simbólica? Trama y fondo: revista de cultura, 22 , 89-96. Recuperado de https://dialnet.unirioja.es/servlet/articulo?codi- go=2718000 - Brodsky, Graciela (2016). Elogio de la virtualidad . Recuperado de http://www.eol-laplata.org/blog/index.php/elogio-de-la-vir- tualidad/ - Cancina, P. (1997). La fábrica del caso: la Sra. C . Rosario, Argen- tina: Homo Sapiens. - Cancina, P. (2008). La investigación en psicoanálisis . Rosario: Argentina: Homo Sapiens. - Castañares, W. (2007). Cultura visual y crisis de la experiencia. CIC Cuadernos de Información y Comunicación, 12 , 29-48. Re- cuperado de https://revistas.ucm.es/index.php/CIYC/article/ view/CIYC07110029A - Castañares, W. (2011). Realidad virtual, mimesis y simula- ción. CIC Cuadernos de Información y Comunicación 2011, 16 , 59-81. https://revistas.ucm.es/index.php/CIYC/article/ view/36987/35796 - Del Rincon Igea, D. (1995). Técnicas de investigación en cien- cias sociales . Madrid, España: Dykinson. - Diaz Estrella, A. (2011). Inmersión mental y realidad virtual, Uciencia, 6 , 30-33. Recuperado de http://riuma.uma.es/xmlui/ bitstream/handle/10630/4651/30_pd"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 13,
+          "n_words": 59,
+          "text": "- Berger, A., Karpel, P. y Lejbowicz, J. (julio-diciembre, 2012) Psicoanálisis posible en la era virtual. Anuario de investiga- ciones de la Facultad de Psicología, 19 (2). Recuperado de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pi- d=S1851-16862012000200008 REFERENCIAS BIBLIOGRÁFICAS B/E - Blanco, L. (2007). Del espacio euclidiano al ciberespacio ¿Una nueva simbólica? Trama y fondo: revista de cultura, 22 , 89-96. Recuperado de https://dialnet.unirioja.es/servlet/articulo?codi- go=2718000"
+        },
+        {
+          "order": 32,
+          "n_words": 51,
+          "text": "- Farrés, M., Ferreira Dos Santos, S. y Veloso, V. (2016). Sobre contactos y amigos… Los lazos sociales en tiempos de cone- xión. En E. Cueto y A. Santiere (Comp.), El estadio del screen: Incidencias de la virtualidad en la constitución del lazo social (pp. 89-96). Buenos Aires, Argentina: Letra Viva."
+        },
+        {
+          "order": 39,
+          "n_words": 45,
+          "text": "- Freud, S. (1901/1992). Psicopatología de la vida cotidiana. Obras Completas de Sigmund Freud . Tomo VI. Buenos Aires, Argentina: Amorrortu. REFERENCIAS BIBLIOGRÁFICAS F/F - Freud, S. (1905a/1992). Sobre psicoterapia. Obras Completas de Sigmund Freud . Tomo VII (pp. 243-258). Buenos Aires, Ar- gentina: Amorrortu."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 6,
+          "n_words": 916,
+          "text": "L/L técnicos de Freud . Buenos Aires, Argentina: Paidós. - Lacan, J. (1954-1955/1978). El Seminario, Libro 2: El yo en la teoría de Freud y en la técnica psicoanalítica . Buenos Aires, Ar- gentina: Paidós. - Lacan, J. (1957a/1971). La instancia de la letra en el inconscien- te o la razón desde Freud. Escritos 1 (pp. 473-509). Ciudad de México, México: Siglo XXI. - Lacan, J. (1957b-1958/1999). El Seminario, Libro 5: Las forma- ciones del inconsciente . Buenos Aires, Argentina: Paidós. - Lacan, J. (1958/1975). La dirección de la cura y los principios de su poder. Escritos 2 (pp. 565-626). Ciudad de México, Méxi- co: Siglo XXI. - Lacan, J. (1960-1961/2003). El Seminario, Libro 8: La transferen- cia . Buenos Aires, Argentina: Paidós. - Lacan, J. (1960). Subversión del sujeto. Escritos 2 (pp. 773- 807). Ciudad de México, México: Siglo XXI. - Lacan, J. (1961a). Observación sobre el informe de Daniel La- gache: Psicoanálisis y estructura de la personalidad. Escritos 2 (627-664). Ciudad de México, México: Siglo XXI. - Lacan, J. (1961b-1962). Seminario 9, 1961-62: La identificación. Inédito. Traducción de Ricardo Rodriguez Ponte para circula- ción interna de la Escuela Freudiana de Buenos A"
+        },
+        {
+          "order": 5,
+          "n_words": 879,
+          "text": "F/F - Freud, S. (1905a/1992). Sobre psicoterapia. Obras Completas de Sigmund Freud . Tomo VII (pp. 243-258). Buenos Aires, Ar- gentina: Amorrortu. - Freud, S. (1905b/1992). Mis tesis sobre el papel de la sexua- lidad en la etiología de las neurosis. Obras Completas de Sig- mund Freud . Tomo VII (pp. 259-271) Buenos Aires, Argentina: Amorrotu. - Freud, S. (1905c/1992). Tres ensayos de teoría sexual. Obras Completas de Sigmund Freud . Tomo VII (pp. 109-224). Buenos Aires, Argentina: Amorrortu. - Freud, S. (1909/1992). Cinco conferencias de introducción al psicoanálisis. Obras Completas de Sigmund Freud . Tomo XI. (1- 54). Buenos Aires, Argentina: Amorrortu. - Freud, S. (1910/1992). La perturbación psicógena de la visión según el psicoanálisis. Obras Completas de Sigmund Freud . Tomo XI (pp.205-216). Buenos Aires, Argentina: Amorrortu. - Freud, S. (1912/1992). Consejos al médico sobre el tratamiento psicoanalítico. Obras Completas de Sigmund Freud. Tomo XII (pp.107-119). Buenos Aires, Argentina: Amorrortu. - Freud, S. (1913/1992). Tótem y tabú. Obras Completas de Sig- mund Freud. Tomo XIII (pp. 1-164). Buenos Aires, Argentina: Amorrortu. - Freud, S. (1914a/1992). El Moisés de Miguel A"
+        },
+        {
+          "order": 12,
+          "n_words": 511,
+          "text": "R/V - Rodulfo, R. (2017). Ensayos sobre el amor en tiempos digitales: Dominios sin dueño . Buenos Aires, Argentina: Paidós. - Romano, E. (2000). La cultura digital: Navegantes de Internet, personalidades interactivas y agrupamientos virtuales . Buenos Aires, Argentina: Lugar Editorial. - Roudinesno, E. (2015). ¿ Por qué el psicoanálisis? Buenos Aires, Argentina: Paidós. - Ruiz, Alejandra. (2010). Algunos comentarios sobre la esencia, el semblante y la imagen especular. LaPsus Calami: El cuerpo y lo sexual, 1, 52-55. - Sahovaler, R. (1996). Psicoanálisis de la televisión . Buenos Ai- res, Argentina: Ediciones El Otro. - Sanmiguel, P. (2002). Situación del cuerpo en Internet: Callejón sin salida de la teoría de la comunicación. Desde el jardín de Freud. 2 , 110-118. - Schvartzman, J. (2014). Tenemos Internet Dios no ha muerto: Nuevas tecnologías desde la mirada de un psicoanalista . Bue- nos Aires, Argentina: Psicolibro Ediciones. - Seldes, D. (2005). Los axiomas de la modernidad. En A. Glaze (Comp.) Una práctica de época: El psicoanálisis en lo contempo- ráneo (pp. 191-200). Buenos Aires, Argentina: Grama. - Sennett, R. (1997). Carne y piedra: El cuerpo y la ciudad en la civilizació"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 81,
+      "category": "shadow_fusion_regression",
+      "note": "Large negative delta with giant shadow blocks.",
+      "tesis_archivo": "2019_Vidal_Parentalidad en parejas de mujeres en la ciudad de La Plata.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2019_Vidal_Parentalidad en parejas de mujeres en la ciudad de La Plata.pdf",
+      "stable_n": 153,
+      "shadow_n": 15,
+      "delta": -138,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 100,
+      "shadow_max_words": 896,
+      "stable_ge500": 0,
+      "shadow_ge500": 3,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 25,
+          "text": "• Abelleira, H. y Delucca, N. (2011). Acerca de la familia en Clínica Forense en Familia, historización de una práctica . Buenos Aires: Lugar Editorial."
+        },
+        {
+          "order": 2,
+          "n_words": 24,
+          "text": "• Agrest Waigner, B. (2007). Homoparentalidades, adopción y filiación en Rotenberg E. y Agrest Wainer B. (comp). Homoparentalidades: nuevas familias. Buenos Aires: Editorial Lugar."
+        },
+        {
+          "order": 3,
+          "n_words": 21,
+          "text": "• Alizade, A. (2007). Homoparentalidades en Rotenberg E. y Agrest Wainer B. (comp). Homoparentalidades: nuevas familias . Buenos Aires: Editorial Lugar."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 238,
+          "text": "• Abelleira, H. y Delucca, N. (2011). Acerca de la familia en Clínica Forense en Familia, historización de una práctica . Buenos Aires: Lugar Editorial. • Agrest Waigner, B. (2007). Homoparentalidades, adopción y filiación en Rotenberg E. y Agrest Wainer B. (comp). Homoparentalidades: nuevas familias. Buenos Aires: Editorial Lugar. • Alizade, A. (2007). Homoparentalidades en Rotenberg E. y Agrest Wainer B. (comp). Homoparentalidades: nuevas familias . Buenos Aires: Editorial Lugar. • Alizade, M. (2010). El espacio psíquico no-madre en Beatriz Zelcer (comp). Diversidad Sexual. Buenos Aires: APA Editorial y Lugar Editorial. • Andrade de Azevedo A-M y Pereira da Silva (2007). Sobre la homoparentalidad en Rotenberg E. y Agrest Wainer B. (comp) Homoparentalidades: nuevas familias . Buenos Aires: Editorial Lugar. • Anthony E. J. y Benedek T. (1983). Parentalidad. Buenos Aires: Editorial Amorrourtu. • Ariza L. (2011). Dar vida. en torno al derecho da la cobertura médica del tratamiento de la infertilidad en Felitti, K. (coord.) Madre no hay una sola. Experiencias de maternidad en la Argentina. Buenos Aires: Ediciones CICCUS. • Bacin, G. y Gemetro, F. (2011). Comaternidad: experiencias, au"
+        },
+        {
+          "order": 2,
+          "n_words": 334,
+          "text": "G. K., Gaspari, R. C. De Gomel, S. K., Gutman, J., Matus, S. & Rojas, M.C. (Eds.) (1996). Familia e inconsciente. Buenos Aires: Paidós. • Bleichmar, S. (2007). La identidad como construcción en Rotenberg E. y Agrest Wainer Beatriz (comp.) Homoparentalidad. Nuevas Familias. Buenos Aires. Lugar. • Bigliardi, K. (2017). Las barreras ocultas que sufren las parejas gay para adoptar. Revista Noticias. Recuperado de https://noticias.perfil.com/2017/03/10/las-barreras-ocultas-que-sufren-las- parejas-gay-para-adoptar-un-hijo/ • Blanchet, A y Gotman, A. (1992). L'enquête et ses méthodes: l'entretien . Paris: Nathan Université. • Bos, H. y Van Balen, F. (2008). Children in planned lesbian families: Stigmatization, psychological adjustment and protective factors Culture, Health and Sexuality (10), pp. 221-236, doi: 101080/13691050701601702 • Bravetti G., Canal, M. (2013). Encrucijadas de la transmisión intergeneracional en las nuevas organizaciones familiares en Actas IV Congreso Internacional de Investigación de la Facultad de Psicología de la Universidad Nacional de La Plata . Recuperado de http://sedici.unlp.edu.ar/handle/10915/46316. La Plata: Congreso llevado a cabo en la UNLP. • Bravetti"
+        },
+        {
+          "order": 3,
+          "n_words": 239,
+          "text": "UNDOING Gender, Roulledge, Nueva York, 2004. PP. 102-130. Recuperado de http://www.debatefeminista.cieg.unam.mx/wpcontent/uploads/2016/03/articul os/032_01.pdf • Cadoret, A. (2003). Padres como los demás. Homosexualidad y parentesco . Barcelona: Gedisa. • Cadoret, A. (2005). Figuras de la homoparentalité en Gross M. (sous la direction de ) Homoparentalité états de lieux . Ramonville Saint-Agne: eres. • Canevaro, A. (2006). Terapia Trigeneralcional para las simbiosis de pareja. Recuperado de www.iaf-alicante.es • Carrasco, A. M. (2007). El derecho a la identidad en Rotenberg, E. Agrest Wainer, B. (comp.) Homoparentalidades. Nuevas Familias . Buenos Aires: Editorial Lugar. • Castoriadis, C. (1989). La institución imaginaria de la sociedad en Colombo E. El imaginario Social . Montevideo: Ediciones Normad Comunidad. • Castoriadis, C. (1997). La crisis del proceso identificatorio en El avance de la Insignificancia. Buenos Aires: Eudeba. • Castoriadis-Aulagnier, P. (1977). La violencia de la interpretación. Del pictograma al enunciado. Buenos Aires: Amorrortu. • Ceccarelli, P. (2007) Configuraciones Edípicas contemporáneas sobre las nuevas formas de parentalidad en Rotenberg E. y Agrest "
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 145,
+          "n_words": 100,
+          "text": "• Vidal I. (2014). La Ley de Matrimonio Igualitario y su incidencia sobre lo social. En Memoria de las 4º Jornadas de Investigación de la Facultad de Psicología y del 3º Encuentro de Becarios de Investigación E-Book. ISBN 978-950-34-1174-2- 1a ed. -: La Plata: Congreso llevado a cabo en la UNLP. Vidal, I. (2017) Concepciones de pareja en familias compuestas por parejas del mismo sexo. Congreso Internacional de Investigación y Practica profesional en Psicología. XXIV Jornada de Investigación. XIII Encuentro de Investigadores en Psicología del Mercosur. Psicología, Cultura y Nuevas Perspectivas. Buenos Aires: Congreso llevado a cabo en la UBA."
+        },
+        {
+          "order": 39,
+          "n_words": 74,
+          "text": "• Delucca, N.; González Oddera, M.; Martínez, A.; Vidal, I. (noviembre 2012). Investigaciones sobre parentalidad y sus operatorias, Revisiones conceptuales en torno a la diferencia y la diversidad en Actas UBA IV Congreso Internacional de Investigación y Práctica Profesional en Psicología. XIX Jornadas de Investigación. VIII Encuentro de Investigadores en Psicología del Mercosur. ISSN 1667-6750. Página 27 a 31 del Tomo 3. Buenos Aires: Congreso llevado a cabo en la Universidad de Buenos Aires."
+        },
+        {
+          "order": 98,
+          "n_words": 65,
+          "text": "• Lópes, C. (Octubre 2018). Familias formadas por parejas del mismo sexo y el Código Civil y Comercial de la Nación. en Derecho y Ciencias Sociales. (19) Las familias y el derecho de las familias a dos años de vigencia del Código Civil y Comercial pp. 22-44. ISSNN 1852-2971. La Plata: Instituto de Cultura Jurídica y Maestría en Sociología Jurídica, Facultad de Ciencias Jurídicas, UNLP."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 5,
+          "n_words": 896,
+          "text": "Sexualidad y familia. Crisis y desafíos frente al siglo XXI . Buenos Aires: Noveduc. • Fernández, A. M. (2015). Nuevos modelos de Familia mujer-mujer. Página 12. Recuperado de https://www.pagina12.com.ar/diario/psicologia/9-279229- 2015-08-13.html • Fernández A. (2015). Identidad sexual y totalitarismo. Página 12. Recuperado de https://www.pagina12.com.ar/diario/psicologia/9-266894- 2015-02-26.htm • Fernández, A. M. (2006). La mujer de la ilusión en La mujer de la ilusión. Pactos y contratos entre hombres y mujeres . Buenos Aires: Paidos. • Foucault, M. (1976). Disciplina; II: Los medios del buen encauzamiento y III: El panoptismo en Vigilar y Castigar . México: Siglo Veintiuno Editores S.A. • Frase, N. (1997). Justicia Interrupta. Reflexiones críticas desde la posición post socialista . Bogotá: Siglo del Hombre Editores. • Freud, S. (1923). Obras completas de Sigmund Freud. Volumen XIX - El yo y el ello, y otras obras (1923-1925 ). Traducción José Luis Etcheverry. Buenos Aires & Madrid: Amorrortu editores. • Freud, S. Obras completas de Sigmund Freud. Volumen VII - Tres ensayos de teoría sexual, y otras obras (1901-1905), «Fragmento de análisis de un caso de histeria» (Caso «Dora»"
+        },
+        {
+          "order": 14,
+          "n_words": 678,
+          "text": "Montero, J. (comp.) Un Cuerpo, Mil sexos. intersexualidades. Buenos Aires: Topia. • Raíces Montero, L (2012). Adopción: la caída del prejuicio en https://www.fundacionreflejosdevenezuela.com/nueva-familia/adopcin-la- cada-del-prejuicio-lic-jorge-horacio-races-montero/ • Rotenberg E. y Agrest Wainer B. (comp) \" Homoparentalidades: nuevas familias\" . Buenos Aires. Editorial Lugar. • Roudinesco, E. (2003). La familia en desorden. Buenos Aires: Fondo Cultura Económica. • Rubin, G. (1975). El tráfico de mujeres: notas sobre la economía política de las mujeres. Recuperado de https://web.archive.org/web/20090824054449/http://www.cholonautas.edu.pe /modulo/upload/rubin.pdf • Salman, S. (2010). La naturaleza del deseo Revista Contingencia Matrimonio Igualitario. Recuperado de www.cieccordoba.com.ar/documentos/contingencia7.pdf Año 3 (7). pp. 13. • Santos, C. (2004). A parentalidade em familias homossexuas com filhos: un estudo fenomenologico da vivencia de gays e lesbicas, (tesis dotoral). Brasil: Faculdade de Filosofía, Ciencias e Letras de Ribeirao Preto da USO. • Schwarz, P. (2016). Maternidades en verbo. Identidades, cuerpos, estrategias, negociaciones: mujeres heterosexuales y lesbiana"
+        },
+        {
+          "order": 4,
+          "n_words": 565,
+          "text": "Argentina. Buenos Aires, Argentina, 1 de octubre de 2014. • Cook, R. y Cusack, S. (2009). Estereotipos de Género. Perspectivas Legales Transnacionales. Recuperado en https://www.law.utoronto.ca/utfl_file/count/documents/reprohealth/estereotipo s-de-genero.pdf • Costa P., Perline H., Leal, I. (2015). The contac hypothesis and attitudes toward same-sex parenting. Sexuality Research et Social Policy, A Journal of the NSFC 101, 12, (2) Jun 2015 pp. 125-136. • Cotet, S. (2010). El padre pulverizado en Torres, M. y otros (compiladores), Uniones del mismo sexo. Diferencia, invención y sexuación . Buenos Aires : Grama. • Decreto 1006/2012 por el que se establece el Reconocimiento Igualitario para hijos e hijas que nacieron antes de la Ley de Matrimonio Igualitario Boletín Oficial de la República Argentina. Buenos Aires, Argentina, julio de 2012. • Delaisi G. (2005). ¿Qu'est-ce un parent suffisamment bon? en Gross M. (sous la direction de) Homoparentalité états de lieux. Ramonville Saint-Agne: eres. • Delucca. N. Petriz, G. (agosto, 2003). Avances de investigación sobre el ejercicio de la parentalidad en familias con hijos adolescentes, Actas Salud, educación, justicia y trabajo: aportes de"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 7,
+      "category": "zone_or_narrative_contamination",
+      "note": "Narrative/chapter material appears inside extracted references.",
+      "tesis_archivo": "El concepto de parlêtre en la última producción teórica de Jacques Lacan.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNC/El concepto de parlêtre en la última producción teórica de Jacques Lacan.pdf",
+      "stable_n": 217,
+      "shadow_n": 235,
+      "delta": 18,
+      "shadow_status": "ambiguous",
+      "stable_max_words": 451,
+      "shadow_max_words": 374,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 451,
+          "text": "3. DEL SUJETO... El presente capítulo estará centrado en el desarrollo del primer objetivo específico de la tesis: elucidar el lugar que ocupa la concepción de sujeto en el discurso lacaniano. Con esa finalidad vamos a señalar en primera instancia la importancia que ocupa la concepción de sujeto en toda teoría, ya sea de forma explícita o no, y de qué modo resulta determinante para cualquier práctica efectiva. Este recorrido inicial, si bien no abarcará la polémica y las tensiones sobre el sujeto y el “ser” que ocupan gran parte de la preocupación filosófica occidental, sí se aproximará a dicha polémica para intentar demostrar porqué la cuestión del sujeto (Foucault, 1988), resulta imprescindible a la hora de abordar cualquier teoría, práctica y/o discurso que involucre del algún u otro modo la subjetivación de lo humano. Insistimos que este primer paso tendrá una efectiva demostración al momento de identificar dicha conjetura en el plano específico de la investigación. Es decir, a partir de reflexionar sobre los efectos concretos que tiene en la teoría y en la práctica del psicoanálisis el pasaje del sujeto del significante al parlêtre . Podemos observar también que los puntos sus"
+        },
+        {
+          "order": 2,
+          "n_words": 262,
+          "text": "3. DEL SUJETO... 3.1 La cuestión del sujeto El sujeto, una cosa compleja, frágil, de la que es tan difícil hablar, y sin la cual no podemos hablar (Foucault, 1999, p. 169). Partimos de afirmar que toda corriente de pensamiento teórico, práctico, discursivo o científico involucra alguna concepción más o menos articulada de sujeto. De la misma manera que cada época, edad o sociedad formula un sujeto que determina su cosmovisión del mundo y sus prácticas sociales, podemos afirmar que toda teoría o discurso, se sostiene, lo haga de forma explícita o no, en una determinada concepción sujeto. Así en el trascurso de nuestro devenir como sociedad, hemos ido construyendo “una idea de sujeto de manera paralela a la historia de cómo los seres humanos se han concebido así mismos” (Salas, H. 2002, p.180). Foucault (1988) propone como herramienta de reflexión filosófica, visibilizar de forma crítica dicha construcción que cada cultura propone, en tanto ello implica modos en que los seres humanos se constituyen en sujetos y elaboran modos de subjetivación del ser humano (p. 03), que de buen modo podría equivaler a lo que aquí llamamos concepción de sujeto. Pero… ¿a qué nos referimos con la concep"
+        },
+        {
+          "order": 3,
+          "n_words": 24,
+          "text": "Heidegger (2001), resulta no solo imprescindible para una cosmovisión filosófica, sino para cualquier práctica, teoría o discurso. Acordamos entonces que, al ser la pregunta"
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 75,
+          "text": "Orientación Lacaniana (EOL) en Argentina, La Escuela Brasilera de Psicoanálisis (EBP), La Escuela Europea de Psicoanálisis (EEP), La New Lacanian School (NLS) en países de habla anglosajona, la Nueva Escuela Lacaniana (NEL) en países de Latinoamérica excluyendo a Brasil y Argentina, la Escuela Lacaniana de Psicoanálisis (ELP) en España, la Scuola Lacaniana di Psicoanalisi (SLP) en Italia. Ese conjunto abierto de Escuelas de Psicoanálisis, conforman desde 1992 la Asociación Mundial de Psicoanálisis (AMP), que después"
+        },
+        {
+          "order": 2,
+          "n_words": 43,
+          "text": "de la International Phsychoanalytical Association (IPA) fundada por Freud, es la segunda asociación con características internacionales en el mundo que reúne bajo una forma institucionalizada a practicantes del psicoanálisis. La AMP fue presidida por Jaques-Alain Miller desde su fundación hasta el año 2002."
+        },
+        {
+          "order": 3,
+          "n_words": 305,
+          "text": "3. DEL SUJETO... El presente capítulo estará centrado en el desarrollo del primer objetivo específico de la tesis: elucidar el lugar que ocupa la concepción de sujeto en el discurso lacaniano. Con esa finalidad vamos a señalar en primera instancia la importancia que ocupa la concepción de sujeto en toda teoría, ya sea de forma explícita o no, y de qué modo resulta determinante para cualquier práctica efectiva. Este recorrido inicial, si bien no abarcará la polémica y las tensiones sobre el sujeto y el “ser” que ocupan gran parte de la preocupación filosófica occidental, sí se aproximará a dicha polémica para intentar demostrar porqué la cuestión del sujeto (Foucault, 1988), resulta imprescindible a la hora de abordar cualquier teoría, práctica y/o discurso que involucre del algún u otro modo la subjetivación de lo humano. Insistimos que este primer paso tendrá una efectiva demostración al momento de identificar dicha conjetura en el plano específico de la investigación. Es decir, a partir de reflexionar sobre los efectos concretos que tiene en la teoría y en la práctica del psicoanálisis el pasaje del sujeto del significante al parlêtre . Podemos observar también que los puntos sus"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 1,
+          "n_words": 451,
+          "text": "3. DEL SUJETO... El presente capítulo estará centrado en el desarrollo del primer objetivo específico de la tesis: elucidar el lugar que ocupa la concepción de sujeto en el discurso lacaniano. Con esa finalidad vamos a señalar en primera instancia la importancia que ocupa la concepción de sujeto en toda teoría, ya sea de forma explícita o no, y de qué modo resulta determinante para cualquier práctica efectiva. Este recorrido inicial, si bien no abarcará la polémica y las tensiones sobre el sujeto y el “ser” que ocupan gran parte de la preocupación filosófica occidental, sí se aproximará a dicha polémica para intentar demostrar porqué la cuestión del sujeto (Foucault, 1988), resulta imprescindible a la hora de abordar cualquier teoría, práctica y/o discurso que involucre del algún u otro modo la subjetivación de lo humano. Insistimos que este primer paso tendrá una efectiva demostración al momento de identificar dicha conjetura en el plano específico de la investigación. Es decir, a partir de reflexionar sobre los efectos concretos que tiene en la teoría y en la práctica del psicoanálisis el pasaje del sujeto del significante al parlêtre . Podemos observar también que los puntos sus"
+        },
+        {
+          "order": 7,
+          "n_words": 428,
+          "text": "3. DEL SUJETO... distintas teorías, corrientes de pensamiento y prácticas concretas, poner en evidencia qué sujeto proponen y que consecuencias prácticas dicho sujeto justifica. Sumado a esto, observamos que la cuestión del sujeto, su estatuto, su naturaleza, su relación al lenguaje y a la instancia psíquica del yo (Castro, 2011), sus límites, su reflexividad (Le Gaufey, 2010), su inteligibilidad, su capacidad de elección y de agencia (Alomo, 2011; Fridman, 2009; Libera, 2014), ha sido un tema recurrente en las ciencias humanas y en las ciencias sociales desde sus comienzos. Deducimos también, a partir de las investigaciones actuales que sirven de antecedente de ésta, la plena vigencia de esta cuestión, donde el psicoanálisis, junto con la noción de sujeto construida a partir de la Obra de Freud y los aportes de Lacan, ha tenido y tiene un papel importante y relevante en la discusión. De allí la importancia y pertinencia de la presente investigación, no solo en el campo específico donde se inserta y se inscribe la tesis, sino también en el campo político, que a lo largo de la tesis vamos nombrar como la época o la civilización actual. Hasta aquí hemos presentado un horizonte de tra"
+        },
+        {
+          "order": 11,
+          "n_words": 351,
+          "text": "3. DEL SUJETO... Entonces decimos que la reflexividad está ligada directamente a la conciencia, a la autoconciencia, a la claridad, a la conciencia primaria, a la conciencia de sí; todas ellas características supuestas por las que, en la diatriba filosófica, conocemos al sujeto que se deriva de la propuesta metafísica de Descartes, que Freud interpela con el psicoanálisis. Mientras que el sujeto cartesiano se afirma en una “liberación hacia una certeza en que el hombre se asegura la verdad como lo sabido de su propio saber” (Heidegger, 1958, p. 62), un “sujeto pensante, trasparente para sí mismo” (Zizek, 2007, p.10) asentado en “los dos principios metafísicos básicos: a) el de la identidad (al cual está subordinado el de no contradicción) 5 y b) razón suficiente” (Reale & Antiseri, 1995, p.728), Freud plantea el supuesto de un sujeto escindido y descentrado (Farrán, 2014). Esto es, por un lado, un sujeto que no es idéntico a sí mismo, ni transparente a su propio saber. Por el otro, como afirmamos líneas arriba, participa del mismo movimiento de descentramiento del pensamiento al que pertenecieron Copérnico y Darwin (Rorthy,1993, p.201). Esta propuesta de Freud le valió, por ejemplo"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 12,
+          "n_words": 374,
+          "text": "3. DEL SUJETO... distintas teorías, corrientes de pensamiento y prácticas concretas, poner en evidencia qué sujeto proponen y que consecuencias prácticas dicho sujeto justifica. Sumado a esto, observamos que la cuestión del sujeto, su estatuto, su naturaleza, su relación al lenguaje y a la instancia psíquica del yo (Castro, 2011), sus límites, su reflexividad (Le Gaufey, 2010), su inteligibilidad, su capacidad de elección y de agencia (Alomo, 2011; Fridman, 2009; Libera, 2014), ha sido un tema recurrente en las ciencias humanas y en las ciencias sociales desde sus comienzos. Deducimos también, a partir de las investigaciones actuales que sirven de antecedente de ésta, la plena vigencia de esta cuestión, donde el psicoanálisis, junto con la noción de sujeto construida a partir de la Obra de Freud y los aportes de Lacan, ha tenido y tiene un papel importante y relevante en la discusión. De allí la importancia y pertinencia de la presente investigación, no solo en el campo específico donde se inserta y se inscribe la tesis, sino también en el campo político, que a lo largo de la tesis vamos nombrar como la época o la civilización actual. Hasta aquí hemos presentado un horizonte de tra"
+        },
+        {
+          "order": 9,
+          "n_words": 329,
+          "text": "3. DEL SUJETO... de la corriente de pensamiento que se aborda. Así podemos retomar la idea del comienzo: cada teoría forja un sujeto que se comporta como un supuesto de base de la ciencia, disciplina o corriente de pensamiento de la cual emerge y viene a efectuar “en el plano pragmático el programa teórico y epistemológico que éste encarna” (Albano, 2005, p. 45). Ejemplo de ello, es el sujeto de la lingüística, el sujeto de la semiótica, el sujeto de la psicología, el sujeto de estado, el sujeto de derecho y así un largo etcétera que incluya, por ejemplo, las corrientes de pensamiento que citamos en la investigación de Žižek (2007). Podríamos agregar, solo a modo de ejemplo y para situar algunas comparaciones más cercanas a la investigación que comenzamos a desarrollar, que las neurociencias y el retorno al materialismo neuronal que proponen, se afirman en un sujeto que se reduce a los circuitos neuronales y su órgano prínceps: el cerebro (Pommier, 2010). O, en contrapartida, el movimiento que se identifica con la salud mental, se asienta en un sujeto determinado por sus relaciones sociales, un ser plenamente social 2 . Por tal razón consideramos indispensable para debatir y poner "
+        },
+        {
+          "order": 8,
+          "n_words": 324,
+          "text": "3. DEL SUJETO... más originaria, profunda y determinante, resulta una pregunta fundamental (Heidegger, 2001). Basta a modo de ejemplo, para entender la densidad y las implicancias que tiene el modo en que pensamos al sujeto o la suposición que hacemos de éste, comprender que las formas de abordarlo, situarlo o pensarlo, determinan las grande “épocas” o “edades” en el mundo occidental. Así, podemos demarcar el inicio de la edad moderna a partir de las Meditaciones metafísicas (Descartes, 1997) en torno al cogito cartesiano y el sujeto que deriva de tal propuesta filosófica (Heidegger, 1958; Lacan, 2008 [1965]; Foucault 1988; Žižek, 2007). La edad moderna tiene su principio fundador en el sujeto cartesiano 1 . Entonces, afirmamos que la concepción de sujeto no es sin consecuencias, sino todo lo contrario, tiene consecuencias de gran envergadura. En esa línea, por citar un trabajo contemporáneo, encontramos una precisa y rigurosa investigación de Žižek (2007) quien demuestra, a partir de comparar determinadas prácticas y discursos contemporáneos “tan variados el new age oscurantista (…), el deconstruccionismo posmoderno (…), los teóricos habermasianos de la comunicación (…), los defen"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 32,
+      "category": "zone_or_narrative_contamination",
+      "note": "Bibliographic zone runs into intervention/questionnaire narrative.",
+      "tesis_archivo": "Eficacia de la intervención breve para promover la abstinencia de alcohol en mujeres gestantes.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNMDP/Eficacia de la intervención breve para promover la abstinencia de alcohol en mujeres gestantes.pdf",
+      "stable_n": 178,
+      "shadow_n": 192,
+      "delta": 14,
+      "shadow_status": "manual_review_required",
+      "stable_max_words": 650,
+      "shadow_max_words": 735,
+      "stable_ge500": 1,
+      "shadow_ge500": 1,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 1,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 34,
+          "text": "Aalto, M., Pekuri, P., & Seppä, K. (2003). Obstacles to carrying out brief intervention for heavy drinkers in primary health care: a focus group study. Drug and alcohol review , 22 (2), 169-173. https://doi.org/10.1080/09595230100100606"
+        },
+        {
+          "order": 2,
+          "n_words": 22,
+          "text": "Adair, J. G. (1984). The Hawthorne effect: a reconsideration of the methodological artifact. Journal of applied psychology , 69 (2), 334-345. http://dx.doi.org/10.1037/0021-9010.69.2.334"
+        },
+        {
+          "order": 3,
+          "n_words": 25,
+          "text": "Aliane, P. P. (2013). Avaliação da eficácia de intervenções breves com gestantes na redução do consumo de álcool (Doctoral dissertation), Universidade de São Paulo, Brasil."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 34,
+          "text": "Aalto, M., Pekuri, P., & Seppä, K. (2003). Obstacles to carrying out brief intervention for heavy drinkers in primary health care: a focus group study. Drug and alcohol review , 22 (2), 169-173. https://doi.org/10.1080/09595230100100606"
+        },
+        {
+          "order": 2,
+          "n_words": 22,
+          "text": "Adair, J. G. (1984). The Hawthorne effect: a reconsideration of the methodological artifact. Journal of applied psychology , 69 (2), 334-345. http://dx.doi.org/10.1037/0021-9010.69.2.334"
+        },
+        {
+          "order": 3,
+          "n_words": 25,
+          "text": "Aliane, P. P. (2013). Avaliação da eficácia de intervenções breves com gestantes na redução do consumo de álcool (Doctoral dissertation), Universidade de São Paulo, Brasil."
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 169,
+          "n_words": 650,
+          "text": "A los ﬁnes de la población con la que estaremos sano (Nilsen, 2009). Además, el hecho de que la gran trabajando nuestra intervención fue diseñada para mayoría de las mujeres en nuestro país realice al menos promover abstinencia. Para aplicar la IB se necesitan un control durante la gestación brinda la oportunidad un mínimo de dos y un máximo de tres pasos: precisa para esta intervención (López, 2013). Evaluar el nivel de riesgo de la persona derivado Todos los estudios realizados hasta el momento de su consumo de alcohol. La evaluación se realiza encontraron reducciones en la cantidad y frecuencia mediante cuestionarios breves en los que se indaga de alcohol consumido por las madres y en los casos frecuencia y cantidad de alcohol consumido, en los que se evaluaron los efectos de la IB posparto, así como consecuencias derivadas del consumo. los resultados mostraron nacimientos con mejores Estos cuestionarios se denominan instrumentos de características de salud (mayor peso, mayor longitud, tamizaje, y en nuestro caso utilizaremos el AUDIT, que menor muerte fetal, nacimientos a término) (O´Connor nos permitirá saber si la persona presenta consumo de & Whaley, 2005). Consumo de alcoho"
+        },
+        {
+          "order": 174,
+          "n_words": 359,
+          "text": "5. Antes de hacer el resto de las preguntas explique a la consultante el concepto de TRAGO. Para ello puede utilizar la tabla de equivalencias que se encuentra en el material complementario al ﬁnal de esta guía (Lámina 1). Explique que al existir distintos Paso 2 Intervención breve | Derivación Asistida Si la consultante presentó Consumo de Riesgo (1 a 15 en AUDIT) le corresponderá la IB , que no demorará más de 15 minutos. Con entrenamiento y práctica el tiempo será cada vez menor. Elementos centrales Entregue una conclusión clara de la evaluación. %ƫ ƫĥƫƫ  ƫ  El consumo de la consultante es de riesgo. Ayúdela a deﬁnirla claramente, tome nota junto a ella e invítela a ﬁrmar un contrato aclarándole que Entregue a la consultante el folleto guía y anote el contrato es con ella misma. Registre la meta en /1ƫ,1*01 &!ƫ !(ƫ ƫ, . ƫ-1!ƫ,1! ƫ% !*0%ü . el folleto guía y tome nota en la hoja del cuestionario en el gráﬁco que su consumo es de riesgo. del AUDIT de cuál fue el objetivo acordado. Entregue una recomendación clara. * (% !*ƫ( /ƫ/%01 %+*!/ƫ-1!ƫ %ü 1(0 .8*ƫ!(ƫ ) %+ƫ No debería estar consumiendo bebidas con alcohol. y brinde opciones para que pueda llevar su objetivo !( *0!ċƫ1! !ƫ10%(%"
+        },
+        {
+          "order": 178,
+          "n_words": 209,
+          "text": "4. Invite a la consultante a DEFINIR ser realistas, aunque no sean las ideales, cualquier METAS para dejar de consumir. cambio dejará al paciente en una mejor posición Pregunte a la consultante qué le parece el folleto y que si no intenta ningún cambio. De cualquier la recomendación “¿Le parece que podría suspender forma es importante que fomentemos claramente su consumo mientras esté embarazada y durante la abstinencia en esta población particular. la lactancia?” “¿Siente que podría hacerlo?” “¿Tiene la motivación?” Deﬁna en conjunto con la consultante las METAS. Si no está dispuesta a dejar de beber deberá a. Si la consultante NO QUIERE / NO PUEDE trabajar puntualmente en cuántos tragos bebe ƫƫƫƫ !ü*%.ƫ)!0 /ƫ!ƫ%*0!..1),%.ƫ/1ƫ +*/1)+č actualmente y cuántos sería lo mínimo a lo que estaría dispuesta a beber. Intente que el Evite enjuiciar, recriminar o molestarse con la compromiso sea beber LO MENOS POSIBLE consultante. Hay personas que no están preparadas Y CON LA MENOR FRECUENCIA POSIBLE en ese momento para hacer un cambio conductual, sienten que no pueden o que no son capaces. Analice con la consultante si la meta es realista. Motivarse requiere tiempo. “Es posible que baje real"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 183,
+          "n_words": 735,
+          "text": "negativas en relación al consumo. estudiantes en escuelas y universidades (Nilsen, 2009). Además son muy bien aceptadas por parte del personal Promover la abstinencia, como en el caso de y los pacientes (Schermer, 2005). menores de edad y mujeres gestantes. El contexto de atención prenatal se considera ideal para Promover la aceptación de la derivación tratar el consumo de alcohol ya que la motivación para a tratamiento especializado. eliminar conductas no saludables se ve incrementada durante la gestación por el deseo de tener un bebé A los ﬁnes de la población con la que estaremos sano (Nilsen, 2009). Además, el hecho de que la gran trabajando nuestra intervención fue diseñada para mayoría de las mujeres en nuestro país realice al menos promover abstinencia. Para aplicar la IB se necesitan un control durante la gestación brinda la oportunidad un mínimo de dos y un máximo de tres pasos: precisa para esta intervención (López, 2013). Evaluar el nivel de riesgo de la persona derivado Todos los estudios realizados hasta el momento de su consumo de alcohol. La evaluación se realiza encontraron reducciones en la cantidad y frecuencia mediante cuestionarios breves en los que se indaga de"
+        },
+        {
+          "order": 188,
+          "n_words": 359,
+          "text": "5. Antes de hacer el resto de las preguntas explique a la consultante el concepto de TRAGO. Para ello puede utilizar la tabla de equivalencias que se encuentra en el material complementario al ﬁnal de esta guía (Lámina 1). Explique que al existir distintos Paso 2 Intervención breve | Derivación Asistida Si la consultante presentó Consumo de Riesgo (1 a 15 en AUDIT) le corresponderá la IB , que no demorará más de 15 minutos. Con entrenamiento y práctica el tiempo será cada vez menor. Elementos centrales Entregue una conclusión clara de la evaluación. %ƫ ƫĥƫƫ  ƫ  El consumo de la consultante es de riesgo. Ayúdela a deﬁnirla claramente, tome nota junto a ella e invítela a ﬁrmar un contrato aclarándole que Entregue a la consultante el folleto guía y anote el contrato es con ella misma. Registre la meta en /1ƫ,1*01 &!ƫ !(ƫ ƫ, . ƫ-1!ƫ,1! ƫ% !*0%ü . el folleto guía y tome nota en la hoja del cuestionario en el gráﬁco que su consumo es de riesgo. del AUDIT de cuál fue el objetivo acordado. Entregue una recomendación clara. * (% !*ƫ( /ƫ/%01 %+*!/ƫ-1!ƫ %ü 1(0 .8*ƫ!(ƫ ) %+ƫ No debería estar consumiendo bebidas con alcohol. y brinde opciones para que pueda llevar su objetivo !( *0!ċƫ1! !ƫ10%(%"
+        },
+        {
+          "order": 192,
+          "n_words": 209,
+          "text": "4. Invite a la consultante a DEFINIR ser realistas, aunque no sean las ideales, cualquier METAS para dejar de consumir. cambio dejará al paciente en una mejor posición Pregunte a la consultante qué le parece el folleto y que si no intenta ningún cambio. De cualquier la recomendación “¿Le parece que podría suspender forma es importante que fomentemos claramente su consumo mientras esté embarazada y durante la abstinencia en esta población particular. la lactancia?” “¿Siente que podría hacerlo?” “¿Tiene la motivación?” Deﬁna en conjunto con la consultante las METAS. Si no está dispuesta a dejar de beber deberá a. Si la consultante NO QUIERE / NO PUEDE trabajar puntualmente en cuántos tragos bebe ƫƫƫƫ !ü*%.ƫ)!0 /ƫ!ƫ%*0!..1),%.ƫ/1ƫ +*/1)+č actualmente y cuántos sería lo mínimo a lo que estaría dispuesta a beber. Intente que el Evite enjuiciar, recriminar o molestarse con la compromiso sea beber LO MENOS POSIBLE consultante. Hay personas que no están preparadas Y CON LA MENOR FRECUENCIA POSIBLE en ese momento para hacer un cambio conductual, sienten que no pueden o que no son capaces. Analice con la consultante si la meta es realista. Motivarse requiere tiempo. “Es posible que baje real"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 87,
+      "category": "zone_or_narrative_contamination",
+      "note": "Large stable narrative segment; shadow improves but remains ambiguous.",
+      "tesis_archivo": "2020_Veloz_Los dispositivos de intervención de losas psicólogosas en tiempos tutelares y en tiempos de sujetos de derechos Un estud.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2020_Veloz_Los dispositivos de intervención de losas psicólogosas en tiempos tutelares y en tiempos de sujetos de derechos Un estud.pdf",
+      "stable_n": 258,
+      "shadow_n": 368,
+      "delta": 110,
+      "shadow_status": "ambiguous",
+      "stable_max_words": 561,
+      "shadow_max_words": 268,
+      "stable_ge500": 1,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 170,
+          "text": "Derechos de las Niñas, Niños y Adolescentes (2005) y, a nivel provincial, con la sanción de las leyes 13.298 de Promoción y Protección Integral de los Derechos de los Niños (2005) y 13.634 del Fuero de Familia y del Fuero Penal del Niño (2007), así como la indagación bibliográfica respecto a los efectos que tales cambios produjeron en las políticas públicas y en los dispositivos institucionales concretos. Asimismo, aborda el rol de los/as profesionales establecido en las normativas y las posibilidades concretas de su ejercicio. En particular, el rol de los/as psicólogas/as. Tal recorrido derivó en la necesidad de delimitar las categorías de dispositivo y de institución que, a modo de herramientas, orientan nuestra mirada para la construcción del problema de investigación. El escenario legislativo Los cambios legislativos producidos en nuestro país, a nivel nacional, con la sanción de la ley 26.061 de Protección Integral de los Derechos de las Niñas, Niños y Adolescentes (2005), y a nivel provincial, con la sanción de las leyes 13.298 de Promoción y Protección"
+        },
+        {
+          "order": 2,
+          "n_words": 95,
+          "text": "Integral de los Derechos de los Niños (2005) y 13.634 del Fuero de Familia y Fuero Penal del Niño (2007) –con sus respectivos decretos reglamentarios–, han significado una ruptura, a nivel normativo, con el Patronato de Menores. En la revisión bibliográfica, hemos encontrado diversas producciones que interrogan sobre el impacto de las normativas sancionadas e implementadas a partir de 2006 y 2007 en las políticas públicas y en las prácticas institucionales (Oyhandv Cioff, 2004; Aguirre & Ponce Núñez, 2009; Di Iorio, 2010; Lucesole, 2012; Grinberg, 2013; Llobet, Litichever & Magisttris, 2012; Llobet, 2014; Fasciolo, 2018)."
+        },
+        {
+          "order": 3,
+          "n_words": 164,
+          "text": "Aguirre y Ponce Nuñez (2009) plantean que resulta una obviedad pensar que la sanción de las leyes produce –por sí misma– un cambio cultural. Las normativas son un punto partida clave pero se requiere de un real compromiso de la totalidad de los/as operadores/as que trabajan en el sistema. Los autores señalan que para la implementación de las nuevas normativas el poder administrador no está a la altura de las circunstancias. La base del sistema –los servicios locales– son incipientes y no hay una adecuada coordinación entre los municipios y el poder central provincial. El sistema provincial, que debe contar con una comisión interministerial que lo regule, también carece de autoridad suficiente. No hay, en definitiva, una política pública general y única que resuelva la diversidad de problemáticas que afectan a los/as niños/as y a los/as jóvenes en sus derechos más esenciales. A esto se suman las anomalías propias del poder judicial, cuyas relaciones con el poder administrador se presentan conflictivas, cuando no inexistentes."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 20,
+          "text": "Fernández, A. M. (2011). Política y subjetividad. Asambleas barriales y fábricas recuperadas . Ciudad Autónoma de Buenos Aires, Argentina: Biblos."
+        },
+        {
+          "order": 2,
+          "n_words": 37,
+          "text": "Pérez, E. A. (2015). Ejercicio de derechos y producciones de subjetividad. Un estudio en redes intersectoriales en instituciones de La Plata y Gran La Plata (2016-2018) [Proyecto de investigación]. La Plata, Argentina: Universidad Nacional de La Plata."
+        },
+        {
+          "order": 3,
+          "n_words": 33,
+          "text": "Mendoza, F. y Ruiz, A. (abril de 2019). Cómo citar con las normas APA. [Presentación]. Taller Cómo citar con las normas APA. Facultad de Artes, Universidad Nacional de La Plata. Recuperado de http://sedici.unlp.edu.ar/handle/10915/73909"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 14,
+          "n_words": 561,
+          "text": "Bouilly y Anderson (2012), integrantes de un equipo de investigación que se propuso dar cuenta de la «cuestión penal juvenil» y, en particular, del encierro punitivo en la provincia de Buenos Aires, sostienen que en estas instituciones los denominados «maestros» son los actores más visibles respecto del gobierno de la vida de los/as jóvenes y de la garantía del orden institucional. En la dinámica institucional, los/as psicólogos/as y los/as trabajadores/as sociales que integran los equipos técnicos de los institutos son actores centrales, en tanto constituyen Respecto a los/as psicólogos/as, afirman, por un lado, que la participación de al menos un/a psicólogo/a en cada equipo técnico suele estar garantizada, no así la de los/as trabajadores/as sociales; y, por otro, que de las relaciones que construyan con los/as directores/as, con los/as «maestros/as» y con personal del Poder Judicial dependerá el grado de incidencia, de negociación, de resistencia o de promoción de propuestas de trabajo. Además, sostienen que los/as profesionales deben formar parte del análisis que se realice, en tanto participan del encierro punitivo como operadores/as clave del «tratamiento», a través de sus a"
+        },
+        {
+          "order": 15,
+          "n_words": 480,
+          "text": "Fasciolo (2018) realiza una investigación donde analiza las funciones profesionales de los/as trabajadores/as sociales que integran los equipos técnicos de los Centros Cerrados (CC) de la provincia de Buenos Aires para jóvenes privados/as de libertad con causas penales, entre los años 2009-2013. Respecto de los/as profesionales «psi» (categoría en la que incluye a los/as psicólogos/as y los/as psiquiatras) que en tales instituciones integran los equipos técnicos señala que en el organigrama dependen directamente de la dirección de la institución. Si bien el espacio socio-ocupacional de los/as profesionales no está reglamentado por la normativa del Sistema de Responsabilidad Penal Juvenil de la Provincia de Buenos Aires, en las «actas de ingreso» se establece que psicólogos/as y trabajadores/as sociales deben realizar entrevistas de admisión. A su vez, como indica el autor, la Resolución 370/11 del Ministerio de Desarrollo Social ubica la función del «equipo técnico en conjunto –sin distinguir profesiones– en el período de integración del joven a las actividades institucionales e interviniendo en las decisiones y/o propuestas sobre las visitas que constituyen derechos de los jóvenes"
+        },
+        {
+          "order": 7,
+          "n_words": 318,
+          "text": "En otro trabajo, Llobet (2014) interroga sobre el lugar específico que ocupan las necesidades infantiles en la institucionalidad concreta, pregunta que se abre a dos dimensiones. Por un lado, tal institucionalización se efectúa en un sentido normativo: el niño debe jugar para poder ser niño, «en donde el juego –un tipo de juego por caso– constituye una necesidad universal» (p. 11). Por otro, el lugar del niño es la escuela, que deviene como un lugar constitutivo de la infancia. De este modo, sostiene que se producen oposiciones: «El juego es esencial al desarrollo infantil, si es trabajo no es juego, el trabajo infantil impide el juego y l aprendizaje escolar» (p. 11). De esto se derivan dilemas en el plano normativo respecto a qué se entiende por trabajo infantil; dilema que se intensifica cuando de las necesidades que definen a la infancia devienen las formas de comprensión de la crianza y de la vida familiar, las funciones de los/as adultos/as a cargo de las mismas y la idea respecto de qué es ser buena madre (Llobet, 2014). Estos modos de pensar y de entender la infancia son productores de modos de intervención, en particular, en las prácticas de intervención institucionales qu"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 35,
+          "n_words": 268,
+          "text": "De tal definición, sugieren que se trata de prácticas y de discursos profesionales que configuran un sentido del tratamiento para la corrección y la posterior reinserción social, a la vez que constituyen aportes técnicos para la gestión de la seguridad y el castigo en correspondencia con lo requerido por las autoridades. Sin embargo, visualizan que tanto la composición como el campo de acción y las responsabilidades profesionales no se encuentran regulados formalmente, por lo que las prácticas profesionales más o menos informales se configuran de acuerdo con los habitus (Bourdieu, 2013) institucionales. En relación con los/as psicólogos/as, indican que en el ámbito de las instituciones de Responsabilidad Penal Juvenil el promedio varía entre un/a psicólogo/a cada seis jóvenes detenidos/as y un/a psicólogo/a cada 54 jóvenes. Del análisis de las entrevistas realizadas, se desprende que la atención psicológica es «a demanda» del/la joven, lo que significa que ante situaciones concretas son ellos/as quienes solicitan la intervención de el/la psicólogo/a, demanda que es canalizada a través de los/as celadores/as. Al respecto, expresan que de acuerdo a las autoridades institucionales las"
+        },
+        {
+          "order": 28,
+          "n_words": 218,
+          "text": "La autora sostiene que entre los profesionales de las defensorías zonales circula un «enfoque moral» social y una mirada que tiende a la individualización y a hacer abstracción del contexto socioeconómico y de violencia estructural que atraviesa la población objeto de las defensorías estudiadas. Otra de las investigaciones fue desarrollada por Lucesole (2012) en el Sistema de Responsabilidad Penal Juvenil en la provincia de Buenos Aires. La autora indaga cómo se plasman las nuevas normativas en los dispositivos institucionales, en los discursos y en las prácticas concretas para el cumplimento de medidas alternativas a la privación de la libertad. Acerca de esto, sostiene: Oyhandv Cioff (2004) retoma los desarrollos de Guemureman y Daroqui (1999), quienes se proponen describir el funcionamiento de las instituciones que conforman el Patronato de Menores en el ámbito de la provincia de Buenos Aires y de la Capital Federal. El estudio muestra, como un dato central para entender la lógica de funcionamiento de este dispositivo, la inexistencia de una sistematización de datos, producto de que las estadísticas que producen las dependencias públicas son incoherentes, erráticas e insuficient"
+        },
+        {
+          "order": 32,
+          "n_words": 181,
+          "text": "En relación con la interdisciplina, Fasciolo (2018) sostiene que la posibilidad de producción de espacios interdisciplinares se encuentra limitada por dos variables: la economía del contacto y las condiciones laborales. Respecto de la importancia de considerar las condiciones laborales sostiene que «no son una condición más de la práctica, meros condicionantes externos, sino que constituyen un organizador de esa práctica en tanto integrada a un proceso de trabajo y en este sentido van a delinear los límites de lo posible» (Fasciolo, 2018, p. 222). En la investigación, realizada en una institución del área de responsabilidad penal juvenil de la provincia de Buenos Aires, la autora señala que los/as profesionales de distintas disciplinas desarrollan tareas muy similares, centradas, fundamentalmente, en la asistencia mediante entrevistas y en la educación respecto de la adecuación a la lógica del encierro y las evaluaciones. «Los/as psicólogos/as también ven interpeladas sus tácticas operativas a partir de la lógica de gobierno institucional y se ubican en un lugar de subordinación en el circuito de información-desinformación respecto a la toma de decisiones sobre algunas cuestiones» "
+        }
+      ]
+    },
+    {
+      "tesis_orden": 94,
+      "category": "zone_or_narrative_contamination",
+      "note": "Very large narrative segments in both routes.",
+      "tesis_archivo": "2022_Colanzi_Procesos de construcción de la identidad profesional de psicólogxs en La Plata (1962-1976).pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2022_Colanzi_Procesos de construcción de la identidad profesional de psicólogxs en La Plata (1962-1976).pdf",
+      "stable_n": 328,
+      "shadow_n": 354,
+      "delta": 26,
+      "shadow_status": "manual_review_required",
+      "stable_max_words": 1078,
+      "shadow_max_words": 2411,
+      "stable_ge500": 5,
+      "shadow_ge500": 3,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 829,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI Gráfico 19: Porcentaje por tipo de referencia transversal: género. Revista de Psicología (primera época). Carrera de Psicología (UNLP). Período 1964 – 1973. A partir de la referencia del artículo de Knobel pudimos trazar algunos puntos transversa- les de análisis, y especialmente puntos de contacto entre el capítulo 1 y 4, dado que las produc- ciones de la revista se orientan a establecer la especificidad de la identidad profesional de lxs psicólogxs por medio de investigaciones, discusiones en torno al ejercicio profesional y dispu- tas teóricas en el la agenda de investigación del campo psi. De la misma manera que establecimos como hipótesis la subalternización de saberes psico- lógicos y su relación con la feminización de la matrícula de la carrera, también la inclusión de debates en torno al género, si bien tenían lugar en la época, a partir de los feminismos de la se- gunda ola (Oberti, 2015), no así en los artículos de la revista que únicamente tiene un 7% de re- ferencias a estas discusiones en el campo psi y la salud mental. Revista de Psicología N°4 El número 4 de la"
+        },
+        {
+          "order": 2,
+          "n_words": 900,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI vestigaciones psicológicas y su aporte al campo de la pedagogía. Nassif introdujo otro aspecto que refiere al ejercicio profesional de lxs psicólogxs, que es la orientación profesional. De esta forma, revisa otra de las aristas de la identidad profesional y retoma uno de los ámbitos clave de desarrollo profesional desde los años 50. Juan Carlos Pizarro, prolífico autor y director de la revista, presentó un artículo titulado “La presencia del otro: el Rorschach como entrevista”. Es un artículo ensayístico en el que el autor hacía alusión a su propia experiencia en relación con el test de Rorschach. También planteaba cuál es el lugar del psicólogx en una instancia de entrevista y de definición diagnóstica. Luego de las definiciones conceptuales, Pizarro presenta los resultados de un psicodiagnós- tico que incluye la administración del test de Rorschach y el test de Bender. El siguiente artículo “Inmutabilidad y mutabilidad del símbolo. Planteo para una compren- sión del símbolo en Jung” de Nejama Sager, incluyó una línea de formación en psicoanálisis jun- giano que no es habitu"
+        },
+        {
+          "order": 3,
+          "n_words": 1078,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI terio era una humanista, que tenía una formación muy amplia, y en realidad ella as- piraba a una psicología científica, por eso es que, una de las materias que nosotros tuvimos fue psicología experimental. Ella tenía esa vocación, pero tuvo una ampli- tud de criterio en base a los modelos de carrera de otras carreras de Psicología que habían creado a partir del año 56 en Rosario y después en la Universidad de Bue- nos Aires; y tomando los modelos de otros países, ella tuvo la visión y la predisposi- ción a no hacer una carrera orientada en forma hegemónica por alguna línea teórica o de visión de la psicología en un aspecto o en otro. Y, por lo tanto, nosotros tuvi- mos una formación amplia en ese punto con otras asignaturas y también dio lugar a la entrada del psicoanalistas en que se estaban formando en la Asociación Argen- tina de Psicoanálisis (APA), en algunas materias como en niñez y adolescencia que es una materia donde yo muy tempranamente empecé a trabajar como ayudante, y como auxiliar docente y después bueno, fui haciendo mi carrera en esa en esa mate- rias hasta qu"
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 43,
+          "text": "1964 1 11 1 8% 1965 2 6 0 0% 1966 3 8 1 11% 4 6 0 0% 1967 5 7 1 13% 1973 6 8 1 11% Total 54 4 7% Tabla 24: Referencias transversales: género. Revista de Psicología (primera época)."
+        },
+        {
+          "order": 2,
+          "n_words": 1384,
+          "text": "Carrera de Psicología (UNLP). Período 1964 – 1973. PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI Gráfico 19: Porcentaje por tipo de referencia transversal: género. Revista de Psicología (primera época). Carrera de Psicología (UNLP). Período 1964 – 1973. A partir de la referencia del artículo de Knobel pudimos trazar algunos puntos transversa- les de análisis, y especialmente puntos de contacto entre el capítulo 1 y 4, dado que las produc- ciones de la revista se orientan a establecer la especificidad de la identidad profesional de lxs psicólogxs por medio de investigaciones, discusiones en torno al ejercicio profesional y dispu- tas teóricas en el la agenda de investigación del campo psi. De la misma manera que establecimos como hipótesis la subalternización de saberes psico- lógicos y su relación con la feminización de la matrícula de la carrera, también la inclusión de debates en torno al género, si bien tenían lugar en la época, a partir de los feminismos de la se- gunda ola (Oberti, 2015), no así en los artículos de la revista que únicamente tiene un 7% de re- ferencias a estas discusiones en el campo psi y la salud "
+        },
+        {
+          "order": 3,
+          "n_words": 928,
+          "text": "1967. El director de la revista fue Juan Carlos Pizarro y el secretario Juan Carlos Buratti, como en los números previos (3 y 4). El número presentaba diez artículos e información del Departamento de Psicología, del Instituto de Psi- cología y de la Asociación de Psicólogos de La Plata (en adelante APLP). En el primer artículo, de Raúl Balbé, se titula “Ama- neramiento en la esquizofrenia”. El autor refiere al tra- bajo de Bleuler acerca de la demencia precoz, y sitúa al amaneramiento como un síntoma accesorio de la es- quizofrenia. El autor abordó tanto la escuela alemana como francesa para delimitar los síntomas asocia- dos con la esquizofrenia, y toma el manierismo de género como objeto de indagación del estu- dio. Para el artículo, Balbé realiza un recorrido por distintos referentes artísticos como Paul Klee y Marc Chagall. El autor señala que el amaneramiento de ningún modo debería considerarse como signo y síntoma patognomónico de una enfermedad, sino como un fenómeno humano general. En los números anteriores aún no se había abordado específicamente lo que refiere a los fe- nómenos que exigen un diagnóstico diferencial. Este artículo es significativo en la medida que supone u"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 3,
+          "n_words": 1078,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI terio era una humanista, que tenía una formación muy amplia, y en realidad ella as- piraba a una psicología científica, por eso es que, una de las materias que nosotros tuvimos fue psicología experimental. Ella tenía esa vocación, pero tuvo una ampli- tud de criterio en base a los modelos de carrera de otras carreras de Psicología que habían creado a partir del año 56 en Rosario y después en la Universidad de Bue- nos Aires; y tomando los modelos de otros países, ella tuvo la visión y la predisposi- ción a no hacer una carrera orientada en forma hegemónica por alguna línea teórica o de visión de la psicología en un aspecto o en otro. Y, por lo tanto, nosotros tuvi- mos una formación amplia en ese punto con otras asignaturas y también dio lugar a la entrada del psicoanalistas en que se estaban formando en la Asociación Argen- tina de Psicoanálisis (APA), en algunas materias como en niñez y adolescencia que es una materia donde yo muy tempranamente empecé a trabajar como ayudante, y como auxiliar docente y después bueno, fui haciendo mi carrera en esa en esa mate- rias hasta qu"
+        },
+        {
+          "order": 5,
+          "n_words": 1001,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI término inteligencia para ejemplificar: “una definición operacional de ´inteligencia´, que es, por ejemplo, ´inteligencia= factor de la variabilidad de los sujetos en sus puntajes en el test de Raven´. Como vemos, la definición operacional es directiva, indica operaciones” (Musso, 1973, p. 101). La preocupación central del autor es el empleo de un lenguaje científico para la producción de conocimiento en el caso de la psicología “la ciencia requiere un lenguaje de gran exactitud porque el lenguaje se usa para describir, y la ciencia aspira a una descripción del mundo de gran exactitud. (…) La ciencia aspira no sólo a describir sino también a explicar el mundo (para cambiarlo y comprenderlo). Y la explicación se hace sobre la base de teorías” (Musso, 1973, p. 102). El autor tomó la noción de marco referencial para hacer referencia a los sistemas teóricos que pretenden ser científicos pero que están construidos sobre la base de hipótesis no verifica- das científicamente. Estos marcos se organizan en torno a hipótesis ad hoc, es decir, “hipótesis que habiéndose construir para ex"
+        },
+        {
+          "order": 4,
+          "n_words": 935,
+          "text": "PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI ban realizar la promoción a segundo año. En la indagación, Ferreiroa presentó las dimensiones contempladas: en primer lugar, la di- námica grupal, la interacción y el desenvolvimiento escolar; en segundo lugar, las condiciones de abandono, desde el examen de ingreso a primer año y luego las marcas de este primer mo- mento de trayecto; en tercer lugar, las opiniones de lxs estudiantes acerca de la organización de la escuela, y de los elementos humanos y materiales que la integran. De acuerdo con los resultados obtenidos, más del 53% de lxs estudiantes no promovió en el primer año. Se analizó comparativamente las notas del examen de ingreso y las notas obteni- das por lxs estudiantes durante el primer año y no se detectó correlación. Otros aspectos analizados fue la falta de información que manejaban lxs estudiantes, el uso que hacen de la infraestructura escolar y especialmente de la biblioteca, que es prácticamen- te ninguno. La autora indicó que dadas las respuestas de las encuetas se determinó que lxs estudiantes carecen casi totalmente de la información necesaria. Ante est"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 4,
+          "n_words": 2411,
+          "text": "Rank, Frobenius, Diel, Bachelard). Y concluye que “la función mitopoyética es arcaica y homo- génea, a pesar de la aparente variedad temática de las leyendas estudiadas en todo el mundo” (Cuatrecasas, 1967, p. 26). El artículo retoma algunos de los contenidos del programa de la asignatura Antropología que se analiza en profundidad en el capítulo 1 de esta tesis. En el artículo de Julio E. Etchegoyen “Zonas operativas y técnicas en la organización de em- presas”, se abordaron aspectos propios de la Rama Laboral de la carrera de Psicología. Esto es un dato significativo considerando que la unidad de análisis de la tesis es la identidad profesio- nal de lxs psicólogxs. En el artículo se analizaron cada uno de los aspectos de la organización de empresas. Etche- goyen contempló como base el gráfico de organización de empresas (ACME) y propuso un reco- rrido por las zonas operativas y las técnicas en una organización tipo de empresas. Se destaca que el autor hizo énfasis en la importancia de su propuesta para lxs estudiantes de Psicología laboral, brindando una visión panorámica de un modelo de empresa. En el artículo de Ofelia Ferreiroa, “Experiencias realizadas en una escuela secundari"
+        },
+        {
+          "order": 2,
+          "n_words": 1384,
+          "text": "Carrera de Psicología (UNLP). Período 1964 – 1973. PROCESOS DE CONSTRUCCIÓN DE LA IDENTIDAD PROFESIONAL DE PSICÓLOGXS EN LA PLATA (1962 – 1976) • IRMA COLANZI Gráfico 19: Porcentaje por tipo de referencia transversal: género. Revista de Psicología (primera época). Carrera de Psicología (UNLP). Período 1964 – 1973. A partir de la referencia del artículo de Knobel pudimos trazar algunos puntos transversa- les de análisis, y especialmente puntos de contacto entre el capítulo 1 y 4, dado que las produc- ciones de la revista se orientan a establecer la especificidad de la identidad profesional de lxs psicólogxs por medio de investigaciones, discusiones en torno al ejercicio profesional y dispu- tas teóricas en el la agenda de investigación del campo psi. De la misma manera que establecimos como hipótesis la subalternización de saberes psico- lógicos y su relación con la feminización de la matrícula de la carrera, también la inclusión de debates en torno al género, si bien tenían lugar en la época, a partir de los feminismos de la se- gunda ola (Oberti, 2015), no así en los artículos de la revista que únicamente tiene un 7% de re- ferencias a estas discusiones en el campo psi y la salud "
+        },
+        {
+          "order": 3,
+          "n_words": 928,
+          "text": "1967. El director de la revista fue Juan Carlos Pizarro y el secretario Juan Carlos Buratti, como en los números previos (3 y 4). El número presentaba diez artículos e información del Departamento de Psicología, del Instituto de Psi- cología y de la Asociación de Psicólogos de La Plata (en adelante APLP). En el primer artículo, de Raúl Balbé, se titula “Ama- neramiento en la esquizofrenia”. El autor refiere al tra- bajo de Bleuler acerca de la demencia precoz, y sitúa al amaneramiento como un síntoma accesorio de la es- quizofrenia. El autor abordó tanto la escuela alemana como francesa para delimitar los síntomas asocia- dos con la esquizofrenia, y toma el manierismo de género como objeto de indagación del estu- dio. Para el artículo, Balbé realiza un recorrido por distintos referentes artísticos como Paul Klee y Marc Chagall. El autor señala que el amaneramiento de ningún modo debería considerarse como signo y síntoma patognomónico de una enfermedad, sino como un fenómeno humano general. En los números anteriores aún no se había abordado específicamente lo que refiere a los fe- nómenos que exigen un diagnóstico diferencial. Este artículo es significativo en la medida que supone u"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 29,
+      "category": "blind_spot",
+      "note": "Stable and shadow both return zero.",
+      "tesis_archivo": "Diseño y evaluación de eficacia de un programa de intervención psicosocial para adultos con asma bronquial Aplicaciones en dispositivo individual y grupal.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNMDP/Diseño y evaluación de eficacia de un programa de intervención psicosocial para adultos con asma bronquial Aplicaciones en dispositivo individual y grupal.pdf",
+      "stable_n": 0,
+      "shadow_n": 0,
+      "delta": 0,
+      "shadow_status": "not_run",
+      "stable_max_words": 0,
+      "shadow_max_words": 0,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [],
+      "shadow_first3": [],
+      "stable_largest3": [],
+      "shadow_largest3": []
+    },
+    {
+      "tesis_orden": 35,
+      "category": "blind_spot",
+      "note": "Stable and shadow both return zero.",
+      "tesis_archivo": "El diferencial semántico como técnica de diagnóstico y de exploración clínica.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNMDP/El diferencial semántico como técnica de diagnóstico y de exploración clínica.pdf",
+      "stable_n": 0,
+      "shadow_n": 0,
+      "delta": 0,
+      "shadow_status": "not_run",
+      "stable_max_words": 0,
+      "shadow_max_words": 0,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [],
+      "shadow_first3": [],
+      "stable_largest3": [],
+      "shadow_largest3": []
+    },
+    {
+      "tesis_orden": 44,
+      "category": "blind_spot",
+      "note": "Stable and shadow both return zero.",
+      "tesis_archivo": "Procesos de control inhibitorio en contextos emocionales y neutrales en población infantil.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNMDP/Procesos de control inhibitorio en contextos emocionales y neutrales en población infantil.pdf",
+      "stable_n": 0,
+      "shadow_n": 0,
+      "delta": 0,
+      "shadow_status": "not_run",
+      "stable_max_words": 0,
+      "shadow_max_words": 0,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [],
+      "shadow_first3": [],
+      "stable_largest3": [],
+      "shadow_largest3": []
+    },
+    {
+      "tesis_orden": 63,
+      "category": "doi_or_tail_oversegmentation",
+      "note": "Extremely high reference count; short DOI/tail fragments appear as records.",
+      "tesis_archivo": "2016_Simkin_Espiritualidad, religiosidad y bienestar subjetivo y psicológico en el marco del Modelo y la Teoría de los Cinco Factore.pdf",
+      "tesis_ruta_zip": "tesis_psicologia/2016_Simkin_Espiritualidad, religiosidad y bienestar subjetivo y psicológico en el marco del Modelo y la Teoría de los Cinco Factore.pdf",
+      "stable_n": 1422,
+      "shadow_n": 1444,
+      "delta": 22,
+      "shadow_status": "ambiguous",
+      "stable_max_words": 99,
+      "shadow_max_words": 70,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 41,
+      "shadow_short_lt3": 1,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 26,
+          "text": "Abdel-Khalek, A. M. (2009). Religiosity, subjective well-being, and depression in Saudi children and adolescents. Mental Health, Religion & Culture , 12 (8), 803 – 815. http://doi.org/10.1080/13674670903006755"
+        },
+        {
+          "order": 2,
+          "n_words": 26,
+          "text": "Abdel-Khalek, A. M. (2010a). Quality of life, subjective well-being, and religiosity in Muslim college students. Quality of Life Research , 19 (8), 1133 – 1143. http://doi.org/10.1007/s11136-010-9676-7"
+        },
+        {
+          "order": 3,
+          "n_words": 21,
+          "text": "Abdel-Khalek, A. M. (2010b). Religiosity, subjective well-being, and neuroticism. Mental Health, Religion & Culture , 13 (1), 67 – 79. http://doi.org/10.1080/13674670903154167"
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 26,
+          "text": "Abdel-Khalek, A. M. (2009). Religiosity, subjective well-being, and depression in Saudi children and adolescents. Mental Health, Religion & Culture , 12 (8), 803 – 815. http://doi.org/10.1080/13674670903006755"
+        },
+        {
+          "order": 2,
+          "n_words": 26,
+          "text": "Abdel-Khalek, A. M. (2010a). Quality of life, subjective well-being, and religiosity in Muslim college students. Quality of Life Research , 19 (8), 1133 – 1143. http://doi.org/10.1007/s11136-010-9676-7"
+        },
+        {
+          "order": 3,
+          "n_words": 21,
+          "text": "Abdel-Khalek, A. M. (2010b). Religiosity, subjective well-being, and neuroticism. Mental Health, Religion & Culture , 13 (1), 67 – 79. http://doi.org/10.1080/13674670903154167"
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 294,
+          "n_words": 99,
+          "text": "Davis, C. J. (2014). Self-transcendence and servant leadership behavior in new thought spiritual centers: A correlational study . University of Phoenix. Davis, D. E., Hook, J. N., Worthington, E. L., Van Tongeren, D. R., Gartner, A. L., Jennings, D. J., & Norton, L. (2010). Relational Spirituality and Dealing With Transgressions: Development of the Relational Engagement of the Sacred for a Transgression (REST) Scale. International Journal for the Psychology of Religion , 20 (4), 288 – 302. http://doi.org/10.1080/10508619.2010.507699 Davis, D. E., Hook, J. N., Worthington Jr, E. L., Van Tongeren, D. R., Gartner, A. L., & Jennings II, D. J."
+        },
+        {
+          "order": 1321,
+          "n_words": 78,
+          "text": "Van Dyke, C. J., & Elias, M. J. (2008). How expressions of forgiveness, purpose, and religiosity relate to emotional intelligence and self-concept in urban fifth-grade students. American Journal of Orthopsychiatry , 78 (4), 481 – 493. http://doi.org/10.1037/a0014451 van Hemert, D. A., van de Vijver, F. J. ., Poortinga, Y. H., & Georgas, J. (2002). Structural and functional equivalence of the Eysenck Personality Questionnaire within and between countries. Personality and Individual Differences , 33 (8), 1229 – 1249. http://doi.org/10.1016/S0191-8869(02)00007-7"
+        },
+        {
+          "order": 1166,
+          "n_words": 69,
+          "text": "Sanua, V. D. (1969). Religion, mental health, and personality: a review of empirical studies. American Journal of Psychiatry , 125 (9), 1203 – 1213. Sarková, M., Nagyová, I., Katrenianková, Z., Madarasová Gecková, A., Oroso vá, O., Middel, B., … Heuvel, W. van den. (2006). Psychometric Evaluation of the General Health Questionnaire-12 and Rosenberg Self-Esteem scale in Hungarian and Slovak Early Adolescents. Studia Psychologica , 48 , 69 – 79."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 470,
+          "n_words": 70,
+          "text": "Franck, E., De Raedt, R., Barbez, C., & Rosseel, Y. (2008). Psychometric Properties of the Dutch Rosenberg Self-Esteem Scale. Psychologica Belgica , 48 (1), 25. http://doi.org/10.5334/pb-48-1-25 Frankl, V. E. (1966). Self-Transcendence as a Human Phenomenon. Journal of Humanistic Psychology , 6 (2), 97 – 106. http://doi.org/10.1177/002216786600600201 Frankl, V. E. (1984). Man’s Search for Meaning . Language (Vol. 20). New York: Washington Square Press. http://doi.org/“we had healthier gums than ever before”..."
+        },
+        {
+          "order": 751,
+          "n_words": 63,
+          "text": "Kinjerski, V. (2013). The Spirit at Work Scale: Developing and Validating a Measure of Individual Spirituality at Work. In J. Neal (Ed.), Handbook of Faith and Spirituality in the Workplace (pp. 383 – 402). New York, NY: Springer New York. http://doi.org/10.1007/978-1-4614-5233-1_23 Kirkpatrick, L. a. (1999). Toward an Evolutionary Psychology of Religion and Personality. Journal of Personality , 67 (6), 921 – 952. http://doi.org/10.1111/1467-6494.00078"
+        },
+        {
+          "order": 482,
+          "n_words": 57,
+          "text": "Galiana, L., Gutiérrez, M., Sancho, P., & Tomás, J. M. (2015). Propiedades psicométricas de la versión española de la Escala Temporal de Satisfacción con la Vida (Temporal Satisfaction With Life Scale, TSLS): un estudio en mayores que acuden a programas universitarios. European Journal of Investigation in Health, Psychology and Education , 5 (3), 335 – 344. http://doi.org/10.1989/ejihpe.v5i3.136"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 8,
+      "category": "stable_control",
+      "note": "Stable and shadow counts identical with no giant segments.",
+      "tesis_archivo": "El modelo clínico de Winnicott construyendo nuevos paradigmas en el tratamiento de los adolescentes en conflicto con la ley penal.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNC/El modelo clínico de Winnicott construyendo nuevos paradigmas en el tratamiento de los adolescentes en conflicto con la ley penal.pdf",
+      "stable_n": 133,
+      "shadow_n": 133,
+      "delta": 0,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 59,
+      "shadow_max_words": 87,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 1,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 9,
+          "text": "Agamben, G. (2005). Estado de excepción . Adriana Hidalgo."
+        },
+        {
+          "order": 2,
+          "n_words": 11,
+          "text": "Agamben, G. (2009). Signatura rerum. Sobre el método . Adriana Hidalgo."
+        },
+        {
+          "order": 3,
+          "n_words": 19,
+          "text": "Alarcón, C. (s. f.). Cuando me muera quiero que me toquen cumbia. Vidas de pibes chorros . Michaux Editorial."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 9,
+          "text": "Agamben, G. (2005). Estado de excepción . Adriana Hidalgo."
+        },
+        {
+          "order": 2,
+          "n_words": 11,
+          "text": "Agamben, G. (2009). Signatura rerum. Sobre el método . Adriana Hidalgo."
+        },
+        {
+          "order": 3,
+          "n_words": 19,
+          "text": "Alarcón, C. (s. f.). Cuando me muera quiero que me toquen cumbia. Vidas de pibes chorros . Michaux Editorial."
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 30,
+          "n_words": 59,
+          "text": "Fondo de las Naciones Unidas para la Infancia (Unicef). (2018). Las voces de las y los adolescentes privados de libertad en Argentina . https://www.unicef.org/argentina/media/3936/file/Las%20voces%20de%20adol escentes%20privados%20de%20libertad%20en%20Argentina.pdf Fondo de las Naciones Unidas para la Infancia y Secretaría Nacional de Niñez, Adolescencia y Familia. (2008). Adolescentes en el Sistema Penal. Situación actual y propuestas para un proceso de transformación (1.ª ed.). http://www.pensamientopenal.com.ar/system/files/2014/12/doctrina29437.pdf"
+        },
+        {
+          "order": 108,
+          "n_words": 57,
+          "text": "Rodrigues, A. y Winograd, M. (2011). O contato corpo a corpo como fator determinante da constituicao do psíquico [El contacto cuerpo a cuerpo como factor determinante de la constitución del psiquismo]. En R. Reis (Ed.), O pensamento de Winnicott: a clínica e a técnica [El pensamiento de Winnicott: la clínica y la técnica] (pp. 147-163). DWW Editorial."
+        },
+        {
+          "order": 77,
+          "n_words": 47,
+          "text": "Llobet, V. (2013). Las políticas sociales para la infancia y la adolescencia en Argentina y el paradigma internacional de derechos humanos. En J. Arzate Salgado, T. Maingon y C. Neritza Alvarado (Coords.), Políticas sociales en Iberoamérica. Entre la precariedad y el cambio social (pp. 553-580). Versalita Producciones."
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 25,
+          "n_words": 87,
+          "text": "Fondo de las Naciones Unidas para la Infancia (Unicef). (2015). Relevamiento nacional sobre adolescentes en conflicto con la ley penal . https://www.unicef.org/argentina/sites/unicef.org.argentina/files/2018- 04/PROTECCION_AdolescConflictoLeyPenal_Final.pdf Fondo de las Naciones Unidas para la Infancia (Unicef). (2016). Las edades mínimas legales y la realización de los derechos de los y las adolescentes. Una revisión de la situación de América Latina y el Caribe . https://www.unicef.org/lac/media/6766/file/PDF%20Edades%20m%C3%ADni mas%20legales.pdf Fondo de las Naciones Unidas para la Infancia (Unicef). (2018). Las voces de las y los adolescentes privados de libertad en Argentina . https://www.unicef.org/argentina/media/3936/file/Las%20voces%20de%20adol escentes%20privados%20de%20libertad%20en%20Argentina.pdf"
+        },
+        {
+          "order": 107,
+          "n_words": 57,
+          "text": "Rodrigues, A. y Winograd, M. (2011). O contato corpo a corpo como fator determinante da constituicao do psíquico [El contacto cuerpo a cuerpo como factor determinante de la constitución del psiquismo]. En R. Reis (Ed.), O pensamento de Winnicott: a clínica e a técnica [El pensamiento de Winnicott: la clínica y la técnica] (pp. 147-163). DWW Editorial."
+        },
+        {
+          "order": 90,
+          "n_words": 45,
+          "text": "Murano, A. (2 de diciembre de 2018). Las claves de la resolución que legalizó la Doctrina Chocobar. Tiempo argentino . https://www.tiempoar.com.ar/politica/las- claves-de-la-resolucion-que-legalizo-la-doctrina-chocobar/ Murieron 463 personas en manos de las fuerzas de seguridad de Córdoba. (13 de agosto de 2020). Hoy día Córdoba . https://hoydia.com.ar/politica/72244-entre- 1983-y-2019-murieron-463-personas-en-manos-de-las-fuerzas-de-seguridad/"
+        }
+      ]
+    },
+    {
+      "tesis_orden": 36,
+      "category": "stable_control",
+      "note": "Stable and shadow are exactly count-matched and low-risk.",
+      "tesis_archivo": "Entrenamiento de la memoria de trabajo Diseño y evaluación de efectos de transferencia de un programa para niños de edad escolar.pdf",
+      "tesis_ruta_zip": "pdfs_tesis_reforzado/UNMDP/Entrenamiento de la memoria de trabajo Diseño y evaluación de efectos de transferencia de un programa para niños de edad escolar.pdf",
+      "stable_n": 298,
+      "shadow_n": 298,
+      "delta": 0,
+      "shadow_status": "stable_preferred",
+      "stable_max_words": 61,
+      "shadow_max_words": 61,
+      "stable_ge500": 0,
+      "shadow_ge500": 0,
+      "stable_short_lt3": 0,
+      "shadow_short_lt3": 0,
+      "stable_first3": [
+        {
+          "order": 1,
+          "n_words": 25,
+          "text": "Aben, B., Stapert, S., & Blokland, A. (2012). About the distinction between working memory and short-term memory. Frontiers in Psychology , 3: 301. doi: 10.3389/fpsyg.2012.00301"
+        },
+        {
+          "order": 2,
+          "n_words": 29,
+          "text": "Abusamra, V., Cartoceti, R., Raiter, A., & Ferreres, A. (2008). Una perspectiva cognitiva en el estudio de la comprensión de textos. Psico , 39 (3), 352–361. Recuperado de https://dialnet.unirioja.es/descarga/articulo/5161437.pdf"
+        },
+        {
+          "order": 3,
+          "n_words": 29,
+          "text": "Abusamra, V., Ferreres, A., Raiter, A., De Beni, R. & Cornoldi, C. (2010). Test Leer para Comprender TLC: Evaluación de la comprensión de textos . Buenos Aires, Argentina: Paidós."
+        }
+      ],
+      "shadow_first3": [
+        {
+          "order": 1,
+          "n_words": 25,
+          "text": "Aben, B., Stapert, S., & Blokland, A. (2012). About the distinction between working memory and short-term memory. Frontiers in Psychology , 3: 301. doi: 10.3389/fpsyg.2012.00301"
+        },
+        {
+          "order": 2,
+          "n_words": 29,
+          "text": "Abusamra, V., Cartoceti, R., Raiter, A., & Ferreres, A. (2008). Una perspectiva cognitiva en el estudio de la comprensión de textos. Psico , 39 (3), 352–361. Recuperado de https://dialnet.unirioja.es/descarga/articulo/5161437.pdf"
+        },
+        {
+          "order": 3,
+          "n_words": 29,
+          "text": "Abusamra, V., Ferreres, A., Raiter, A., De Beni, R. & Cornoldi, C. (2010). Test Leer para Comprender TLC: Evaluación de la comprensión de textos . Buenos Aires, Argentina: Paidós."
+        }
+      ],
+      "stable_largest3": [
+        {
+          "order": 115,
+          "n_words": 61,
+          "text": "Engle, R. W., Kane, M. J., & Tuholski, S. W. (1999). Individual differences in working memory capacity and what they tell us about controlled attention, general fluid intelligence, and functions of the prefrontal cortex. En A. Miyake & P. Shah (Eds.), Models of working memory: Mechanisms of active maintenance and executive control (pp. 102-134). Nueva York, NY, EE.UU: Cambridge University Press."
+        },
+        {
+          "order": 262,
+          "n_words": 60,
+          "text": "Segretin, M. S., Goldin, A., Hermida, M. J., Costa, M. E., Sigman, M., & Lipina, S. (2011). Diseño e implementación de un programa computarizado de entrenamiento de procesos cognitivos básicos en niños de edad escolar. En S. Lipina, & M. Sigman (Eds.), La pizarra de Babel: Puentes entre neurociencia, psicología y educación (pp. 265-278). Buenos Aires, Argentina: Libros del Zorzal."
+        },
+        {
+          "order": 292,
+          "n_words": 58,
+          "text": "Vernucci, S., Canet Juric, L., Introzzi, I., & Richard’s, M. M. (2019). Working memory training in children: A review of basic methodological criteria. Psychological Reports, 1-28. Publicación anticipada en línea. doi: 10.1177/0033294119832978 von Bastian, C. C., & Oberauer, K. (2014). Effects and mechanisms of working memory training: a review. Psychological Research , 78 (6), 803–820. doi: 10.1007/s00426-013- 0524-6"
+        }
+      ],
+      "shadow_largest3": [
+        {
+          "order": 113,
+          "n_words": 61,
+          "text": "Engle, R. W., Kane, M. J., & Tuholski, S. W. (1999). Individual differences in working memory capacity and what they tell us about controlled attention, general fluid intelligence, and functions of the prefrontal cortex. En A. Miyake & P. Shah (Eds.), Models of working memory: Mechanisms of active maintenance and executive control (pp. 102-134). Nueva York, NY, EE.UU: Cambridge University Press."
+        },
+        {
+          "order": 260,
+          "n_words": 60,
+          "text": "Segretin, M. S., Goldin, A., Hermida, M. J., Costa, M. E., Sigman, M., & Lipina, S. (2011). Diseño e implementación de un programa computarizado de entrenamiento de procesos cognitivos básicos en niños de edad escolar. En S. Lipina, & M. Sigman (Eds.), La pizarra de Babel: Puentes entre neurociencia, psicología y educación (pp. 265-278). Buenos Aires, Argentina: Libros del Zorzal."
+        },
+        {
+          "order": 158,
+          "n_words": 57,
+          "text": "Introzzi, I., Canet Juric, L., Comesaña, A., Andrés, M. L., & Richard's, M. M. (2013). Evaluación de la autorregulación cognitiva y emocional: presentación de un programa. Revista Argentina de Ciencias del Comportamiento, 5 (Suplemento Julio: Resúmenes de la XIV Reunión Nacional y III Encuentro Internacional de la Asociación Argentina de Ciencias del Comportamiento), 384-385. Recuperado de https://revistas.unc.edu.ar/index.php/racc/article/view/5109/5281"
+        }
+      ]
+    }
+  ]
+}

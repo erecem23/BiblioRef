@@ -1,0 +1,45 @@
+/* Bibliography analysis screen.
+   Two colours only, as everywhere else in the app: neutral for data, amber for
+   anything the reader has to take into account before quoting a figure. */
+
+.anbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0 6px}
+.anbar .mini{margin-left:auto;text-align:right}
+
+.anempty{border:1px dashed var(--line);border-radius:var(--radius);background:var(--surface);padding:34px 28px;text-align:center;margin:18px 0}
+.anempty h2{font-size:16px;font-weight:600;margin:0 0 6px;color:var(--ink)}
+.anempty p{color:var(--muted);font-size:13px;line-height:1.6;max-width:520px;margin:0 auto}
+
+.annote{display:flex;align-items:flex-start;gap:9px;background:var(--warnbg);border:1px solid #f0ddbe;border-radius:var(--radius);padding:10px 13px;margin:14px 0;color:var(--warn);font-size:12.5px;line-height:1.5}
+.annote b{font-weight:600}
+
+.ancards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0 4px}
+.ancard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:13px 15px;box-shadow:var(--shadow)}
+.ancard .k{font-size:11.5px;color:var(--muted);letter-spacing:.01em}
+.ancard .v{font-size:25px;font-weight:700;letter-spacing:-.02em;color:var(--ink);margin-top:3px;line-height:1.1}
+.ancard .v small{font-size:13px;font-weight:600;color:var(--muted)}
+
+.ansec{margin:26px 0 0}
+.ansec > h2{font-size:14px;font-weight:600;color:var(--ink);margin:0 0 10px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+
+.anrow{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line)}
+.anrow:last-child{border-bottom:0}
+.anrow .lbl{font-size:13.5px;color:var(--ink)}
+.anrow .base{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.45}
+.anrow .val{font-size:19px;font-weight:700;color:var(--ink);white-space:nowrap;letter-spacing:-.01em}
+.antag{display:inline-block;background:var(--warnbg);color:var(--warn);border-radius:6px;padding:1px 7px;font-size:11px;font-weight:600;margin-left:7px}
+
+.anbarlist{margin:2px 0 0}
+.anitem{padding:9px 0;border-bottom:1px solid var(--line)}
+.anitem:last-child{border-bottom:0}
+.anitem .top{display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+.anitem .name{font-size:13px;color:var(--ink)}
+.anitem .num{font-size:12px;color:var(--muted);white-space:nowrap}
+.antrack{height:7px;background:#eef0f4;border-radius:4px;overflow:hidden;margin-top:6px}
+.antrack i{display:block;height:100%;background:#8b93a6}
+
+.anpairs{font-size:12.5px;line-height:1.7;color:var(--ink)}
+.anpairs div{padding:6px 0;border-bottom:1px solid var(--line)}
+.anpairs div:last-child{border-bottom:0}
+.anpairs .n{color:var(--muted);font-variant-numeric:tabular-nums;margin-right:8px}
+
+.anfoot{margin:26px 0 0;color:var(--muted);font-size:11px;line-height:1.6}

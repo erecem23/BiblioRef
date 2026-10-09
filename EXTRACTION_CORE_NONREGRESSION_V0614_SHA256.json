@@ -1,0 +1,151 @@
+{
+  "baseline": "BiblioRef v0.9.10-rc2 algoritmo 0.6.13",
+  "release": "BiblioRef v0.9.10-rc2 algoritmo 0.6.14",
+  "files": [
+    {
+      "file": "biblioref/adaptive/discovery.py",
+      "baseline_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "release_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "identical": true
+    },
+    {
+      "file": "biblioref/adaptive/verification.py",
+      "baseline_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "release_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "identical": true
+    },
+    {
+      "file": "biblioref/audit/coverage.py",
+      "baseline_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "release_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "identical": true
+    },
+    {
+      "file": "biblioref/core/patterns.py",
+      "baseline_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "release_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/fallback.py",
+      "baseline_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "release_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/repair.py",
+      "baseline_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "release_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/signals.py",
+      "baseline_sha256": "1c1f10f110d68741bbd8d8edf34bd9473a52bd45994f13f8c3040c3aed24fca0",
+      "release_sha256": "1c1f10f110d68741bbd8d8edf34bd9473a52bd45994f13f8c3040c3aed24fca0",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/boundary_reconciliation.py",
+      "baseline_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "release_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/effective_repairs.py",
+      "baseline_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "release_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/numeric_rescue.py",
+      "baseline_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "release_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/resegmentation.py",
+      "baseline_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "release_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/structural_reconciliation.py",
+      "baseline_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "release_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "identical": true
+    },
+    {
+      "file": "biblioref/pipeline.py",
+      "baseline_sha256": "fee36358a2567ba98e32583feba8c57063864299db8459ce087ea165eeab100e",
+      "release_sha256": "fee36358a2567ba98e32583feba8c57063864299db8459ce087ea165eeab100e",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_boundary.py",
+      "baseline_sha256": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+      "release_sha256": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_decorations.py",
+      "baseline_sha256": "23dd4f551128532eb948d6e6ab865d12006633df11af9121c6d85676a3e657f6",
+      "release_sha256": "23dd4f551128532eb948d6e6ab865d12006633df11af9121c6d85676a3e657f6",
+      "identical": true
+    },
+    {
+      "file": "biblioref_paragraph_flow.py",
+      "baseline_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "release_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_3.py",
+      "baseline_sha256": "b29da983c0690aebc069961f0c52daba5d1c93ae7e608c859eed0f6307467e84",
+      "release_sha256": "b29da983c0690aebc069961f0c52daba5d1c93ae7e608c859eed0f6307467e84",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_4.py",
+      "baseline_sha256": "98f2325707267c8c61371406f99f034105dcdbb68fbe257783ed9b630d930ccc",
+      "release_sha256": "98f2325707267c8c61371406f99f034105dcdbb68fbe257783ed9b630d930ccc",
+      "identical": true
+    }
+  ],
+  "all_identical": true,
+  "deliberately_changed": [
+    {
+      "file": "biblioref_v0_2.py",
+      "baseline_sha256": "d2790e36f0eaf7d1fd603d86f91a82938949420c5b40e9de48cf5e10f00b043e",
+      "release_sha256": "c2fb7d193dba50ff9ba29675ab79a86b7133184143e1428f094d53bea1b42fc8",
+      "identical": false,
+      "change": "cada nivel del numeral del encabezado (III.2.1., 5.) es un token entero, no solo el primero; y enumeradores cerrados con «)» o una letra con «.» se quitan para el test de encabezado bibliográfico (G), 7), A.)"
+    },
+    {
+      "file": "biblioref/core/config.py",
+      "baseline_sha256": "f8cd96cd26e4b63155c690a4f765ebcc348a728febdfd498f64c04a3e8117b45",
+      "release_sha256": "1dac8e03599282f51ff611821b1d121ab8f8c5031e1fb29f66c2a60817f950c4",
+      "identical": false,
+      "change": "ALGORITHM_VERSION 0.6.13 -> 0.6.14"
+    }
+  ],
+  "corpus_equivalence": {
+    "harness": "tools/extraction_corpus_equivalence.py",
+    "corpus": "workspace por defecto (tesis doctorales de Psicologia y proyectos de prueba)",
+    "note_metodo": "línea de base regenerada con el código 0.6.13 exacto sobre el estado actual del OCR (el snapshot viejo EXTRACTION_CORPUS_EQUIVALENCE_V0_3.json es de antes de que T0137 se reprocesara), comparada solo sobre los 141 documentos presentes en ambas corridas; 6 documentos nuevos subidos entre una corrida y otra (T0142-T0147) quedan fuera de esta comparación",
+    "n_documents": 141,
+    "n_identical": 140,
+    "n_changed": 1,
+    "records_before": 37705,
+    "records_after": 37706,
+    "delta_records": 1,
+    "changed": [
+      {
+        "thesis_id": "T0137",
+        "n_records_before": 18,
+        "n_records_after": 19,
+        "delta": 1
+      }
+    ]
+  },
+  "note": "El algoritmo 0.6.14 amplía _strip_heading_prefix y el test de encabezado bibliográfico para numerales de varios niveles y enumeradores con paréntesis o letra («G) BIBLIOGRAFIA GENERAL», «7) Referencias», «A. Bibliografía»). Medido, T0137 pasa de 18 a 19 referencias; su zona ya abría por otra vía antes de este cambio, así que el efecto medible acá es una referencia de más, no la zona completa. Los módulos de detección y segmentación quedan byte a byte."
+}

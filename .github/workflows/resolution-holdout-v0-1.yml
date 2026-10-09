@@ -1,0 +1,60 @@
+name: Resolution Holdout v0.1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  holdout:
+    name: Frozen independent real-reference holdout
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      TOKENIZERS_PARALLELISM: "false"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-app.txt
+            requirements_semantic_resolver.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-app.txt -r requirements_semantic_resolver.txt pytest pandas httpx2
+
+      - name: Focused holdout tests
+        run: python -m pytest -q tests_app/test_resolution_holdout_v0_1.py
+
+      - name: Full deterministic suite
+        run: python -m pytest -q
+
+      - name: Re-evaluate immutable holdout against live candidate services
+        run: |
+          python -m biblioref.resolver.holdout \
+            --sources benchmarks/resolution_holdout_sources_v0_1.jsonl \
+            --frozen benchmarks/resolution_holdout_v0_1_frozen.jsonl \
+            --semantic \
+            --min-cases 24 \
+            --result-output resolution_holdout_v0_1_results.json \
+            | tee resolution_holdout_v0_1_summary.txt
+
+      - name: Upload re-evaluation evidence
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: resolution-holdout-v0-1-reevaluation
+          path: |
+            resolution_holdout_v0_1_results.json
+            resolution_holdout_v0_1_summary.txt
+          if-no-files-found: warn

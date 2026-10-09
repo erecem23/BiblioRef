@@ -1,0 +1,12 @@
+{"work_id":"psych_cohen_1992","doi":"10.1037/0033-2909.112.1.155","domain":"psychology","note":"A power primer"}
+{"work_id":"psych_miller_1956","doi":"10.1037/h0047358","domain":"psychology","note":"The magical number seven, plus or minus two"}
+{"work_id":"psych_bandura_1977","doi":"10.1037/0033-295X.84.2.191","domain":"psychology","note":"Self-efficacy theory"}
+{"work_id":"psych_positive_2000","doi":"10.1037/0003-066X.55.1.5","domain":"psychology","note":"Positive psychology introduction"}
+{"work_id":"psych_baron_kenny_1986","doi":"10.1037/0022-3514.51.6.1173","domain":"psychology","note":"Moderator-mediator distinction"}
+{"work_id":"psych_cronbach_1951","doi":"10.1007/BF02310555","domain":"psychometrics","note":"Coefficient alpha"}
+{"work_id":"ml_deep_learning_2015","doi":"10.1038/nature14539","domain":"machine_learning","note":"Deep learning review"}
+{"work_id":"nlp_bert_2019","doi":"10.18653/v1/N19-1423","domain":"nlp","note":"BERT"}
+{"work_id":"ml_random_forests_2001","doi":"10.1023/A:1010933404324","domain":"machine_learning","note":"Random Forests"}
+{"work_id":"ml_umap_2018","doi":"10.21105/joss.00861","domain":"machine_learning","note":"UMAP"}
+{"work_id":"cv_resnet_2016","doi":"10.1109/CVPR.2016.90","domain":"computer_vision","note":"Deep residual learning"}
+{"work_id":"bio_alphafold_2021","doi":"10.1038/s41586-021-03819-2","domain":"life_science","note":"AlphaFold"}

@@ -1,0 +1,182 @@
+name: SEDICI-10 Migration Gate
+
+on:
+  pull_request:
+    branches:
+      - dev
+    paths:
+      - "biblioref/**"
+      - "app.py"
+      - "CURRENT_FIELD_TEST_STATE.json"
+      - "tests_app/test_app*.py"
+      - "tests_core/**"
+      - "tools/pdf_backend_differential.py"
+      - "PDFIUM_SEDICI10_DIFFERENTIAL_REPORT.md"
+      - ".github/workflows/sedici10-migration-gate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  differential:
+    name: Frozen PyMuPDF/PDFium differential
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout exact branch head
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-app.txt
+            requirements-pymupdf-compat.txt
+
+      - name: Install differential dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-pymupdf-compat.txt
+
+      - name: Download and verify frozen SEDICI-10 corpus
+        run: |
+          python - <<'PY'
+          from __future__ import annotations
+
+          import hashlib
+          import html
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import urllib.parse
+          import urllib.request
+
+          DOCUMENTS = {
+              "022": ("3097", "b54a87cef082f496ae02c639be14fd5800d2f98bc6b49a66d15426e6aace6fc2"),
+              "055": ("3110", "cd99639fc7dbb4ebb8f34310eabd5b290286c2a6831b816c6ed91bcd8b33be19"),
+              "090": ("3179", "2c76f2dc865b27dc4ddd4c363a7df7fff5c25aeabb424f3de600fabe1bc60a35"),
+              "092": ("3038", "74e24f48d304ca2d8c7e68aafd067585b781571e9029d56b91c31ebe96664a6d"),
+              "093": ("3185", "6d5bb84c5438a1102941d44e66fd9d775efc529e9c074df57abbe59de3e9dc3b"),
+              "094": ("3098", "58814380e783bd4d959fa9befc3b81420a70573336c8889ea46e49e66919e71a"),
+              "097": ("68987", "6033e7cd07ac162957004fb78f98a3f215ab5823eaac22b184cea4cfd15f9f7a"),
+              "098": ("144821", "1f9d2dbe0c92a765b7d6bdd67020049db1890fc95fa1bc4b49565f7bca77d6ad"),
+              "099": ("3120", "7bd0b280be1cbcdd9c2f05b1f1e6deb5988f957603f59d3cd2f7574988d5dee6"),
+              "100": ("65654", "847777f84dbb46483035cf4cdee51ee19769604c59c4f897cc544d926831f012"),
+          }
+
+          class Links(HTMLParser):
+              def __init__(self) -> None:
+                  super().__init__()
+                  self.hrefs: list[str] = []
+
+              def handle_starttag(self, tag, attrs) -> None:
+                  if tag.lower() != "a":
+                      return
+                  href = dict(attrs).get("href")
+                  if href:
+                      self.hrefs.append(html.unescape(href))
+
+          def read(url: str) -> bytes:
+              url = urllib.parse.quote(url, safe=":/?&=%")
+              request = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "BiblioRef migration validation"},
+              )
+              with urllib.request.urlopen(request, timeout=180) as response:
+                  return response.read()
+
+          output = Path("/tmp/sedici10")
+          output.mkdir(parents=True, exist_ok=True)
+          for code, (handle, expected_sha) in DOCUMENTS.items():
+              item_url = f"https://sedici.unlp.edu.ar/handle/10915/{handle}"
+              parser = Links()
+              parser.feed(read(item_url).decode("utf-8", errors="replace"))
+              candidates = list(dict.fromkeys(
+                  urllib.parse.urljoin(item_url, href)
+                  for href in parser.hrefs
+                  if f"/bitstream/handle/10915/{handle}/" in href
+              ))
+              observed: list[str] = []
+              for url in candidates:
+                  payload = read(url)
+                  digest = hashlib.sha256(payload).hexdigest()
+                  observed.append(digest)
+                  if digest == expected_sha:
+                      target = output / f"SEDICI_HUM_{code}.pdf"
+                      target.write_bytes(payload)
+                      print(f"SHA256 PASS {code} {digest}")
+                      break
+              else:
+                  raise SystemExit(
+                      f"No SHA-pinned bitstream for {code}; observed={observed}"
+                  )
+          PY
+
+      - name: Run frozen backend differential
+        run: |
+          PYTHONPATH=. python tools/pdf_backend_differential.py /tmp/sedici10 \
+            --jsonl /tmp/sedici10-results.jsonl
+
+      - name: Enforce SEDICI-10 migration contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          EXPECTED = {
+              "022": 206,
+              "055": 10,
+              "090": 0,
+              "092": 395,
+              "093": 0,
+              "094": 220,
+              "097": 390,
+              "098": 436,
+              # Algorithm 0.6.8 recovers the physically evidenced MASIELLO entry.
+              "099": 83,
+              "100": 130,
+          }
+          rows = [
+              json.loads(line)
+              for line in Path("/tmp/sedici10-results.jsonl").read_text(
+                  encoding="utf-8"
+              ).splitlines()
+              if line.strip()
+          ]
+          seen = set()
+          failures = []
+          for row in rows:
+              code = Path(row["pdf"]).stem.rsplit("_", 1)[-1]
+              seen.add(code)
+              pipeline = row["pipeline"]
+              stable = pipeline["summary"]["pymupdf"]
+              candidate = pipeline["summary"]["pdfium"]
+              reasons = []
+              if stable["n_records_selected"] != EXPECTED.get(code):
+                  reasons.append(
+                      f"PyMuPDF count {stable['n_records_selected']} != {EXPECTED.get(code)}"
+                  )
+              if candidate["n_records_selected"] != EXPECTED.get(code):
+                  reasons.append(
+                      f"PDFium count {candidate['n_records_selected']} != {EXPECTED.get(code)}"
+                  )
+              if stable["algorithm_version"] != "0.6.8":
+                  reasons.append(f"PyMuPDF algorithm {stable['algorithm_version']}")
+              if candidate["algorithm_version"] != "0.6.8":
+                  reasons.append(f"PDFium algorithm {candidate['algorithm_version']}")
+              if not pipeline["migration_gate"]["passes"]:
+                  reasons.append("migration gate failed")
+              if reasons:
+                  failures.append(f"{code}: " + "; ".join(reasons))
+              else:
+                  print(f"{code}={EXPECTED[code]} PASS")
+          missing = sorted(set(EXPECTED) - seen)
+          if missing:
+              failures.append(f"missing documents: {missing}")
+          if failures:
+              raise SystemExit("\n".join(failures))
+          print("SEDICI-10: 10/10 PASS")
+          PY

@@ -1,0 +1,50 @@
+{
+  "holdout_version": "resolution-holdout-v0.1",
+  "parser_version": "biblioref-parser-v0.12.5",
+  "n_cases": 31,
+  "deterministic": {
+    "n_cases": 31,
+    "candidate_recall_at_returned": 0.9677,
+    "selection_accuracy": 0.1613,
+    "selection_precision": 0.625,
+    "auto_verified_coverage": 0.1613,
+    "auto_verified_precision": 1.0,
+    "false_verified_count": 0,
+    "review_required_rate": 0.8387,
+    "unresolved_rate": 0.7419,
+    "possible_rate": 0.0968
+  },
+  "thresholds": {
+    "0.82": {
+      "n_cases": 31,
+      "candidate_recall_at_returned": 0.9677,
+      "selection_accuracy": 0.1613,
+      "selection_precision": 0.625,
+      "auto_verified_coverage": 0.1613,
+      "auto_verified_precision": 1.0,
+      "false_verified_count": 0,
+      "review_required_rate": 0.8387,
+      "unresolved_rate": 0.7419,
+      "possible_rate": 0.0968
+    },
+    "0.74": {
+      "n_cases": 31,
+      "candidate_recall_at_returned": 0.9677,
+      "selection_accuracy": 0.1613,
+      "selection_precision": 0.625,
+      "auto_verified_coverage": 0.1613,
+      "auto_verified_precision": 1.0,
+      "false_verified_count": 0,
+      "review_required_rate": 0.8387,
+      "unresolved_rate": 0.7419,
+      "possible_rate": 0.0968
+    }
+  },
+  "threshold_comparison": {
+    "default": 0.82,
+    "challenger": 0.74,
+    "changed_case_count": 0,
+    "challenger_new_false_verified_count": 0,
+    "changes": []
+  }
+}

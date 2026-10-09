@@ -1,0 +1,24 @@
+{
+  "accepted": 7,
+  "matches_transfer_checkpoint_counts": false,
+  "note": "Current reconstruction includes review fixes such as fail-closed multilingual fragment detection; exact equality is informative, not forced.",
+  "observations": 18,
+  "rejected": 11,
+  "rejection_reasons": {
+    "access_denied": 2,
+    "metadata_partial_bitstream": 1,
+    "non_pdf_response": 5,
+    "transport_failure": 3
+  },
+  "transfer_checkpoint_reference": {
+    "accepted": 7,
+    "observations": 18,
+    "rejected": 11,
+    "rejection_reasons": {
+      "access_denied": 4,
+      "http_server_error": 2,
+      "non_pdf_response": 4,
+      "transport_failure": 1
+    }
+  }
+}

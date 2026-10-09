@@ -1,0 +1,2 @@
+# Optional local semantic resolver; core BiblioRef does not require this stack.
+sentence-transformers>=6.0,<7

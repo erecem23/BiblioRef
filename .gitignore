@@ -1,0 +1,69 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.log
+
+# Local secrets / OAuth
+.env
+.env.*
+!.env.example
+credentials*.json
+client_secret*.json
+token*.json
+oauth*.json
+
+# BiblioRef local workspaces and user data
+.biblioref/
+workspace/
+uploads/
+results/
+pdfs/
+
+# Never version real thesis PDFs by default
+*.pdf
+# Keep only the synthetic regression fixtures bundled with the source
+!fixtures/document_grammar_stress.pdf
+!tests_core/fixtures/document_grammar_stress.pdf
+
+# Packaged bundles/releases are not source control
+*.zip
+
+# OS / IDE
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Local design-tool metadata
+.impeccable/
+
+# Local Windows launcher build products
+.launcher/
+.launcher-build/
+.launcher-venv/
+
+# Local visual annotation inputs and drafts
+benchmarks/human_gold_v0_1/pdf_cache/
+benchmarks/human_gold_v0_1/annotation_work/
+*.annotation.tmp
+
+# Development datasets with reference strings extracted from real theses.
+# They stay on the maintainer's machine; tests that need them skip when absent.
+parser_baseline/
+benchmarks/tipos_gold/
+benchmarks/consolidado_v0_1/
+/PARSER_V0_*.csv
+field_test_examples/UNC_FERREYRA_V099_BOUNDARY2_102_PARSER_V011.csv

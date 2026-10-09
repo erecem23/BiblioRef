@@ -1,0 +1,23 @@
+{
+  "software_version": "0.9.9",
+  "algorithm_version": "0.6.5",
+  "app_version": "2.7.0",
+  "parser_version": "0.11",
+  "styleprofiler_version": "0.1-shadow",
+  "adaptive_mode": "off",
+  "validation_note": "Targeted UNR field cases after CandidateRegionV2 -> effective layout-zone bridge. Internal marker counts are used only where the PDF exposes an exact sequence.",
+  "cases": [
+    {"case":"02","result":"candidate_region_v2","n_zones":1,"n_records":488,"heading":"Fuentes y bibliografía","status":"candidate accepted; no structural replacement needed"},
+    {"case":"12","result":"marker_regime_numeric_v0_6_5","n_zones":1,"n_records":147,"expected_internal_marker_count":147,"match":true},
+    {"case":"13","result":"stable_v0_5_3_route","n_zones":1,"n_records":165,"expected_internal_marker_count":165,"match":true},
+    {"case":"14","result":"marker_regime_numeric_v0_6_5","n_zones":1,"n_records":147,"expected_internal_marker_count":147,"match":true,"heading":"12 Citas Bibliográficas","candidate_region_bridge":true,"candidate_region_original_end_page":111,"effective_end_page":112,"end_extension_reason":"exact_numeric_marker_continuity","continued_values":[140,141,142,143,144,145,146,147]},
+    {"case":"16","result":"marker_regime_numeric_v0_6_5","n_zones":1,"n_records":126,"expected_internal_marker_count":126,"match":true},
+    {"case":"17","result":"marker_regime_numeric_v0_6_5","n_zones":1,"n_records":175,"expected_internal_marker_count":175,"match":true},
+    {"case":"18","result":"marker_regime_hierarchical_v0_6_5","n_zones":7,"n_records":101,"expected_internal_marker_count":101,"match":true,"zone_counts":[18,5,14,18,17,22,7]},
+    {"case":"20","result":"marker_regime_numeric_v0_6_5","n_zones":1,"n_records":208,"expected_internal_marker_count":208,"match":true},
+    {"case":"25","result":"stable_v0_5_3_route","n_zones":1,"n_records":188,"expected_internal_marker_count":188,"match":true},
+    {"case":"28","result":"audit_required","n_zones":0,"n_records":0,"status":"safe abstention: heading+density candidate exists, but provisional two-column segmentation still fails the structural repair gate"},
+    {"case":"29","result":"layout_regime_column_reflow_v0_6_5","n_zones":1,"n_records":109,"status":"two-column gutter detected and column-major reflow accepted"},
+    {"case":"30","result":"stable_zone_resegmentation_v0_6_1","n_zones":1,"n_records":181,"max_segment_words":278,"segments_ge_180_words":3,"status":"known unresolved under-segmentation; retained for next extractor iteration"}
+  ]
+}

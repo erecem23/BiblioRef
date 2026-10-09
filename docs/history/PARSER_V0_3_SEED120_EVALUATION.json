@@ -1,0 +1,10 @@
+{
+  "n": 120,
+  "journal_n": 30,
+  "publisher_n": 23,
+  "journal_fuzzy90_pct": 80.0,
+  "journal_coverage_pct": 83.33333333333333,
+  "type_high_pct": 79.16666666666667,
+  "publisher_exact_pct": 95.65217391304348,
+  "publisher_coverage_pct": 95.65217391304348
+}

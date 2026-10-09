@@ -1,0 +1,180 @@
+{
+  "fixture_version": "v0.8.10-dev1",
+  "derived_from": "SEDICI-HUM v0.8.9 structural error taxonomy; syntheticized, no repository IDs",
+  "algorithm_authority": "0.6.1",
+  "auto_apply": false,
+  "cases": [
+    {
+      "case": "map_legend_generic_references",
+      "family": "stable_route_context_false_positive",
+      "heading": "REFERENCIAS",
+      "preceding": [
+        "PLANO DE LA CIUDAD",
+        "Leyenda del mapa"
+      ],
+      "zone_lines": [
+        "1 Hospital",
+        "2 Escuela",
+        "3 Plaza",
+        "4 Estacion"
+      ],
+      "expected_signal": "generic_reference_heading_inside_map_or_table_context"
+    },
+    {
+      "case": "toc_bibliography_entry",
+      "family": "stable_route_context_false_positive",
+      "heading": "Bibliografía",
+      "preceding": [
+        "ÍNDICE",
+        "Capítulo 1 ........ 10",
+        "Capítulo 2 ........ 30"
+      ],
+      "zone_lines": [
+        "Capítulo 3 ........ 50",
+        "Conclusiones ........ 80"
+      ],
+      "expected_signal": "stable_zone_starts_in_table_of_contents"
+    },
+    {
+      "case": "abbreviation_reference_key",
+      "family": "stable_route_context_false_positive",
+      "heading": "ABREVIATURAS Y REFERENCIAS",
+      "preceding": [
+        "Lista de siglas empleadas en el texto"
+      ],
+      "zone_lines": [
+        "APA American Psychological Association",
+        "OMS Organización Mundial de la Salud"
+      ],
+      "expected_signal": "abbreviation_or_reference_key_context"
+    },
+    {
+      "case": "embedded_syllabus_bibliography",
+      "family": "stable_route_context_false_positive",
+      "heading": "BIBLIOGRAFÍA OBLIGATORIA",
+      "preceding": [
+        "Programa de la asignatura Sociología",
+        "Objetivos y contenidos del curso"
+      ],
+      "zone_lines": [
+        "Smith, J. (2019). Sociology. University Press.",
+        "Brown, A. (2020). Social theory. Journal, 2, 10-20."
+      ],
+      "expected_signal": "embedded_course_or_syllabus_bibliography"
+    },
+    {
+      "case": "overlap_and_body_transition",
+      "family": "stable_zone_overlap_end_boundary",
+      "heading": "Referencias",
+      "preceding": [
+        "Resultados del capítulo"
+      ],
+      "zone_lines": [
+        "Smith, J. (2019). A. Journal.",
+        "Brown, A. (2020). B. Review.",
+        "Garcia, M. (2021). C. Press.",
+        "IV. MARCO TEÓRICO",
+        "Este capítulo desarrolla la teoría principal."
+      ],
+      "summary_span": [
+        10,
+        13
+      ],
+      "other_span": [
+        12,
+        15
+      ],
+      "expected_signal": "explicit_body_transition_inside_stable_zone"
+    },
+    {
+      "case": "numeric_style_hijacks_author_year",
+      "family": "stable_style_hijack_missed_author_year",
+      "heading": "Bibliografía",
+      "zone_lines": [
+        "Alpha, A. (2010). First article. Journal.",
+        "Beta, B. (2011). Second article. Review.",
+        "Gamma, C. (2012). Third article. Press.",
+        "Delta, D. (2013). Fourth article. Journal.",
+        "Epsilon, E. (2014). Fifth article. Review."
+      ],
+      "stable_word_counts": [
+        620,
+        540,
+        510
+      ],
+      "shadow_segments": 32,
+      "shadow_status": "candidate_supported",
+      "shadow_safe": true
+    },
+    {
+      "case": "ocr_degraded_giant_unresolved",
+      "family": "ocr_degraded_scanned_bibliography",
+      "heading": "BIBLIOGRAFIA",
+      "zone_lines": [
+        "AUT0R ?«PRIM>9 -",
+        "TITUL0 DE LA 0BRA /",
+        "Edit0r ant- >",
+        "iguo y lug- ?",
+        "ar de pub- /",
+        "licacion /",
+        "OTR0 AUT- «",
+        "0R Y TIT- >",
+        "UL0 /",
+        "impres0 en- ?"
+      ],
+      "stable_word_counts": [
+        650,
+        570
+      ],
+      "shadow_segments": 3,
+      "shadow_status": "manual_review_required",
+      "shadow_safe": false
+    },
+    {
+      "case": "legacy_allcaps_bare_author",
+      "family": "older_allcaps_bare_author_chapter_bibliography",
+      "heading": "BIBLIOGRAFIA",
+      "zone_lines": [
+        "GARCIA, JUAN",
+        "Historia regional. Editorial Sur, 1980.",
+        "LOPEZ, MARIA",
+        "Geografia humana. Universidad Nacional, 1982.",
+        "PEREZ, ANA",
+        "Estudios sociales. Editorial Centro, 1985.",
+        "RODRIGUEZ, LUIS",
+        "Territorio y sociedad. Revista Regional, 1987.",
+        "SANCHEZ, ELENA",
+        "Cultura y espacio. Editorial Norte, 1989."
+      ],
+      "stable_word_counts": [
+        720,
+        610
+      ],
+      "shadow_segments": 4,
+      "shadow_status": "manual_review_required",
+      "shadow_safe": false
+    },
+    {
+      "case": "negative_clean_final_bibliography",
+      "family": "negative_control",
+      "heading": "Referencias",
+      "preceding": [
+        "Conclusiones finales"
+      ],
+      "zone_lines": [
+        "Alpha, A. (2018). One. Journal, 1, 1-10.",
+        "Beta, B. (2019). Two. Review, 2, 11-20.",
+        "Gamma, C. (2020). Three. University Press."
+      ],
+      "stable_word_counts": [
+        9,
+        9,
+        8
+      ],
+      "shadow_segments": 3,
+      "shadow_status": "stable_preferred",
+      "shadow_safe": true,
+      "expected_review": false
+    }
+  ]
+}

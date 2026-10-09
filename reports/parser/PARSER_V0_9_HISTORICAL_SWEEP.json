@@ -1,0 +1,38 @@
+{
+  "sweep": "parser_v0.9_vs_v0.8_historical_structural",
+  "corpus": "PARSER_V0_2_DIFFERENTIAL_29470.csv",
+  "n_rows": 29027,
+  "n_rows_changed": 361,
+  "pct_rows_changed": 1.244,
+  "changed_by_field": {
+    "title": 1,
+    "publisher": 1,
+    "publisher_observed": 1,
+    "journal": 360,
+    "publication_type": 229
+  },
+  "journal_delta": {
+    "added": 360,
+    "removed": 0,
+    "modified": 0
+  },
+  "labelled_journal_moves": {
+    "better": 264,
+    "worse": 0,
+    "neutral": 41
+  },
+  "labelled_type_moves": {
+    "better": 185,
+    "worse": 25,
+    "neutral": 19
+  },
+  "v09_route_counts": {
+    "legacy_parenthetical_or_fallback": 28659,
+    "legacy_parenthetical_or_fallback+v09_journal_rescue": 360,
+    "vancouverish": 7,
+    "abnt_v09_personal_year_end": 1
+  },
+  "parser_v09_sha256": "4148701452aba620ec3538477010fc5f6c442a153be4a05063a43e7bb0c43320",
+  "parser_v08_sha256": "b10079270b5df316ebbab4ad667df774280ab09f899f5b472f1e09f372bd885b",
+  "note": "Development corpus. Labels are used only to orient the changed rows, never as a holdout estimate."
+}

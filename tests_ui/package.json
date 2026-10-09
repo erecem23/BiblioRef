@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "scripts": {"test": "node projects_flow.cjs && node workspace_layout.cjs"},
+  "devDependencies": {"jsdom": "30.0.1"}
+}

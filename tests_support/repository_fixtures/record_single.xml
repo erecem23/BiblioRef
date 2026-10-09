@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<z:OAI-PMH xmlns:z="http://www.openarchives.org/OAI/2.0/">
+  <z:responseDate>2026-09-20T10:00:03Z</z:responseDate>
+  <z:request verb="GetRecord">https://example.org/oai/request</z:request>
+  <z:GetRecord>
+    <z:record>
+      <z:header>
+        <z:identifier>oai:example.org:10915/1001</z:identifier>
+        <z:datestamp>2021-04-14T12:00:00Z</z:datestamp>
+        <z:setSpec>col_10915_25</z:setSpec>
+      </z:header>
+      <z:metadata>
+        <q:dc xmlns:q="http://www.openarchives.org/OAI/2.0/oai_dc/"
+              xmlns:w="http://purl.org/dc/elements/1.1/">
+          <w:title>Análisis crítico de la educación superior</w:title>
+          <w:creator>Pérez, María Ángeles</w:creator>
+          <w:language>es</w:language>
+        </q:dc>
+      </z:metadata>
+    </z:record>
+  </z:GetRecord>
+</z:OAI-PMH>

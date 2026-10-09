@@ -1,0 +1,19 @@
+{
+  "n": 29470,
+  "seconds": 26.61543917655945,
+  "styles": {
+    "legacy_parenthetical_or_fallback": 29463,
+    "vancouverish": 7
+  },
+  "jgold": 16681,
+  "pgold": 7814,
+  "v03": {
+    "author_strict_pct": 72.08008143875128,
+    "journal_fuzzy90_pct": 78.70031772675499,
+    "journal_coverage_pct": 84.59924464960135,
+    "type_high_pct": 83.37970817780794,
+    "type_detail_pct": 77.21411605022057,
+    "publisher_exact_pct": 93.62682364985923,
+    "publisher_coverage_pct": 95.36728948041976
+  }
+}

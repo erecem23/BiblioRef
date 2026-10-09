@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:00Z</responseDate>
+  <request verb="ListSets">https://example.org/oai/request</request>
+  <ListSets>
+    <set>
+      <setSpec>com_10915_1</setSpec>
+      <setName>Tesis de posgrado</setName>
+    </set>
+    <set>
+      <setSpec>col_10915_25</setSpec>
+      <setName>Tesis doctorales — Ciencias Sociales</setName>
+      <setDescription>
+        <note>Colección de tesis doctorales.</note>
+      </setDescription>
+    </set>
+  </ListSets>
+</OAI-PMH>

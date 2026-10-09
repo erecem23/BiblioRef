@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:00Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">https://example.org/oai/request</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:example.org:10915/1001</identifier>
+        <datestamp>2021-04-14T12:00:00Z</datestamp>
+        <setSpec>com_10915_1</setSpec>
+        <setSpec>col_10915_25</setSpec>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:title>Análisis crítico de la educación superior</dc:title>
+          <dc:creator>Pérez, María Ángeles</dc:creator>
+          <dc:creator>Ñandú, José</dc:creator>
+          <dc:date>2021-04-14</dc:date>
+          <dc:date>2021</dc:date>
+          <dc:type>info:eu-repo/semantics/doctoralThesis</dc:type>
+          <dc:type>Tesis de doctorado</dc:type>
+          <dc:subject>Educación superior</dc:subject>
+          <dc:language>es</dc:language>
+          <dc:description>Resumen en español con acentuación — y guion largo.</dc:description>
+          <dc:identifier>http://sedici.example.org/handle/10915/1001</dc:identifier>
+          <dc:identifier>https://doi.org/10.35537/1001</dc:identifier>
+          <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+          <dc:publisher>Universidad de Ejemplo</dc:publisher>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header status="deleted">
+        <identifier>oai:example.org:10915/1002</identifier>
+        <datestamp>2022-07-01T00:00:00Z</datestamp>
+      </header>
+    </record>
+    <resumptionToken completeListSize="3" cursor="0">TOKEN-PAGE-2</resumptionToken>
+  </ListRecords>
+</OAI-PMH>

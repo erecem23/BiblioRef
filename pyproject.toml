@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biblioref"
+version = "0.9.10rc2"
+description = "Identify bibliography regions and segment individual references in doctoral-thesis PDFs"
+readme = "README.md"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{ name = "Chris Moreno" }]
+requires-python = ">=3.11"
+dependencies = [
+    "pypdfium2>=5.13,<6.0",
+]
+keywords = ["bibliographic references", "reference extraction", "doctoral theses", "PDF", "bibliometrics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing",
+]
+
+[project.optional-dependencies]
+# Alternative PDF backend; selected automatically when installed.
+pymupdf = ["PyMuPDF>=1.23,<2.0"]
+# Local web application (app.py, run from a source checkout).
+app = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn>=0.30,<1.0",
+    "python-multipart>=0.0.9,<1.0",
+    "openpyxl>=3.1,<4.0",
+    "google-api-python-client>=2.140,<3.0",
+    "google-auth-oauthlib>=1.2,<2.0",
+    "google-auth-httplib2>=0.2,<1.0",
+]
+desktop = ["biblioref[app]", "pywebview==6.2.1"]
+audit = ["pandas>=2.0", "openpyxl>=3.1,<4.0"]
+semantic = ["sentence-transformers>=6.0,<7"]
+
+[project.scripts]
+biblioref = "biblioref.interfaces.cli:main"
+
+[project.urls]
+Repository = "https://github.com/erecem23/BiblioRef"
+
+[tool.setuptools]
+# The extraction core still imports these frozen top-level modules.
+py-modules = [
+    "biblioref_v0_2",
+    "biblioref_v0_3",
+    "biblioref_v0_4",
+    "biblioref_page_boundary",
+    "biblioref_page_decorations",
+    "biblioref_paragraph_flow",
+]
+
+[tool.setuptools.packages.find]
+include = ["biblioref", "biblioref.*"]

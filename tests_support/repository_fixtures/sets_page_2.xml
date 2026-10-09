@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/">
+  <responseDate>2026-09-20T10:00:09Z</responseDate>
+  <request verb="ListSets" resumptionToken="SETS-PAGE-2">https://example.org/oai/request</request>
+  <ListSets>
+    <set>
+      <setSpec>col_10915_25</setSpec>
+      <setName>Tesis doctorales</setName>
+    </set>
+    <resumptionToken completeListSize="2" cursor="1"></resumptionToken>
+  </ListSets>
+</OAI-PMH>

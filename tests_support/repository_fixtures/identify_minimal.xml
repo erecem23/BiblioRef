@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oai:OAI-PMH xmlns:oai="http://www.openarchives.org/OAI/2.0/">
+  <oai:responseDate>2026-09-20T10:00:00Z</oai:responseDate>
+  <oai:request verb="Identify">https://example.org/oai/request</oai:request>
+  <oai:Identify>
+    <oai:repositoryName>Repositorio Mínimo</oai:repositoryName>
+    <oai:baseURL>https://example.org/oai/request</oai:baseURL>
+    <oai:protocolVersion>2.0</oai:protocolVersion>
+  </oai:Identify>
+</oai:OAI-PMH>

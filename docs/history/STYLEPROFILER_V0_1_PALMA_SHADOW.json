@@ -1,0 +1,2963 @@
+{
+  "schema_version": "styleprofiler-1",
+  "profiler_version": "biblioref-styleprofiler-v0.1-shadow",
+  "profiler_status": "shadow",
+  "status": "success",
+  "zone_id": "palma-bibliography",
+  "family": "author_year",
+  "likely_style": "unknown",
+  "variant": "legacy_year_final",
+  "confidence": null,
+  "mixed_style": false,
+  "consistency": 1.0,
+  "evidence": {
+    "n_references": 322,
+    "feature_coverage": 1.0,
+    "feature_rates": {
+      "numbered_prefix": 0.0,
+      "bracketed_number": 0.0,
+      "year_parenthesized_after_author": 0.0,
+      "bare_year_after_author": 0.0311,
+      "terminal_year": 0.9193,
+      "uppercase_surname": 0.0,
+      "surname_then_initials": 0.0,
+      "initials_then_surname": 0.0,
+      "quoted_title": 0.4068,
+      "volume_issue_pages": 0.0,
+      "year_volume_pages_sequence": 0.0,
+      "has_doi": 0.0,
+      "has_url": 0.1522,
+      "has_access_date_cue": 0.146,
+      "place_colon_publisher": 0.0807,
+      "legacy_year_final_parser_route": 0.9876,
+      "parsed_author_present": 0.9596,
+      "parsed_year_present": 0.9037,
+      "parsed_journal_present": 0.2143,
+      "parsed_publisher_present": 0.4099
+    },
+    "numeric_monotonicity": 0.0,
+    "positive": [
+      {
+        "feature": "legacy_year_final_parser_route",
+        "value": 0.9876
+      },
+      {
+        "feature": "terminal_year",
+        "value": 0.9193
+      }
+    ],
+    "contradictory": [],
+    "style_distribution": {},
+    "family_distribution": {
+      "author_year": 1.0
+    },
+    "unknown_share": 1.0,
+    "note": "Heuristic shadow evidence scores are not calibrated probabilities or normative compliance scores."
+  },
+  "context": {
+    "institution": "Universidad de Belgrano",
+    "discipline": "Sociología",
+    "country": "Argentina",
+    "used_in_decision": false
+  },
+  "references": [
+    {
+      "reference_id": "r0001",
+      "order": 1,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0002",
+      "order": 2,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0003",
+      "order": 3,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0004",
+      "order": 4,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0005",
+      "order": 5,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0006",
+      "order": 6,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0007",
+      "order": 7,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0008",
+      "order": 8,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0009",
+      "order": 9,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0010",
+      "order": 10,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0011",
+      "order": 11,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0012",
+      "order": 12,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0013",
+      "order": 13,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0014",
+      "order": 14,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0015",
+      "order": 15,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0016",
+      "order": 16,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0017",
+      "order": 17,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0018",
+      "order": 18,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0019",
+      "order": 19,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0020",
+      "order": 20,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0021",
+      "order": 21,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0022",
+      "order": 22,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0023",
+      "order": 23,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0024",
+      "order": 24,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0025",
+      "order": 25,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0026",
+      "order": 26,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0027",
+      "order": 27,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0028",
+      "order": 28,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0029",
+      "order": 29,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0030",
+      "order": 30,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0031",
+      "order": 31,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0032",
+      "order": 32,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0033",
+      "order": 33,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0034",
+      "order": 34,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0035",
+      "order": 35,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0036",
+      "order": 36,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0037",
+      "order": 37,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0038",
+      "order": 38,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0039",
+      "order": 39,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0040",
+      "order": 40,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0041",
+      "order": 41,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0042",
+      "order": 42,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0043",
+      "order": 43,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0044",
+      "order": 44,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0045",
+      "order": 45,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0046",
+      "order": 46,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0047",
+      "order": 47,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0048",
+      "order": 48,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0049",
+      "order": 49,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0050",
+      "order": 50,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0051",
+      "order": 51,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0052",
+      "order": 52,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0053",
+      "order": 53,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0054",
+      "order": 54,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0055",
+      "order": 55,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0056",
+      "order": 56,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0057",
+      "order": 57,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0058",
+      "order": 58,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0059",
+      "order": 59,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0060",
+      "order": 60,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0061",
+      "order": 61,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0062",
+      "order": 62,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0063",
+      "order": 63,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0064",
+      "order": 64,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0065",
+      "order": 65,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0066",
+      "order": 66,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0067",
+      "order": 67,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0068",
+      "order": 68,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0069",
+      "order": 69,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0070",
+      "order": 70,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0071",
+      "order": 71,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0072",
+      "order": 72,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0073",
+      "order": 73,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0074",
+      "order": 74,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0075",
+      "order": 75,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0076",
+      "order": 76,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0077",
+      "order": 77,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0078",
+      "order": 78,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0079",
+      "order": 79,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0080",
+      "order": 80,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0081",
+      "order": 81,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0082",
+      "order": 82,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0083",
+      "order": 83,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0084",
+      "order": 84,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0085",
+      "order": 85,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0086",
+      "order": 86,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0087",
+      "order": 87,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0088",
+      "order": 88,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0089",
+      "order": 89,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0090",
+      "order": 90,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0091",
+      "order": 91,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0092",
+      "order": 92,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0093",
+      "order": 93,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0094",
+      "order": 94,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0095",
+      "order": 95,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0096",
+      "order": 96,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0097",
+      "order": 97,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0098",
+      "order": 98,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0099",
+      "order": 99,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0100",
+      "order": 100,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0101",
+      "order": 101,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0102",
+      "order": 102,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0103",
+      "order": 103,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0104",
+      "order": 104,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0105",
+      "order": 105,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": null,
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0106",
+      "order": 106,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0107",
+      "order": 107,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0108",
+      "order": 108,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0109",
+      "order": 109,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0110",
+      "order": 110,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0111",
+      "order": 111,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0112",
+      "order": 112,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0113",
+      "order": 113,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0114",
+      "order": 114,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0115",
+      "order": 115,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0116",
+      "order": 116,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0117",
+      "order": 117,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0118",
+      "order": 118,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0119",
+      "order": 119,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0120",
+      "order": 120,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0121",
+      "order": 121,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0122",
+      "order": 122,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0123",
+      "order": 123,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0124",
+      "order": 124,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0125",
+      "order": 125,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0126",
+      "order": 126,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0127",
+      "order": 127,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0128",
+      "order": 128,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0129",
+      "order": 129,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0130",
+      "order": 130,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0131",
+      "order": 131,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0132",
+      "order": 132,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0133",
+      "order": 133,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0134",
+      "order": 134,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0135",
+      "order": 135,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0136",
+      "order": 136,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0137",
+      "order": 137,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0138",
+      "order": 138,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0139",
+      "order": 139,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0140",
+      "order": 140,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0141",
+      "order": 141,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0142",
+      "order": 142,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0143",
+      "order": 143,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0144",
+      "order": 144,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0145",
+      "order": 145,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0146",
+      "order": 146,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0147",
+      "order": 147,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0148",
+      "order": 148,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0149",
+      "order": 149,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0150",
+      "order": 150,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0151",
+      "order": 151,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0152",
+      "order": 152,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0153",
+      "order": 153,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0154",
+      "order": 154,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0155",
+      "order": 155,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0156",
+      "order": 156,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0157",
+      "order": 157,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0158",
+      "order": 158,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0159",
+      "order": 159,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0160",
+      "order": 160,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0161",
+      "order": 161,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0162",
+      "order": 162,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0163",
+      "order": 163,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0164",
+      "order": 164,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0165",
+      "order": 165,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0166",
+      "order": 166,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0167",
+      "order": 167,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0168",
+      "order": 168,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0169",
+      "order": 169,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0170",
+      "order": 170,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0171",
+      "order": 171,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0172",
+      "order": 172,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0173",
+      "order": 173,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0174",
+      "order": 174,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0175",
+      "order": 175,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0176",
+      "order": 176,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0177",
+      "order": 177,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0178",
+      "order": 178,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0179",
+      "order": 179,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0180",
+      "order": 180,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0181",
+      "order": 181,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0182",
+      "order": 182,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0183",
+      "order": 183,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0184",
+      "order": 184,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0185",
+      "order": 185,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0186",
+      "order": 186,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0187",
+      "order": 187,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0188",
+      "order": 188,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0189",
+      "order": 189,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0190",
+      "order": 190,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0191",
+      "order": 191,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0192",
+      "order": 192,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0193",
+      "order": 193,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0194",
+      "order": 194,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0195",
+      "order": 195,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0196",
+      "order": 196,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0197",
+      "order": 197,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0198",
+      "order": 198,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0199",
+      "order": 199,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0200",
+      "order": 200,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0201",
+      "order": 201,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0202",
+      "order": 202,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0203",
+      "order": 203,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0204",
+      "order": 204,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0205",
+      "order": 205,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0206",
+      "order": 206,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0207",
+      "order": 207,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0208",
+      "order": 208,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0209",
+      "order": 209,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0210",
+      "order": 210,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0211",
+      "order": 211,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0212",
+      "order": 212,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0213",
+      "order": 213,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0214",
+      "order": 214,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0215",
+      "order": 215,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0216",
+      "order": 216,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0217",
+      "order": 217,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0218",
+      "order": 218,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0219",
+      "order": 219,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0220",
+      "order": 220,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0221",
+      "order": 221,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0222",
+      "order": 222,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0223",
+      "order": 223,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0224",
+      "order": 224,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0225",
+      "order": 225,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0226",
+      "order": 226,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0227",
+      "order": 227,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0228",
+      "order": 228,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0229",
+      "order": 229,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0230",
+      "order": 230,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0231",
+      "order": 231,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0232",
+      "order": 232,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0233",
+      "order": 233,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0234",
+      "order": 234,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0235",
+      "order": 235,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0236",
+      "order": 236,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0237",
+      "order": 237,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0238",
+      "order": 238,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0239",
+      "order": 239,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0240",
+      "order": 240,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0241",
+      "order": 241,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0242",
+      "order": 242,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0243",
+      "order": 243,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0244",
+      "order": 244,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0245",
+      "order": 245,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0246",
+      "order": 246,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0247",
+      "order": 247,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0248",
+      "order": 248,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0249",
+      "order": 249,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0250",
+      "order": 250,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0251",
+      "order": 251,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0252",
+      "order": 252,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0253",
+      "order": 253,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0254",
+      "order": 254,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0255",
+      "order": 255,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0256",
+      "order": 256,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0257",
+      "order": 257,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0258",
+      "order": 258,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0259",
+      "order": 259,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0260",
+      "order": 260,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0261",
+      "order": 261,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0262",
+      "order": 262,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0263",
+      "order": 263,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": null,
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0264",
+      "order": 264,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0265",
+      "order": 265,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0266",
+      "order": 266,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0267",
+      "order": 267,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0268",
+      "order": 268,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0269",
+      "order": 269,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0270",
+      "order": 270,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0271",
+      "order": 271,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0272",
+      "order": 272,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": null,
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0273",
+      "order": 273,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0274",
+      "order": 274,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0275",
+      "order": 275,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0276",
+      "order": 276,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0277",
+      "order": 277,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0278",
+      "order": 278,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0279",
+      "order": 279,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0280",
+      "order": 280,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0281",
+      "order": 281,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0282",
+      "order": 282,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0283",
+      "order": 283,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0284",
+      "order": 284,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0285",
+      "order": 285,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0286",
+      "order": 286,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0287",
+      "order": 287,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0288",
+      "order": 288,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0289",
+      "order": 289,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0290",
+      "order": 290,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0291",
+      "order": 291,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0292",
+      "order": 292,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0293",
+      "order": 293,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0294",
+      "order": 294,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0295",
+      "order": 295,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0296",
+      "order": 296,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0297",
+      "order": 297,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    },
+    {
+      "reference_id": "r0298",
+      "order": 298,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0299",
+      "order": 299,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0300",
+      "order": 300,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0301",
+      "order": 301,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0302",
+      "order": 302,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0303",
+      "order": 303,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0304",
+      "order": 304,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0305",
+      "order": 305,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0306",
+      "order": 306,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0307",
+      "order": 307,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0308",
+      "order": 308,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0309",
+      "order": 309,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0310",
+      "order": 310,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": null,
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0311",
+      "order": 311,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0312",
+      "order": 312,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0313",
+      "order": 313,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0314",
+      "order": 314,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0315",
+      "order": 315,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0316",
+      "order": 316,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0317",
+      "order": 317,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0318",
+      "order": 318,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0319",
+      "order": 319,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0320",
+      "order": 320,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0321",
+      "order": 321,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.0,
+      "positive": []
+    },
+    {
+      "reference_id": "r0322",
+      "order": 322,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "evidence_score": 0.7,
+      "positive": []
+    }
+  ]
+}

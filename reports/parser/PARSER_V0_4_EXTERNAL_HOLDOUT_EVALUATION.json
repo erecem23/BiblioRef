@@ -1,0 +1,384 @@
+{
+  "evaluation": "parser_v0.4_strict_external_holdout",
+  "frozen_gold_sha256": "0db74739ad42c675fda7bc4d9afddc07faec83643a342a39875920b6cd86292d",
+  "parser_v04_pre_holdout_sha256": "f12b43a4670615c9445112052b9714dd11c54f3f10c0889169c3083eb8f2d173",
+  "parser_v04_post_holdout_sha256": "f12b43a4670615c9445112052b9714dd11c54f3f10c0889169c3083eb8f2d173",
+  "parser_source_unchanged_after_holdout": true,
+  "n_references": 30,
+  "n_theses": 3,
+  "v0.3": {
+    "n": 30,
+    "author_exact": {
+      "n": 30,
+      "correct": 27,
+      "pct": 90.0
+    },
+    "year_exact": {
+      "n": 30,
+      "correct": 30,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 30,
+      "correct": 17,
+      "pct": 56.67
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "correct": 18,
+      "pct": 60.0
+    },
+    "journal_exact": {
+      "n": 14,
+      "correct": 12,
+      "pct": 85.71
+    },
+    "journal_fuzzy90": {
+      "n": 14,
+      "correct": 12,
+      "pct": 85.71
+    },
+    "publication_type_exact": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "publication_type_high": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "publisher_exact": {
+      "n": 13,
+      "correct": 4,
+      "pct": 30.77
+    },
+    "publisher_observed_exact": {
+      "n": 13,
+      "correct": 0,
+      "pct": 0.0
+    },
+    "doi_exact": {
+      "n": 13,
+      "correct": 13,
+      "pct": 100.0
+    },
+    "journal_coverage": {
+      "n": 14,
+      "covered": 12,
+      "pct": 85.71
+    },
+    "publisher_coverage": {
+      "n": 13,
+      "covered": 7,
+      "pct": 53.85
+    },
+    "publisher_observed_coverage": {
+      "n": 13,
+      "covered": 0,
+      "pct": 0.0
+    }
+  },
+  "v0.4": {
+    "n": 30,
+    "author_exact": {
+      "n": 30,
+      "correct": 27,
+      "pct": 90.0
+    },
+    "year_exact": {
+      "n": 30,
+      "correct": 30,
+      "pct": 100.0
+    },
+    "title_exact": {
+      "n": 30,
+      "correct": 19,
+      "pct": 63.33
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "correct": 20,
+      "pct": 66.67
+    },
+    "journal_exact": {
+      "n": 14,
+      "correct": 12,
+      "pct": 85.71
+    },
+    "journal_fuzzy90": {
+      "n": 14,
+      "correct": 12,
+      "pct": 85.71
+    },
+    "publication_type_exact": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "publication_type_high": {
+      "n": 30,
+      "correct": 22,
+      "pct": 73.33
+    },
+    "publisher_exact": {
+      "n": 13,
+      "correct": 4,
+      "pct": 30.77
+    },
+    "publisher_observed_exact": {
+      "n": 13,
+      "correct": 3,
+      "pct": 23.08
+    },
+    "doi_exact": {
+      "n": 13,
+      "correct": 13,
+      "pct": 100.0
+    },
+    "journal_coverage": {
+      "n": 14,
+      "covered": 12,
+      "pct": 85.71
+    },
+    "publisher_coverage": {
+      "n": 13,
+      "covered": 7,
+      "pct": 53.85
+    },
+    "publisher_observed_coverage": {
+      "n": 13,
+      "covered": 7,
+      "pct": 53.85
+    }
+  },
+  "paired": {
+    "author": {
+      "n": 30,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 27,
+      "both_wrong": 3
+    },
+    "year": {
+      "n": 30,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 30,
+      "both_wrong": 0
+    },
+    "title_fuzzy90": {
+      "n": 30,
+      "improved_v03_wrong_v04_right": 2,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 18,
+      "both_wrong": 10
+    },
+    "journal_fuzzy90": {
+      "n": 14,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 12,
+      "both_wrong": 2
+    },
+    "publication_type_exact": {
+      "n": 30,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 22,
+      "both_wrong": 8
+    },
+    "publisher_exact": {
+      "n": 13,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 4,
+      "both_wrong": 9
+    },
+    "publisher_observed_exact": {
+      "n": 13,
+      "improved_v03_wrong_v04_right": 3,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 0,
+      "both_wrong": 10
+    },
+    "doi": {
+      "n": 13,
+      "improved_v03_wrong_v04_right": 0,
+      "regressed_v03_right_v04_wrong": 0,
+      "both_right": 13,
+      "both_wrong": 0
+    }
+  },
+  "by_thesis": {
+    "SHEFFIELD_RUTKAUSKAS_2023": {
+      "v03": {
+        "author_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "journal_fuzzy90": {
+          "n": 7,
+          "correct": 7,
+          "pct": 100.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        }
+      },
+      "v04": {
+        "author_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "journal_fuzzy90": {
+          "n": 7,
+          "correct": 7,
+          "pct": 100.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        }
+      }
+    },
+    "USP_PIZZIMENTI_2024": {
+      "v03": {
+        "author_exact": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 2,
+          "pct": 20.0
+        }
+      },
+      "v04": {
+        "author_exact": {
+          "n": 10,
+          "correct": 7,
+          "pct": 70.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "journal_fuzzy90": {
+          "n": 2,
+          "correct": 0,
+          "pct": 0.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 2,
+          "pct": 20.0
+        }
+      }
+    },
+    "YORK_BRENNAN_2024": {
+      "v03": {
+        "author_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 8,
+          "pct": 80.0
+        },
+        "journal_fuzzy90": {
+          "n": 5,
+          "correct": 5,
+          "pct": 100.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        }
+      },
+      "v04": {
+        "author_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "year_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "title_fuzzy90": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        },
+        "journal_fuzzy90": {
+          "n": 5,
+          "correct": 5,
+          "pct": 100.0
+        },
+        "type_exact": {
+          "n": 10,
+          "correct": 10,
+          "pct": 100.0
+        }
+      }
+    }
+  },
+  "method_note": "Gold and parser source SHA-256 were frozen before parser execution. No parser changes were made after observing this holdout."
+}

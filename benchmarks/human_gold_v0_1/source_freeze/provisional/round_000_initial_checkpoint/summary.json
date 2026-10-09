@@ -1,0 +1,12 @@
+{
+  "accepted": 7,
+  "observations": 18,
+  "rejected": 11,
+  "rejection_reasons": {
+    "access_denied": 2,
+    "metadata_partial_bitstream": 1,
+    "non_pdf_response": 5,
+    "transport_failure": 3
+  },
+  "round": "round_000_initial_checkpoint"
+}

@@ -1,0 +1,24 @@
+{
+  "legacy_pymupdf_tests": [
+    "tests_app/test_frontmatter_metadata_v0_5.py",
+    "tests_app/test_ocr.py",
+    "tests_core/test_biblioref_audit.py",
+    "tests_core/test_biblioref_v0_6.py",
+    "tests_core/test_biblioref_v0_6_1.py",
+    "tests_core/test_biblioref_v0_6_16_rotated_pages.py",
+    "tests_core/test_biblioref_v0_7_0.py",
+    "tests_core/test_biblioref_v0_8_1.py",
+    "tests_core/test_biblioref_v0_8_10.py",
+    "tests_core/test_biblioref_v0_8_11_performance.py",
+    "tests_core/test_biblioref_v0_8_2.py",
+    "tests_core/test_biblioref_v0_8_3.py",
+    "tests_core/test_biblioref_v0_8_9_perf.py",
+    "tests_core/test_biblioref_v0_9_0_two_pass.py",
+    "tests_core/test_biblioref_v0_9_3_router3.py",
+    "tests_core/test_biblioref_v0_9_9_regimes.py"
+  ],
+  "legacy_pymupdf_nodeids": [
+    "tests_core/test_pdfium_dual_backend.py::TestPdfiumDualBackend::test_document_grammar_fixture_preserves_text_sequence",
+    "tests_core/test_pdfium_dual_backend.py::TestPdfiumDualBackend::test_pipeline_fixture_is_bibliographically_equivalent"
+  ]
+}

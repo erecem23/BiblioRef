@@ -1,0 +1,11 @@
+{
+  "accepted": 5,
+  "observations": 12,
+  "rejected": 7,
+  "rejection_reasons": {
+    "access_denied": 2,
+    "metadata_partial_bitstream": 3,
+    "transport_failure": 2
+  },
+  "round": "round_001_initial_continuation"
+}

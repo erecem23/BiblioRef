@@ -1,0 +1,2873 @@
+{
+  "software_version": "0.9.10-rc2",
+  "algorithm_version": "0.6.20",
+  "corpus": "workspace por defecto",
+  "n_documents": 150,
+  "elapsed_seconds": 454.8,
+  "note": "Mismo contrato que tools/extraction_corpus_equivalence.py, corrido en paralelo.",
+  "documents": [
+    {
+      "thesis_id": "T0001",
+      "document_id": "doc_a91efa3245b0",
+      "n_records": 66,
+      "n_zones": 2,
+      "records_sha256": "2208f94546219f13b94a11637bccbf7ea799e52cc495c765b7c33f80f61dd74f",
+      "zones": [
+        {
+          "heading": "Bibliografía Obligatoria:",
+          "start_page": 93,
+          "end_page": 96,
+          "style": "numeric",
+          "n_segments": 8
+        },
+        {
+          "heading": "Bibliografía",
+          "start_page": 97,
+          "end_page": 104,
+          "style": "bulleted",
+          "n_segments": 58
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0002",
+      "document_id": "doc_4af792bf211c",
+      "n_records": 28,
+      "n_zones": 1,
+      "records_sha256": "e8237f0dde834e2ec689d8b3cf447c81df6da04c7c9f662419ecf0c4c617a24d",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 45,
+          "end_page": 47,
+          "style": "author_year_comma",
+          "n_segments": 28
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0003",
+      "document_id": "doc_bfd8709c2495",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0004",
+      "document_id": "doc_ab8dad6315c3",
+      "n_records": 322,
+      "n_zones": 1,
+      "records_sha256": "3f8c8867e0c1d89ccf5d684dff94e665a9daabe9f25a75939831cc7f3baf86a8",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFÍA",
+          "start_page": 389,
+          "end_page": 412,
+          "style": "bulleted",
+          "n_segments": 322
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0005",
+      "document_id": "doc_930af9eab52b",
+      "n_records": 102,
+      "n_zones": 1,
+      "records_sha256": "aa9116121eaf940f755d0f83d235460507e525055d02baff9aa4a838d3a50303",
+      "zones": [
+        {
+          "heading": "Bibliografía",
+          "start_page": 158,
+          "end_page": 172,
+          "style": "author_year_comma",
+          "n_segments": 102
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0006",
+      "document_id": "doc_00a5da9ceea0",
+      "n_records": 99,
+      "n_zones": 1,
+      "records_sha256": "7e6621278b50c4d19d2694a226edd5dfeb02cdd36bbdc383c53db2a16a0ca41b",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 108,
+          "end_page": 120,
+          "style": "author_year_comma",
+          "n_segments": 99
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0007",
+      "document_id": "doc_8945e074350d",
+      "n_records": 158,
+      "n_zones": 1,
+      "records_sha256": "95d9ab4eb984c6fb4fdc681ed45d58019f90c4514e2b552244532586e74f4988",
+      "zones": [
+        {
+          "heading": "Bibliografía",
+          "start_page": 197,
+          "end_page": 209,
+          "style": "author_year_comma",
+          "n_segments": 158
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0008",
+      "document_id": "doc_cd8421ec1dcc",
+      "n_records": 351,
+      "n_zones": 1,
+      "records_sha256": "74f5dd21eda47c4b5102de8359039226133851032fee67093ffa3f8a9ee7f2e1",
+      "zones": [
+        {
+          "heading": "8. REFERENCIAS",
+          "start_page": 160,
+          "end_page": 183,
+          "style": "author_year_comma",
+          "n_segments": 351
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0009",
+      "document_id": "doc_248f73f47382",
+      "n_records": 268,
+      "n_zones": 1,
+      "records_sha256": "b3e80a4d65b64a76c5923b8045c0085f439ea91aafdefcbe8887aaba3d6d5960",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 201,
+          "end_page": 238,
+          "style": "author_year_comma",
+          "n_segments": 268
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0010",
+      "document_id": "doc_24d7facc67f4",
+      "n_records": 133,
+      "n_zones": 1,
+      "records_sha256": "5fd675d26d181503ab772a2c2d8e5b84ea8152a96514cbecc62866665f2ac04d",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 111,
+          "end_page": 133,
+          "style": "author_year_comma",
+          "n_segments": 133
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0011",
+      "document_id": "doc_5c052fa57f9c",
+      "n_records": 372,
+      "n_zones": 1,
+      "records_sha256": "74131b38933f97cdc537875f7a3c44e92044684b56a4dc3ffb3c00d5edb3e8b0",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 167,
+          "end_page": 206,
+          "style": "author_year_comma",
+          "n_segments": 372
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0012",
+      "document_id": "doc_5a1641c7aef4",
+      "n_records": 255,
+      "n_zones": 1,
+      "records_sha256": "d45054e52e01b510184329e595941210e3fcd27ea1be31b2f6bb9ba5b726b3b5",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 123,
+          "end_page": 154,
+          "style": "author_year_comma",
+          "n_segments": 255
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0013",
+      "document_id": "doc_533a5e82c872",
+      "n_records": 318,
+      "n_zones": 1,
+      "records_sha256": "acdbbdf2275e46e91c729f55184c62a276f8c5b8114000a4ea607316c57bb417",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 204,
+          "end_page": 255,
+          "style": "author_year_comma",
+          "n_segments": 318
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0014",
+      "document_id": "doc_e72f9c437406",
+      "n_records": 215,
+      "n_zones": 1,
+      "records_sha256": "81f65e5d48cc279f59303c61e542938a217106e2b8c4abebdcc93cd4b08e4446",
+      "zones": [
+        {
+          "heading": "8. REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 214,
+          "end_page": 227,
+          "style": "author_year_comma",
+          "n_segments": 215
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0015",
+      "document_id": "doc_56a23f30d252",
+      "n_records": 135,
+      "n_zones": 1,
+      "records_sha256": "2909c928a6ed81e88942b2d3fd18e0ad2123cb39e1e8982be0295c12b58e82e9",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 251,
+          "end_page": 263,
+          "style": "author_year_comma",
+          "n_segments": 135
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0016",
+      "document_id": "doc_ea43a02e9e74",
+      "n_records": 476,
+      "n_zones": 1,
+      "records_sha256": "0db16f59213953532a2da76af69dd6fa54a196cf9fb88ed7c8462f8b3f70485f",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFÍA:",
+          "start_page": 304,
+          "end_page": 336,
+          "style": "author_year_comma",
+          "n_segments": 476
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0017",
+      "document_id": "doc_033036d99117",
+      "n_records": 172,
+      "n_zones": 1,
+      "records_sha256": "2ff71ec8552a2b25c03056eac2fc468d79ef7085aa70ea28852f503fdecbf58c",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 104,
+          "end_page": 123,
+          "style": "author_year_comma",
+          "n_segments": 172
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0018",
+      "document_id": "doc_a9918e3bad2b",
+      "n_records": 164,
+      "n_zones": 1,
+      "records_sha256": "c190c864f3234072a18b441b6a04760bc4ef9e34939d168f5b7b726d15b0c6aa",
+      "zones": [
+        {
+          "heading": "7. Referencias",
+          "start_page": 139,
+          "end_page": 158,
+          "style": "author_year_comma",
+          "n_segments": 164
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0019",
+      "document_id": "doc_7644f27c8052",
+      "n_records": 361,
+      "n_zones": 1,
+      "records_sha256": "a7c9ecdea77b0b726522f1cbc0e9cec53815c4f3c1cca223f3e0c73bdb963803",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 188,
+          "end_page": 219,
+          "style": "author_year_comma",
+          "n_segments": 361
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0020",
+      "document_id": "doc_4ff5f2f2939b",
+      "n_records": 173,
+      "n_zones": 1,
+      "records_sha256": "4fe58073096abe0129ab065ba0785bb3465c3f74a60f2d8b2cf242c084df3037",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFIA",
+          "start_page": 167,
+          "end_page": 190,
+          "style": "bulleted",
+          "n_segments": 173
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0021",
+      "document_id": "doc_cea5a0ca52b7",
+      "n_records": 437,
+      "n_zones": 1,
+      "records_sha256": "4aa41de09b4b1b0c8f01a1e3395858f79501f96c59922c2f9e572724ab99ed17",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 144,
+          "end_page": 182,
+          "style": "author_year_comma",
+          "n_segments": 437
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0022",
+      "document_id": "doc_4001497d4913",
+      "n_records": 188,
+      "n_zones": 1,
+      "records_sha256": "def1e8a1de0fb58ffa7192e47e1a46e47f3d2ab2a75597b903514020680b75d3",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 255,
+          "end_page": 274,
+          "style": "author_year_comma",
+          "n_segments": 188
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0023",
+      "document_id": "doc_f0102e873251",
+      "n_records": 240,
+      "n_zones": 1,
+      "records_sha256": "2b2615bea5623ac3d6ede8ff47a576c358c7f2edd84b2726046d8e7af895f4a6",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 195,
+          "end_page": 220,
+          "style": "author_year_comma",
+          "n_segments": 240
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0024",
+      "document_id": "doc_3c995887593e",
+      "n_records": 184,
+      "n_zones": 1,
+      "records_sha256": "bc75b54f4215827a307c995772384473e551095af330864611c5b571d8b4f9b1",
+      "zones": [
+        {
+          "heading": "7. Referencias",
+          "start_page": 135,
+          "end_page": 149,
+          "style": "author_year_comma",
+          "n_segments": 184
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0025",
+      "document_id": "doc_ee37285bcab9",
+      "n_records": 269,
+      "n_zones": 1,
+      "records_sha256": "59b015fa9ae27bc11e446e777ed020f5ed5193e6177eb5f26055e33c015ceefc",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas 151",
+          "start_page": 290,
+          "end_page": 311,
+          "style": "author_year_comma",
+          "n_segments": 269
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0026",
+      "document_id": "doc_24613d479cb7",
+      "n_records": 345,
+      "n_zones": 1,
+      "records_sha256": "2836ab349f295498a3d6cea4e4c52c77e287129abba09d9f0311bd7ff3d41af6",
+      "zones": [
+        {
+          "heading": "Bibliografía",
+          "start_page": 285,
+          "end_page": 315,
+          "style": "author_year_comma",
+          "n_segments": 345
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0027",
+      "document_id": "doc_08e208ae2f07",
+      "n_records": 317,
+      "n_zones": 1,
+      "records_sha256": "a608b9e2682e76571079788a84e43a05d8e35e2265f40093e719fd026a49d52c",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 350,
+          "end_page": 376,
+          "style": "author_year_comma",
+          "n_segments": 317
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0028",
+      "document_id": "doc_9b2205ce4e1f",
+      "n_records": 136,
+      "n_zones": 1,
+      "records_sha256": "aa417c3ebdfc954ed744b26c8e4df6e6be827e89fd89fc57be69123decb57bd7",
+      "zones": [
+        {
+          "heading": "IX. Referencias",
+          "start_page": 221,
+          "end_page": 231,
+          "style": "author_year_comma",
+          "n_segments": 136
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0029",
+      "document_id": "doc_a2cc04d553ea",
+      "n_records": 570,
+      "n_zones": 1,
+      "records_sha256": "756b1011cd15eaab9c10829fcb1af040708f420a723e427cb6f13253439ce4ba",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 189,
+          "end_page": 265,
+          "style": "author_year_comma",
+          "n_segments": 570
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0030",
+      "document_id": "doc_f547ca42c213",
+      "n_records": 508,
+      "n_zones": 7,
+      "records_sha256": "ace6cd2b8ff91a9727685a4ad8a8c2b504f4e049164cf283ec2894c321d50c70",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 40,
+          "end_page": 43,
+          "style": "author_year_comma",
+          "n_segments": 64
+        },
+        {
+          "heading": "2.4. Referencias",
+          "start_page": 55,
+          "end_page": 57,
+          "style": "author_year_comma",
+          "n_segments": 39
+        },
+        {
+          "heading": "3.7. Referencias",
+          "start_page": 75,
+          "end_page": 78,
+          "style": "author_year_comma",
+          "n_segments": 78
+        },
+        {
+          "heading": "4.9. Referencias",
+          "start_page": 138,
+          "end_page": 143,
+          "style": "author_year_comma",
+          "n_segments": 95
+        },
+        {
+          "heading": "5.10. Referencias",
+          "start_page": 224,
+          "end_page": 230,
+          "style": "author_year_comma",
+          "n_segments": 121
+        },
+        {
+          "heading": "6.10. Referencias",
+          "start_page": 271,
+          "end_page": 274,
+          "style": "author_year_comma",
+          "n_segments": 79
+        },
+        {
+          "heading": "7.1. Referencias",
+          "start_page": 287,
+          "end_page": 288,
+          "style": "author_year_comma",
+          "n_segments": 32
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0031",
+      "document_id": "doc_904441bc3844",
+      "n_records": 236,
+      "n_zones": 1,
+      "records_sha256": "90ef703a4a10d6406fbe9a49b2f063ff4e34a1f1b483b05b9e3a5c3218e2039b",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 103,
+          "end_page": 120,
+          "style": "author_year_comma",
+          "n_segments": 236
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0032",
+      "document_id": "doc_e10f5ade2956",
+      "n_records": 359,
+      "n_zones": 1,
+      "records_sha256": "819d305595c9754ccf631930d7d8f389cf9526ce3d30aac87692d2b45a47be65",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 170,
+          "end_page": 191,
+          "style": "author_year_comma",
+          "n_segments": 359
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0033",
+      "document_id": "doc_1e9683ef6326",
+      "n_records": 210,
+      "n_zones": 1,
+      "records_sha256": "021068727a85d8f8b268105edd165950b499f204731654316d5e7935a5bcf5bf",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 98,
+          "end_page": 130,
+          "style": "author_year_comma",
+          "n_segments": 210
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0034",
+      "document_id": "doc_00232fdf6bc1",
+      "n_records": 135,
+      "n_zones": 1,
+      "records_sha256": "a157bee481f04bf90b2306673f283ae2acd4a8c35ec770e39e24de7ede0ce4c0",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFÍA",
+          "start_page": 102,
+          "end_page": 112,
+          "style": "author_year_comma",
+          "n_segments": 135
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0035",
+      "document_id": "doc_810dd5748395",
+      "n_records": 318,
+      "n_zones": 1,
+      "records_sha256": "30e921acbc3cb3d8c58a3acbe5a87d4db2ecbc7b3599c60714f036852fc330d2",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 177,
+          "end_page": 213,
+          "style": "author_year_comma",
+          "n_segments": 318
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0036",
+      "document_id": "doc_df171aee7af2",
+      "n_records": 845,
+      "n_zones": 1,
+      "records_sha256": "4dda16b5a3474dfccad433c86740574b3a3a923627fbb72c84b890bc6b016cf7",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 216,
+          "end_page": 247,
+          "style": "author_year_comma",
+          "n_segments": 845
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0037",
+      "document_id": "doc_305b3cd080c9",
+      "n_records": 181,
+      "n_zones": 2,
+      "records_sha256": "d8f52b5a5b1b2e1d78986d6bd0289c38cd9afed6be244ab1d6953c05a0869ee8",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 107,
+          "end_page": 134,
+          "style": "author_year_comma",
+          "n_segments": 171
+        },
+        {
+          "heading": "Referencias bibliográﬁcas",
+          "start_page": 156,
+          "end_page": 162,
+          "style": "numeric",
+          "n_segments": 10
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0038",
+      "document_id": "doc_11e383e88c0b",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0039",
+      "document_id": "doc_14b58e306668",
+      "n_records": 387,
+      "n_zones": 1,
+      "records_sha256": "523916f8ee594dc3d8c3bd3eb5e4da032410c0d269042f54e384de8a1e58b684",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 148,
+          "end_page": 175,
+          "style": "author_year_comma",
+          "n_segments": 387
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0040",
+      "document_id": "doc_99d1ec944bee",
+      "n_records": 232,
+      "n_zones": 1,
+      "records_sha256": "56b94f01782615a404901c041a5ca9678bb3b2bd687bb2cdffe06b25fe30ec8b",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 183,
+          "end_page": 207,
+          "style": "author_year_comma",
+          "n_segments": 232
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0041",
+      "document_id": "doc_d926ff9f0cb2",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0042",
+      "document_id": "doc_236b234caacc",
+      "n_records": 202,
+      "n_zones": 1,
+      "records_sha256": "bd4fda5aaf3f13915579e43d3996dd1974ec629e0e4c49b4d55444a43b7c9cf9",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 132,
+          "end_page": 153,
+          "style": "author_year_comma",
+          "n_segments": 202
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0043",
+      "document_id": "doc_50ec136b0a46",
+      "n_records": 299,
+      "n_zones": 1,
+      "records_sha256": "4bf1282abab1256004be9fbf24cea4514040d670129a06c62f119b2de27f3371",
+      "zones": [
+        {
+          "heading": "R EFERENCIAS",
+          "start_page": 219,
+          "end_page": 243,
+          "style": "author_year_comma",
+          "n_segments": 299
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0044",
+      "document_id": "doc_bf03b83e4240",
+      "n_records": 234,
+      "n_zones": 1,
+      "records_sha256": "5aa76a07b21ad8fc1f95571054c9e63fe65f0f0ee302dc0beb8735c46029f37d",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 188,
+          "end_page": 210,
+          "style": "author_year_comma",
+          "n_segments": 234
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0045",
+      "document_id": "doc_9b5ac4ba85d6",
+      "n_records": 223,
+      "n_zones": 1,
+      "records_sha256": "d657bd8aefccef0909888cab5d4701e54631e27d4ba2f5a5da47cc1177d42e5c",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 156,
+          "end_page": 183,
+          "style": "author_year_comma",
+          "n_segments": 223
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0046",
+      "document_id": "doc_0fffbf90b4e3",
+      "n_records": 677,
+      "n_zones": 1,
+      "records_sha256": "2f5697bffdc51d1aafbdcc5b04fa26c0d485b1288001891ff9765ec23ab1f195",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 166,
+          "end_page": 215,
+          "style": "author_year_comma",
+          "n_segments": 677
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0047",
+      "document_id": "doc_066e712e7f92",
+      "n_records": 293,
+      "n_zones": 1,
+      "records_sha256": "4be88c095f6492ae87f3b3a9c6309149241b78d56624374f26b8fab0b2f4965f",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 140,
+          "end_page": 158,
+          "style": "author_year_comma",
+          "n_segments": 293
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0048",
+      "document_id": "doc_a7320780fb9f",
+      "n_records": 166,
+      "n_zones": 1,
+      "records_sha256": "a22e4d4a2faa7b05606f9480eace93466906b06f15a145766c188d707f679afd",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 92,
+          "end_page": 110,
+          "style": "author_year_comma",
+          "n_segments": 166
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0049",
+      "document_id": "doc_dd0c746350b3",
+      "n_records": 382,
+      "n_zones": 1,
+      "records_sha256": "6b61b6e69c3ff28716de62f92a16f03a2a313ca8b80641b90daffbaf1e9b2d92",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 235,
+          "end_page": 272,
+          "style": "author_year_comma",
+          "n_segments": 382
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0050",
+      "document_id": "doc_e9654a1834c3",
+      "n_records": 222,
+      "n_zones": 1,
+      "records_sha256": "4849895080cf78b5eb79e3bbc6cf9a8de9c759b3d6383125a1a79a8fdea1175e",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 86,
+          "end_page": 113,
+          "style": "author_year_comma",
+          "n_segments": 222
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0051",
+      "document_id": "doc_a1d2206b2108",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0052",
+      "document_id": "doc_aa7f6024e5d2",
+      "n_records": 314,
+      "n_zones": 1,
+      "records_sha256": "29987c503d65482ae2e596fb92e1abe24346120ce733da012842af8e419837b2",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 155,
+          "end_page": 184,
+          "style": "author_year_comma",
+          "n_segments": 314
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0053",
+      "document_id": "doc_e390a28b49fb",
+      "n_records": 374,
+      "n_zones": 1,
+      "records_sha256": "e4af9c4708d69dc831072432b6006c0d39be7885bb177490f4e39b261c856a03",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 220,
+          "end_page": 255,
+          "style": "author_year_comma",
+          "n_segments": 374
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0054",
+      "document_id": "doc_060cf6ec095d",
+      "n_records": 119,
+      "n_zones": 1,
+      "records_sha256": "b8f06141bee8e452f14ae7faa9ab22e4d001d74bed0e6fdfe544f8717faf40c7",
+      "zones": [
+        {
+          "heading": "8. BIBLIOGRAFÍA",
+          "start_page": 159,
+          "end_page": 171,
+          "style": "author_year_comma",
+          "n_segments": 119
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0055",
+      "document_id": "doc_e563ee2584c0",
+      "n_records": 261,
+      "n_zones": 1,
+      "records_sha256": "9fa0012cadef34200f165501f79714a170b57ebe5fb922555da411996a91d328",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 174,
+          "end_page": 200,
+          "style": "author_year_comma",
+          "n_segments": 261
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0056",
+      "document_id": "doc_0a82f9f5b78c",
+      "n_records": 225,
+      "n_zones": 2,
+      "records_sha256": "8ad4d1e745ecd5dccd473c17ba82a0bb2c6a8cf0b79717621aaaac110d1af974",
+      "zones": [
+        {
+          "heading": "Referencias:",
+          "start_page": 214,
+          "end_page": 218,
+          "style": "numeric",
+          "n_segments": 6
+        },
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 266,
+          "end_page": 283,
+          "style": "author_year_comma",
+          "n_segments": 219
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0057",
+      "document_id": "doc_1206faa5b758",
+      "n_records": 104,
+      "n_zones": 1,
+      "records_sha256": "d1842ac3b49e7371e8210b554c2e3ba89c54a273c82e59c7f7ce654316d83c9c",
+      "zones": [
+        {
+          "heading": "11. BIBLIOGRAFIA",
+          "start_page": 167,
+          "end_page": 171,
+          "style": "author_year_comma",
+          "n_segments": 104
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0058",
+      "document_id": "doc_337a1614ed10",
+      "n_records": 143,
+      "n_zones": 1,
+      "records_sha256": "07fcf4490049d6181f0bae0121338e1b663731eeecf92e685c15d8538c3cd018",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFÍA",
+          "start_page": 214,
+          "end_page": 225,
+          "style": "bulleted",
+          "n_segments": 143
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0059",
+      "document_id": "doc_76bcc3bb57c6",
+      "n_records": 410,
+      "n_zones": 1,
+      "records_sha256": "32ba1e1bba5e0dae852ecd1fd39f6f4d09226aaadfc10a359867fdf4430a0fff",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 292,
+          "end_page": 321,
+          "style": "author_year_comma",
+          "n_segments": 410
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0060",
+      "document_id": "doc_b9872ed1534a",
+      "n_records": 163,
+      "n_zones": 1,
+      "records_sha256": "259107658ab8e26928aadb3171aa8c89a712d6bc421f15f85c98fd72105ef0e4",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 188,
+          "end_page": 199,
+          "style": "author_year_comma",
+          "n_segments": 163
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0061",
+      "document_id": "doc_2a53c511a637",
+      "n_records": 111,
+      "n_zones": 1,
+      "records_sha256": "fc8592508f2dbfa35104a876bf51d73c9b4c07a12a3773be1a7bd1adffd634f7",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 331,
+          "end_page": 345,
+          "style": "author_year_bare",
+          "n_segments": 111
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0062",
+      "document_id": "doc_220d87e4cffd",
+      "n_records": 454,
+      "n_zones": 1,
+      "records_sha256": "990429519962fe6fbf3f8dbde7b11de033245a55ef14e196fe1cb598a5aad16a",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 311,
+          "end_page": 338,
+          "style": "bulleted",
+          "n_segments": 454
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0063",
+      "document_id": "doc_5420e5c05687",
+      "n_records": 96,
+      "n_zones": 1,
+      "records_sha256": "f7666bc635ed9ae7bf17957f007c13c59a76755ee18991889cba43148c9dcb2f",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFIA",
+          "start_page": 397,
+          "end_page": 402,
+          "style": "bulleted",
+          "n_segments": 96
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0064",
+      "document_id": "doc_19574025d0ef",
+      "n_records": 289,
+      "n_zones": 1,
+      "records_sha256": "de8d113531663be4b21ac26f664f04ede1d73d07dd8519c94147e55ed95be5be",
+      "zones": [
+        {
+          "heading": "IX. REFERENCIAS BIBLIOGRAFICAS",
+          "start_page": 518,
+          "end_page": 536,
+          "style": "author_year_bare",
+          "n_segments": 289
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0065",
+      "document_id": "doc_c6874e720e4e",
+      "n_records": 200,
+      "n_zones": 1,
+      "records_sha256": "d8de13decd3ed622da356f9fd1c5c4cf1888fde2ecfb98528e44cbba36850ef3",
+      "zones": [
+        {
+          "heading": "Zona inferida sin encabezado explícito",
+          "start_page": 158,
+          "end_page": 177,
+          "style": "author_year_comma",
+          "n_segments": 200
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0066",
+      "document_id": "doc_a9233d0adcac",
+      "n_records": 212,
+      "n_zones": 1,
+      "records_sha256": "d4e4853d589f0dae5b9eea3c86c5be4a1f1b15a45d21412a46af86c9e6b1da98",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 230,
+          "end_page": 244,
+          "style": "author_year_comma",
+          "n_segments": 212
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0067",
+      "document_id": "doc_89bb917cc06f",
+      "n_records": 845,
+      "n_zones": 1,
+      "records_sha256": "4230e54708d389ef6473424c2d260cff3a38b9c8eb20af114636c258ceecc812",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 504,
+          "end_page": 549,
+          "style": "bulleted",
+          "n_segments": 845
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0068",
+      "document_id": "doc_9644ceda1a9b",
+      "n_records": 404,
+      "n_zones": 1,
+      "records_sha256": "14fc60196fc3f7438ea1b00164a69c5077818b55e8167db7cbd3372c4351b2dd",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 321,
+          "end_page": 354,
+          "style": "author_year_comma",
+          "n_segments": 404
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0069",
+      "document_id": "doc_016b1e6da202",
+      "n_records": 106,
+      "n_zones": 1,
+      "records_sha256": "5fc595577e12793fda7e6eca0aa534a516b6f8ccd98aa4a93c82f87aacb561c8",
+      "zones": [
+        {
+          "heading": "X. REFERENCIAS BIBLIOGRÁFICAS.",
+          "start_page": 226,
+          "end_page": 234,
+          "style": "author_year_comma",
+          "n_segments": 106
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0070",
+      "document_id": "doc_4ba1246367b6",
+      "n_records": 230,
+      "n_zones": 1,
+      "records_sha256": "8d7005987462c9708804aabb10be197aa6184e080ae947de1919d95001ca6732",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 324,
+          "end_page": 343,
+          "style": "author_year_comma",
+          "n_segments": 230
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0071",
+      "document_id": "doc_8d6d897b6e10",
+      "n_records": 1389,
+      "n_zones": 1,
+      "records_sha256": "c4c09e7ee310d1c19f28081ed43bdadae24c2e76230b7614d31937b770036652",
+      "zones": [
+        {
+          "heading": "11 R EFERENCIAS",
+          "start_page": 238,
+          "end_page": 302,
+          "style": "author_year_comma",
+          "n_segments": 1389
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0072",
+      "document_id": "doc_201f0556d3fc",
+      "n_records": 118,
+      "n_zones": 1,
+      "records_sha256": "16307b3e9cc79cbe5b1a84cad4123c6ddd5f30b4b21dc9aa1f0386ebe818c603",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 196,
+          "end_page": 204,
+          "style": "author_year_comma",
+          "n_segments": 118
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0073",
+      "document_id": "doc_4c2f1c010c27",
+      "n_records": 320,
+      "n_zones": 10,
+      "records_sha256": "a4e6f9c1859bb498618976896f99ac1b432f7e4f95e4cceb9d6a28459586647e",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 183,
+          "end_page": 186,
+          "style": "author_year_bare",
+          "n_segments": 3
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 186,
+          "end_page": 187,
+          "style": "author_year_comma",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 187,
+          "end_page": 191,
+          "style": "author_year_comma",
+          "n_segments": 0
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 191,
+          "end_page": 192,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 192,
+          "end_page": 201,
+          "style": "author_year_comma",
+          "n_segments": 4
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 208,
+          "end_page": 216,
+          "style": "author_year_bare",
+          "n_segments": 2
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 216,
+          "end_page": 217,
+          "style": "author_year_bare",
+          "n_segments": 0
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 217,
+          "end_page": 219,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 219,
+          "end_page": 232,
+          "style": "author_year_bare",
+          "n_segments": 0
+        },
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 286,
+          "end_page": 326,
+          "style": "author_year_comma",
+          "n_segments": 311
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0074",
+      "document_id": "doc_31bfb6bc9919",
+      "n_records": 263,
+      "n_zones": 1,
+      "records_sha256": "a24c4f534fc1dc1d2cfa69f4c25a68c70744645e59955395c531ecbadb1491ec",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 240,
+          "end_page": 259,
+          "style": "author_year_comma",
+          "n_segments": 263
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0075",
+      "document_id": "doc_0c7250208c95",
+      "n_records": 681,
+      "n_zones": 1,
+      "records_sha256": "bc3ad81bcd8539d5f699fad6bbc20edf60b2cc1e66cbe89fa2772ad18decaa43",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 577,
+          "end_page": 616,
+          "style": "author_year_comma",
+          "n_segments": 681
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0076",
+      "document_id": "doc_42be1ce0176d",
+      "n_records": 94,
+      "n_zones": 2,
+      "records_sha256": "eb0fb6fe523f37a35bed1b1e3c5bd5ceee2c0a84b9ed601f729e6735025efc75",
+      "zones": [
+        {
+          "heading": "Referencias ………………………………………………………………..",
+          "start_page": 9,
+          "end_page": 9,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 143,
+          "end_page": 154,
+          "style": "author_year_comma",
+          "n_segments": 94
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0077",
+      "document_id": "doc_b41a747c076d",
+      "n_records": 125,
+      "n_zones": 1,
+      "records_sha256": "5e998abc93f7e52a9181209e7c74c12947945aa163bad110d97c32f73fa4cc70",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 197,
+          "end_page": 208,
+          "style": "author_year_comma",
+          "n_segments": 125
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0078",
+      "document_id": "doc_5cd7ebf2bb0a",
+      "n_records": 681,
+      "n_zones": 2,
+      "records_sha256": "3f2fd8a626eb9f13c711c9a19890ee47c8133d6468ddd3e9eedb5291da22b503",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 398,
+          "end_page": 399,
+          "style": "author_year_bare",
+          "n_segments": 7
+        },
+        {
+          "heading": "Bibliografía",
+          "start_page": 399,
+          "end_page": 448,
+          "style": "author_year_comma",
+          "n_segments": 674
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0079",
+      "document_id": "doc_51ed98c00c24",
+      "n_records": 924,
+      "n_zones": 1,
+      "records_sha256": "6e9d53098734adb3340bc1ad010daa89a8c8149056bea6a0901d754bf2519ff9",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 616,
+          "end_page": 665,
+          "style": "author_year_comma",
+          "n_segments": 924
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0080",
+      "document_id": "doc_708bb8c62408",
+      "n_records": 823,
+      "n_zones": 28,
+      "records_sha256": "b586c208654e5d8fa18460027d8cc81f1403308e0bff81ba01dac93942352ae1",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 5,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 5,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 5,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 5,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 5,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 5,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 6,
+          "end_page": 6,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 7,
+          "end_page": 7,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 18,
+          "end_page": 20,
+          "style": "author_year_comma",
+          "n_segments": 17
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 49,
+          "end_page": 61,
+          "style": "author_year_comma",
+          "n_segments": 131
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 82,
+          "end_page": 93,
+          "style": "author_year_comma",
+          "n_segments": 118
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 112,
+          "end_page": 120,
+          "style": "author_year_comma",
+          "n_segments": 83
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 145,
+          "end_page": 152,
+          "style": "author_year_comma",
+          "n_segments": 76
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 173,
+          "end_page": 179,
+          "style": "author_year_comma",
+          "n_segments": 60
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 199,
+          "end_page": 209,
+          "style": "author_year_comma",
+          "n_segments": 102
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 218,
+          "end_page": 220,
+          "style": "author_year_comma",
+          "n_segments": 19
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 237,
+          "end_page": 239,
+          "style": "author_year_comma",
+          "n_segments": 20
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 251,
+          "end_page": 253,
+          "style": "author_year_comma",
+          "n_segments": 22
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 265,
+          "end_page": 267,
+          "style": "author_year_comma",
+          "n_segments": 22
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 277,
+          "end_page": 278,
+          "style": "author_year_comma",
+          "n_segments": 17
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 318,
+          "end_page": 321,
+          "style": "author_year_comma",
+          "n_segments": 31
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 333,
+          "end_page": 340,
+          "style": "author_year_comma",
+          "n_segments": 73
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 351,
+          "end_page": 354,
+          "style": "author_year_comma",
+          "n_segments": 32
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0081",
+      "document_id": "doc_505022f97a05",
+      "n_records": 219,
+      "n_zones": 2,
+      "records_sha256": "348f128247c6002710a1b04ce4379367ced100b30f0b7bc0b55a74ef52fef272",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 232,
+          "end_page": 241,
+          "style": "bulleted",
+          "n_segments": 132
+        },
+        {
+          "heading": "BIBLIOGRAFÍA GENERAL",
+          "start_page": 242,
+          "end_page": 247,
+          "style": "bulleted",
+          "n_segments": 87
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0082",
+      "document_id": "doc_38119a85f706",
+      "n_records": 188,
+      "n_zones": 1,
+      "records_sha256": "28f6c5bf0d46aed491d0d487777115a6d3fbaa35fabe9199aece49550d844d31",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 324,
+          "end_page": 337,
+          "style": "author_year_comma",
+          "n_segments": 188
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0083",
+      "document_id": "doc_9c6294b9f595",
+      "n_records": 157,
+      "n_zones": 1,
+      "records_sha256": "1287b63dfd2bb249eaa1c3cee1fcc9d16ec1a1cb4a75ceca2598fef88835d72d",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 279,
+          "end_page": 290,
+          "style": "bulleted",
+          "n_segments": 157
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0084",
+      "document_id": "doc_69266ce4272c",
+      "n_records": 268,
+      "n_zones": 1,
+      "records_sha256": "93a22087fed26eaa4ef1805243e47bd2f177281e3e4c888f7273f7ca88c586ef",
+      "zones": [
+        {
+          "heading": "5. Referencias bibliográficas 138 .",
+          "start_page": 279,
+          "end_page": 299,
+          "style": "author_year_comma",
+          "n_segments": 268
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0085",
+      "document_id": "doc_5259fb1ca8ef",
+      "n_records": 147,
+      "n_zones": 1,
+      "records_sha256": "5c86ac47647e26523a98eda6073fc1a78df5d9de86c2fc69c48b6ca07a3643c4",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 450,
+          "end_page": 461,
+          "style": "author_year_comma",
+          "n_segments": 147
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0086",
+      "document_id": "doc_4870aa9798d7",
+      "n_records": 267,
+      "n_zones": 1,
+      "records_sha256": "5403c3335389544248d44ad2af32f09aa98949337e6b6ff5702dd548a4cdf274",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 275,
+          "end_page": 298,
+          "style": "author_year_comma",
+          "n_segments": 267
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0087",
+      "document_id": "doc_9bb196b41466",
+      "n_records": 368,
+      "n_zones": 1,
+      "records_sha256": "b872a6c9cdda6075d5e87a5a917e64baf5c7257998fa3ca59271e8992f8c55b4",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 314,
+          "end_page": 344,
+          "style": "author_year_comma",
+          "n_segments": 368
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0088",
+      "document_id": "doc_29f36402f887",
+      "n_records": 73,
+      "n_zones": 1,
+      "records_sha256": "6328f9e534334f55443addfa6394b21d4c0cf1b3fbfe49bd3bd8db8e9b89d539",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas.",
+          "start_page": 255,
+          "end_page": 263,
+          "style": "author_year_comma",
+          "n_segments": 73
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0089",
+      "document_id": "doc_4d290d0f1b80",
+      "n_records": 153,
+      "n_zones": 1,
+      "records_sha256": "1499f66ababcdefada52286e895a294593d90d47f7576b7f10bbd1106a22f0f9",
+      "zones": [
+        {
+          "heading": "Bibliografía",
+          "start_page": 234,
+          "end_page": 251,
+          "style": "bulleted",
+          "n_segments": 153
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0090",
+      "document_id": "doc_241d591d1d7b",
+      "n_records": 129,
+      "n_zones": 1,
+      "records_sha256": "3a654ef40f127cfbfbcbea76cc1841e6edd18682087254dd20727b836300d7cd",
+      "zones": [
+        {
+          "heading": "R EFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 221,
+          "end_page": 229,
+          "style": "author_year_comma",
+          "n_segments": 129
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0091",
+      "document_id": "doc_741c8217983b",
+      "n_records": 81,
+      "n_zones": 1,
+      "records_sha256": "04f1d9909c092f5e4313cfb25616c9127edd8152de87bac3e2c97b32d0a7839a",
+      "zones": [
+        {
+          "heading": "Referencias generales",
+          "start_page": 188,
+          "end_page": 196,
+          "style": "author_year_comma",
+          "n_segments": 81
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0092",
+      "document_id": "doc_d4f553042e6c",
+      "n_records": 225,
+      "n_zones": 2,
+      "records_sha256": "c84796b9a1bfb7b4df451cf3dc75c15b40918d0814e164597ac167eaaa220923",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 9,
+          "end_page": 9,
+          "style": "mixed",
+          "n_segments": 0
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 221,
+          "end_page": 243,
+          "style": "author_year_comma",
+          "n_segments": 225
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0093",
+      "document_id": "doc_bed96a23460a",
+      "n_records": 542,
+      "n_zones": 1,
+      "records_sha256": "235f5c1c9723d6ee652a8e1fd544ff82c81759496dec783971d852ddf0a1d750",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 300,
+          "end_page": 323,
+          "style": "author_year_comma",
+          "n_segments": 542
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0094",
+      "document_id": "doc_7608f986b45f",
+      "n_records": 276,
+      "n_zones": 8,
+      "records_sha256": "3151deb6e21e1e4562f7047e772aa46ea77d9c557897bd717f0b8f3e5355674c",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 17,
+          "end_page": 31,
+          "style": "author_year_comma",
+          "n_segments": 31
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 42,
+          "end_page": 44,
+          "style": "author_year_comma",
+          "n_segments": 38
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 63,
+          "end_page": 65,
+          "style": "author_year_comma",
+          "n_segments": 15
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 94,
+          "end_page": 99,
+          "style": "author_year_comma",
+          "n_segments": 38
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 121,
+          "end_page": 123,
+          "style": "author_year_comma",
+          "n_segments": 27
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 133,
+          "end_page": 134,
+          "style": "author_year_comma",
+          "n_segments": 4
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 219,
+          "end_page": 220,
+          "style": "author_year_bare",
+          "n_segments": 18
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 237,
+          "end_page": 250,
+          "style": "author_year_comma",
+          "n_segments": 105
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0095",
+      "document_id": "doc_f388520bddf4",
+      "n_records": 211,
+      "n_zones": 1,
+      "records_sha256": "cd6e6c283947e719a922c37e76891253905e76a391f6587c7a895694f0cf56c7",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 316,
+          "end_page": 332,
+          "style": "author_year_comma",
+          "n_segments": 211
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0096",
+      "document_id": "doc_e378d7c016e8",
+      "n_records": 435,
+      "n_zones": 1,
+      "records_sha256": "e52d2a6fdfd11ba591187ec80365d55e55bcbeddfd0f839e37cdb31ba9a53ca5",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 568,
+          "end_page": 606,
+          "style": "author_year_comma",
+          "n_segments": 435
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0097",
+      "document_id": "doc_e0c5e93b041a",
+      "n_records": 495,
+      "n_zones": 1,
+      "records_sha256": "135123ff781013e14bdb758ab59d10fa97fd59a87ec9f0df4c251ff2196b6840",
+      "zones": [
+        {
+          "heading": "10 R EFERENCIAS",
+          "start_page": 218,
+          "end_page": 267,
+          "style": "author_year_comma",
+          "n_segments": 495
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0098",
+      "document_id": "doc_c87a148b0c71",
+      "n_records": 227,
+      "n_zones": 1,
+      "records_sha256": "96fde6288b48ee6968d128f82b158dabedc11ade7d1f6d0c439533540ee8658a",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 158,
+          "end_page": 178,
+          "style": "author_year_comma",
+          "n_segments": 227
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0099",
+      "document_id": "doc_e3ee5665c5c7",
+      "n_records": 159,
+      "n_zones": 1,
+      "records_sha256": "3414b954288484786f1f496f0a42eb7b21c081d89bfbfc5217b3d394d2f4473d",
+      "zones": [
+        {
+          "heading": "Zona inferida sin encabezado explícito",
+          "start_page": 259,
+          "end_page": 268,
+          "style": "author_year_comma",
+          "n_segments": 159
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0100",
+      "document_id": "doc_1e49ca2a75a8",
+      "n_records": 174,
+      "n_zones": 1,
+      "records_sha256": "9431089eeb12b7c571a0cab081fd7c8624cd1de10e8ed71b0b521856510ed558",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 222,
+          "end_page": 243,
+          "style": "author_year_comma",
+          "n_segments": 174
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0101",
+      "document_id": "doc_107d5ddb85c9",
+      "n_records": 331,
+      "n_zones": 2,
+      "records_sha256": "f0789e57e44237848470bbfc806545d428aee59bfa4edc09c053c96f32704d8f",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 314,
+          "end_page": 339,
+          "style": "author_year_comma",
+          "n_segments": 323
+        },
+        {
+          "heading": "4.- Referencias bibliográficas",
+          "start_page": 347,
+          "end_page": 348,
+          "style": "author_year_comma",
+          "n_segments": 8
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0102",
+      "document_id": "doc_258bba52bc46",
+      "n_records": 152,
+      "n_zones": 1,
+      "records_sha256": "b9a147e2728b7b8a1b3ffdf8ec0de2b6519564016bb05e973e1c26f1aa98f1d4",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 229,
+          "end_page": 239,
+          "style": "author_year_comma",
+          "n_segments": 152
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0103",
+      "document_id": "doc_8fb8c29ef179",
+      "n_records": 106,
+      "n_zones": 1,
+      "records_sha256": "363c48e561268d6a56def79511a632b36fee362483c43b5fda1b1c6d589dfa2f",
+      "zones": [
+        {
+          "heading": "Referencias citadas",
+          "start_page": 161,
+          "end_page": 175,
+          "style": "author_year_comma",
+          "n_segments": 106
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0104",
+      "document_id": "doc_dbe3c05255bc",
+      "n_records": 25,
+      "n_zones": 1,
+      "records_sha256": "d26f1e2e99aeb13c1f5df5659094ad81145e368692926e950b40167cc63aee38",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 292,
+          "end_page": 295,
+          "style": "bulleted",
+          "n_segments": 25
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0105",
+      "document_id": "doc_e7d848e97e69",
+      "n_records": 118,
+      "n_zones": 1,
+      "records_sha256": "fad60eaf14cb366ffecef6f83a45aba2282860ae20f948d64ea92fda25f20113",
+      "zones": [
+        {
+          "heading": "6. Referencias Bibliográficas",
+          "start_page": 155,
+          "end_page": 163,
+          "style": "author_year_comma",
+          "n_segments": 118
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0106",
+      "document_id": "doc_e8017935033e",
+      "n_records": 204,
+      "n_zones": 2,
+      "records_sha256": "1166218c8298ce224520423c2a912fe83e75bdb3eb42bf9cb2607e7ae172810f",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 226,
+          "end_page": 245,
+          "style": "author_year_comma",
+          "n_segments": 186
+        },
+        {
+          "heading": "NORMATIVA CONSULTADA",
+          "start_page": 245,
+          "end_page": 248,
+          "style": "author_year_comma",
+          "n_segments": 18
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0107",
+      "document_id": "doc_7057ed036636",
+      "n_records": 310,
+      "n_zones": 1,
+      "records_sha256": "3d4a8c83d815980e861fe4d97e4d605e1c431b74ef343e79132286ef93964b1a",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 165,
+          "end_page": 193,
+          "style": "author_year_comma",
+          "n_segments": 310
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0108",
+      "document_id": "doc_8d4c0cd9847d",
+      "n_records": 474,
+      "n_zones": 1,
+      "records_sha256": "16a8263df9664665032e9acaab0cb6c8ae9970ffa0961bd87921acaa748352fd",
+      "zones": [
+        {
+          "heading": "BIBLIOGRAFÍA",
+          "start_page": 470,
+          "end_page": 493,
+          "style": "author_year_comma",
+          "n_segments": 474
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0109",
+      "document_id": "doc_bb570c2d3c11",
+      "n_records": 435,
+      "n_zones": 14,
+      "records_sha256": "8e477ad5da862b4d416f397d76aeda2f11379f976b31701bfda51f302c212525",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 27,
+          "end_page": 29,
+          "style": "author_year_comma",
+          "n_segments": 10
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 46,
+          "end_page": 49,
+          "style": "author_year_comma",
+          "n_segments": 41
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 78,
+          "end_page": 82,
+          "style": "author_year_comma",
+          "n_segments": 53
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 113,
+          "end_page": 115,
+          "style": "author_year_comma",
+          "n_segments": 26
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 141,
+          "end_page": 144,
+          "style": "author_year_comma",
+          "n_segments": 38
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 167,
+          "end_page": 170,
+          "style": "author_year_comma",
+          "n_segments": 30
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 197,
+          "end_page": 199,
+          "style": "author_year_comma",
+          "n_segments": 21
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 235,
+          "end_page": 237,
+          "style": "author_year_comma",
+          "n_segments": 38
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 260,
+          "end_page": 263,
+          "style": "author_year_comma",
+          "n_segments": 37
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 294,
+          "end_page": 297,
+          "style": "author_year_comma",
+          "n_segments": 39
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 323,
+          "end_page": 324,
+          "style": "author_year_comma",
+          "n_segments": 25
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 355,
+          "end_page": 357,
+          "style": "author_year_comma",
+          "n_segments": 32
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 389,
+          "end_page": 391,
+          "style": "author_year_comma",
+          "n_segments": 33
+        },
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 409,
+          "end_page": 410,
+          "style": "author_year_comma",
+          "n_segments": 12
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0110",
+      "document_id": "doc_a1af11f2ef15",
+      "n_records": 59,
+      "n_zones": 1,
+      "records_sha256": "8dce21aef5797ed6651a372b02bd9e044773506a4c266579d4e2032cf9ff97b3",
+      "zones": [
+        {
+          "heading": "Referencias Generales",
+          "start_page": 151,
+          "end_page": 161,
+          "style": "author_year_comma",
+          "n_segments": 59
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0111",
+      "document_id": "doc_b7f31b363bfc",
+      "n_records": 55,
+      "n_zones": 1,
+      "records_sha256": "590242d27c6906dd8bb9f6ad7244fa72c3668c8da4df62ebe3bbb0b1b46f62eb",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 150,
+          "end_page": 153,
+          "style": "author_year_comma",
+          "n_segments": 55
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0112",
+      "document_id": "doc_e6d70e51ecab",
+      "n_records": 204,
+      "n_zones": 2,
+      "records_sha256": "8f13367c9820673d29c69858140d03647bfd2f19efe472d9f3e8c7af75b170bf",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 241,
+          "end_page": 243,
+          "style": "author_year_comma",
+          "n_segments": 21
+        },
+        {
+          "heading": "Bibliografía",
+          "start_page": 244,
+          "end_page": 263,
+          "style": "author_year_comma",
+          "n_segments": 183
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0113",
+      "document_id": "doc_fd37e619de65",
+      "n_records": 186,
+      "n_zones": 1,
+      "records_sha256": "ba70b2ba9edfd9e0869f77371cd099d007b3ea929d8737964c5f541f651b37c3",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 206,
+          "end_page": 224,
+          "style": "author_year_comma",
+          "n_segments": 186
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0114",
+      "document_id": "doc_ea36d2ecd3dd",
+      "n_records": 266,
+      "n_zones": 1,
+      "records_sha256": "1b877e65cf1eda58e1ac931451fb325969248c0e425700cbf7eb192ae4b70fe9",
+      "zones": [
+        {
+          "heading": "10. REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 279,
+          "end_page": 310,
+          "style": "author_year_comma",
+          "n_segments": 266
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0115",
+      "document_id": "doc_dcc1b48475e9",
+      "n_records": 173,
+      "n_zones": 1,
+      "records_sha256": "46f3118da2868845a97409dc58d00967fe2ab297928c62e2bb8c4df0360ee257",
+      "zones": [
+        {
+          "heading": "Referencias y Bibliografía",
+          "start_page": 167,
+          "end_page": 181,
+          "style": "author_year_comma",
+          "n_segments": 173
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0116",
+      "document_id": "doc_1c2b539de4dc",
+      "n_records": 460,
+      "n_zones": 1,
+      "records_sha256": "2ea67285f4bba63b1386cbcb6d2b84ee228a8c0b79c3d8b070dc12967863c2d6",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 240,
+          "end_page": 278,
+          "style": "author_year_comma",
+          "n_segments": 460
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0117",
+      "document_id": "doc_ea96edd6586a",
+      "n_records": 201,
+      "n_zones": 1,
+      "records_sha256": "b4c1ddc4c7a5d7101fd8aabafcd41d97bc8a63b3aee9232c99aa2ee72608e5d5",
+      "zones": [
+        {
+          "heading": "8.1 Referencias bibliográficas",
+          "start_page": 243,
+          "end_page": 267,
+          "style": "author_year_comma",
+          "n_segments": 201
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0118",
+      "document_id": "doc_545e3c45935b",
+      "n_records": 228,
+      "n_zones": 1,
+      "records_sha256": "dec6c9a8513111e83a288baca845962e146aa5fd872a2d75c53e26cce25937f9",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 243,
+          "end_page": 260,
+          "style": "author_year_comma",
+          "n_segments": 228
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0119",
+      "document_id": "doc_20283a27ab40",
+      "n_records": 145,
+      "n_zones": 1,
+      "records_sha256": "7000b2cb2a90d6a8e622f2f1579740fd58953910207da2a9dfb8f012ae1f0f8d",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 260,
+          "end_page": 276,
+          "style": "author_year_comma",
+          "n_segments": 145
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0120",
+      "document_id": "doc_7e95964abf4a",
+      "n_records": 185,
+      "n_zones": 2,
+      "records_sha256": "78ea15c04a29afb1ffc0de82ac64c9e4993821aa10e5186d0afa7e69e59a519d",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 255,
+          "end_page": 279,
+          "style": "author_year_comma",
+          "n_segments": 165
+        },
+        {
+          "heading": "Referencias",
+          "start_page": 311,
+          "end_page": 314,
+          "style": "author_year_comma",
+          "n_segments": 20
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0121",
+      "document_id": "doc_21ef50f1767a",
+      "n_records": 236,
+      "n_zones": 1,
+      "records_sha256": "1dfb820d75b648f5562cc9d144be5864374230e59b8699fd9aeab2b7c47428a0",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 382,
+          "end_page": 408,
+          "style": "author_year_comma",
+          "n_segments": 236
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0122",
+      "document_id": "doc_35caa9b72ad9",
+      "n_records": 169,
+      "n_zones": 1,
+      "records_sha256": "6281f6c3eec2950425ec24435706a05e866e5a01f5f3f45e5759e53346bb0006",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 336,
+          "end_page": 346,
+          "style": "author_year_comma",
+          "n_segments": 169
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0123",
+      "document_id": "doc_729b94bd7df1",
+      "n_records": 158,
+      "n_zones": 1,
+      "records_sha256": "b1a7fd63e82e0c0447cd74a5f48f0bd9ab3889a7155f44b0a8e6d3c125556770",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 262,
+          "end_page": 278,
+          "style": "bulleted",
+          "n_segments": 158
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0124",
+      "document_id": "doc_befad912cc27",
+      "n_records": 134,
+      "n_zones": 1,
+      "records_sha256": "25907f997d267de5060338b6ecfb20a4f1397fcec414e9a2a4d3464dd289e67f",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 245,
+          "end_page": 259,
+          "style": "author_year_comma",
+          "n_segments": 134
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0125",
+      "document_id": "doc_64d8af90dc0e",
+      "n_records": 356,
+      "n_zones": 1,
+      "records_sha256": "94a2a87548269326ab790a5823de10a2e439e0a3509337bdbcd0df35fbd1f13d",
+      "zones": [
+        {
+          "heading": "8. Referencias Bibliográficas",
+          "start_page": 172,
+          "end_page": 220,
+          "style": "author_year_comma",
+          "n_segments": 356
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0126",
+      "document_id": "doc_ab787129b02a",
+      "n_records": 117,
+      "n_zones": 1,
+      "records_sha256": "7e8da54bdf61f07008272f077e55269f8a3424a41e138e17c06d98372000e6d2",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 245,
+          "end_page": 257,
+          "style": "author_year_comma",
+          "n_segments": 117
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0127",
+      "document_id": "doc_09dbae00c423",
+      "n_records": 223,
+      "n_zones": 1,
+      "records_sha256": "f7f377ba67933cbc293defe4b05e53ed0eeead1664a13e44ca869fdbeb893f1a",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 164,
+          "end_page": 187,
+          "style": "author_year_comma",
+          "n_segments": 223
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0128",
+      "document_id": "doc_96957cdcb245",
+      "n_records": 489,
+      "n_zones": 1,
+      "records_sha256": "92ee9f4465e2d75c6f9967929a3f64d314da3c72b1c07aad58a58f4bcad891ff",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 129,
+          "end_page": 182,
+          "style": "author_year_comma",
+          "n_segments": 489
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0129",
+      "document_id": "doc_023a950a899f",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0130",
+      "document_id": "doc_aebb35df982a",
+      "n_records": 218,
+      "n_zones": 1,
+      "records_sha256": "fa95ecad89ad3695d153b1f118f181546e5d7e698bedae96dd3209a81896cf4e",
+      "zones": [
+        {
+          "heading": "Lista de Referencias",
+          "start_page": 97,
+          "end_page": 112,
+          "style": "author_year_comma",
+          "n_segments": 218
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0131",
+      "document_id": "doc_efd40151a501",
+      "n_records": 164,
+      "n_zones": 1,
+      "records_sha256": "52974578076a88cae2f7123093dcaed398e9d2b5de4131ebd4afbf15a5798f22",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 99,
+          "end_page": 124,
+          "style": "author_year_comma",
+          "n_segments": 164
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0132",
+      "document_id": "doc_b68c0a745f40",
+      "n_records": 421,
+      "n_zones": 1,
+      "records_sha256": "31911570e30529573f2e1f1ffc85d46203a02884a9b84f291cb5b9922680bdbb",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 167,
+          "end_page": 212,
+          "style": "author_year_comma",
+          "n_segments": 421
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0133",
+      "document_id": "doc_65242f30c513",
+      "n_records": 160,
+      "n_zones": 1,
+      "records_sha256": "6eb99d8475321603758bf5dfe6afd16830c5577a10cb4c514bdd548298a6d21e",
+      "zones": [
+        {
+          "heading": "Bibliografía",
+          "start_page": 194,
+          "end_page": 206,
+          "style": "author_year_comma",
+          "n_segments": 160
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0134",
+      "document_id": "doc_d7f4237e451a",
+      "n_records": 814,
+      "n_zones": 1,
+      "records_sha256": "951608716e7baaefb8ff0ee2e688585e931fed2147d07f89e3ea6e7bba138514",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 192,
+          "end_page": 225,
+          "style": "author_year_comma",
+          "n_segments": 814
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0135",
+      "document_id": "doc_10ac35217aa1",
+      "n_records": 241,
+      "n_zones": 1,
+      "records_sha256": "4cb3ae606f3e09c8b9f5bac5641051b42d63e248747c64f66ca3975a2c5a2b6d",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 156,
+          "end_page": 168,
+          "style": "author_year_comma",
+          "n_segments": 241
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0136",
+      "document_id": "doc_8c5d8b5a063e",
+      "n_records": 562,
+      "n_zones": 8,
+      "records_sha256": "0f2ee0acc600123b96ea5ca0dffcc1a8fdba6dc191ca10ddfc4b25d6390d8d95",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas:",
+          "start_page": 475,
+          "end_page": 499,
+          "style": "bulleted",
+          "n_segments": 562
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0137",
+      "document_id": "doc_26d5e002cc3a",
+      "n_records": 72,
+      "n_zones": 1,
+      "records_sha256": "7c89270beabad46dafdb860a73c0940e91bd06eabc202fe27804a35057ca71a1",
+      "zones": [
+        {
+          "heading": "G) BIBLIOGRAFIA GENERAL",
+          "start_page": 81,
+          "end_page": 85,
+          "style": "author_year_bare",
+          "n_segments": 72
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0138",
+      "document_id": "doc_7477f3078169",
+      "n_records": 508,
+      "n_zones": 1,
+      "records_sha256": "b7a63b645a8a872575d954e08682f8030cec86912155e19106a6adad8ff9a8b9",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 118,
+          "end_page": 155,
+          "style": "author_year_comma",
+          "n_segments": 508
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0139",
+      "document_id": "doc_184e0f4885f9",
+      "n_records": 212,
+      "n_zones": 1,
+      "records_sha256": "f6294d39bf5e67f6b7e64028bde4e7c27a042f7c7309102f473f76097b2aed9f",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 187,
+          "end_page": 204,
+          "style": "author_year_comma",
+          "n_segments": 212
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0140",
+      "document_id": "doc_af0442feef9b",
+      "n_records": 0,
+      "n_zones": 0,
+      "records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zones": []
+    },
+    {
+      "thesis_id": "T0141",
+      "document_id": "doc_203c54b99490",
+      "n_records": 270,
+      "n_zones": 1,
+      "records_sha256": "0a043b9b86505790c7fd389c715b4147c69e3e5c7c9c6702b3e6edc5e91dc311",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 208,
+          "end_page": 232,
+          "style": "author_year_comma",
+          "n_segments": 270
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0142",
+      "document_id": "doc_da5547af4f62",
+      "n_records": 212,
+      "n_zones": 1,
+      "records_sha256": "d4e4853d589f0dae5b9eea3c86c5be4a1f1b15a45d21412a46af86c9e6b1da98",
+      "zones": [
+        {
+          "heading": "REFERENCIAS",
+          "start_page": 230,
+          "end_page": 244,
+          "style": "author_year_comma",
+          "n_segments": 212
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0143",
+      "document_id": "doc_16ef6f3ef553",
+      "n_records": 489,
+      "n_zones": 1,
+      "records_sha256": "92ee9f4465e2d75c6f9967929a3f64d314da3c72b1c07aad58a58f4bcad891ff",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 129,
+          "end_page": 182,
+          "style": "author_year_comma",
+          "n_segments": 489
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0144",
+      "document_id": "doc_e3aedbb622d8",
+      "n_records": 263,
+      "n_zones": 1,
+      "records_sha256": "a24c4f534fc1dc1d2cfa69f4c25a68c70744645e59955395c531ecbadb1491ec",
+      "zones": [
+        {
+          "heading": "Referencias",
+          "start_page": 240,
+          "end_page": 259,
+          "style": "author_year_comma",
+          "n_segments": 263
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0145",
+      "document_id": "doc_ac127e7c74b6",
+      "n_records": 72,
+      "n_zones": 1,
+      "records_sha256": "7c89270beabad46dafdb860a73c0940e91bd06eabc202fe27804a35057ca71a1",
+      "zones": [
+        {
+          "heading": "G) BIBLIOGRAFIA GENERAL",
+          "start_page": 81,
+          "end_page": 85,
+          "style": "author_year_bare",
+          "n_segments": 72
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0146",
+      "document_id": "doc_1552d45da5b2",
+      "n_records": 157,
+      "n_zones": 1,
+      "records_sha256": "1287b63dfd2bb249eaa1c3cee1fcc9d16ec1a1cb4a75ceca2598fef88835d72d",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 279,
+          "end_page": 290,
+          "style": "bulleted",
+          "n_segments": 157
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0147",
+      "document_id": "doc_5f664f83176c",
+      "n_records": 445,
+      "n_zones": 1,
+      "records_sha256": "edd167f50d405e8a9653239f1a232ab4b190e1e229ebf8125da6e77707b11bff",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 199,
+          "end_page": 222,
+          "style": "author_year_comma",
+          "n_segments": 445
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0148",
+      "document_id": "doc_20240596f33d",
+      "n_records": 181,
+      "n_zones": 1,
+      "records_sha256": "cbaedf31408c40b368d0721bf380d7dbe89bdc387a74b1c4c6e1c786b3416f99",
+      "zones": [
+        {
+          "heading": "REFERENCIAS BIBLIOGRÁFICAS",
+          "start_page": 292,
+          "end_page": 304,
+          "style": "bulleted",
+          "n_segments": 181
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0149",
+      "document_id": "doc_891e02534151",
+      "n_records": 151,
+      "n_zones": 1,
+      "records_sha256": "0b9ddbe6f5d0de9b73e1c8befc7150a4178d989f3f2355abaf347a384d7b26ca",
+      "zones": [
+        {
+          "heading": "Referencias bibliográficas",
+          "start_page": 149,
+          "end_page": 155,
+          "style": "author_year_comma",
+          "n_segments": 151
+        }
+      ]
+    },
+    {
+      "thesis_id": "T0150",
+      "document_id": "doc_fdaf2a311b60",
+      "n_records": 59,
+      "n_zones": 1,
+      "records_sha256": "5a97b968784448a89f3d65acb9a88e28f072ea6db0e3876ee6b9bc9b52f9efa8",
+      "zones": [
+        {
+          "heading": "Referencias Bibliográficas",
+          "start_page": 390,
+          "end_page": 395,
+          "style": "author_year_comma",
+          "n_segments": 59
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "bundle_schema": "biblioref-field-test-1",
+  "generated_at_utc": "2026-09-03T00:55:46.044211+00:00",
+  "input": {
+    "filename": "PARSER_V0_11_PALMA_PREDICTIONS.csv",
+    "sha256": "e52cb2c4f1989bb58af105bdfe6977a8b2445419eea39e80be185ad17098d093",
+    "n_references": 322,
+    "n_zones": 1
+  },
+  "versions": {
+    "software_version": "0.9.8",
+    "algorithm_version": "0.6.4",
+    "stable_engine_version": "0.4.5",
+    "parser_version_expected": "biblioref-parser-v0.11",
+    "styleprofiler_version": "biblioref-styleprofiler-v0.1-shadow",
+    "core_mutated_by_helper": false
+  },
+  "observed_parser_versions": [
+    "biblioref-parser-v0.11"
+  ],
+  "parser_version_mismatch": false,
+  "parse_route_distribution": {
+    "legacy_parenthetical_or_fallback+v11_legacy_year_final": 317,
+    "bare_year+v11_legacy_year_final": 1,
+    "legacy_parenthetical_or_fallback": 4
+  },
+  "publication_type_distribution": {
+    "material_web": 38,
+    "libro": 179,
+    "conference_paper": 14,
+    "capitulo_libro": 10,
+    "articulo_revista": 69,
+    "documento_guia_manual": 6,
+    "informe_documento": 2,
+    "sin_clasificar": 3,
+    "tesis": 1
+  },
+  "parsed_field_coverage": {
+    "author": 0.9596,
+    "year": 0.9037,
+    "title": 1.0,
+    "journal": 0.2143,
+    "publisher": 0.4099,
+    "doi": 0.0
+  },
+  "style_zone_summary": [
+    {
+      "zone_id": "1",
+      "n_references": 322,
+      "family": "author_year",
+      "likely_style": "unknown",
+      "variant": "legacy_year_final",
+      "consistency": 1.0,
+      "mixed_style": false
+    }
+  ],
+  "files": {
+    "style_profile": "T0004_doc_ab8dad6315c3_style_profile.json",
+    "diagnostics": "T0004_doc_ab8dad6315c3_parser_profiler_diagnostics.csv",
+    "optional_review_template": "T0004_doc_ab8dad6315c3_optional_review_template.csv"
+  },
+  "warnings": [],
+  "interpretation_warning": "StyleProfiler v0.1 is shadow-only. likely_style is morphological similarity, not normative compliance. evidence_score is not a calibrated probability."
+}

@@ -1,0 +1,65 @@
+{
+  "check": "extraction_equivalence_v0.9.6_vs_v0.9.7",
+  "method": "sha256 of {records, zones} from the effective stable route, identical PDF input",
+  "documents": [
+    {
+      "id": "tesis_furfural_UNLP",
+      "pages": 162,
+      "v0_9_6": {
+        "zones": 2,
+        "records": 5,
+        "records_zones_sha256": "see report"
+      },
+      "v0_9_7": {
+        "zones": 6,
+        "records": 72
+      },
+      "identical": false,
+      "note": "target document: en-dash chapter prefixes and [n]- markers"
+    },
+    {
+      "id": "tesis_quimica_300p",
+      "pages": 300,
+      "v0_9_6": {
+        "zones": 10,
+        "records": 28,
+        "records_zones_sha256": "1dae771d2e773ad1"
+      },
+      "v0_9_7": {
+        "zones": 10,
+        "records": 28,
+        "records_zones_sha256": "1dae771d2e773ad1"
+      },
+      "identical": true,
+      "note": "bare-number markers; unaffected by v0.9.7"
+    },
+    {
+      "id": "tesis_humanidades_449p",
+      "pages": 449,
+      "v0_9_6": {
+        "zones": 1,
+        "records": 78,
+        "records_zones_sha256": "b6b791f69897eb7f"
+      },
+      "v0_9_7": {
+        "zones": 1,
+        "records": 78,
+        "records_zones_sha256": "b6b791f69897eb7f"
+      },
+      "identical": true,
+      "note": "dotted repeated-author markers; unaffected by v0.9.7"
+    }
+  ],
+  "fixture_lines": {
+    "n": 752,
+    "style_profile_identical": true,
+    "per_line_marker_identical": true,
+    "per_line_heading_tests_identical": true
+  },
+  "test_suite": {
+    "n_passed": 485,
+    "n_skipped": 3,
+    "behavioural_failures": 0,
+    "note": "the only failures before updating were version-string assertions"
+  }
+}

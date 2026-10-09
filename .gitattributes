@@ -1,0 +1,42 @@
+# Frozen parser gold files were hashed in the release artifacts with CRLF bytes.
+# Force the same worktree representation on every platform so byte-level freeze
+# tests remain meaningful and do not fail merely because Git normalized EOLs.
+parser_baseline/reserve_v03/PARSER_V03_RESERVE_STRICT_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v04/PARSER_V04_EXTERNAL_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v05/PARSER_V05_ABNT_EXTERNAL_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v06/PARSER_V06_ABNT_EXTERNAL_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v07/PARSER_V07_EXTERNAL_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v08/PARSER_V08_EXTERNAL_GOLD_FROZEN.csv text eol=crlf
+parser_baseline/holdout_v08/PARSER_V08_STRESS_GOLD_FROZEN.csv text eol=crlf
+
+# The extraction-core non-regression declarations (EXTRACTION_CORE_NONREGRESSION_V0*)
+# hash these files as they were edited, with LF bytes. On a machine with
+# core.autocrlf=true a plain checkout smudges them to CRLF, which changes the
+# hash without changing a single character and breaks every DeclarationTests
+# class that reads the tree back. Same fix as the parser gold files above.
+biblioref/adaptive/discovery.py text eol=lf
+biblioref/adaptive/verification.py text eol=lf
+biblioref/audit/coverage.py text eol=lf
+biblioref/core/config.py text eol=lf
+biblioref/core/patterns.py text eol=lf
+biblioref/detection/fallback.py text eol=lf
+biblioref/detection/repair.py text eol=lf
+biblioref/detection/signals.py text eol=lf
+biblioref/extraction/boundary_reconciliation.py text eol=lf
+biblioref/extraction/effective_repairs.py text eol=lf
+biblioref/extraction/numeric_rescue.py text eol=lf
+biblioref/extraction/resegmentation.py text eol=lf
+biblioref/extraction/structural_reconciliation.py text eol=lf
+biblioref/extraction/url_rejoin.py text eol=lf
+biblioref/parsing/v09.py text eol=lf
+biblioref/pipeline.py text eol=lf
+biblioref_page_boundary.py text eol=lf
+biblioref_page_decorations.py text eol=lf
+biblioref_paragraph_flow.py text eol=lf
+biblioref_v0_2.py text eol=lf
+biblioref_v0_3.py text eol=lf
+biblioref_v0_4.py text eol=lf
+
+# Frozen downstream parser versions are hashed by the tests_app freeze tests
+# with LF bytes; keep them LF on checkouts with core.autocrlf=true.
+biblioref/parsing/v[0-9]*.py text eol=lf

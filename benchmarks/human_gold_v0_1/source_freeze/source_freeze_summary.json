@@ -1,0 +1,43 @@
+{
+  "acquisition_accepted_unique": 41,
+  "acquisition_observations": 102,
+  "expansion_snapshot_sha256": "c9665ecb992221a2fd0a6c87d9edbf6842dc50375a65f123c242d068de619e9d",
+  "expansion_used": true,
+  "human_annotation_exists": false,
+  "pilot_n": 6,
+  "primary_metrics_observed": false,
+  "primary_n": 32,
+  "primary_summary": {
+    "countries": 15,
+    "languages": 11,
+    "max_per_repository": 5,
+    "primary_n": 32,
+    "repositories": 23,
+    "time_bands": {
+      "2015_2020": 12,
+      "2021_2026": 10,
+      "pre_2015": 10
+    }
+  },
+  "rejection_reasons": {
+    "access_denied": 11,
+    "http_error": 6,
+    "metadata_partial_bitstream": 14,
+    "non_pdf_response": 17,
+    "transport_failure": 10,
+    "unstable_repeated_download": 3
+  },
+  "selected_before_biblioref_run": true,
+  "selection_seed": 20260913,
+  "stress_document_ids": [
+    "hg_openalex_w7133433584",
+    "hg_openalex_w2954587111",
+    "hg_openalex_w1879132295",
+    "hg_openalex_w7202014070",
+    "hg_openalex_w3044447731",
+    "hg_openalex_w1529797151",
+    "hg_openalex_w7119260266",
+    "hg_openalex_w2506900383"
+  ],
+  "stress_n": 8
+}

@@ -1,0 +1,11 @@
+file,sha256,pymupdf_zones,pdfium_zones,pymupdf_records,pdfium_records,pymupdf_unique,pdfium_unique,pymupdf_duplicate_groups,pdfium_duplicate_groups,summary_equal,semantic_zones_exact,bibliographic_records_equivalent,min_reference_text_similarity,possible_content_superset_count,strict_raw_gate,migration_gate,pymupdf_seconds,pdfium_seconds,pdfium_over_pymupdf,algorithm_version
+SEDICI_HUM_022.pdf,b54a87cef082f496ae02c639be14fd5800d2f98bc6b49a66d15426e6aace6fc2,1,1,206,206,206,206,0,0,True,True,True,1.0,0,False,True,5.671526,6.273995,1.106227,0.6.7
+SEDICI_HUM_055.pdf,cd99639fc7dbb4ebb8f34310eabd5b290286c2a6831b816c6ed91bcd8b33be19,1,1,10,10,10,10,0,0,True,True,True,1.0,0,False,True,3.003892,6.991021,2.327321,0.6.7
+SEDICI_HUM_090.pdf,2c76f2dc865b27dc4ddd4c363a7df7fff5c25aeabb424f3de600fabe1bc60a35,0,0,0,0,0,0,0,0,True,True,True,1.0,0,True,True,3.134741,12.371441,3.946559,0.6.7
+SEDICI_HUM_092.pdf,74e24f48d304ca2d8c7e68aafd067585b781571e9029d56b91c31ebe96664a6d,12,12,395,395,392,392,3,3,True,True,True,1.0,0,False,True,16.072734,21.365449,1.329298,0.6.7
+SEDICI_HUM_093.pdf,6d5bb84c5438a1102941d44e66fd9d775efc529e9c074df57abbe59de3e9dc3b,0,0,0,0,0,0,0,0,True,True,True,1.0,0,True,True,3.257799,15.576707,4.781359,0.6.7
+SEDICI_HUM_094.pdf,58814380e783bd4d959fa9befc3b81420a70573336c8889ea46e49e66919e71a,1,1,220,220,220,220,0,0,True,True,True,1.0,0,False,True,4.017709,4.342018,1.08072,0.6.7
+SEDICI_HUM_097.pdf,6033e7cd07ac162957004fb78f98a3f215ab5823eaac22b184cea4cfd15f9f7a,2,2,390,390,389,389,1,1,True,True,True,0.833333,1,False,True,7.782082,8.884008,1.141598,0.6.7
+SEDICI_HUM_098.pdf,1f9d2dbe0c92a765b7d6bdd67020049db1890fc95fa1bc4b49565f7bca77d6ad,2,2,436,436,432,432,4,4,True,True,True,1.0,0,False,True,9.144638,10.210742,1.116582,0.6.7
+SEDICI_HUM_099.pdf,7bd0b280be1cbcdd9c2f05b1f1e6deb5988f957603f59d3cd2f7574988d5dee6,1,1,82,82,82,82,0,0,True,True,True,1.0,0,True,True,2.531467,3.007315,1.187973,0.6.7
+SEDICI_HUM_100.pdf,847777f84dbb46483035cf4cdee51ee19769604c59c4f897cc544d926831f012,1,1,130,130,130,130,0,0,True,True,True,1.0,0,False,True,3.443114,4.657446,1.352684,0.6.7

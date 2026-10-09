@@ -1,0 +1,56 @@
+{
+  "affected_rows": 0,
+  "baseline_v04": {
+    "n": 29027,
+    "journal_gold": 16439,
+    "journal_hit": 13008,
+    "journal_cov": 13954,
+    "type_target": 29027,
+    "type_hit": 24335,
+    "pub_gold": 7810,
+    "pub_hit": 7316,
+    "pub_cov": 7455,
+    "journal_fuzzy90": 0.7912890078471927,
+    "journal_coverage": 0.8488350872924144,
+    "type_high_accuracy": 0.8383573913942192,
+    "publisher_exact": 0.9367477592829706,
+    "publisher_coverage": 0.9545454545454546
+  },
+  "candidate_v05": {
+    "n": 29027,
+    "journal_gold": 16439,
+    "journal_hit": 13008,
+    "journal_cov": 13954,
+    "type_target": 29027,
+    "type_hit": 24335,
+    "pub_gold": 7810,
+    "pub_hit": 7316,
+    "pub_cov": 7455,
+    "journal_fuzzy90": 0.7912890078471927,
+    "journal_coverage": 0.8488350872924144,
+    "type_high_accuracy": 0.8383573913942192,
+    "publisher_exact": 0.9367477592829706,
+    "publisher_coverage": 0.9545454545454546
+  },
+  "deltas": {
+    "journal_hit": 0,
+    "journal_cov": 0,
+    "type_hit": 0,
+    "pub_hit": 0,
+    "pub_cov": 0
+  },
+  "paired_on_affected_targets": {
+    "journal": {
+      "improved": 0,
+      "regressed": 0
+    },
+    "publisher": {
+      "improved": 0,
+      "regressed": 0
+    },
+    "type": {
+      "improved": 0,
+      "regressed": 0
+    }
+  }
+}

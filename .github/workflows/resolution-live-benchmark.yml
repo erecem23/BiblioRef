@@ -1,0 +1,51 @@
+name: Resolution Live Benchmark
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    name: Real-work metadata + semantic benchmark
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    continue-on-error: true
+    env:
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      TOKENIZERS_PARALLELISM: "false"
+
+    steps:
+      - name: Checkout selected ref
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-app.txt
+
+      - name: Install app and semantic benchmark dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-app.txt sentence-transformers
+
+      - name: Run real-work benchmark and semantic threshold sweep
+        run: |
+          python -m biblioref.resolver.benchmark \
+            benchmarks/resolution_gold_v0_1.jsonl \
+            --semantic \
+            --output resolution_benchmark_results.json \
+            | tee resolution_benchmark_summary.txt
+
+      - name: Upload benchmark evidence
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: resolution-benchmark-v0-1
+          path: |
+            resolution_benchmark_results.json
+            resolution_benchmark_summary.txt
+          if-no-files-found: warn

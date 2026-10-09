@@ -1,0 +1,19 @@
+{
+  "case_id": "UNC_FERREYRA_2017",
+  "institution": "Universidad Nacional de Córdoba",
+  "document_title": "El Suicidio en la ciudad de Formosa conforme a los registros del año 2007 al 2012: aplicación del MAPI a los casos obrantes de la justicia",
+  "pdf_sha256": "fca84979f450a97d3dff67d391698cc00c306242df95ac9b86c6243e1c4f2303",
+  "pdf_included": false,
+  "bibliography_pages_physical": [158, 172],
+  "bibliography_heading": "Bibliografía",
+  "audited_reference_count": 102,
+  "pre_fix_v0_9_9_count": 109,
+  "post_fix_v0_9_9_count": 102,
+  "pre_fix_boundary_errors": {
+    "false_positive_boundaries": 8,
+    "missed_boundaries": 1,
+    "pattern": "strong hanging indent; weak bare-year starts at continuation margin plus institutional author with year on next line"
+  },
+  "expected_effective_repair": "0.6.5-hanging-indent-boundary2",
+  "notes": "External field-test case. PDF supplied by user; store only hash/expectations in release bundle. Parser v0.11 remains frozen."
+}

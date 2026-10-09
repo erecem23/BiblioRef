@@ -1,0 +1,482 @@
+{
+  "protocol": "former v0.8.7 fresh holdout; converted to v0.8.8 development/regression after v0.8.7 freeze",
+  "geometry": "authentic indexed PDF text + authentic page breaks; neutral reconstructed x/y coordinates because PDF screenshot/byte materialization failed in runtime",
+  "cases": [
+    {
+      "case": "waikato_wang_traffic_cone",
+      "institution": "University of Waikato",
+      "country": "New Zealand",
+      "area": "Engineering / product design",
+      "style": "unnumbered author-year; multiline",
+      "url": "https://researchcommons.waikato.ac.nz/bitstream/10289/11638/1/thesis.pdf",
+      "source_lines": "PDF p.95, web indexed lines 1710-1734",
+      "window": "first 12 consecutive references; boundary-relevant line excerpts",
+      "lines": [
+        [
+          95,
+          "Archer, L. B. (1984) “Systematic Method For Designers”, in Cross, N."
+        ],
+        [
+          95,
+          "(ed.) Developments in Design Methodology: John Wiley & Sons Ltd."
+        ],
+        [
+          95,
+          "Barkan, P., & Hinckly, C. (1993) The benefits and limitations of"
+        ],
+        [
+          95,
+          "structured design methodologies: Manufacturing Review6(3):211-220."
+        ],
+        [
+          95,
+          "Brannan, B. (1991) Six sigma quality and DFA: Boothroyd and"
+        ],
+        [
+          95,
+          "Dewhurst DFMATM Insight2(1):1-3."
+        ],
+        [
+          95,
+          "CATTINI, A. (1999) The Application Of design For Recyclability"
+        ],
+        [
+          95,
+          "Principles Within A Customer-Based Design Method, MPHIL Thesis, South Bank University,"
+        ],
+        [
+          95,
+          "Cleary, T. (1988) The art of war: by Sun Tzu. New York:Random"
+        ],
+        [
+          95,
+          "House."
+        ],
+        [
+          95,
+          "Cross, N. (1989) Engineering Design Methods: John Wiley & Sons."
+        ],
+        [
+          95,
+          "Jones, J. C. (1984) Developments in Design Methodology: Wiley,"
+        ],
+        [
+          95,
+          "Chichester."
+        ],
+        [
+          95,
+          "Kepner, C. H. & Benjamin, B. T (1965) The Rational Manager:"
+        ],
+        [
+          95,
+          "McGraw-Hill."
+        ],
+        [
+          95,
+          "Lefever, D., & Wood, K. (1996) Design for assembly techniques in"
+        ],
+        [
+          95,
+          "reverse engineering and redesign: Proceedings of the 1996 ASME Design Theory and Methodology Conference."
+        ],
+        [
+          95,
+          "Otto, K. N. & Wood, K. L. (2001) Product Design: Prentice Hall."
+        ],
+        [
+          95,
+          "Pugh, S. (1991) Total Design: Addison-Wesley."
+        ],
+        [
+          95,
+          "Roozenburg, N. F. M. & Eekels, J. (1991) Product Design:"
+        ],
+        [
+          95,
+          "Fundamentals and Methods: John Wiley & Sons."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "window_sha256": "b411d10c924516de03188b556c119a18d7c5f0117e3013497164222940c8f81d",
+      "gt_count": 12
+    },
+    {
+      "case": "mcgill_rostamzadeh_social_prescription",
+      "institution": "McGill University",
+      "country": "Canada",
+      "area": "Dental medicine / health sciences",
+      "style": "numbered Vancouver-like",
+      "url": "https://escholarship.mcgill.ca/downloads/cv43p4049?locale=en",
+      "source_lines": "PDF p.79, web indexed lines 1978-2001",
+      "window": "entries 1-12; boundary-relevant line excerpts",
+      "lines": [
+        [
+          79,
+          "1. Health CoSDo. Closing the gap in a generation: health equity through action on the social"
+        ],
+        [
+          79,
+          "determinants of health: final report of the commission on social determinants of health: World Health Organization; 2008."
+        ],
+        [
+          79,
+          "2. Braveman P, Egerter S, Williams DR. The social determinants of health: coming of age. Annual"
+        ],
+        [
+          79,
+          "review of public health. 2011;32(1):381-98."
+        ],
+        [
+          79,
+          "3. Stringhini S, Sabia S, Shipley M, Brunner E, Nabi H, Kivimaki M, et al. Association of"
+        ],
+        [
+          79,
+          "socioeconomic position with health behaviors and mortality. Jama. 2010;303(12):1159-66."
+        ],
+        [
+          79,
+          "4. Braveman P, Gottlieb L. The Social Determinants of Health: It's Time to Consider the Causes of"
+        ],
+        [
+          79,
+          "the Causes. Public Health Reports. 2014;129(1_suppl2):19-31."
+        ],
+        [
+          79,
+          "5. McGinnis JM, Foege WH. Actual causes of death in the United States. Jama. 1993;270(18):2207-"
+        ],
+        [
+          79,
+          "12."
+        ],
+        [
+          79,
+          "6. Marmot M, Friel S, Bell R, Houweling TA, Taylor S. Closing the gap in a generation: health equity"
+        ],
+        [
+          79,
+          "through action on the social determinants of health. Lancet. 2008;372(9650):1661-9."
+        ],
+        [
+          79,
+          "7. Bedos C, Apelian N, Vergnes J-N. Towards a biopsychosocial approach in dentistry: the Montreal-Toulouse Model. British Dental Journal. 2020;228(6):465-8."
+        ],
+        [
+          79,
+          "8. Bedos C, Apelian N, Vergnes J-N. What should people expect from person-centred dental visits?"
+        ],
+        [
+          79,
+          "The Montreal-Toulouse Wheel of expectations. British Dental Journal. 2021;231(4):249-53."
+        ],
+        [
+          79,
+          "9. Pescheny J, Randhawa G, Pappas Y. Patient uptake and adherence to social prescribing: a"
+        ],
+        [
+          79,
+          "qualitative study. BJGP Open. 2018;2(3):bjgpopen18X101598."
+        ],
+        [
+          79,
+          "10. Boozary A, Keresteci M. The Power of Partnership Beyond Social Prescribing. Healthc Pap."
+        ],
+        [
+          79,
+          "2024;22(Sp):37-43."
+        ],
+        [
+          79,
+          "11. Bedos C, Apelian N, Vergnes JN. Social dentistry: an old heritage for a new professional"
+        ],
+        [
+          79,
+          "approach. British Dental Journal. 2018;225(4):357-62."
+        ],
+        [
+          79,
+          "12. Kaur M. Social Prescription in Dentistry: The Perspective of Community Partners. Montreal,"
+        ],
+        [
+          79,
+          "Canada: McGill University 2023."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "window_sha256": "5de39e3c1468993cde06cdef120f6525310535ec148dc608cc2d9dc274a2274d",
+      "gt_count": 12
+    },
+    {
+      "case": "waterloo_butt_energy_management",
+      "institution": "University of Waterloo",
+      "country": "Canada",
+      "area": "Electrical and computer engineering",
+      "style": "bracket-numbered technical / IEEE-like",
+      "url": "https://dspacemainprd01.lib.uwaterloo.ca/server/api/core/bitstreams/5e5b607b-49cf-4743-9d8a-7f8f4f3c167a/content",
+      "source_lines": "PDF pp.119-120, web indexed lines 4042-4075",
+      "window": "entries [1]-[12]; boundary-relevant line excerpts",
+      "lines": [
+        [
+          119,
+          "[1] PVWatts Calculator. National Renewable Energy Laboratory (NREL). https:"
+        ],
+        [
+          119,
+          "//pvwatts.nrel.gov/pvwatts.php."
+        ],
+        [
+          119,
+          "[2] Chung Ming Cheung, Sanmukh Rao Kuppannagari, Rajgopal Kannan, and Viktor K"
+        ],
+        [
+          119,
+          "Prasanna. Disaggregation of behind-the-meter solar generation in presence of energy storage resources."
+        ],
+        [
+          119,
+          "[3] Moshe Fridman. Hidden markov model regression. Technical report, Institute of"
+        ],
+        [
+          119,
+          "Mathematics, University of Minnesota, Tech. Rep., 1993."
+        ],
+        [
+          119,
+          "[4] Farzana Kabir, Nanpeng Yu, Weixin Yao, Rui Yang, and Yingchen Zhang. Joint"
+        ],
+        [
+          119,
+          "estimation of behind-the-meter solar generation in a community. IEEE Transactions on Sustainable Energy, 12(1):682–694, 2020."
+        ],
+        [
+          119,
+          "[5] Shady A El-Bataway and Walid G Morsi. Distribution transformer’s loss of life considering residential prosumers owning solar shingles, high-power fast chargers and"
+        ],
+        [
+          119,
+          "second-generation battery energy storage. IEEE Transactions on Industrial Informatics, 15(3):1287–1297, 2018."
+        ],
+        [
+          119,
+          "[6] Yasser O Assolami, Ahmed Gaouda, and Ramadan El-shatshat. Impact on voltage"
+        ],
+        [
+          119,
+          "quality and transformer aging of residential prosumer ownership of plug-in electric vehicles: Assessment and solutions."
+        ],
+        [
+          119,
+          "[7] Yasser O Assolami and Walid G Morsi. Impact of second-generation plug-in battery"
+        ],
+        [
+          119,
+          "electric vehicles on the aging of distribution transformers considering tou prices."
+        ],
+        [
+          119,
+          "[8] Claudio Canizares, Jatin Nathwani, K Bhattacharya, M Fowler, M Kazerani,"
+        ],
+        [
+          120,
+          "R Fraser, I Rowlands, and H Gabbar. Towards an ontario action plan for plug-in-electric vehicles (PEVs)."
+        ],
+        [
+          120,
+          "[9] Mohamed A Awadallah, Birendra N Singh, and Bala Venkatesh. Impact of EV"
+        ],
+        [
+          120,
+          "charger load on distribution network capacity: A case study in Toronto."
+        ],
+        [
+          120,
+          "[10] Residential Metering. Landis+gyr corp. https://www.landisgyr.com/webfoo/"
+        ],
+        [
+          120,
+          "wp-content/uploads/product-files/Residential_Meter_Brochure.pdf, 2010 (accessed June 01, 2021)."
+        ],
+        [
+          120,
+          "[11] CharlesW Plummer, GL Goedde, Elmer L Pettit, Jeffrey S Godbee, and Michael G"
+        ],
+        [
+          120,
+          "Hennessey. Reduction in distribution transformer failure rates and nuisance outages using improved lightning protection concepts."
+        ],
+        [
+          120,
+          "[12] JM Lunsford and TJ Tobin. Detection of and protection for internal low-current"
+        ],
+        [
+          120,
+          "winding faults in overhead distribution transformers. IEEE transactions on power delivery, 12(3):1241–1249, 1997."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "window_sha256": "f76c82cf9b583f90dbe2178ebc16bdaf9c6faff882de9f3e47fdf5e1ba16745f",
+      "gt_count": 12
+    },
+    {
+      "case": "edinburgh_pollack_lego",
+      "institution": "University of Edinburgh",
+      "country": "United Kingdom",
+      "area": "Computer science / formal methods",
+      "style": "alphanumeric bracket-key bibliography",
+      "url": "https://era.ed.ac.uk/bitstream/handle/1842/504/Pollack_pdf?isAllowed=y&sequence=2",
+      "source_lines": "PDF pp.147-148, web indexed lines 4521-4548",
+      "window": "first 12 consecutive bibliography entries; boundary-relevant line excerpts",
+      "lines": [
+        [
+          147,
+          "[ACN90] L. Augustsson, Th. Coquand, and B. Nordstrom. A short description of another"
+        ],
+        [
+          147,
+          "logical framework. In Informal Proceedings of First Workshop on Logical Frameworks, Antibes, May 1990."
+        ],
+        [
+          147,
+          "[AHMP92] Arnon Avron, Furio Honsell, Ian Mason, and Robert Pollack. Using typed lambda"
+        ],
+        [
+          147,
+          "calculus to implement formal systems on a machine. Journal of Automated Reasoning, 9:309–352, 1992."
+        ],
+        [
+          147,
+          "[Alt93a] Thorsten Altenkirch. Constructions, Inductive Types and Strong Normalization. PhD"
+        ],
+        [
+          147,
+          "thesis, University of Edinburgh, 1993."
+        ],
+        [
+          147,
+          "[Alt93b] Thorsten Altenkirch. A formalization of the strong normalization proof for System"
+        ],
+        [
+          147,
+          "F in LEGO. In Proceedings of the International Conference on Typed Lambda Calculi and Applications, TLCA’93."
+        ],
+        [
+          147,
+          "[Bai93] Anthony Bailey. Representing algebra in LEGO. Master’s thesis, University of"
+        ],
+        [
+          147,
+          "Edinburgh, 1993."
+        ],
+        [
+          147,
+          "[Bar84] H. P. Barendregt. The Lambda Calculus: Its Syntax and Semantics, volume 103 of"
+        ],
+        [
+          147,
+          "Studies in Logic and the Foundations of Mathematics. North-Holland, Amsterdam, revised edition, 1984."
+        ],
+        [
+          147,
+          "[Bar91] Henk Barendregt. Introduction to Generalised Type Sytems. J. Functional Programming, 1(2):125–154, April 1991."
+        ],
+        [
+          147,
+          "[Bar92] Henk Barendregt. Lambda calculi with types. In Abramsky, Gabbai, and Maibaum,"
+        ],
+        [
+          147,
+          "editors, Handbook of Logic in Computer Science, volume II. Oxford University Press, 1992."
+        ],
+        [
+          147,
+          "[Ber90a] Stefano Berardi. Girard normalization proof in LEGO. In Informal Proceedings of First"
+        ],
+        [
+          147,
+          "Workshop on Logical Frameworks, Antibes, May 1990. Available by ftp."
+        ],
+        [
+          147,
+          "[Ber90b] Stefano Berardi. Type Dependence and Constructive Mathematics. PhD thesis,"
+        ],
+        [
+          147,
+          "Dipartimento di Informatica, Torino, Italy, 1990."
+        ],
+        [
+          148,
+          "[Bra92] Steven Bradley. A model of CCS in LEGO. Master’s thesis, University of Edinburgh,"
+        ],
+        [
+          148,
+          "1992."
+        ],
+        [
+          148,
+          "[Car91] Luca Cardelli. F-sub, the system. Technical report, DEC Systems Research Centre,"
+        ],
+        [
+          148,
+          "1991."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "window_sha256": "b5c835f29915f81410efc8b19dcc8d6c89bcd45865893d939eafa964dd646b76",
+      "gt_count": 12
+    }
+  ]
+}

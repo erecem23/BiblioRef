@@ -1,0 +1,9 @@
+BiblioRef v0.9.6 + APP v2.6.4 + Parser v0.5
+Date: 2026-09-02
+
+pytest: 398 passed, 3 skipped, 16 subtests passed
+node --check static/app.js: OK
+py_compile app.py/run_biblioref/run_biblioref_desktop/pipeline/config/cli/v05: OK
+extraction core SHA-256: 14/14 identical to v0.4 release
+parser v0.5 SHA-256 pre/post external holdout: 5be695aeb585e02b4eb1b20b96904fb513be87e36950c98487f2572feb8be1d8 (identical)
+external gold SHA-256: 5773422499c42fbd866b69d457cbaf849310a498f7e2c8ecf6e129960fc3d70c

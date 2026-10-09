@@ -1,0 +1,228 @@
+{
+  "baseline": "BiblioRef v0.9.10-rc2 algoritmo 0.6.17",
+  "release": "BiblioRef v0.9.10-rc2 algoritmo 0.6.18",
+  "files": [
+    {
+      "file": "biblioref/adaptive/discovery.py",
+      "baseline_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "release_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "identical": true
+    },
+    {
+      "file": "biblioref/adaptive/verification.py",
+      "baseline_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "release_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "identical": true
+    },
+    {
+      "file": "biblioref/audit/coverage.py",
+      "baseline_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "release_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "identical": true
+    },
+    {
+      "file": "biblioref/core/patterns.py",
+      "baseline_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "release_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/fallback.py",
+      "baseline_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "release_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/repair.py",
+      "baseline_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "release_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/boundary_reconciliation.py",
+      "baseline_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "release_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/effective_repairs.py",
+      "baseline_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "release_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/numeric_rescue.py",
+      "baseline_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "release_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/resegmentation.py",
+      "baseline_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "release_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/structural_reconciliation.py",
+      "baseline_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "release_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "identical": true
+    },
+    {
+      "file": "biblioref_paragraph_flow.py",
+      "baseline_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "release_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_2.py",
+      "baseline_sha256": "c1c15dab1450337b9d7c205b5b7b8ac334eed5c3935a7320ab0c9be926b27542",
+      "release_sha256": "c1c15dab1450337b9d7c205b5b7b8ac334eed5c3935a7320ab0c9be926b27542",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_3.py",
+      "baseline_sha256": "796103784fac86bfb9ca1e36628dc10a61295b11e4e80a1f1d44b7d2bcc5cff3",
+      "release_sha256": "796103784fac86bfb9ca1e36628dc10a61295b11e4e80a1f1d44b7d2bcc5cff3",
+      "identical": true
+    },
+    {
+      "file": "biblioref/pipeline.py",
+      "baseline_sha256": "27784d3aec4ac4b153cfa3106823e12b49e71ae6deed75864969e3b360a53b55",
+      "release_sha256": "27784d3aec4ac4b153cfa3106823e12b49e71ae6deed75864969e3b360a53b55",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/url_rejoin.py",
+      "baseline_sha256": "c4732101cf463b04f6c2026f1a3967eb68db8aed3327fd3f93dc8dbd3f36f53f",
+      "release_sha256": "c4732101cf463b04f6c2026f1a3967eb68db8aed3327fd3f93dc8dbd3f36f53f",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_boundary.py",
+      "baseline_sha256": "d19c162739ae733f11d56302b30902ea39d57ba3144d961e7b40d0dda57a351e",
+      "release_sha256": "d19c162739ae733f11d56302b30902ea39d57ba3144d961e7b40d0dda57a351e",
+      "identical": true
+    }
+  ],
+  "all_identical": true,
+  "deliberately_changed": [
+    {
+      "file": "biblioref/detection/signals.py",
+      "baseline_sha256": "1c1f10f110d68741bbd8d8edf34bd9473a52bd45994f13f8c3040c3aed24fca0",
+      "release_sha256": "58847031b77d1dbd585443ed5f5dedeab47c80647ca8dd774e6ce9d4ba01871f",
+      "identical": false,
+      "change": "enhanced_start acepta un inicio sin coma antes del año («Convergencia (1998)», «Etchvers Martín (2010)», «González. O. (2016)») en el margen de inicio si la línea anterior está sangrada o cerró la referencia"
+    },
+    {
+      "file": "biblioref_v0_4.py",
+      "baseline_sha256": "e3554cabe8d967fa6d4dcc39bd3f4d44a0a21fa78c8a470493d208487e9ed2a2",
+      "release_sha256": "4859c2426dc5fe7787a6751be5beadf3f97612c8475d47289c4508c35d62e99e",
+      "identical": false,
+      "change": "una URL en cuerpo menor y su continuación no son ruido de letra chica; la regla ABNT de mayúscula no abre registro en el margen de continuación de una sangría invertida"
+    },
+    {
+      "file": "biblioref/extraction/dominant_margin_reconciliation.py",
+      "baseline_sha256": "91329263ff1c336052c1408f87a53ca16bc1488ae301ddbed2c452141b3efb5a",
+      "release_sha256": "59d300f4e0c4d70b606846e227ad20541175d03e883fc25c67ef1198fe4ad50d",
+      "identical": false,
+      "change": "descarta encabezados corridos a la misma altura en 3+ páginas aunque caigan fuera de su banda del 7,5 %"
+    },
+    {
+      "file": "biblioref_page_decorations.py",
+      "baseline_sha256": "8c9c029c1fba4243c9a459acbe38328a9ce6e36982d951b6dfec8e1f5066c959",
+      "release_sha256": "9f194b9f1f0f1ac1cb05ff159f1ef28e45576c19c2e8b5eb024953b4f713be7f",
+      "identical": false,
+      "change": "detect_running_headers considera las dos primeras líneas de la página (encabezado de dos líneas: título y firma)"
+    },
+    {
+      "file": "biblioref/core/config.py",
+      "baseline_sha256": "fd688eb4dea40061fe178837f72337517556e38e0b0eb7d489ef896194d96519",
+      "release_sha256": "41287bdd87086ac6807d519f8e1c825a1f402dbd125b29d8ec3a55ee8a500b15",
+      "identical": false,
+      "change": "ALGORITHM_VERSION 0.6.17 -> 0.6.18"
+    }
+  ],
+  "corpus_equivalence": {
+    "harness": "tools/extraction_corpus_equivalence.py (contrato), corrido en paralelo",
+    "corpus": "workspace por defecto",
+    "n_documents": 148,
+    "n_identical": 137,
+    "n_changed": 11,
+    "records_before": 39785,
+    "records_after": 39790,
+    "delta_records": 5,
+    "changed": [
+      {
+        "thesis_id": "T0001",
+        "n_records_before": 66,
+        "n_records_after": 66,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0002",
+        "n_records_before": 26,
+        "n_records_after": 28,
+        "delta": 2
+      },
+      {
+        "thesis_id": "T0037",
+        "n_records_before": 181,
+        "n_records_after": 181,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0044",
+        "n_records_before": 234,
+        "n_records_after": 234,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0069",
+        "n_records_before": 107,
+        "n_records_after": 106,
+        "delta": -1
+      },
+      {
+        "thesis_id": "T0072",
+        "n_records_before": 118,
+        "n_records_after": 118,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0101",
+        "n_records_before": 323,
+        "n_records_after": 331,
+        "delta": 8
+      },
+      {
+        "thesis_id": "T0106",
+        "n_records_before": 206,
+        "n_records_after": 204,
+        "delta": -2
+      },
+      {
+        "thesis_id": "T0117",
+        "n_records_before": 203,
+        "n_records_after": 201,
+        "delta": -2
+      },
+      {
+        "thesis_id": "T0139",
+        "n_records_before": 212,
+        "n_records_after": 212,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0141",
+        "n_records_before": 270,
+        "n_records_after": 270,
+        "delta": 0
+      }
+    ],
+    "new_documents_without_baseline": [
+      "T0149"
+    ]
+  },
+  "note": "0.6.18 sale del caso Candelero (T0149): los cuatro inicios sin coma antes del año se separan (147 -> 151, igual al conteo manual por página). Sobre 148 documentos, 137 idénticos y 11 cambiados, todos revisados: fusiones reales separadas (T0002, T0101), una referencia recuperada y dos cortes falsos corregidos (T0069), colas reunidas (T0106, T0117) y URLs/DOI en letra chica recuperados (T0001, T0037, T0044, T0072, T0139, T0141)."
+}

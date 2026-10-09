@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use BiblioRef, please cite it using these metadata."
+title: "BiblioRef: A Python tool for identifying and segmenting bibliographic references in doctoral theses"
+type: software
+authors:
+  - family-names: Moreno
+    given-names: Chris
+    orcid: "https://orcid.org/0009-0003-5267-2175"
+    affiliation: "Instituto de Ciencias Computacionales, Cognitivas, Psicológicas y Sociales (ICOPS), Facultad de Psicología, Universidad Nacional de San Luis"
+version: 0.9.10-rc2
+license: AGPL-3.0-only
+repository-code: "https://github.com/erecem23/BiblioRef"
+keywords:
+  - bibliographic references
+  - reference extraction
+  - doctoral theses
+  - PDF processing
+  - bibliometrics

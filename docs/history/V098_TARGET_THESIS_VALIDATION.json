@@ -1,0 +1,250 @@
+{
+  "document": "Documento_completo.pdf-PDFA (3).pdf",
+  "document_sha256": "8d66cbbf992bc6b83fd4e9578517148382e6c2023f85680601aec209c0db66ca",
+  "status": "development_validation_not_external_effectiveness_estimate",
+  "versions": {
+    "software": "0.9.8",
+    "algorithm": "0.6.4",
+    "app": "2.6.9",
+    "parser": "biblioref-parser-v0.10"
+  },
+  "zone": {
+    "heading": "BIBLIOGRAFÍA",
+    "start_page": 261,
+    "end_page": 301,
+    "style": "author_year_comma",
+    "hanging_indent_detected": true,
+    "start_margin": 99.26,
+    "continuation_margin": 141.86
+  },
+  "counts": {
+    "stable_v0_5_3_records": 205,
+    "v0_6_1_enhanced_candidate_records": 310,
+    "v0_6_1_repair_accepted": true,
+    "v0_6_4_effective_records": 338,
+    "net_delta_vs_v0_6_1": 28,
+    "recovered_true_physical_starts_vs_v0_6_1": 37,
+    "removed_or_shifted_old_boundaries_vs_v0_6_1": 9
+  },
+  "boundary_gate": {
+    "accepted": true,
+    "reason": "hanging_indent_missing_boundaries_reconciled",
+    "version": "0.6.4-hanging-indent-boundary1",
+    "n_base_segments": 310,
+    "n_reconciled_segments": 338,
+    "delta": 28,
+    "max_allowed_gain": 49,
+    "start_margin": 99.26,
+    "continuation_margin": 141.86,
+    "margin_separation": 42.6,
+    "start_margin_tolerance_effective": 6.0,
+    "base_start_margin_support": 0.971,
+    "n_raw_geometric_candidates": 338,
+    "n_candidates_rejected_without_local_evidence": 0,
+    "candidate_evidence_purity": 1.0,
+    "first_reference_recovered": true,
+    "n_segments": 338,
+    "median_words": 22.0,
+    "max_words": 69,
+    "n_giant_segments": 0,
+    "evidence_ratio": 1.0
+  },
+  "recovered_examples": [
+    {
+      "ref_in_zone": 1,
+      "text": "5G Américas. (2016). Serie de Estudios TIC para el Desarrollo: Teleeducación en América Latina. Disponible en: http://www.5gamericas.org/files/7214/7879/9759/Tele_Educacin_e n_Amrica_Latina_-__2016-ES.pdf"
+    },
+    {
+      "ref_in_zone": 6,
+      "text": "Aguerre, C., Benítez-Larghi, S., Calamari, M., Fontecoba, A., Moguillansky, M., Orchuela, J., Ponce de León, J., y Winocur, R. (2009). Problemas teórico- metodológicos en los estudios de la apropiación de las tecnologías de información y comunicación en el caso de jóvenes de sectores populares urbanos. International Journal of Human-Computer Studies , (60), 327- 363."
+    },
+    {
+      "ref_in_zone": 26,
+      "text": "Asamblea Nacional. (2008). Constitución de la República del Ecuador. Disponible en: http://www.asambleanacional.gob.ec/sites/default/files/documents/old/co nstitucion_de_bolsillo.pdf."
+    },
+    {
+      "ref_in_zone": 30,
+      "text": "Banco Mundial. (2017). Aprender para hacer realidad la promesa de la educación. Panorama General . Washington, Estados Unidos de América: Grupo Banco Mundial."
+    },
+    {
+      "ref_in_zone": 45,
+      "text": "Benítez-Larghi, S, Aguerre, C., Calamari, M. Fontecoba, A., Moguillansky, M., Orchuela, J., y Ponce de León J. (2012). La apropiación del acceso a computadoras e internet por parte de jóvenes de sectores populares urbanos en la Argentina. En F. Proenza, (2012). Tecnología y cambio social: el impacto del acceso público a las computadoras e Internet en Argentina, Chile y Perú (pp. 15-69). Lima, Perú: Instituto de Estudios Peruanos (IEP)."
+    },
+    {
+      "ref_in_zone": 84,
+      "text": "Centro de Estudios de telecomunicaciones de América Latina (2014). Impacto de la Banda Ancha en la Actividad innovadora de América Latina. Disponible en: https://asiet.lat/sin-categoria/el-centro-de-estudios-de- telecomunicaciones-de-america-latina-cet-la-publico-el-estudio-impacto- de-la-banda-ancha-en-la-actividad-innovadora-de-america-latina/."
+    },
+    {
+      "ref_in_zone": 115,
+      "text": "Ecuavisa. (2015). Usabilidad de internet se incrementa en el Ecuador, según el INEC. Disponible en: http://www.ecuavisa.com/articulo/noticias/actualidad/106184-usabilidad- internet-se-incrementa-ecuador-segun-inec."
+    },
+    {
+      "ref_in_zone": 121,
+      "text": "EduTrends -Observatorio de Innovación Educativa. (2014). Aprendizaje invertido. México, D.F., México: Tecnológico de Monterrey."
+    },
+    {
+      "ref_in_zone": 128,
+      "text": "Flick U. (2012). Introducción a la investigación cualitativa. Madrid, España: Morata."
+    },
+    {
+      "ref_in_zone": 172,
+      "text": "Instituto de Estadísticas y Censos [INEC]. (2012). Tecnologías de la Información y Comunicaciones (TIC’S). Disponible en: http://www.inec.gob.ec/sitio_tics2012/presentacion.pdf."
+    },
+    {
+      "ref_in_zone": 173,
+      "text": "Instituto de Estadísticas y Censos [INEC]. (2016). Tecnologías de la Información y Comunicaciones (TIC’S). Disponible en: http://www.ecuadorencifras.gob.ec/documentos/web- inec/Estadisticas_Sociales/TIC/2016/170125.Presentacion_Tics_2016.p df."
+    },
+    {
+      "ref_in_zone": 213,
+      "text": "Ministerio de Educación del Ecuador. (2006). Plan Decenal de Educación del Ecuador 2006-2015. Disponible en: http://educacion.gob.ec/wp- content/uploads/downloads/2012/08/Rendicion_2007.pdf."
+    },
+    {
+      "ref_in_zone": 214,
+      "text": "Ministerio de Educación del Ecuador. (2012a). Marco Legal Educativo. Disponible en: http://educacion.gob.ec/wp-content/uploads/downloads/2014/03/6.- Marco_Legal_Educativo_2012.pdf."
+    },
+    {
+      "ref_in_zone": 215,
+      "text": "Ministerio de Educación del Ecuador. (2012b). Acuerdo Ministerial 444-12. Disponible en: http://educacion.gob.ec/wp- content/uploads/downloads/2013/01/ACUERDO-444-12.pdf."
+    },
+    {
+      "ref_in_zone": 216,
+      "text": "Ministerio de Educación del Ecuador. (2015). La construcción del Plan Decenal de la Educación 2016-2025 toma fuerza. 18.04.16. Disponible en: http://educacion.gob.ec/la-construccion-del-plan-decenal-de-la- educacion-2016-2025-toma-fuerza/."
+    },
+    {
+      "ref_in_zone": 217,
+      "text": "Ministerio de Educación del Ecuador. (2016a). ¿Qué es el Buen Vivir? Disponible en: http://educacion.gob.ec/que-es-el-buen-vivir/."
+    },
+    {
+      "ref_in_zone": 218,
+      "text": "Ministerio de Educación del Ecuador. (2016c). Ley Orgánica De Educación Intercultural. Disponible en: http://educacion.gob.ec/wp- content/uploads/downloads/2016/02/Ley_Organica_de_Educacion_Inter cultural_LOEI.pdf ."
+    },
+    {
+      "ref_in_zone": 219,
+      "text": "Ministerio de Educación del Ecuador. (2017a). Enfoque de la Agenda Educativa Digital. Disponible en: https://educacion.gob.ec/wp- content/uploads/downloads/2017/11/Agenda-Educativa-Digital.pdf."
+    },
+    {
+      "ref_in_zone": 220,
+      "text": "Ministerio de Educación del Ecuador. (2017b). Ecuador llevará internet a las aulas de clase. Disponible en: https://educacion.gob.ec/ecuador-llevara- internet-a-las-aulas-de-clase/."
+    },
+    {
+      "ref_in_zone": 221,
+      "text": "Ministerio de Educación de la Nación Argentina. (2018). Aprender Conectados. Disponible en: https://www.argentina.gob.ar/educacion/aprender- conectados"
+    },
+    {
+      "ref_in_zone": 222,
+      "text": "Ministerio de Educación de Chile. (2012). Enlaces, innovación y calidad en la era digital 20 años impulsando el uso de las TIC en la educación . Disponible en: http://www.enlaces.cl/wp-content/uploads/mem2013_baja.pdf."
+    },
+    {
+      "ref_in_zone": 223,
+      "text": "Ministerio de Educación de la Nación Argentina. (2018). ¿Qué es Aprender Conectados? Disponible en: https://www.argentina.gob.ar/educacion/aprender-conectados."
+    },
+    {
+      "ref_in_zone": 224,
+      "text": "Ministerio de Telecomunicaciones y de la Sociedad de la Información de Ecuador. (2016). TIC Observatorio. Disponible en: https://observatoriotic.mintel.gob.ec//."
+    },
+    {
+      "ref_in_zone": 225,
+      "text": "Ministerio de Telecomunicaciones y de la Sociedad de la Información de Ecuador. (2017). Rendición de cuentas 2017. Informe anual de gestión. Disponible en: https://www.telecomunicaciones.gob.ec/wp- content/uploads/2018/06/Informe-de-Gesti%C3%B3n-MINTEL-2017.pdf."
+    },
+    {
+      "ref_in_zone": 237,
+      "text": "Muñoz-Miralles, R., Ortega-González, R., Batalla-Martínez, C., López-Morón, M. R., Manresa, J., y Torán-Monserrat, P. (2014). Acceso y uso de nuevas tecnologías entre los jóvenes de educación secundaria, implicaciones en salud. Estudio JOITIC. Atención Primaria , 46 (2), 77-88."
+    },
+    {
+      "ref_in_zone": 239,
+      "text": "New Media Consortin. (2017). Informe Horizon 2016. Barcelona, España: NMC."
+    },
+    {
+      "ref_in_zone": 242,
+      "text": "Organización de Estados Iberoamericanos [OEI]. (2003). Educación con enfoque “Ciencia, Tecnología y Sociedad” en Iberoamérica (Educación CTS). Disponible en: http://campus-oei.org/ctsi/educacioncts.htm."
+    },
+    {
+      "ref_in_zone": 243,
+      "text": "Organización de Naciones Unidas para la Educación, la Ciencia y la Cultura [Unesco]. (2009). Medición de las tecnologías de la información y la comunicación (TIC) en educación - Manual del usuario . Montreal, Canadá: Unesco."
+    },
+    {
+      "ref_in_zone": 244,
+      "text": "Organización de Naciones Unidas para la Educación, la Ciencia y la Cultura [Unesco]. (2014). Declaración de Lima. Balances y desafíos para la agenda educativa (2015-2030). Oficina Regional de Educación. Santiago de Chile, Chile: Publicaciones Unesco."
+    },
+    {
+      "ref_in_zone": 245,
+      "text": "Organización de Naciones Unidas para la Educación, la Ciencia y la Cultura [Unesco]. (2015). La Educación para Todos 2000-2015: Logros y Desafíos . París, Francia: Publicaciones Unesco."
+    },
+    {
+      "ref_in_zone": 246,
+      "text": "Organización de Naciones Unidas para la Educación, la Ciencia y la Cultura [Unesco]. (2016). Tecnologías digitales al servicio de la calidad educativa: una propuesta de cambio centrada en el aprendizaje para todos. Santiago de Chile, Chile: Publicaciones Unesco."
+    },
+    {
+      "ref_in_zone": 302,
+      "text": "Secretaría de Educación Pública de México. (2017). Programa @prende 2.0. México, D.F., México: Coordinación General @prende.mx."
+    },
+    {
+      "ref_in_zone": 303,
+      "text": "Secretaría Nacional de Planificación y Desarrollo de Ecuador [Senplades]. (2007). Plan Nacional de Desarrollo 2007–2010 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs3."
+    },
+    {
+      "ref_in_zone": 304,
+      "text": "Secretaría Nacional de Planificación y Desarrollo de Ecuador -SENPLADES. (2009). Plan Nacional para el Buen Vivir 2009-2013 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs2"
+    },
+    {
+      "ref_in_zone": 305,
+      "text": "Secretaría Nacional de Planificación y Desarrollo de Ecuador [Senplades]. (2013). Plan Nacional para el Buen Vivir 2013-2017 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs1."
+    },
+    {
+      "ref_in_zone": 306,
+      "text": "Secretaría Nacional de Planificación y Desarrollo de Ecuador [Senplades]. (2017). Plan Nacional de Desarrollo Toda una Vida . Disponible en: http://www.planificacion.gob.ec/plan-nacional-de-desarrollo-2017-2021- toda-una-vida/."
+    },
+    {
+      "ref_in_zone": 316,
+      "text": "Schiavo, E., Quiroga, S., Carceglia, D., Coppolecchio, L., y Cravacuore, D. (2001). En M. Bonilla., y C. Cliche. (2001). Internet y sociedad en América Latina y el Caribe (pp. 309-345). Quito, Ecuador: Flacso."
+    }
+  ],
+  "removed_or_shifted_examples": [
+    {
+      "ref_in_zone": 48,
+      "text": "2006. Revista Brasileira de Epidemiologia , (11), 46-57."
+    },
+    {
+      "ref_in_zone": 203,
+      "text": "(2016). TIC Observatorio. Disponible en: https://observatoriotic.mintel.gob.ec//. Ministerio de Telecomunicaciones y de la Sociedad de la Información de Ecuador."
+    },
+    {
+      "ref_in_zone": 204,
+      "text": "(2017). Rendición de cuentas 2017. Informe anual de gestión. Disponible en: https://www.telecomunicaciones.gob.ec/wp- content/uploads/2018/06/Informe-de-Gesti%C3%B3n-MINTEL-2017.pdf."
+    },
+    {
+      "ref_in_zone": 274,
+      "text": "(2007). Plan Nacional de Desarrollo 2007–2010 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs3. Secretaría Nacional de Planificación y Desarrollo de Ecuador -SENPLADES."
+    },
+    {
+      "ref_in_zone": 275,
+      "text": "(2009). Plan Nacional para el Buen Vivir 2009-2013 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs2 Secretaría Nacional de Planificación y Desarrollo de Ecuador [Senplades]."
+    },
+    {
+      "ref_in_zone": 276,
+      "text": "(2013). Plan Nacional para el Buen Vivir 2013-2017 . Disponible en: http://www.buenvivir.gob.ec/versiones-plan-nacional#tabs1. Secretaría Nacional de Planificación y Desarrollo de Ecuador [Senplades]."
+    },
+    {
+      "ref_in_zone": 277,
+      "text": "(2017). Plan Nacional de Desarrollo Toda una Vida . Disponible en: [297] http://www.planificacion.gob.ec/plan-nacional-de-desarrollo-2017-2021- toda-una-vida/."
+    },
+    {
+      "ref_in_zone": 287,
+      "text": "(2001). En M. Bonilla., y C. Cliche. (2001). Internet y sociedad en América Latina y el Caribe (pp. 309-345). Quito, Ecuador: Flacso."
+    },
+    {
+      "ref_in_zone": 298,
+      "text": "(2001), La visión de los líderes en la era digital (pp. 22-30). México, D.F., México: Pearson Educación."
+    }
+  ],
+  "parser_check": {
+    "parser_version": "biblioref-parser-v0.10",
+    "n_parsed": 338,
+    "n_errors": 0,
+    "errors": [],
+    "first_raw_reference": "5G Américas. (2016). Serie de Estudios TIC para el Desarrollo: Teleeducación en América Latina. Disponible en: http://www.5gamericas.org/files/7214/7879/9759/Tele_Educacin_e n_Amrica_Latina_-__2016-ES.pdf",
+    "first_parsed_author": "G Américas",
+    "note": "Parser v0.10 is intentionally frozen in this release. The raw first reference is recovered, but its author metadata is currently parsed as G Américas instead of 5G Américas; this is a separate downstream parser issue."
+  },
+  "methodological_note": "The supplied thesis motivated the change and is therefore a development case, not a holdout. The 338 count is supported here by one accepted start-margin candidate per reconciled record with local bibliographic evidence; it is not claimed as independently hand-coded ground truth."
+}

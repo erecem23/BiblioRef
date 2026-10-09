@@ -1,0 +1,565 @@
+{
+  "benchmark": "BIBLIOREF_V088_FRESH_HOLDOUT",
+  "created_utc": "2026-08-30T20:31:22.107147+00:00",
+  "selection_status": "FROZEN_BEFORE_SCORING",
+  "n_docs": 4,
+  "n_gt": 48,
+  "geometry": "authentic indexed bibliography text and page identity where available; neutral reconstructed x/y geometry; screenshots unavailable except PDF text indexing. No original layout geometry claimed.",
+  "independence": "All four institution names and repository domains returned zero matches in the local v0.8.8 historical development tree before selection.",
+  "frozen_candidate": {
+    "source_zip": "/mnt/data/BiblioRef_v0_8_8_preholdout_frozen.zip",
+    "source_zip_sha256": "39b0a557ad1ad8152cc24a7dfa0a3d26760d4befc553db4b328d4672e9be2a61",
+    "wheel": "/mnt/data/biblioref-0.8.8-py3-none-any.whl",
+    "wheel_sha256": "08afd645a7d8e483596649ff9c05878d4e65c906ee1440a53deccff641843ca5"
+  },
+  "cases": [
+    {
+      "case": "canterbury_phylogeography",
+      "institution": "University of Canterbury",
+      "country": "New Zealand",
+      "style": "unnumbered author-year; long author lists; journal/book tails",
+      "url": "https://ir.canterbury.ac.nz/server/api/core/bitstreams/78fad322-79c8-41a2-93b1-581c80ebb385/content",
+      "source_page": 111,
+      "text_evidence": "Authentic indexed PDF bibliography text exposed by web search; page number from indexed extraction. Original PDF fetch/screenshot returned 403/cache failure; x/y geometry is reconstructed neutrally.",
+      "notes": "Twelve consecutive references from the start of the displayed bibliography window.",
+      "lines": [
+        [
+          111,
+          "Agapow, P.M., Bininda-Emonds, O.R.P., Crandall, K.A., Gittleman, J.L., Mace, G.M.,"
+        ],
+        [
+          111,
+          "Marshall, J.C., Purvis, A. 2004. The impact of species concept on biodiversity"
+        ],
+        [
+          111,
+          "studies. Quarterly Review of Biology, 79, 161–179."
+        ],
+        [
+          111,
+          "Akaike, H. 1981. A new look at the statistical-model identification. Engineering Technology"
+        ],
+        [
+          111,
+          "and Applied Sciences, 19, 716–723."
+        ],
+        [
+          111,
+          "Alexandrino, J., Arntzen, J.W., Ferrand, N. 2002. Nested clade analysis and the genetic"
+        ],
+        [
+          111,
+          "evidence for population expansion in the phylogeography of the golden-striped"
+        ],
+        [
+          111,
+          "salamander, Chioglossa lusitanica (Amphibia : Urodela). Heredity, 88, 66–74."
+        ],
+        [
+          111,
+          "Andriessen, P.A.M., Helmens, K.F., Hooghiemstra, H., Riezebos, P.A., Vanderhammen, T."
+        ],
+        [
+          111,
+          "1993. Absolute chronology of the Pliocene-Quaternary sediment sequence of the"
+        ],
+        [
+          111,
+          "Bogota area, Colombia. Quaternary Science Reviews, 12, 483–501."
+        ],
+        [
+          111,
+          "Arbogast, B.S., Edwards, S.V., Wakeley, J., Beerli, P., Slowinski, J.B. 2002. Estimating"
+        ],
+        [
+          111,
+          "divergence times from molecular data on phylogenetic and population genetic"
+        ],
+        [
+          111,
+          "timescales. Annual Review of Ecology and Systematics, 33, 707–740."
+        ],
+        [
+          111,
+          "Avise, J.C. 1992. Molecular population structure and the biogeographic history of a regional"
+        ],
+        [
+          111,
+          "fauna: a case history with lessons for conservation biologists. Oikos, 63, 62–76."
+        ],
+        [
+          111,
+          "Avise, J.C. 2000. Phylogeography: The history and formation of species. Harvard University"
+        ],
+        [
+          111,
+          "Press, Cambridge, Massachusetts, pp.447."
+        ],
+        [
+          111,
+          "Beebee, T.J.C. 1992. Amphibian decline. Nature, 355, p.120."
+        ],
+        [
+          111,
+          "Bloemendal, J., Demenocal, P. 1989. Evidence for a change in the periodicity of tropical"
+        ],
+        [
+          111,
+          "climate cycles at 2.4 Myr from whole-core magnetic-susceptibility measurements."
+        ],
+        [
+          111,
+          "Nature, 342, 897–900."
+        ],
+        [
+          111,
+          "Bonaccorso, E., Koch, I., Peterson, A.T. 2006. Pleistocene fragmentation of Amazon species'"
+        ],
+        [
+          111,
+          "ranges. Diversity and Distributions, 12, 157–164."
+        ],
+        [
+          111,
+          "Bossuyt, F., Milinkovitch, M.C. 2000. Convergent adaptive radiations in Madagascan and"
+        ],
+        [
+          111,
+          "Asian ranid frogs reveal covariation between larval and adult traits. Proceedings of"
+        ],
+        [
+          111,
+          "the National Academy of Sciences of the United States of America, 97, 6585–6590."
+        ],
+        [
+          111,
+          "Bowen, B.W. 1999. Preserving genes, species, or ecosystems? Healing the fractured"
+        ],
+        [
+          111,
+          "foundations of conservation policy. Molecular Ecology, 8, S5–S10."
+        ]
+      ],
+      "gt": [
+        0,
+        3,
+        5,
+        8,
+        11,
+        14,
+        16,
+        18,
+        19,
+        22,
+        24,
+        27
+      ],
+      "window_sha256": "9639b11c9bd469c63afe9642d82d3fb83753fc146a1de71e3fc2bd17472821c1"
+    },
+    {
+      "case": "uit_marine_pharmacy",
+      "institution": "UiT The Arctic University of Norway (Munin)",
+      "country": "Norway",
+      "style": "decimal-numbered; number on separate line; multiline Vancouver-like",
+      "url": "https://munin.uit.no/bitstream/10037/4389/1/thesis.pdf",
+      "source_page": 59,
+      "text_evidence": "Authentic indexed PDF bibliography text exposed by web search. Direct open redirected to current repository app and screenshot was unavailable; x/y geometry is reconstructed neutrally.",
+      "notes": "First twelve consecutive entries under “5 References”.",
+      "lines": [
+        [
+          59,
+          "1."
+        ],
+        [
+          59,
+          "Blunt, J.W., et al., Marine natural products. Nat. Prod. Rep., 2010. 27(2): p. 165-"
+        ],
+        [
+          59,
+          "237."
+        ],
+        [
+          59,
+          "2."
+        ],
+        [
+          59,
+          "Moen, F.E. and E. Svensen, Dyreliv i havet: nordeuropeisk marin fauna. 2004,"
+        ],
+        [
+          59,
+          "Kristiansund: KOM forl. 608 s."
+        ],
+        [
+          59,
+          "3."
+        ],
+        [
+          59,
+          "Ryland, J.S. and P.J. Hayward, Handbook of the marine fauna of North-West"
+        ],
+        [
+          59,
+          "Europe. 1995, Oxford: Oxford University Press. X, 800 s."
+        ],
+        [
+          59,
+          "4."
+        ],
+        [
+          59,
+          "Rinehart, K.L., et al., Ecteinascidins 729, 743, 745, 759A, 759B, and 770: potent"
+        ],
+        [
+          59,
+          "antitumor agents from the Caribbean tunicate Ecteinascidia turbinata. J. Org."
+        ],
+        [
+          59,
+          "Chem., 1990. 55(15): p. 4512-15."
+        ],
+        [
+          59,
+          "5."
+        ],
+        [
+          59,
+          "Wright, A.E., et al., Antitumor tetrahydroisoquinoline alkaloids from the colonial"
+        ],
+        [
+          59,
+          "ascidian Ecteinascidia turbinata. J. Org. Chem., 1990. 55(15): p. 4508-12."
+        ],
+        [
+          59,
+          "6."
+        ],
+        [
+          59,
+          "Sakai, R., et al., Structure-Activity Relationships of the Didemnins. J. Med. Chem.,"
+        ],
+        [
+          59,
+          "1996. 39(14): p. 2819-2834."
+        ],
+        [
+          59,
+          "7."
+        ],
+        [
+          59,
+          "Urdiales, J.L., et al., Antiproliferative effect of dehydrodidemnin B (DDB), a"
+        ],
+        [
+          59,
+          "depsipeptide isolated from Mediterranean tunicates. Cancer Lett. (Shannon, Irel.),"
+        ],
+        [
+          59,
+          "1996. 102(1,2): p. 31-7."
+        ],
+        [
+          59,
+          "8."
+        ],
+        [
+          59,
+          "Mayer, A.M.S. and V.K.B. Lehmann, Marine pharmacology in 1999: Antitumor"
+        ],
+        [
+          59,
+          "and cytotoxic compounds. Anticancer Res., 2001. 21(4A): p. 2489-2500."
+        ],
+        [
+          59,
+          "9."
+        ],
+        [
+          59,
+          "Bugni, T.S., et al., Fractionated marine invertebrate extract libraries for drug"
+        ],
+        [
+          59,
+          "discovery. Molecules, 2008. 13(6): p. 1372-1383."
+        ],
+        [
+          59,
+          "10."
+        ],
+        [
+          59,
+          "Pavao, M.S.G., et al., Highly sulfated dermatan sulfates from ascidians. Structure"
+        ],
+        [
+          59,
+          "versus anticoagulant activity of these glycosaminoglycans. J. Biol. Chem., 1998."
+        ],
+        [
+          59,
+          "273(43): p. 27848-27857."
+        ],
+        [
+          59,
+          "11."
+        ],
+        [
+          59,
+          "Bhakuni, D.S. and D.S. Rawat, Bioactive Marine Natural Products. 2005,"
+        ],
+        [
+          59,
+          "Dordrecht: Anamaya Publishers, New Delhi, India."
+        ],
+        [
+          59,
+          "12."
+        ],
+        [
+          59,
+          "Madigan, M.T. and J.M. Martinko, Brock biology of microorganisms. 2006,"
+        ],
+        [
+          59,
+          "Upper Saddle River, N.J.: Pearson Prentice Hall."
+        ]
+      ],
+      "gt": [
+        0,
+        3,
+        6,
+        9,
+        13,
+        16,
+        19,
+        23,
+        26,
+        29,
+        33,
+        36
+      ],
+      "window_sha256": "5c822585e38e0b9c5541f4659df4fb65e9a9b636cc4fd7176398cc89d60f0219"
+    },
+    {
+      "case": "griffith_trapped_ions",
+      "institution": "Griffith University",
+      "country": "Australia",
+      "style": "bracket-numbered technical physics; multiline",
+      "url": "https://research-repository.griffith.edu.au/server/api/core/bitstreams/42e09e65-7209-43e7-ad69-2a5c40508229/content",
+      "source_page": 88,
+      "text_evidence": "Authentic indexed PDF bibliography text exposed by web search. Original PDF fetch returned 403 and screenshot was unavailable; x/y geometry is reconstructed neutrally.",
+      "notes": "Twelve consecutive references [102]–[113].",
+      "lines": [
+        [
+          88,
+          "[102] L. Luo et al., Protocols and techniques for a scalable atom-photon quantum network,"
+        ],
+        [
+          88,
+          "Fortschr. Phys. 57, 1133 (2009)."
+        ],
+        [
+          88,
+          "[103] Q. A. Turchette et al., Heating of trapped ions from the quantum ground state, Phys."
+        ],
+        [
+          88,
+          "Rev. A 61, 063418 (2000)."
+        ],
+        [
+          88,
+          "[104] H. Haeffner, Reducing Motional Decoherence in Ion Traps with Surface Science"
+        ],
+        [
+          88,
+          "Methods, in APS Meeting Abstracts, 2014."
+        ],
+        [
+          88,
+          "[105] B. G. Norton, High Resolution Imaging of Single Trapped Yb+ Ions Using A Phase"
+        ],
+        [
+          88,
+          "Fresnel Lens, PhD thesis, Griffith University, 2014."
+        ],
+        [
+          88,
+          "[106] V. Blūms, Ion Fluorescence Collection And Diffraction Limited Imaging From A"
+        ],
+        [
+          88,
+          "Microfabricated Ion Trap With Integrated Diffractive Mirrors, MPhil Thesis, Griffith"
+        ],
+        [
+          88,
+          "University (2015)."
+        ],
+        [
+          88,
+          "[107] B. E. King, Quantum State Engineering and Information Processing with Trapped"
+        ],
+        [
+          88,
+          "Ions, PhD thesis, University of Colorado, 1999."
+        ],
+        [
+          88,
+          "[108] L. Deslauriers, Cooling and Heating of the Quantum Motion of Trapped Cd+ Ions,"
+        ],
+        [
+          88,
+          "PhD Thesis, University of Michigan (2006)."
+        ],
+        [
+          88,
+          "[109] R. March, An Introduction to Quadrupole Ion Trap Mass Spectrometry, J. Mass"
+        ],
+        [
+          88,
+          "Spectrom. 32, 351 (1997)."
+        ],
+        [
+          88,
+          "[110] R. F. Wuerker, H. M. Goldenberg, and R. V. Langmuir, Electrodynamic Contain-"
+        ],
+        [
+          88,
+          "ment of Charged Particles by Three-Phase Voltages, J. Appl. Phys. 30, 441 (1959)."
+        ],
+        [
+          88,
+          "[111] D. Kielpinski, Entanglement and Decoherence in a Trapped-Ion Quantum Register,"
+        ],
+        [
+          88,
+          "PhD Thesis, University of Colorado (2001)."
+        ],
+        [
+          88,
+          "[112] R. F. Wuerker, H. Shelton, and R. V. Langmuir, Electrodynamic Containment of"
+        ],
+        [
+          88,
+          "Charged Particles, J. Appl. Phys. 30, 342 (1959)."
+        ],
+        [
+          88,
+          "[113] D. T. C. Allcock et al., Implementation of a symmetric surface-electrode ion trap"
+        ],
+        [
+          88,
+          "with field compensation using a modulated Raman effect, New J. Phys. 12, 053026"
+        ],
+        [
+          88,
+          "(2010)."
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23
+      ],
+      "window_sha256": "17ab25ea68a4ea38fca77661f97c82326423b3ba988186ab83de83850cc832da"
+    },
+    {
+      "case": "lse_belief_ascriptions",
+      "institution": "London School of Economics and Political Science",
+      "country": "United Kingdom",
+      "style": "unnumbered humanities; surname/initial + bare year; mixed one/two-line entries",
+      "url": "https://etheses.lse.ac.uk/2343/1/U615291.pdf",
+      "source_page": 172,
+      "text_evidence": "Authentic PDF text extraction with exact indexed lines L5137–L5152 and page P172. Screenshot attempt returned cache miss; x/y geometry is reconstructed neutrally.",
+      "notes": "First twelve consecutive references after the References heading.",
+      "lines": [
+        [
+          172,
+          "Almog, J. 2004 ‘The Proper Form of Semantics’ in M. Reimer and A."
+        ],
+        [
+          172,
+          "Bezuidenhout (eds.). Descriptions and Beyond (Oxford: Clarendon)"
+        ],
+        [
+          172,
+          "Almog, J. 2005 ‘Is a Unified Theory of Language and Thought Possible?’"
+        ],
+        [
+          172,
+          "Journal o f Philosophy 102 no. 10: 493 -531"
+        ],
+        [
+          172,
+          "Baker, L. 1995 Explaining Attitudes (Cambridge: CUP)"
+        ],
+        [
+          172,
+          "Crimmins, M. 1992. Talk About Beliefs. (Cambridge, Mass: MIT Press)."
+        ],
+        [
+          172,
+          "Crimmins, M. and J.Perry. 1989. ‘The Prince and the Phone Booth:"
+        ],
+        [
+          172,
+          "Reporting puzzling beliefs’. Journal o f Philosophy 86: 685 -711."
+        ],
+        [
+          172,
+          "Donnellan, K.S. 1979 ‘Belief and the Identity of Reference’ Midwest Studies"
+        ],
+        [
+          172,
+          "in Philosophy vol. 14 issue 1: 275-288"
+        ],
+        [
+          172,
+          "Dummett, M. 1973 Frege: Philosophy o f Language. (London: Duckworth)."
+        ],
+        [
+          172,
+          "Eaker, E. 2002 Reporting Attitudes PhD thesis UCLA"
+        ],
+        [
+          172,
+          "Eaker, E. 2004 ‘Reporting Attitudes’. Unpublished paper."
+        ],
+        [
+          172,
+          "Evans, G. 1982 The Varieites o f Reference (Oxford: Clarendon Press)."
+        ],
+        [
+          172,
+          "Frege, G. 1948 ‘Sense and Reference’ Philosophical Review 57: 209-230."
+        ],
+        [
+          172,
+          "Frege, G. 1956 ‘The thought: a logical enquiry’ Mind 65: 289-311"
+        ]
+      ],
+      "gt": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "window_sha256": "6743f0dceb8f3dd1063ab8956b65fe2cfc68491e7f1637e3b754b82f559090a1"
+    }
+  ]
+}

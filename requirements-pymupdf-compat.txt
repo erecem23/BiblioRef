@@ -1,0 +1,3 @@
+-r requirements-app.txt
+# Optional legacy/differential backend for historical reproducibility and A/B validation.
+PyMuPDF>=1.23,<2.0

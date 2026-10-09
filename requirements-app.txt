@@ -1,0 +1,10 @@
+# Default permissive PDF backend for the current BiblioRef runtime.
+pypdfium2>=5.13,<6.0
+fastapi>=0.115,<1.0
+uvicorn>=0.30,<1.0
+python-multipart>=0.0.9,<1.0
+openpyxl>=3.1,<4.0
+# Google Drive integration (read-only OAuth desktop flow)
+google-api-python-client>=2.140,<3.0
+google-auth-oauthlib>=1.2,<2.0
+google-auth-httplib2>=0.2,<1.0

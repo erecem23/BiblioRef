@@ -1,0 +1,60 @@
+{
+  "evaluation": "parser_v0.10_target_corpus",
+  "corpus": "4fd12e94-biblioref_1_tesis_1.csv",
+  "n": 310,
+  "parser_v09_sha256": "4148701452aba620ec3538477010fc5f6c442a153be4a05063a43e7bb0c43320",
+  "parser_v10_sha256": "56993eed5a0c032e9c52495eb721a2cc8ecde73ca3ad0cefd9d1fb0d152d17f2",
+  "journal": {
+    "v09": 103,
+    "v10": 142,
+    "added": 39,
+    "rewritten": 0
+  },
+  "publisher": {
+    "v09": 101,
+    "v10": 125,
+    "rewritten": 5
+  },
+  "sin_clasificar": {
+    "v09": 42,
+    "v10": 8
+  },
+  "publisher_rewrites": [
+    {
+      "order": "93",
+      "v09_publisher": "Iberoamericana",
+      "v10_publisher": null,
+      "v10_journal": "Iberoamericana de Educación",
+      "text": "De Puelles, M., y Torreblanca, J. (1995). Educación, Desarrollo y Equidad Social». Iberoamericana de Educación , (9), 165-189."
+    },
+    {
+      "order": "152",
+      "v09_publisher": "CLAD",
+      "v10_publisher": null,
+      "v10_journal": "Revista del CLAD Reforma y Democracia",
+      "text": "Hidalgo-Capitán, A., Domínguez-Gómez, J., y Cubillo-Guevara, A. (2014). El pensamiento sobre el Buen Vivir: entre el indigenismo, el socialismo y el posdesarrollismo. Revista del CLAD Reforma y Democracia , (60), 27-58."
+    },
+    {
+      "order": "184",
+      "v09_publisher": "Iberoamericana",
+      "v10_publisher": null,
+      "v10_journal": "Revista Iberoamericana de Educación",
+      "text": "López-Cerezo, J. (1999). Los estudios deficiencia, tecnología y sociedad. Revista Iberoamericana de Educación , (20), 217-225."
+    },
+    {
+      "order": "220",
+      "v09_publisher": "Docencia",
+      "v10_publisher": null,
+      "v10_journal": "Docencia",
+      "text": "Ossenbach, G. (2010). Las relaciones entre el Estado y la educación en América Latina durante los siglos XIX y XX. Docencia , (41), 23-31."
+    },
+    {
+      "order": "308",
+      "v09_publisher": "Docencia",
+      "v10_publisher": null,
+      "v10_journal": "Ciencia, docencia y tecnología",
+      "text": "Zanotti, A., y Arana, A. (2015). Implementación del Programa Conectar Igualdad en el aglomerado Villa María-Villa Nueva, Córdoba, Argentina. Ciencia, docencia y tecnología , (50), 120-143."
+    }
+  ],
+  "method_note": "Development corpus. Every rewrite listed above clears a journal-name fragment that the previous version had filed as a publisher."
+}

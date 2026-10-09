@@ -1,0 +1,46 @@
+name: PyMuPDF Legacy Gate
+
+on:
+  pull_request:
+    branches:
+      - dev
+    paths:
+      - '.github/workflows/pymupdf-legacy-gate.yml'
+      - 'requirements-app.txt'
+      - 'requirements-pymupdf-compat.txt'
+      - 'tests_support/pdf_backend_manifest.json'
+      - 'tests_core/**'
+      - 'biblioref_v0_*.py'
+      - 'biblioref/**'
+      - 'tools/run_pymupdf_legacy_tests.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  legacy:
+    name: Historical PyMuPDF compatibility suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: |
+            requirements-app.txt
+            requirements-pymupdf-compat.txt
+
+      - name: Install application and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-pymupdf-compat.txt pytest pandas httpx2
+
+      - name: Run explicit legacy lane
+        run: python tools/run_pymupdf_legacy_tests.py

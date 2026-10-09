@@ -1,0 +1,29 @@
+{
+  "software_version": "0.9.9",
+  "algorithm_version": "0.6.5",
+  "boundary_reconciliation_version": "0.6.5-hanging-indent-boundary2",
+  "parser_version": "biblioref-parser-v0.11",
+  "parser_changed": false,
+  "unc_ferreyra": {
+    "pdf_sha256": "fca84979f450a97d3dff67d391698cc00c306242df95ac9b86c6243e1c4f2303",
+    "bibliography_pages": [158, 172],
+    "audited_references": 102,
+    "pre_fix_records": 109,
+    "post_fix_records": 102,
+    "normalized_exact_match_vs_geometry_oracle": 102,
+    "false_boundaries_removed": 8,
+    "missed_boundaries_recovered": 1,
+    "net_delta": -7
+  },
+  "unr_nonregression": {
+    "12": 147,
+    "13": 165,
+    "14": 147,
+    "16": 126,
+    "17": 175,
+    "18": {"records": 101, "zones": 7, "zone_counts": [18,5,14,18,17,22,7]},
+    "20": 208,
+    "25": 188
+  },
+  "tests": {"passed": 545, "skipped": 3, "subtests_passed": 16}
+}

@@ -1,0 +1,828 @@
+{
+  "baseline": "BiblioRef v0.9.10-rc2 algoritmo 0.6.16",
+  "release": "BiblioRef v0.9.10-rc2 algoritmo 0.6.17",
+  "files": [
+    {
+      "file": "biblioref/adaptive/discovery.py",
+      "baseline_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "release_sha256": "e1a297833571c6cf7f6b74f4490235974bf530907093f2d725eb99e5ee3c9e83",
+      "identical": true
+    },
+    {
+      "file": "biblioref/adaptive/verification.py",
+      "baseline_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "release_sha256": "ad3d52d95c24bce2fbc43d047f304da687ecea2e62fef118bbe95b11e8e8c07e",
+      "identical": true
+    },
+    {
+      "file": "biblioref/audit/coverage.py",
+      "baseline_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "release_sha256": "5052635d191829283a9f551e4e229c5636f8cd9ee93b13b0fa29d27f3d14d00c",
+      "identical": true
+    },
+    {
+      "file": "biblioref/core/patterns.py",
+      "baseline_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "release_sha256": "18529b5d4c4c20d18e46492b1d5415a02a5c93108fbdde8ab194d220217a7ba1",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/fallback.py",
+      "baseline_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "release_sha256": "73e8249dd7aba8163afecbe058ef3023c851f928ae209793afeb124fab9faba4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/repair.py",
+      "baseline_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "release_sha256": "9ccc7f48168586e1a341df646e4a46d453470db89a4f167cbd8efb6961dad307",
+      "identical": true
+    },
+    {
+      "file": "biblioref/detection/signals.py",
+      "baseline_sha256": "1c1f10f110d68741bbd8d8edf34bd9473a52bd45994f13f8c3040c3aed24fca0",
+      "release_sha256": "1c1f10f110d68741bbd8d8edf34bd9473a52bd45994f13f8c3040c3aed24fca0",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/boundary_reconciliation.py",
+      "baseline_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "release_sha256": "dfb80d9c94131ea3d101d8f169a7732d028c1d9e4fd4dcc9ca080d04df59f0d4",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/effective_repairs.py",
+      "baseline_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "release_sha256": "cb71788aafde85591c022d22f174a4e84f9ce2647135b8547be15b5d237f810a",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/numeric_rescue.py",
+      "baseline_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "release_sha256": "0ae54f511305a58b4d13b046a83a540206b6ce641ee6663cca41dfae7a1d9f0b",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/resegmentation.py",
+      "baseline_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "release_sha256": "8c080dffe494f1f3f294a9472486227e5986565182d779dc7a6fc151390afae5",
+      "identical": true
+    },
+    {
+      "file": "biblioref/extraction/structural_reconciliation.py",
+      "baseline_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "release_sha256": "d8a01d8acde1123296ac5903f206e1584077960bb1462e1bce63c0833b376ce2",
+      "identical": true
+    },
+    {
+      "file": "biblioref_paragraph_flow.py",
+      "baseline_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "release_sha256": "a6bb52e7654abed5a7c3b0be216ec706ee057734e35efbcd5b37ae27bb30c012",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_2.py",
+      "baseline_sha256": "c1c15dab1450337b9d7c205b5b7b8ac334eed5c3935a7320ab0c9be926b27542",
+      "release_sha256": "c1c15dab1450337b9d7c205b5b7b8ac334eed5c3935a7320ab0c9be926b27542",
+      "identical": true
+    },
+    {
+      "file": "biblioref_page_decorations.py",
+      "baseline_sha256": "8c9c029c1fba4243c9a459acbe38328a9ce6e36982d951b6dfec8e1f5066c959",
+      "release_sha256": "8c9c029c1fba4243c9a459acbe38328a9ce6e36982d951b6dfec8e1f5066c959",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_3.py",
+      "baseline_sha256": "796103784fac86bfb9ca1e36628dc10a61295b11e4e80a1f1d44b7d2bcc5cff3",
+      "release_sha256": "796103784fac86bfb9ca1e36628dc10a61295b11e4e80a1f1d44b7d2bcc5cff3",
+      "identical": true
+    },
+    {
+      "file": "biblioref_v0_4.py",
+      "baseline_sha256": "e3554cabe8d967fa6d4dcc39bd3f4d44a0a21fa78c8a470493d208487e9ed2a2",
+      "release_sha256": "e3554cabe8d967fa6d4dcc39bd3f4d44a0a21fa78c8a470493d208487e9ed2a2",
+      "identical": true
+    }
+  ],
+  "all_identical": true,
+  "deliberately_changed": [
+    {
+      "file": "biblioref/pipeline.py",
+      "baseline_sha256": "fee36358a2567ba98e32583feba8c57063864299db8459ce087ea165eeab100e",
+      "release_sha256": "27784d3aec4ac4b153cfa3106823e12b49e71ae6deed75864969e3b360a53b55",
+      "identical": false,
+      "change": "paso final _rejoin_broken_urls: quita el espacio que un salto de línea dejó dentro de una URL"
+    },
+    {
+      "file": "biblioref/extraction/url_rejoin.py",
+      "baseline_sha256": null,
+      "release_sha256": "c4732101cf463b04f6c2026f1a3967eb68db8aed3327fd3f93dc8dbd3f36f53f",
+      "identical": false,
+      "change": "nuevo: rejoin_broken_urls (solo une si lo que sigue lleva / = & % ? # _ ; una extensión o es hexadecimal)"
+    },
+    {
+      "file": "biblioref_page_boundary.py",
+      "baseline_sha256": "40f36efeeb6eebf59e5507316679e96796e765b4d3d6a15f3d095dd895a56d78",
+      "release_sha256": "d19c162739ae733f11d56302b30902ea39d57ba3144d961e7b40d0dda57a351e",
+      "identical": false,
+      "change": "el evaluador de bordes ignora el folio al pie y la marca de lista al comienzo; una URL al comienzo de página es continuación; la barra final de una URL no es línea abierta"
+    },
+    {
+      "file": "biblioref/core/config.py",
+      "baseline_sha256": "0ed9ece0a5f47b82068f201ebebef5dc69419902f67569c3132ad2aac46c3e80",
+      "release_sha256": "fd688eb4dea40061fe178837f72337517556e38e0b0eb7d489ef896194d96519",
+      "identical": false,
+      "change": "ALGORITHM_VERSION 0.6.16 -> 0.6.17"
+    }
+  ],
+  "corpus_equivalence": {
+    "harness": "tools/extraction_corpus_equivalence.py (contrato), corrido en paralelo",
+    "corpus": "workspace por defecto",
+    "n_documents": 147,
+    "n_identical": 35,
+    "n_changed": 112,
+    "records_before": 39604,
+    "records_after": 39604,
+    "delta_records": 0,
+    "changed": [
+      {
+        "thesis_id": "T0001",
+        "n_records_before": 66,
+        "n_records_after": 66,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0004",
+        "n_records_before": 322,
+        "n_records_after": 322,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0005",
+        "n_records_before": 102,
+        "n_records_after": 102,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0006",
+        "n_records_before": 99,
+        "n_records_after": 99,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0007",
+        "n_records_before": 158,
+        "n_records_after": 158,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0008",
+        "n_records_before": 351,
+        "n_records_after": 351,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0009",
+        "n_records_before": 268,
+        "n_records_after": 268,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0010",
+        "n_records_before": 133,
+        "n_records_after": 133,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0011",
+        "n_records_before": 372,
+        "n_records_after": 372,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0012",
+        "n_records_before": 255,
+        "n_records_after": 255,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0013",
+        "n_records_before": 318,
+        "n_records_after": 318,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0014",
+        "n_records_before": 215,
+        "n_records_after": 215,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0015",
+        "n_records_before": 135,
+        "n_records_after": 135,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0016",
+        "n_records_before": 476,
+        "n_records_after": 476,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0017",
+        "n_records_before": 172,
+        "n_records_after": 172,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0018",
+        "n_records_before": 164,
+        "n_records_after": 164,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0019",
+        "n_records_before": 361,
+        "n_records_after": 361,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0021",
+        "n_records_before": 437,
+        "n_records_after": 437,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0022",
+        "n_records_before": 188,
+        "n_records_after": 188,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0023",
+        "n_records_before": 240,
+        "n_records_after": 240,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0024",
+        "n_records_before": 184,
+        "n_records_after": 184,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0025",
+        "n_records_before": 269,
+        "n_records_after": 269,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0026",
+        "n_records_before": 345,
+        "n_records_after": 345,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0027",
+        "n_records_before": 317,
+        "n_records_after": 317,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0028",
+        "n_records_before": 136,
+        "n_records_after": 136,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0029",
+        "n_records_before": 570,
+        "n_records_after": 570,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0030",
+        "n_records_before": 508,
+        "n_records_after": 508,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0033",
+        "n_records_before": 210,
+        "n_records_after": 210,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0034",
+        "n_records_before": 135,
+        "n_records_after": 135,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0035",
+        "n_records_before": 318,
+        "n_records_after": 318,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0039",
+        "n_records_before": 387,
+        "n_records_after": 387,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0042",
+        "n_records_before": 202,
+        "n_records_after": 202,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0043",
+        "n_records_before": 299,
+        "n_records_after": 299,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0044",
+        "n_records_before": 234,
+        "n_records_after": 234,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0045",
+        "n_records_before": 223,
+        "n_records_after": 223,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0046",
+        "n_records_before": 677,
+        "n_records_after": 677,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0049",
+        "n_records_before": 382,
+        "n_records_after": 382,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0053",
+        "n_records_before": 374,
+        "n_records_after": 374,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0059",
+        "n_records_before": 410,
+        "n_records_after": 410,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0060",
+        "n_records_before": 163,
+        "n_records_after": 163,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0062",
+        "n_records_before": 454,
+        "n_records_after": 454,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0066",
+        "n_records_before": 212,
+        "n_records_after": 212,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0067",
+        "n_records_before": 845,
+        "n_records_after": 845,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0068",
+        "n_records_before": 404,
+        "n_records_after": 404,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0069",
+        "n_records_before": 107,
+        "n_records_after": 107,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0070",
+        "n_records_before": 230,
+        "n_records_after": 230,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0071",
+        "n_records_before": 1389,
+        "n_records_after": 1389,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0072",
+        "n_records_before": 118,
+        "n_records_after": 118,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0073",
+        "n_records_before": 321,
+        "n_records_after": 321,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0074",
+        "n_records_before": 263,
+        "n_records_after": 263,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0075",
+        "n_records_before": 681,
+        "n_records_after": 681,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0076",
+        "n_records_before": 94,
+        "n_records_after": 94,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0077",
+        "n_records_before": 125,
+        "n_records_after": 125,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0078",
+        "n_records_before": 681,
+        "n_records_after": 681,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0079",
+        "n_records_before": 924,
+        "n_records_after": 924,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0080",
+        "n_records_before": 823,
+        "n_records_after": 823,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0081",
+        "n_records_before": 219,
+        "n_records_after": 219,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0082",
+        "n_records_before": 188,
+        "n_records_after": 188,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0083",
+        "n_records_before": 157,
+        "n_records_after": 157,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0084",
+        "n_records_before": 268,
+        "n_records_after": 268,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0085",
+        "n_records_before": 147,
+        "n_records_after": 147,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0086",
+        "n_records_before": 267,
+        "n_records_after": 267,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0087",
+        "n_records_before": 368,
+        "n_records_after": 368,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0089",
+        "n_records_before": 153,
+        "n_records_after": 153,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0090",
+        "n_records_before": 129,
+        "n_records_after": 129,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0092",
+        "n_records_before": 225,
+        "n_records_after": 225,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0093",
+        "n_records_before": 542,
+        "n_records_after": 542,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0094",
+        "n_records_before": 276,
+        "n_records_after": 276,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0095",
+        "n_records_before": 211,
+        "n_records_after": 211,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0096",
+        "n_records_before": 435,
+        "n_records_after": 435,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0097",
+        "n_records_before": 495,
+        "n_records_after": 495,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0098",
+        "n_records_before": 227,
+        "n_records_after": 227,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0099",
+        "n_records_before": 159,
+        "n_records_after": 159,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0100",
+        "n_records_before": 174,
+        "n_records_after": 174,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0101",
+        "n_records_before": 323,
+        "n_records_after": 323,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0102",
+        "n_records_before": 152,
+        "n_records_after": 152,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0103",
+        "n_records_before": 106,
+        "n_records_after": 106,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0104",
+        "n_records_before": 25,
+        "n_records_after": 25,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0105",
+        "n_records_before": 118,
+        "n_records_after": 118,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0106",
+        "n_records_before": 206,
+        "n_records_after": 206,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0107",
+        "n_records_before": 310,
+        "n_records_after": 310,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0108",
+        "n_records_before": 474,
+        "n_records_after": 474,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0109",
+        "n_records_before": 435,
+        "n_records_after": 435,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0111",
+        "n_records_before": 55,
+        "n_records_after": 55,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0112",
+        "n_records_before": 204,
+        "n_records_after": 204,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0113",
+        "n_records_before": 186,
+        "n_records_after": 186,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0114",
+        "n_records_before": 266,
+        "n_records_after": 266,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0115",
+        "n_records_before": 173,
+        "n_records_after": 173,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0116",
+        "n_records_before": 460,
+        "n_records_after": 460,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0117",
+        "n_records_before": 203,
+        "n_records_after": 203,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0120",
+        "n_records_before": 185,
+        "n_records_after": 185,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0121",
+        "n_records_before": 236,
+        "n_records_after": 236,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0122",
+        "n_records_before": 169,
+        "n_records_after": 169,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0123",
+        "n_records_before": 158,
+        "n_records_after": 158,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0124",
+        "n_records_before": 134,
+        "n_records_after": 134,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0125",
+        "n_records_before": 356,
+        "n_records_after": 356,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0126",
+        "n_records_before": 117,
+        "n_records_after": 117,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0127",
+        "n_records_before": 223,
+        "n_records_after": 223,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0128",
+        "n_records_before": 489,
+        "n_records_after": 489,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0131",
+        "n_records_before": 164,
+        "n_records_after": 164,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0132",
+        "n_records_before": 421,
+        "n_records_after": 421,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0133",
+        "n_records_before": 160,
+        "n_records_after": 160,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0134",
+        "n_records_before": 814,
+        "n_records_after": 814,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0136",
+        "n_records_before": 562,
+        "n_records_after": 562,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0138",
+        "n_records_before": 508,
+        "n_records_after": 508,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0139",
+        "n_records_before": 212,
+        "n_records_after": 212,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0141",
+        "n_records_before": 270,
+        "n_records_after": 270,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0142",
+        "n_records_before": 212,
+        "n_records_after": 212,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0143",
+        "n_records_before": 489,
+        "n_records_after": 489,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0144",
+        "n_records_before": 263,
+        "n_records_after": 263,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0146",
+        "n_records_before": 157,
+        "n_records_after": 157,
+        "delta": 0
+      },
+      {
+        "thesis_id": "T0147",
+        "n_records_before": 445,
+        "n_records_after": 445,
+        "delta": 0
+      }
+    ],
+    "only_spaces_inside_urls_removed": true,
+    "new_documents_without_baseline": [
+      "T0148"
+    ]
+  },
+  "note": "0.6.17 quita el espacio que un salto de línea dejó dentro de una URL (1.441 referencias de 112 tesis; cada cambio verificado: el texto sin espacios es idéntico) y corrige falsos avisos de borde de página en bibliografías con viñetas o folios. Los conteos no cambian."
+}
