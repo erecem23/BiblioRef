@@ -69,10 +69,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("run_dir", type=Path)
     parser.add_argument("--out", type=Path, default=Path("figure.png"))
     parser.add_argument("--crop", type=float, default=0.45, help="fraction of the page height shown in panel (a)")
+    parser.add_argument("--zone", type=int, default=1, help="zone_id to show (default: the first zone)")
     args = parser.parse_args(argv)
 
     result = json.loads((args.run_dir / "result.json").read_text(encoding="utf-8"))
-    zone = result["zones"][0]
+    zone = next(z for z in result["zones"] if int(z["zone_id"]) == args.zone)
     records = [r for r in result["records"] if r.get("zone_id") == zone["zone_id"]][:N_RECORDS]
 
     page = render_zone_start(args.pdf, int(zone["start_page"]), clean(zone["heading"]), args.crop)
