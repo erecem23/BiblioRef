@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import sys
 from collections.abc import Sequence
 
 from biblioref.core.config import SOFTWARE_VERSION
@@ -54,6 +55,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    # The summary is printed after the result files are written; a console
+    # whose encoding lacks a character (e.g. cp1252 and "λ") must not turn a
+    # successful extraction into a failed exit.
+    reconfigure = getattr(sys.stdout, "reconfigure", None)
+    if reconfigure is not None:
+        reconfigure(errors="backslashreplace")
     args = build_parser().parse_args(argv)
     rescue_chain = [p.strip() for p in args.rescue_chain.split(",") if p.strip()]
     result = process_pdf(args.pdf, scope=args.scope, adaptive_mode=args.adaptive_mode, two_pass_shadow=args.two_pass_shadow, rescue_profile=args.rescue_profile, rescue_audit=not args.no_rescue_audit, rescue_chain=rescue_chain)

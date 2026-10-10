@@ -20,8 +20,11 @@ def write_csv_rows(rows: Iterable[Mapping], destination: str | Path) -> Optional
     if not materialized:
         return None
     path = Path(destination)
+    # Records may carry diagnostic keys that only some repairs add, so the
+    # header is the union of keys in order of first appearance.
+    fieldnames = list(dict.fromkeys(key for row in materialized for key in row))
     with path.open("w", newline="", encoding="utf-8-sig") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(materialized[0]))
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, restval="")
         writer.writeheader()
         writer.writerows(materialized)
     return path
