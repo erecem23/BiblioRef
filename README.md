@@ -28,7 +28,7 @@ The default PDF backend is PDFium (`pypdfium2`). PyMuPDF can be installed as an 
 pip install ".[pymupdf]"
 ```
 
-Scanned PDFs without a text layer need OCR before extraction; the local application (below) includes an OCR path.
+Scanned PDFs without a text layer need OCR before extraction; the local application (below) includes an OCR path, which requires the `pymupdf` extra.
 
 ## Command-line use
 
