@@ -45,6 +45,28 @@ def test_scan_reports_only_image_pages_without_text(tmp_path):
     assert ocr_target_path(ocr_target_path(path)).name == "tesis.ocr.pdf"
 
 
+def test_a_scanner_stamp_on_every_page_is_not_a_text_layer(tmp_path):
+    drawn = pymupdf.open()
+    sheet = drawn.new_page(width=595, height=842)
+    sheet.insert_text((70, 120), "Capitulo 1. Una pagina escaneada sin capa de texto.", fontsize=14)
+    image = sheet.get_pixmap(dpi=100).tobytes("png")
+    drawn.close()
+    pdf = pymupdf.open()
+    for _ in range(4):
+        page = pdf.new_page(width=595, height=842)
+        page.insert_image(pymupdf.Rect(0, 0, 595, 842), stream=image)
+        page.insert_text((400, 830), "Scanned by CamScanner", fontsize=8)
+    page = pdf.new_page(width=595, height=842)
+    page.insert_text((70, 90), "Resumen: una pagina con capa de texto propia y suficiente.", fontsize=12)
+    page.insert_text((400, 830), "Scanned by CamScanner", fontsize=8)
+    path = tmp_path / "tesis.pdf"
+    pdf.save(path)
+    pdf.close()
+    scan = scan_ocr_needs(path)
+    assert scan["pages"] == [1, 2, 3, 4]
+    assert scan["scanned_document"] is True
+
+
 def test_ocr_adds_invisible_text_that_metadata_reads(tmp_path):
     if not ocr_available()["available"]:
         return

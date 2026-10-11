@@ -10,6 +10,7 @@ extraction read it like any other PDF.
 from __future__ import annotations
 
 import os
+from collections import Counter
 from pathlib import Path
 from typing import Any, Callable, Dict, Iterable, List, Optional
 
@@ -38,6 +39,11 @@ RASTER_DPI = 200
 # Read as one page its lines interleave; split at the gutter, each half reads alone.
 SPREAD_MIN_ASPECT = 1.15
 SPREAD_MIN_LINES_PER_SIDE = 5
+# A short line repeated on most pages of a file ("Scanned by CamScanner") is a stamp
+# of the scanning app, not a text layer: it is ignored when deciding whether a page
+# with an image still needs OCR.
+STAMP_PAGE_SHARE = 0.5
+STAMP_MAX_CHARS = 80
 SPREAD_MAX_CROSSING_SHARE = 0.08
 SPREAD_SEARCH = (0.35, 0.65)
 
@@ -95,11 +101,23 @@ def _unreadable_pages(pdf) -> set:
     return set(strong)
 
 
-def _needs_ocr(page) -> bool:
+def _stamp_lines(pdf) -> frozenset:
+    """Short lines that repeat on at least half of the pages (and on three or more)."""
+    if pdf.page_count < 3:
+        return frozenset()
+    counts: Counter = Counter()
+    for page in pdf:
+        counts.update({line.strip() for line in page.get_text("text").splitlines() if line.strip()})
+    needed = max(3, STAMP_PAGE_SHARE * pdf.page_count)
+    return frozenset(line for line, n in counts.items() if n >= needed and len(line) <= STAMP_MAX_CHARS)
+
+
+def _needs_ocr(page, stamps: frozenset = frozenset()) -> bool:
     text = page.get_text("text")
     if _unreadable_text(text):
         return True
-    return len(text.strip()) < MIN_TEXT_CHARS and bool(page.get_images(full=False))
+    own = "\n".join(line for line in text.splitlines() if line.strip() not in stamps)
+    return len(own.strip()) < MIN_TEXT_CHARS and bool(page.get_images(full=False))
 
 
 def _as_picture(pdf, index: int):
@@ -120,8 +138,9 @@ def scan_ocr_needs(path: str | Path) -> Dict[str, Any]:
     with pymupdf.open(path) as pdf:
         page_count = pdf.page_count
         unreadable = sorted(_unreadable_pages(pdf))
+        stamps = _stamp_lines(pdf)
         for index in range(page_count):
-            if index + 1 in unreadable or _needs_ocr(pdf[index]):
+            if index + 1 in unreadable or _needs_ocr(pdf[index], stamps):
                 pages.append(index + 1)
     return {
         "revision": OCR_SCAN_REVISION,
@@ -229,13 +248,14 @@ def ocr_pdf_pages(
     with pymupdf.open(source) as pdf:
         wanted = sorted({p for p in (pages or range(1, pdf.page_count + 1)) if 1 <= p <= pdf.page_count})
         unreadable = _unreadable_pages(pdf)
+        stamps = _stamp_lines(pdf)
         shift = 0  # pages added before this one by splitting two-page photographs
         for position, number in enumerate(wanted, start=1):
             index = number - 1 + shift
             page = pdf[index]
             if number in unreadable:
                 page = _as_picture(pdf, index)
-            if _needs_ocr(page):
+            if _needs_ocr(page, stamps):
                 lines = _recognised_lines(page, str(folder), language, dpi)
                 cut = _spread_split(page, lines)
                 if cut is not None:
