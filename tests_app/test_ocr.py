@@ -6,7 +6,7 @@ import pymupdf
 
 from biblioref import ocr_jobs
 from biblioref.metadata.cover_v05 import detect_cover_metadata
-from biblioref.ocr import _as_picture, _spread_split, _unreadable_pages, _unreadable_text, ocr_available, ocr_pdf_pages, ocr_target_path, scan_ocr_needs
+from biblioref.ocr import _merge_same_line, _as_picture, _spread_split, _unreadable_pages, _unreadable_text, ocr_available, ocr_pdf_pages, ocr_target_path, scan_ocr_needs
 
 
 def _scanned_cover_pdf(path: Path) -> None:
@@ -65,6 +65,29 @@ def test_a_scanner_stamp_on_every_page_is_not_a_text_layer(tmp_path):
     scan = scan_ocr_needs(path)
     assert scan["pages"] == [1, 2, 3, 4]
     assert scan["scanned_document"] is True
+
+
+def test_fragments_of_one_visual_line_are_joined():
+    lines = [
+        {"text": "Aassila, M., Some results on Heron triangles,", "bbox": (145, 158, 498, 167)},
+        {"text": "[1]", "bbox": (114, 159, 122, 168)},
+        {"text": "[2] Lopes,", "bbox": (83, 272, 127, 282)},
+        {"text": "F., Coelho,", "bbox": (134, 272, 181, 282)},
+        {"text": "H.:", "bbox": (188, 272, 199, 282)},
+        {"text": "left column", "bbox": (60, 400, 270, 410)},
+        {"text": "right column", "bbox": (320, 400, 530, 410)},
+        {"text": "Bibliografia", "bbox": (60, 500, 200, 520)},
+        {"text": "e", "bbox": (257, 503, 261, 507)},
+    ]
+    texts = [l["text"] for l in _merge_same_line(lines, 595)]
+    assert texts == [
+        "[1] Aassila, M., Some results on Heron triangles,",
+        "[2] Lopes, F., Coelho, H.:",
+        "left column",
+        "right column",
+        "Bibliografia",
+        "e",
+    ]
 
 
 def test_ocr_adds_invisible_text_that_metadata_reads(tmp_path):

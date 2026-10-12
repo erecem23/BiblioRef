@@ -10,6 +10,7 @@ extraction read it like any other PDF.
 from __future__ import annotations
 
 import os
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any, Callable, Dict, Iterable, List, Optional
@@ -18,7 +19,9 @@ import pymupdf
 
 OCR_SCAN_REVISION = "ocr-scan-v3"  # v3: also pages whose text layer is unreadable
 # v2: lines on rotated pages are placed where they are seen (v1 laid them sideways).
-OCR_PLACEMENT_REVISION = 2
+OCR_PLACEMENT_REVISION = 3
+# v3: fragments of one visual line are written as one line, and large headings missed
+# at OCR_DPI are recovered from passes at HEADING_DPIS.
 OCR_LANGUAGES = "spa+eng"
 OCR_DPI = 300
 FRONTMATTER_PAGES = 8
@@ -44,6 +47,19 @@ SPREAD_MIN_LINES_PER_SIDE = 5
 # with an image still needs OCR.
 STAMP_PAGE_SHARE = 0.5
 STAMP_MAX_CHARS = 80
+# Tesseract splits a visual line at wide gaps: a detached reference marker ("[12]")
+# or the stretched spaces of justified text. Fragments whose vertical extents overlap
+# by this share are one line when the gap between them is at most this many line
+# heights, or, after a marker, at most this share of the page width.
+SAME_LINE_OVERLAP = 0.5
+SAME_LINE_GAP_HEIGHTS = 1.2
+MARKER_GAP_PAGE_SHARE = 0.2
+SPECK_HEIGHT_RATIO = 0.5
+MARKER_FRAGMENT = re.compile(r"^[\[(]?\d{1,3}[\]).]?$")
+# Large headings are often missed at OCR_DPI. Passes at HEADING_DPIS add lines at least
+# this many times the page's median line height that overlap no recognised line.
+HEADING_DPIS = (150, 72)
+HEADING_MIN_HEIGHT_RATIO = 1.6
 SPREAD_MAX_CROSSING_SHARE = 0.08
 SPREAD_SEARCH = (0.35, 0.65)
 
@@ -169,6 +185,76 @@ def _recognised_lines(page, tessdata: str, language: str, dpi: int) -> List[Dict
     return lines
 
 
+def _merge_same_line(lines: List[Dict[str, Any]], page_width: float) -> List[Dict[str, Any]]:
+    """Join fragments that Tesseract split out of one visual line."""
+    def height(line):
+        return max(1.0, line["bbox"][3] - line["bbox"][1])
+
+    def same_row(a, b):
+        top = max(a["bbox"][1], b["bbox"][1])
+        bottom = min(a["bbox"][3], b["bbox"][3])
+        return bottom - top >= SAME_LINE_OVERLAP * min(height(a), height(b))
+
+    rows: List[List[Dict[str, Any]]] = []
+    for line in sorted(lines, key=lambda l: (l["bbox"][1] + l["bbox"][3]) / 2):
+        for row in rows:
+            if any(same_row(line, other) for other in row):
+                row.append(line)
+                break
+        else:
+            rows.append([line])
+    merged: List[Dict[str, Any]] = []
+    for row in rows:
+        row.sort(key=lambda l: l["bbox"][0])
+        current = dict(row[0])
+        for nxt in row[1:]:
+            gap = nxt["bbox"][0] - current["bbox"][2]
+            limit = SAME_LINE_GAP_HEIGHTS * min(height(current), height(nxt))
+            if MARKER_FRAGMENT.match(current["text"].strip()):
+                limit = max(limit, MARKER_GAP_PAGE_SHARE * page_width)
+            # A fragment less than half as tall as its neighbour is a speck or an ornament
+            # recognised as text; it stays apart so it cannot spoil a heading or an entry.
+            speck = min(height(current), height(nxt)) < SPECK_HEIGHT_RATIO * max(height(current), height(nxt))
+            if not speck and (0 <= gap <= limit or gap < 0):
+                box = current["bbox"]
+                current = {"text": f'{current["text"]} {nxt["text"]}',
+                           "bbox": (min(box[0], nxt["bbox"][0]), min(box[1], nxt["bbox"][1]),
+                                    max(box[2], nxt["bbox"][2]), max(box[3], nxt["bbox"][3]))}
+            else:
+                merged.append(current)
+                current = dict(nxt)
+        merged.append(current)
+    merged.sort(key=lambda l: (l["bbox"][1], l["bbox"][0]))
+    return merged
+
+
+def _large_heading_lines(page, lines: List[Dict[str, Any]], tessdata: str, language: str) -> List[Dict[str, Any]]:
+    """Large lines found at HEADING_DPIS that the main pass did not recognise."""
+    if not lines:
+        return []
+    heights = sorted(min(pymupdf.Rect(l["bbox"]).width, pymupdf.Rect(l["bbox"]).height) for l in lines)
+    median = heights[len(heights) // 2]
+    found: List[Dict[str, Any]] = []
+    for dpi in HEADING_DPIS:
+        for line in _recognised_lines(page, tessdata, language, dpi):
+            box = pymupdf.Rect(line["bbox"])
+            if min(box.width, box.height) < HEADING_MIN_HEIGHT_RATIO * median:
+                continue
+            if any(box.intersects(pymupdf.Rect(other["bbox"])) for other in lines + found):
+                continue
+            found.append(line)
+    return found
+
+
+def _page_lines(page, tessdata: str, language: str, dpi: int) -> List[Dict[str, Any]]:
+    lines = _recognised_lines(page, tessdata, language, dpi)
+    lines = lines + _large_heading_lines(page, lines, tessdata, language)
+    # OCR boxes are in unrotated page space; join fragments as the page is seen.
+    seen = [{"text": l["text"], "bbox": tuple(pymupdf.Rect(l["bbox"]) * page.rotation_matrix)} for l in lines]
+    merged = _merge_same_line(seen, page.rect.width)
+    return [{"text": m["text"], "bbox": tuple(pymupdf.Rect(m["bbox"]) * page.derotation_matrix)} for m in merged]
+
+
 def _write_invisible_line(page, text: str, bbox) -> None:
     # OCR boxes come in unrotated page space; on a page with /Rotate the text runs
     # sideways there. Measure the line as it is seen, then write it back unrotated.
@@ -256,7 +342,7 @@ def ocr_pdf_pages(
             if number in unreadable:
                 page = _as_picture(pdf, index)
             if _needs_ocr(page, stamps):
-                lines = _recognised_lines(page, str(folder), language, dpi)
+                lines = _page_lines(page, str(folder), language, dpi)
                 cut = _spread_split(page, lines)
                 if cut is not None:
                     halves = _split_spread(pdf, index, cut)
@@ -264,7 +350,7 @@ def ocr_pdf_pages(
                     split.append(number)
                     written = 0
                     for half in halves:
-                        for line in _recognised_lines(half, str(folder), language, dpi):
+                        for line in _page_lines(half, str(folder), language, dpi):
                             _write_invisible_line(half, line["text"], line["bbox"])
                             written += 1
                     lines = written
