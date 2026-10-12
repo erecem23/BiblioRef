@@ -2,7 +2,7 @@
   "project": "BiblioRef",
   "purpose": "real-world field testing with decoupled extraction, parsing and style profiling",
   "software_version": "0.9.10-rc2",
-  "algorithm_version": "0.6.20",
+  "algorithm_version": "0.6.21",
   "stable_engine_version": "0.4.5",
   "app_version": "2.7.0",
   "parser_version": "biblioref-parser-v0.12.8",

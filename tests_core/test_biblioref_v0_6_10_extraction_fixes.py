@@ -212,7 +212,7 @@ class DeclarationTests(unittest.TestCase):
     # manifiesto; el resto de lo declarado aquí sigue byte a byte.
 
     def test_algorithm_version(self):
-        self.assertIn(ALGORITHM_VERSION, {"0.6.11", "0.6.12", "0.6.13", "0.6.14", "0.6.15", "0.6.16", "0.6.17", "0.6.18", "0.6.19", "0.6.20"})
+        self.assertIn(ALGORITHM_VERSION, {"0.6.11", "0.6.12", "0.6.13", "0.6.14", "0.6.15", "0.6.16", "0.6.17", "0.6.18", "0.6.19", "0.6.20", "0.6.21"})
 
     def test_only_the_declared_files_changed(self):
         self.assertEqual(

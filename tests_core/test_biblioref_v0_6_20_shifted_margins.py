@@ -88,7 +88,7 @@ def segments(pages):
 
 class ShiftedMarginTests(unittest.TestCase):
     def test_version(self):
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertIn(ALGORITHM_VERSION, {"0.6.20", "0.6.21"})
 
     def test_misread_marks_do_not_make_a_bulleted_list(self):
         texts = [t for _, t in PAGE_81 + PAGE_82]

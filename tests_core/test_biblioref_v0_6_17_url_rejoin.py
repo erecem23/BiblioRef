@@ -116,7 +116,7 @@ class DeclarationTests(unittest.TestCase):
         self.manifest = json.loads(self.MANIFEST.read_text(encoding="utf-8"))
 
     def test_algorithm_version(self):
-        self.assertIn(ALGORITHM_VERSION, {"0.6.17", "0.6.18", "0.6.19", "0.6.20"})
+        self.assertIn(ALGORITHM_VERSION, {"0.6.17", "0.6.18", "0.6.19", "0.6.20", "0.6.21"})
 
     def test_declared_hashes_match_the_tree(self):
         root = self.MANIFEST.parent

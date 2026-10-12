@@ -45,7 +45,7 @@ PARSER_V09_SHA = "4148701452aba620ec3538477010fc5f6c442a153be4a05063a43e7bb0c433
 class TestV097Freeze(unittest.TestCase):
     def test_version_authorities(self):
         self.assertEqual("0.9.10-rc2", SOFTWARE_VERSION)
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertEqual("0.6.21", ALGORITHM_VERSION)
         # unchanged authorities
         self.assertEqual("0.6.1", BASE_VERSION)
         self.assertEqual("0.4.5", STABLE_ENGINE_VERSION)

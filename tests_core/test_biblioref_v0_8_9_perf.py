@@ -48,7 +48,7 @@ class TestV089PerformanceOnly(unittest.TestCase):
         with patch.object(biblioref_v0_3.pymupdf, "open", side_effect=counted):
             result = process_pdf(pdf, scope="all_reference_sections", adaptive_mode="shadow")
 
-        self.assertEqual(result["algorithm_version"], "0.6.20")
+        self.assertEqual(result["algorithm_version"], "0.6.21")
         self.assertFalse(result["adaptive_shadow"]["auto_apply"])
         self.assertEqual(len(calls), 1)
 

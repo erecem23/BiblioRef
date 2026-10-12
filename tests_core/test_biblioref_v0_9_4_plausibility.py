@@ -45,7 +45,7 @@ class TestOutputPlausibility(unittest.TestCase):
 
     def test_versions_keep_effective_algorithm(self):
         self.assertEqual("0.9.10-rc2", SOFTWARE_VERSION)
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertEqual("0.6.21", ALGORITHM_VERSION)
         self.assertEqual("0.9.4-selective-router3-plausibility", RESCUE_ROUTER_VERSION)
 
     def test_zero_records_is_always_implausible(self):

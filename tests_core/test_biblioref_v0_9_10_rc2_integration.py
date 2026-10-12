@@ -31,7 +31,7 @@ def line(page, y, x, text, x1=None, h=800.0):
 class V0910RC2IntegrationTests(unittest.TestCase):
     def test_candidate_version_axes_are_unambiguous(self):
         self.assertEqual(SOFTWARE_VERSION, "0.9.10-rc2")
-        self.assertEqual(ALGORITHM_VERSION, "0.6.20")
+        self.assertEqual(ALGORITHM_VERSION, "0.6.21")
 
     def test_reflow_hanging_indent_recovers_tight_author_year_boundaries(self):
         lines = []

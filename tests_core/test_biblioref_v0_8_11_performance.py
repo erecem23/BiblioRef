@@ -34,7 +34,7 @@ class TestV0811PerformanceInfrastructure(unittest.TestCase):
 
     def test_version_keeps_v0810_diagnostics_and_effective_algorithm(self):
         self.assertEqual("0.9.10-rc2", SOFTWARE_VERSION)
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertEqual("0.6.21", ALGORITHM_VERSION)
         self.assertEqual("0.8.10-shadow23", ADAPTIVE_ANALYSIS_VERSION)
 
     def test_streaming_copy_does_not_require_getvalue(self):

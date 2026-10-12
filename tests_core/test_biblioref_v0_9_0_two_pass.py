@@ -29,7 +29,7 @@ class TestV090TwoPassShadow(unittest.TestCase):
 
     def test_version_is_shadow_experiment_over_effective_algorithm(self):
         self.assertEqual('0.9.10-rc2', SOFTWARE_VERSION)
-        self.assertEqual('0.6.20', ALGORITHM_VERSION)
+        self.assertEqual('0.6.21', ALGORITHM_VERSION)
         self.assertEqual('0.8.10-shadow23', ADAPTIVE_ANALYSIS_VERSION)
         self.assertEqual('0.9.0-two-pass-shadow1', TWO_PASS_ANALYSIS_VERSION)
 

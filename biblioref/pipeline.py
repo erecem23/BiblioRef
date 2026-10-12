@@ -18,6 +18,7 @@ from .pipeline_v065 import *  # re-export the established public surface
 from biblioref.core.config import ALGORITHM_VERSION
 from biblioref.extraction.dominant_margin_reconciliation import build_dominant_margin_repair
 from biblioref.extraction.first_reference_repair import apply_first_reference_repair
+from biblioref.extraction.continuation import CONTINUATION_VERSION, continue_numbered_zones
 from biblioref.extraction.url_rejoin import rejoin_broken_urls
 from biblioref.extraction.effective_repairs import build_vertical_gap_repair
 from biblioref.extraction.structural_repairs_v067 import (
@@ -379,6 +380,24 @@ def _apply_first_reference_reconciliation(
     return rebuilt
 
 
+def _apply_continuation_reconciliation(base_all: Dict, lines) -> Dict:
+    """0.6.21 (C1): extend a numbered zone over the pages that continue its list."""
+    zones = list(base_all.get("zones") or [])
+    records = list(base_all.get("records") or [])
+    if not zones or not records or not lines:
+        return base_all
+    new_zones, new_records, repairs = continue_numbered_zones(zones, records, lines)
+    if not repairs:
+        return base_all
+    rebuilt = _rebuild_with_replacements(base_all, new_zones, _records_by_zone(new_records), {})
+    rebuilt["continuation_repairs"] = repairs
+    decision = dict(rebuilt.get("detection_decision", {}))
+    decision["continuation_zone_ids"] = sorted(r["zone_id"] for r in repairs)
+    decision["stable_output_preserved"] = False
+    rebuilt["detection_decision"] = decision
+    return rebuilt
+
+
 #: 0.6.13: a heading repeated in this many zones before the bibliography is a label, not a section.
 INTERNAL_LIST_MIN_REPEATS = 3
 #: ... and only when those zones are small next to the final bibliography.
@@ -502,6 +521,8 @@ def _process_pdf_effective(
         repaired = _apply_dominant_margin_reconciliation(pdf_path, repaired, lines, adaptive_mode)
     with timed_extraction_stage("first_reference_reconciliation"):
         repaired = _apply_first_reference_reconciliation(pdf_path, repaired)
+    with timed_extraction_stage("continuation_reconciliation"):
+        repaired = _apply_continuation_reconciliation(repaired, lines)
     repaired = _drop_repeated_internal_lists(repaired)
     repaired = _rejoin_broken_urls(repaired)
     repaired["algorithm_version"] = ALGORITHM_VERSION
@@ -511,6 +532,7 @@ def _process_pdf_effective(
         "cabrera_dominant_margin": "0.6.6",
         "rc1_structural_origin": RC1_ORIGIN,
         "first_reference_repair": "0.6.8-core-first-reference-1",
+        "continuation": CONTINUATION_VERSION,
     }
     if scope != "all_reference_sections":
         repaired = _v065._rescope_existing_report(repaired, scope)
@@ -532,6 +554,7 @@ def _process_pdf_with_active_context(*args, **kwargs):
         or result.get("detection_decision", {}).get("raw_hanging_indent_repaired_zone_ids")
         or result.get("detection_decision", {}).get("long_segment_gap_repaired_zone_ids")
         or result.get("first_reference_repairs")
+        or result.get("continuation_repairs")
     ):
         result["default_effective_output_changed"] = True
     return result

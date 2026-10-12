@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 class TestV097Versions(unittest.TestCase):
     def test_version_metadata(self):
         self.assertEqual("0.9.10-rc2", SOFTWARE_VERSION)
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertEqual("0.6.21", ALGORITHM_VERSION)
 
 
 class TestV097HeadingDashPrefix(unittest.TestCase):

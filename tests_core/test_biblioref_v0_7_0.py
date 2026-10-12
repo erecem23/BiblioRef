@@ -60,7 +60,7 @@ class TestBiblioRefV070(unittest.TestCase):
         _stable_pdf(pdf)
         result = self._assert_algorithm_equivalence(pdf)
         self.assertEqual("0.9.10-rc2", result["software_version"])
-        self.assertEqual("0.6.20", result["algorithm_version"])
+        self.assertEqual("0.6.21", result["algorithm_version"])
         self.assertEqual("modular_v13_candidate_region_marker_layout_regimes", result["architecture"])
 
     def test_mirrored_margin_repair_is_exact(self):

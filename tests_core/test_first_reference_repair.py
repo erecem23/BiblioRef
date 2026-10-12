@@ -99,7 +99,7 @@ def test_process_pdf_inserts_omitted_first_reference(tmp_path, monkeypatch):
     result = pipeline.process_pdf(pdf, rescue_audit=False)
 
     assert len(result["records"]) == 2
-    assert result["algorithm_version"] == "0.6.20"
+    assert result["algorithm_version"] == "0.6.21"
     assert result["algorithm_integration"]["first_reference_repair"] == (
         "0.6.8-core-first-reference-1"
     )

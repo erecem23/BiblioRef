@@ -40,3 +40,4 @@ biblioref_v0_4.py text eol=lf
 # Frozen downstream parser versions are hashed by the tests_app freeze tests
 # with LF bytes; keep them LF on checkouts with core.autocrlf=true.
 biblioref/parsing/v[0-9]*.py text eol=lf
+biblioref/extraction/continuation.py text eol=lf

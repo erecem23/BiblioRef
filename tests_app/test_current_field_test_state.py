@@ -17,7 +17,7 @@ def test_current_field_test_state_tracks_effective_versions():
     state = _state()
 
     assert SOFTWARE_VERSION == "0.9.10-rc2"
-    assert ALGORITHM_VERSION == "0.6.20"
+    assert ALGORITHM_VERSION == "0.6.21"
     assert STABLE_ENGINE_VERSION == "0.4.5"
 
     assert state["software_version"] == SOFTWARE_VERSION

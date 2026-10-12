@@ -124,7 +124,7 @@ def fake_shadow(case: dict) -> dict:
 class TestV0810StableConflictFixtures(unittest.TestCase):
     def test_version_lock_keeps_effective_algorithm(self):
         self.assertEqual("0.9.10-rc2", SOFTWARE_VERSION)
-        self.assertEqual("0.6.20", ALGORITHM_VERSION)
+        self.assertEqual("0.6.21", ALGORITHM_VERSION)
         self.assertEqual("0.8.10-shadow23", ADAPTIVE_ANALYSIS_VERSION)
 
     def test_context_failure_family_fixtures(self):
