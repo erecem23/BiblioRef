@@ -111,15 +111,15 @@ class ContinuationTests(unittest.TestCase):
 
 
 class DeclarationTests(unittest.TestCase):
-    MANIFEST = Path(__file__).resolve().parent.parent / "EXTRACTION_CORE_NONREGRESSION_V0621_SHA256.json"
+    MANIFEST = Path(__file__).resolve().parent / "baselines" / "EXTRACTION_CORE_NONREGRESSION_V0621_SHA256.json"
 
     def setUp(self):
         self.manifest = json.loads(self.MANIFEST.read_text(encoding="utf-8"))
 
     def test_declared_hashes_match_the_tree(self):
-        root = self.MANIFEST.parent
+        root = self.MANIFEST.parents[2]
         redeclared = set()
-        for later in root.glob("EXTRACTION_CORE_NONREGRESSION_V062[2-9]_SHA256.json"):
+        for later in self.MANIFEST.parent.glob("EXTRACTION_CORE_NONREGRESSION_V062[2-9]_SHA256.json"):
             redeclared |= {f["file"] for f in json.loads(later.read_text(encoding="utf-8"))["deliberately_changed"]}
         for entry in self.manifest["deliberately_changed"] + self.manifest["files"]:
             if entry["file"] in redeclared:
