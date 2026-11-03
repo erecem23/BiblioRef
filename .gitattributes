@@ -41,3 +41,7 @@ biblioref_v0_4.py text eol=lf
 # with LF bytes; keep them LF on checkouts with core.autocrlf=true.
 biblioref/parsing/v[0-9]*.py text eol=lf
 biblioref/extraction/continuation.py text eol=lf
+
+# Exception: the 0.6.18+ dominant-margin source was hashed with CRLF bytes.
+# Keep its worktree CRLF across systems to preserve frozen SHA-256 baselines.
+biblioref/extraction/dominant_margin_reconciliation.py text eol=crlf

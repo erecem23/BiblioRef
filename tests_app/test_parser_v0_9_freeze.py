@@ -9,7 +9,7 @@ PARSER = ROOT / "biblioref/parsing/v09.py"
 PARSER_V08 = ROOT / "biblioref/parsing/v08.py"
 DEV_EVAL = ROOT / "reports" / "parser" / "PARSER_V0_9_DEVELOPMENT_EVALUATION.json"
 SWEEP = ROOT / "reports" / "parser" / "PARSER_V0_9_HISTORICAL_SWEEP.json"
-CORE = ROOT / "EXTRACTION_CORE_NONREGRESSION_V09_SHA256.json"
+CORE = ROOT / "tests_core" / "baselines" / "EXTRACTION_CORE_NONREGRESSION_V09_SHA256.json"
 PIPELINE = ROOT / "biblioref/pipeline.py"
 HARNESS = ROOT / "tools" / "parser_history" / "evaluate_parser_v09_external_holdout.py"
 
