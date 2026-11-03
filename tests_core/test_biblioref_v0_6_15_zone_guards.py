@@ -389,7 +389,7 @@ class DictionaryRunningHeader(unittest.TestCase):
 class DeclarationTests(unittest.TestCase):
     """El cambio se declara con su equivalencia sobre el corpus completo."""
 
-    MANIFEST = Path(__file__).resolve().parent.parent / "EXTRACTION_CORE_NONREGRESSION_V0615_SHA256.json"
+    MANIFEST = Path(__file__).resolve().parent / "baselines" / "EXTRACTION_CORE_NONREGRESSION_V0615_SHA256.json"
 
     def setUp(self):
         self.assertTrue(self.MANIFEST.exists(), "falta la declaración del algoritmo 0.6.15")
@@ -405,9 +405,9 @@ class DeclarationTests(unittest.TestCase):
         self.assertTrue(self.manifest["all_identical"])
 
     def test_declared_hashes_match_the_tree(self):
-        root = self.MANIFEST.parent
+        root = self.MANIFEST.parents[2]
         redeclared = set()
-        for later in [*root.glob("EXTRACTION_CORE_NONREGRESSION_V061[6-9]_SHA256.json"), *root.glob("EXTRACTION_CORE_NONREGRESSION_V062[0-9]_SHA256.json")]:
+        for later in [*self.MANIFEST.parent.glob("EXTRACTION_CORE_NONREGRESSION_V061[6-9]_SHA256.json"), *self.MANIFEST.parent.glob("EXTRACTION_CORE_NONREGRESSION_V062[0-9]_SHA256.json")]:
             redeclared |= {f["file"] for f in json.loads(later.read_text(encoding="utf-8"))["deliberately_changed"]}
         for entry in self.manifest["deliberately_changed"] + self.manifest["files"]:
             if entry["file"] in redeclared:

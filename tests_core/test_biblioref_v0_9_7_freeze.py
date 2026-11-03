@@ -16,7 +16,7 @@ from biblioref.core.config import (
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE_MODULE = ROOT / "biblioref_v0_2.py"
-CORE = ROOT / "EXTRACTION_CORE_NONREGRESSION_V097_SHA256.json"
+CORE = ROOT / "tests_core" / "baselines" / "EXTRACTION_CORE_NONREGRESSION_V097_SHA256.json"
 EQUIV = ROOT / "EXTRACTION_EQUIVALENCE_V097.json"
 PARSER = ROOT / "biblioref/parsing/v09.py"
 
